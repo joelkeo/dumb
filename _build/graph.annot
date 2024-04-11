@@ -1,0 +1,2443 @@
+"graph.ml" 3 13 20 "graph.ml" 3 13 31
+ident(
+  def NeighborSet "graph.ml" 3 13 51 "graph.ml" 0 0 -1
+)
+"graph.ml" 7 86 93 "graph.ml" 7 86 98
+ident(
+  def Graph "graph.ml" 7 86 118 "graph.ml" 0 0 -1
+)
+"graph.ml" 11 154 161 "graph.ml" 11 154 170
+ident(
+  def StringSet "graph.ml" 11 154 189 "graph.ml" 0 0 -1
+)
+"graph.ml" 15 217 221 "graph.ml" 15 217 226
+type(
+  grapht
+)
+ident(
+  def empty "graph.ml" 17 251 251 "graph.ml" 0 0 -1
+)
+"graph.ml" 15 217 238 "graph.ml" 15 217 249
+type(
+  grapht
+)
+ident(
+  int_ref Graph.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"graph.ml" 17 251 255 "graph.ml" 17 251 263
+type(
+  grapht -> string -> grapht
+)
+ident(
+  def add_node "graph.ml" 21 377 377 "graph.ml" 0 0 -1
+)
+"graph.ml" 17 251 265 "graph.ml" 17 251 266
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 17 251 277 "graph.ml" 18 304 372
+)
+"graph.ml" 17 251 278 "graph.ml" 17 251 282
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def name "graph.ml" 18 304 306 "graph.ml" 18 304 372
+)
+"graph.ml" 18 304 309 "graph.ml" 18 304 318
+type(
+  Graph.key -> neighborst Graph.t -> bool
+)
+ident(
+  int_ref Graph.mem "map.mli" 79 3076 3080 "map.mli" 79 3076 3108
+)
+"graph.ml" 18 304 319 "graph.ml" 18 304 323
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 17 251 278 "graph.ml" 17 251 282
+)
+"graph.ml" 18 304 324 "graph.ml" 18 304 325
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 17 251 265 "graph.ml" 17 251 266
+)
+"graph.ml" 18 304 309 "graph.ml" 18 304 325
+type(
+  bool
+)
+"graph.ml" 18 304 331 "graph.ml" 18 304 332
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 17 251 265 "graph.ml" 17 251 266
+)
+"graph.ml" 18 304 338 "graph.ml" 18 304 347
+type(
+  Graph.key ->
+  NeighborSet.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t
+)
+ident(
+  int_ref Graph.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"graph.ml" 18 304 348 "graph.ml" 18 304 352
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 17 251 278 "graph.ml" 17 251 282
+)
+"graph.ml" 18 304 353 "graph.ml" 18 304 370
+type(
+  NeighborSet.t
+)
+ident(
+  int_ref NeighborSet.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"graph.ml" 18 304 371 "graph.ml" 18 304 372
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 17 251 265 "graph.ml" 17 251 266
+)
+"graph.ml" 18 304 338 "graph.ml" 18 304 372
+type(
+  NeighborSet.t Graph.t
+)
+"graph.ml" 18 304 306 "graph.ml" 18 304 372
+type(
+  grapht
+)
+"graph.ml" 21 377 381 "graph.ml" 21 377 398
+type(
+  grapht -> string -> string -> grapht
+)
+ident(
+  def add_directed_edge "graph.ml" 27 594 594 "graph.ml" 0 0 -1
+)
+"graph.ml" 21 377 400 "graph.ml" 21 377 401
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 21 377 412 "graph.ml" 24 536 589
+)
+"graph.ml" 21 377 413 "graph.ml" 21 377 415
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def n1 "graph.ml" 21 377 426 "graph.ml" 24 536 589
+)
+"graph.ml" 21 377 427 "graph.ml" 21 377 429
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def n2 "graph.ml" 22 451 453 "graph.ml" 24 536 589
+)
+"graph.ml" 22 451 457 "graph.ml" 22 451 459
+type(
+  grapht
+)
+ident(
+  def g' "graph.ml" 23 493 495 "graph.ml" 24 536 589
+)
+"graph.ml" 22 451 462 "graph.ml" 22 451 470
+type(
+  grapht -> string -> grapht
+)
+ident(
+  int_ref add_node "graph.ml" 17 251 255 "graph.ml" 17 251 263
+)
+"graph.ml" 22 451 472 "graph.ml" 22 451 480
+type(
+  grapht -> string -> grapht
+)
+ident(
+  int_ref add_node "graph.ml" 17 251 255 "graph.ml" 17 251 263
+)
+"graph.ml" 22 451 481 "graph.ml" 22 451 482
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 21 377 400 "graph.ml" 21 377 401
+)
+"graph.ml" 22 451 483 "graph.ml" 22 451 485
+type(
+  string
+)
+ident(
+  int_ref n1 "graph.ml" 21 377 413 "graph.ml" 21 377 415
+)
+"graph.ml" 22 451 471 "graph.ml" 22 451 486
+type(
+  grapht
+)
+"graph.ml" 22 451 487 "graph.ml" 22 451 489
+type(
+  string
+)
+ident(
+  int_ref n2 "graph.ml" 21 377 427 "graph.ml" 21 377 429
+)
+"graph.ml" 22 451 462 "graph.ml" 22 451 489
+type(
+  grapht
+)
+"graph.ml" 23 493 499 "graph.ml" 23 493 513
+type(
+  neighborst
+)
+ident(
+  def curr_neighbors "graph.ml" 24 536 538 "graph.ml" 24 536 589
+)
+"graph.ml" 23 493 516 "graph.ml" 23 493 526
+type(
+  Graph.key -> neighborst Graph.t -> neighborst
+)
+ident(
+  int_ref Graph.find "map.mli" 278 11164 11168 "map.mli" 278 11164 11195
+)
+"graph.ml" 23 493 527 "graph.ml" 23 493 529
+type(
+  Graph.key
+)
+ident(
+  int_ref n1 "graph.ml" 21 377 413 "graph.ml" 21 377 415
+)
+"graph.ml" 23 493 530 "graph.ml" 23 493 532
+type(
+  grapht
+)
+ident(
+  int_ref g' "graph.ml" 22 451 457 "graph.ml" 22 451 459
+)
+"graph.ml" 23 493 516 "graph.ml" 23 493 532
+type(
+  neighborst
+)
+"graph.ml" 24 536 538 "graph.ml" 24 536 547
+type(
+  Graph.key ->
+  NeighborSet.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t
+)
+ident(
+  int_ref Graph.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"graph.ml" 24 536 548 "graph.ml" 24 536 550
+type(
+  Graph.key
+)
+ident(
+  int_ref n1 "graph.ml" 21 377 413 "graph.ml" 21 377 415
+)
+"graph.ml" 24 536 552 "graph.ml" 24 536 567
+type(
+  NeighborSet.elt -> NeighborSet.t -> NeighborSet.t
+)
+ident(
+  int_ref NeighborSet.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"graph.ml" 24 536 568 "graph.ml" 24 536 570
+type(
+  NeighborSet.elt
+)
+ident(
+  int_ref n2 "graph.ml" 21 377 427 "graph.ml" 21 377 429
+)
+"graph.ml" 24 536 571 "graph.ml" 24 536 585
+type(
+  neighborst
+)
+ident(
+  int_ref curr_neighbors "graph.ml" 23 493 499 "graph.ml" 23 493 513
+)
+"graph.ml" 24 536 551 "graph.ml" 24 536 586
+type(
+  NeighborSet.t
+)
+"graph.ml" 24 536 587 "graph.ml" 24 536 589
+type(
+  grapht
+)
+ident(
+  int_ref g' "graph.ml" 22 451 457 "graph.ml" 22 451 459
+)
+"graph.ml" 24 536 538 "graph.ml" 24 536 589
+type(
+  NeighborSet.t Graph.t
+)
+"graph.ml" 23 493 495 "graph.ml" 24 536 589
+type(
+  NeighborSet.t Graph.t
+)
+"graph.ml" 22 451 453 "graph.ml" 24 536 589
+type(
+  grapht
+)
+"graph.ml" 27 594 598 "graph.ml" 27 594 606
+type(
+  grapht -> string -> string -> grapht
+)
+ident(
+  def add_edge "graph.ml" 33 757 757 "graph.ml" 0 0 -1
+)
+"graph.ml" 27 594 608 "graph.ml" 27 594 609
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 27 594 620 "graph.ml" 30 724 752
+)
+"graph.ml" 27 594 621 "graph.ml" 27 594 623
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def n1 "graph.ml" 27 594 634 "graph.ml" 30 724 752
+)
+"graph.ml" 27 594 635 "graph.ml" 27 594 637
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def n2 "graph.ml" 28 659 661 "graph.ml" 30 724 752
+)
+"graph.ml" 28 659 664 "graph.ml" 28 659 666
+type(
+  string
+)
+ident(
+  int_ref n1 "graph.ml" 27 594 621 "graph.ml" 27 594 623
+)
+"graph.ml" 28 659 667 "graph.ml" 28 659 668
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"graph.ml" 28 659 669 "graph.ml" 28 659 671
+type(
+  string
+)
+ident(
+  int_ref n2 "graph.ml" 27 594 635 "graph.ml" 27 594 637
+)
+"graph.ml" 28 659 664 "graph.ml" 28 659 671
+type(
+  bool
+)
+"graph.ml" 28 659 677 "graph.ml" 28 659 678
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 27 594 608 "graph.ml" 27 594 609
+)
+"graph.ml" 29 684 690 "graph.ml" 29 684 692
+type(
+  grapht
+)
+ident(
+  def g' "graph.ml" 30 724 726 "graph.ml" 30 724 752
+)
+"graph.ml" 29 684 695 "graph.ml" 29 684 712
+type(
+  grapht -> string -> string -> grapht
+)
+ident(
+  int_ref add_directed_edge "graph.ml" 21 377 381 "graph.ml" 21 377 398
+)
+"graph.ml" 29 684 713 "graph.ml" 29 684 714
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 27 594 608 "graph.ml" 27 594 609
+)
+"graph.ml" 29 684 715 "graph.ml" 29 684 717
+type(
+  string
+)
+ident(
+  int_ref n1 "graph.ml" 27 594 621 "graph.ml" 27 594 623
+)
+"graph.ml" 29 684 718 "graph.ml" 29 684 720
+type(
+  string
+)
+ident(
+  int_ref n2 "graph.ml" 27 594 635 "graph.ml" 27 594 637
+)
+"graph.ml" 29 684 695 "graph.ml" 29 684 720
+type(
+  grapht
+)
+"graph.ml" 30 724 726 "graph.ml" 30 724 743
+type(
+  grapht -> string -> string -> grapht
+)
+ident(
+  int_ref add_directed_edge "graph.ml" 21 377 381 "graph.ml" 21 377 398
+)
+"graph.ml" 30 724 744 "graph.ml" 30 724 746
+type(
+  grapht
+)
+ident(
+  int_ref g' "graph.ml" 29 684 690 "graph.ml" 29 684 692
+)
+"graph.ml" 30 724 747 "graph.ml" 30 724 749
+type(
+  string
+)
+ident(
+  int_ref n2 "graph.ml" 27 594 635 "graph.ml" 27 594 637
+)
+"graph.ml" 30 724 750 "graph.ml" 30 724 752
+type(
+  string
+)
+ident(
+  int_ref n1 "graph.ml" 27 594 621 "graph.ml" 27 594 623
+)
+"graph.ml" 30 724 726 "graph.ml" 30 724 752
+type(
+  grapht
+)
+"graph.ml" 29 684 686 "graph.ml" 30 724 752
+type(
+  grapht
+)
+"graph.ml" 28 659 661 "graph.ml" 30 724 752
+type(
+  grapht
+)
+"graph.ml" 33 757 761 "graph.ml" 33 757 769
+type(
+  grapht -> string -> string -> bool
+)
+ident(
+  def has_edge "graph.ml" 39 917 917 "graph.ml" 0 0 -1
+)
+"graph.ml" 33 757 771 "graph.ml" 33 757 772
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 33 757 783 "graph.ml" 36 886 912
+)
+"graph.ml" 33 757 784 "graph.ml" 33 757 786
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def n1 "graph.ml" 33 757 797 "graph.ml" 36 886 912
+)
+"graph.ml" 33 757 798 "graph.ml" 33 757 800
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def n2 "graph.ml" 34 820 822 "graph.ml" 36 886 912
+)
+"graph.ml" 34 820 825 "graph.ml" 34 820 827
+type(
+  string
+)
+ident(
+  int_ref n1 "graph.ml" 33 757 784 "graph.ml" 33 757 786
+)
+"graph.ml" 34 820 828 "graph.ml" 34 820 829
+type(
+  string -> string -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"graph.ml" 34 820 830 "graph.ml" 34 820 832
+type(
+  string
+)
+ident(
+  int_ref n2 "graph.ml" 33 757 798 "graph.ml" 33 757 800
+)
+"graph.ml" 34 820 825 "graph.ml" 34 820 832
+type(
+  bool
+)
+"graph.ml" 34 820 838 "graph.ml" 34 820 843
+type(
+  bool
+)
+"graph.ml" 35 849 855 "graph.ml" 35 849 862
+type(
+  neighborst
+)
+ident(
+  def neighbs "graph.ml" 36 886 888 "graph.ml" 36 886 912
+)
+"graph.ml" 35 849 866 "graph.ml" 35 849 876
+type(
+  Graph.key -> neighborst Graph.t -> neighborst
+)
+ident(
+  int_ref Graph.find "map.mli" 278 11164 11168 "map.mli" 278 11164 11195
+)
+"graph.ml" 35 849 877 "graph.ml" 35 849 879
+type(
+  Graph.key
+)
+ident(
+  int_ref n1 "graph.ml" 33 757 784 "graph.ml" 33 757 786
+)
+"graph.ml" 35 849 880 "graph.ml" 35 849 881
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 33 757 771 "graph.ml" 33 757 772
+)
+"graph.ml" 35 849 865 "graph.ml" 35 849 882
+type(
+  neighborst
+)
+"graph.ml" 36 886 888 "graph.ml" 36 886 901
+type(
+  StringSet.elt -> StringSet.t -> bool
+)
+ident(
+  int_ref StringSet.mem "set.mli" 80 3035 3039 "set.mli" 80 3035 3064
+)
+"graph.ml" 36 886 902 "graph.ml" 36 886 904
+type(
+  StringSet.elt
+)
+ident(
+  int_ref n2 "graph.ml" 33 757 798 "graph.ml" 33 757 800
+)
+"graph.ml" 36 886 905 "graph.ml" 36 886 912
+type(
+  neighborst
+)
+ident(
+  int_ref neighbs "graph.ml" 35 849 855 "graph.ml" 35 849 862
+)
+"graph.ml" 36 886 888 "graph.ml" 36 886 912
+type(
+  bool
+)
+"graph.ml" 35 849 851 "graph.ml" 36 886 912
+type(
+  bool
+)
+"graph.ml" 34 820 822 "graph.ml" 36 886 912
+type(
+  bool
+)
+"graph.ml" 39 917 921 "graph.ml" 39 917 934
+type(
+  grapht -> string -> string list
+)
+ident(
+  def get_neighbors "graph.ml" 45 1085 1085 "graph.ml" 0 0 -1
+)
+"graph.ml" 39 917 936 "graph.ml" 39 917 937
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 39 917 948 "graph.ml" 42 1071 1080
+)
+"graph.ml" 39 917 949 "graph.ml" 39 917 953
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def name "graph.ml" 40 980 982 "graph.ml" 42 1071 1080
+)
+"graph.ml" 40 980 985 "graph.ml" 40 980 994
+type(
+  Graph.key -> neighborst Graph.t -> bool
+)
+ident(
+  int_ref Graph.mem "map.mli" 79 3076 3080 "map.mli" 79 3076 3108
+)
+"graph.ml" 40 980 995 "graph.ml" 40 980 999
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 39 917 949 "graph.ml" 39 917 953
+)
+"graph.ml" 40 980 1000 "graph.ml" 40 980 1001
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 39 917 936 "graph.ml" 39 917 937
+)
+"graph.ml" 40 980 985 "graph.ml" 40 980 1001
+type(
+  bool
+)
+"graph.ml" 41 1002 1009 "graph.ml" 41 1002 1025
+type(
+  (NeighborSet.elt -> NeighborSet.elt list -> NeighborSet.elt list) ->
+  NeighborSet.t -> NeighborSet.elt list -> NeighborSet.elt list
+)
+ident(
+  int_ref NeighborSet.fold "set.mli" 141 5301 5305 "set.mli" 141 5301 5349
+)
+"graph.ml" 41 1002 1031 "graph.ml" 41 1002 1032
+type(
+  NeighborSet.elt
+)
+ident(
+  def n "graph.ml" 41 1002 1033 "graph.ml" 41 1002 1046
+)
+"graph.ml" 41 1002 1033 "graph.ml" 41 1002 1035
+type(
+  NeighborSet.elt list
+)
+ident(
+  def ns "graph.ml" 41 1002 1039 "graph.ml" 41 1002 1046
+)
+"graph.ml" 41 1002 1039 "graph.ml" 41 1002 1040
+type(
+  NeighborSet.elt
+)
+ident(
+  int_ref n "graph.ml" 41 1002 1031 "graph.ml" 41 1002 1032
+)
+"graph.ml" 41 1002 1044 "graph.ml" 41 1002 1046
+type(
+  NeighborSet.elt list
+)
+ident(
+  int_ref ns "graph.ml" 41 1002 1033 "graph.ml" 41 1002 1035
+)
+"graph.ml" 41 1002 1039 "graph.ml" 41 1002 1046
+type(
+  NeighborSet.elt list
+)
+"graph.ml" 41 1002 1026 "graph.ml" 41 1002 1047
+type(
+  NeighborSet.elt -> NeighborSet.elt list -> NeighborSet.elt list
+)
+"graph.ml" 41 1002 1049 "graph.ml" 41 1002 1059
+type(
+  Graph.key -> neighborst Graph.t -> neighborst
+)
+ident(
+  int_ref Graph.find "map.mli" 278 11164 11168 "map.mli" 278 11164 11195
+)
+"graph.ml" 41 1002 1060 "graph.ml" 41 1002 1064
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 39 917 949 "graph.ml" 39 917 953
+)
+"graph.ml" 41 1002 1065 "graph.ml" 41 1002 1066
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 39 917 936 "graph.ml" 39 917 937
+)
+"graph.ml" 41 1002 1048 "graph.ml" 41 1002 1067
+type(
+  neighborst
+)
+"graph.ml" 41 1002 1068 "graph.ml" 41 1002 1070
+type(
+  NeighborSet.elt list
+)
+"graph.ml" 41 1002 1009 "graph.ml" 41 1002 1070
+type(
+  NeighborSet.elt list
+)
+"graph.ml" 42 1071 1078 "graph.ml" 42 1071 1080
+type(
+  NeighborSet.elt list
+)
+"graph.ml" 40 980 982 "graph.ml" 42 1071 1080
+type(
+  string list
+)
+"graph.ml" 45 1085 1089 "graph.ml" 45 1085 1101
+type(
+  grapht -> string list
+)
+ident(
+  def get_vertices "graph.ml" 49 1189 1189 "graph.ml" 0 0 -1
+)
+"graph.ml" 45 1085 1103 "graph.ml" 45 1085 1104
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 46 1131 1133 "graph.ml" 46 1131 1184
+)
+"graph.ml" 46 1131 1137 "graph.ml" 46 1131 1141
+type(
+  Graph.key list
+)
+ident(
+  def keys "graph.ml" 46 1131 1180 "graph.ml" 46 1131 1184
+)
+"graph.ml" 46 1131 1143 "graph.ml" 46 1131 1144
+type(
+  neighborst list
+)
+"graph.ml" 46 1131 1137 "graph.ml" 46 1131 1144
+type(
+  Graph.key list * neighborst list
+)
+"graph.ml" 46 1131 1147 "graph.ml" 46 1131 1157
+type(
+  (Graph.key * neighborst) list -> Graph.key list * neighborst list
+)
+ident(
+  int_ref Stdlib.List.split "list.mli" 426 14181 14181 "list.mli" 426 14181 14228
+)
+"graph.ml" 46 1131 1159 "graph.ml" 46 1131 1173
+type(
+  neighborst Graph.t -> (Graph.key * neighborst) list
+)
+ident(
+  int_ref Graph.bindings "map.mli" 219 9053 9057 "map.mli" 219 9053 9094
+)
+"graph.ml" 46 1131 1174 "graph.ml" 46 1131 1175
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 45 1085 1103 "graph.ml" 45 1085 1104
+)
+"graph.ml" 46 1131 1158 "graph.ml" 46 1131 1176
+type(
+  (Graph.key * neighborst) list
+)
+"graph.ml" 46 1131 1147 "graph.ml" 46 1131 1176
+type(
+  Graph.key list * neighborst list
+)
+"graph.ml" 46 1131 1180 "graph.ml" 46 1131 1184
+type(
+  Graph.key list
+)
+ident(
+  int_ref keys "graph.ml" 46 1131 1137 "graph.ml" 46 1131 1141
+)
+"graph.ml" 46 1131 1133 "graph.ml" 46 1131 1184
+type(
+  string list
+)
+"graph.ml" 49 1189 1193 "graph.ml" 49 1189 1208
+type(
+  grapht -> string
+)
+ident(
+  def string_of_graph "graph.ml" 57 1485 1485 "graph.ml" 0 0 -1
+)
+"graph.ml" 49 1189 1210 "graph.ml" 49 1189 1211
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 50 1231 1233 "graph.ml" 53 1335 1445
+)
+"graph.ml" 50 1231 1237 "graph.ml" 50 1231 1256
+type(
+  string -> string
+)
+ident(
+  def string_of_neighbors "graph.ml" 53 1335 1337 "graph.ml" 53 1335 1445
+)
+"graph.ml" 50 1231 1258 "graph.ml" 50 1231 1259
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def n "graph.ml" 51 1279 1283 "graph.ml" 51 1279 1329
+)
+"graph.ml" 51 1279 1283 "graph.ml" 51 1279 1304
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref ExtString.String.join "src/extString.mli" 58 2183 2185 "src/extString.mli" 58 2183 2227
+)
+"graph.ml" 51 1279 1305 "graph.ml" 51 1279 1309
+type(
+  string
+)
+"graph.ml" 51 1279 1311 "graph.ml" 51 1279 1324
+type(
+  grapht -> string -> string list
+)
+ident(
+  int_ref get_neighbors "graph.ml" 39 917 921 "graph.ml" 39 917 934
+)
+"graph.ml" 51 1279 1325 "graph.ml" 51 1279 1326
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 49 1189 1210 "graph.ml" 49 1189 1211
+)
+"graph.ml" 51 1279 1327 "graph.ml" 51 1279 1328
+type(
+  string
+)
+ident(
+  int_ref n "graph.ml" 50 1231 1258 "graph.ml" 50 1231 1259
+)
+"graph.ml" 51 1279 1310 "graph.ml" 51 1279 1329
+type(
+  string list
+)
+"graph.ml" 51 1279 1283 "graph.ml" 51 1279 1329
+type(
+  string
+)
+"graph.ml" 53 1335 1337 "graph.ml" 53 1335 1358
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref ExtString.String.join "src/extString.mli" 58 2183 2185 "src/extString.mli" 58 2183 2227
+)
+"graph.ml" 53 1335 1359 "graph.ml" 53 1335 1363
+type(
+  string
+)
+"graph.ml" 53 1335 1365 "graph.ml" 53 1335 1373
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"graph.ml" 53 1335 1379 "graph.ml" 53 1335 1380
+type(
+  string
+)
+ident(
+  def k "graph.ml" 53 1335 1384 "graph.ml" 53 1335 1426
+)
+"graph.ml" 53 1335 1384 "graph.ml" 53 1335 1391
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"graph.ml" 53 1335 1392 "graph.ml" 53 1335 1400
+type(
+  (string -> string -> string, unit, string) format
+)
+"graph.ml" 53 1335 1401 "graph.ml" 53 1335 1402
+type(
+  string
+)
+ident(
+  int_ref k "graph.ml" 53 1335 1379 "graph.ml" 53 1335 1380
+)
+"graph.ml" 53 1335 1404 "graph.ml" 53 1335 1423
+type(
+  string -> string
+)
+ident(
+  int_ref string_of_neighbors "graph.ml" 50 1231 1237 "graph.ml" 50 1231 1256
+)
+"graph.ml" 53 1335 1424 "graph.ml" 53 1335 1425
+type(
+  string
+)
+ident(
+  int_ref k "graph.ml" 53 1335 1379 "graph.ml" 53 1335 1380
+)
+"graph.ml" 53 1335 1403 "graph.ml" 53 1335 1426
+type(
+  string
+)
+"graph.ml" 53 1335 1384 "graph.ml" 53 1335 1426
+type(
+  string
+)
+"graph.ml" 53 1335 1374 "graph.ml" 53 1335 1427
+type(
+  string -> string
+)
+"graph.ml" 53 1335 1429 "graph.ml" 53 1335 1441
+type(
+  grapht -> string list
+)
+ident(
+  int_ref get_vertices "graph.ml" 45 1085 1089 "graph.ml" 45 1085 1101
+)
+"graph.ml" 53 1335 1442 "graph.ml" 53 1335 1443
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 49 1189 1210 "graph.ml" 49 1189 1211
+)
+"graph.ml" 53 1335 1428 "graph.ml" 53 1335 1444
+type(
+  string list
+)
+"graph.ml" 53 1335 1364 "graph.ml" 53 1335 1445
+type(
+  string list
+)
+"graph.ml" 53 1335 1337 "graph.ml" 53 1335 1445
+type(
+  string
+)
+"graph.ml" 50 1231 1233 "graph.ml" 53 1335 1445
+type(
+  string
+)
+"graph.ml" 57 1485 1489 "graph.ml" 57 1485 1502
+type(
+  grapht -> grapht -> grapht
+)
+ident(
+  def append_graphs "graph.ml" 73 2005 2005 "graph.ml" 0 0 -1
+)
+"graph.ml" 57 1485 1504 "graph.ml" 57 1485 1506
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g1 "graph.ml" 57 1485 1516 "graph.ml" 71 1989 2003
+)
+"graph.ml" 57 1485 1517 "graph.ml" 57 1485 1519
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g2 "graph.ml" 58 1541 1543 "graph.ml" 71 1989 2003
+)
+"graph.ml" 58 1541 1547 "graph.ml" 58 1541 1556
+type(
+  NeighborSet.t Graph.t
+)
+ident(
+  def g1s_added "graph.ml" 68 1869 1871 "graph.ml" 71 1989 2003
+)
+"graph.ml" 60 1609 1614 "graph.ml" 60 1609 1624
+type(
+  (Graph.key ->
+   NeighborSet.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t) ->
+  NeighborSet.t Graph.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t
+)
+ident(
+  int_ref Graph.fold "map.mli" 160 6864 6868 "map.mli" 160 6864 6921
+)
+"graph.ml" 61 1626 1635 "graph.ml" 61 1626 1639
+type(
+  Graph.key
+)
+ident(
+  def name "graph.ml" 61 1626 1640 "graph.ml" 63 1762 1801
+)
+"graph.ml" 61 1626 1640 "graph.ml" 61 1626 1649
+type(
+  NeighborSet.t
+)
+ident(
+  def neighbors "graph.ml" 61 1626 1650 "graph.ml" 63 1762 1801
+)
+"graph.ml" 61 1626 1650 "graph.ml" 61 1626 1653
+type(
+  NeighborSet.t Graph.t
+)
+ident(
+  def acc "graph.ml" 61 1626 1657 "graph.ml" 63 1762 1801
+)
+"graph.ml" 61 1626 1660 "graph.ml" 61 1626 1669
+type(
+  Graph.key -> neighborst Graph.t -> bool
+)
+ident(
+  int_ref Graph.mem "map.mli" 79 3076 3080 "map.mli" 79 3076 3108
+)
+"graph.ml" 61 1626 1670 "graph.ml" 61 1626 1674
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 61 1626 1635 "graph.ml" 61 1626 1639
+)
+"graph.ml" 61 1626 1675 "graph.ml" 61 1626 1677
+type(
+  grapht
+)
+ident(
+  int_ref g2 "graph.ml" 57 1485 1517 "graph.ml" 57 1485 1519
+)
+"graph.ml" 61 1626 1660 "graph.ml" 61 1626 1677
+type(
+  bool
+)
+"graph.ml" 62 1684 1692 "graph.ml" 62 1684 1701
+type(
+  Graph.key ->
+  NeighborSet.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t
+)
+ident(
+  int_ref Graph.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"graph.ml" 62 1684 1702 "graph.ml" 62 1684 1706
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 61 1626 1635 "graph.ml" 61 1626 1639
+)
+"graph.ml" 62 1684 1708 "graph.ml" 62 1684 1725
+type(
+  NeighborSet.t -> NeighborSet.t -> NeighborSet.t
+)
+ident(
+  int_ref NeighborSet.union "set.mli" 98 3814 3818 "set.mli" 98 3814 3840
+)
+"graph.ml" 62 1684 1726 "graph.ml" 62 1684 1735
+type(
+  NeighborSet.t
+)
+ident(
+  int_ref neighbors "graph.ml" 61 1626 1640 "graph.ml" 61 1626 1649
+)
+"graph.ml" 62 1684 1737 "graph.ml" 62 1684 1747
+type(
+  Graph.key -> neighborst Graph.t -> neighborst
+)
+ident(
+  int_ref Graph.find "map.mli" 278 11164 11168 "map.mli" 278 11164 11195
+)
+"graph.ml" 62 1684 1748 "graph.ml" 62 1684 1752
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 61 1626 1635 "graph.ml" 61 1626 1639
+)
+"graph.ml" 62 1684 1753 "graph.ml" 62 1684 1755
+type(
+  grapht
+)
+ident(
+  int_ref g2 "graph.ml" 57 1485 1517 "graph.ml" 57 1485 1519
+)
+"graph.ml" 62 1684 1736 "graph.ml" 62 1684 1756
+type(
+  neighborst
+)
+"graph.ml" 62 1684 1707 "graph.ml" 62 1684 1757
+type(
+  NeighborSet.t
+)
+"graph.ml" 62 1684 1758 "graph.ml" 62 1684 1761
+type(
+  NeighborSet.t Graph.t
+)
+ident(
+  int_ref acc "graph.ml" 61 1626 1650 "graph.ml" 61 1626 1653
+)
+"graph.ml" 62 1684 1692 "graph.ml" 62 1684 1761
+type(
+  NeighborSet.t Graph.t
+)
+"graph.ml" 63 1762 1772 "graph.ml" 63 1762 1781
+type(
+  Graph.key ->
+  NeighborSet.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t
+)
+ident(
+  int_ref Graph.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"graph.ml" 63 1762 1782 "graph.ml" 63 1762 1786
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 61 1626 1635 "graph.ml" 61 1626 1639
+)
+"graph.ml" 63 1762 1787 "graph.ml" 63 1762 1796
+type(
+  NeighborSet.t
+)
+ident(
+  int_ref neighbors "graph.ml" 61 1626 1640 "graph.ml" 61 1626 1649
+)
+"graph.ml" 63 1762 1797 "graph.ml" 63 1762 1800
+type(
+  NeighborSet.t Graph.t
+)
+ident(
+  int_ref acc "graph.ml" 61 1626 1650 "graph.ml" 61 1626 1653
+)
+"graph.ml" 63 1762 1771 "graph.ml" 63 1762 1801
+type(
+  NeighborSet.t Graph.t
+)
+"graph.ml" 61 1626 1657 "graph.ml" 63 1762 1801
+type(
+  NeighborSet.t Graph.t
+)
+"graph.ml" 61 1626 1630 "graph.ml" 63 1762 1802
+type(
+  Graph.key ->
+  NeighborSet.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t
+)
+"graph.ml" 64 1803 1807 "graph.ml" 64 1803 1809
+type(
+  grapht
+)
+ident(
+  int_ref g1 "graph.ml" 57 1485 1504 "graph.ml" 57 1485 1506
+)
+"graph.ml" 65 1810 1814 "graph.ml" 65 1810 1825
+type(
+  NeighborSet.t Graph.t
+)
+ident(
+  int_ref Graph.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"graph.ml" 60 1609 1613 "graph.ml" 66 1826 1830
+type(
+  NeighborSet.t Graph.t
+)
+"graph.ml" 68 1869 1872 "graph.ml" 68 1869 1882
+type(
+  (Graph.key -> neighborst -> neighborst Graph.t -> neighborst Graph.t) ->
+  neighborst Graph.t -> neighborst Graph.t -> neighborst Graph.t
+)
+ident(
+  int_ref Graph.fold "map.mli" 160 6864 6868 "map.mli" 160 6864 6921
+)
+"graph.ml" 69 1884 1893 "graph.ml" 69 1884 1897
+type(
+  Graph.key
+)
+ident(
+  def name "graph.ml" 69 1884 1898 "graph.ml" 69 1884 1980
+)
+"graph.ml" 69 1884 1898 "graph.ml" 69 1884 1907
+type(
+  neighborst
+)
+ident(
+  def neighbors "graph.ml" 69 1884 1908 "graph.ml" 69 1884 1980
+)
+"graph.ml" 69 1884 1908 "graph.ml" 69 1884 1911
+type(
+  neighborst Graph.t
+)
+ident(
+  def acc "graph.ml" 69 1884 1915 "graph.ml" 69 1884 1980
+)
+"graph.ml" 69 1884 1918 "graph.ml" 69 1884 1927
+type(
+  Graph.key -> neighborst Graph.t -> bool
+)
+ident(
+  int_ref Graph.mem "map.mli" 79 3076 3080 "map.mli" 79 3076 3108
+)
+"graph.ml" 69 1884 1928 "graph.ml" 69 1884 1932
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 69 1884 1893 "graph.ml" 69 1884 1897
+)
+"graph.ml" 69 1884 1933 "graph.ml" 69 1884 1935
+type(
+  grapht
+)
+ident(
+  int_ref g1 "graph.ml" 57 1485 1504 "graph.ml" 57 1485 1506
+)
+"graph.ml" 69 1884 1918 "graph.ml" 69 1884 1935
+type(
+  bool
+)
+"graph.ml" 69 1884 1941 "graph.ml" 69 1884 1944
+type(
+  neighborst Graph.t
+)
+ident(
+  int_ref acc "graph.ml" 69 1884 1908 "graph.ml" 69 1884 1911
+)
+"graph.ml" 69 1884 1951 "graph.ml" 69 1884 1960
+type(
+  Graph.key -> neighborst -> neighborst Graph.t -> neighborst Graph.t
+)
+ident(
+  int_ref Graph.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"graph.ml" 69 1884 1961 "graph.ml" 69 1884 1965
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 69 1884 1893 "graph.ml" 69 1884 1897
+)
+"graph.ml" 69 1884 1966 "graph.ml" 69 1884 1975
+type(
+  neighborst
+)
+ident(
+  int_ref neighbors "graph.ml" 69 1884 1898 "graph.ml" 69 1884 1907
+)
+"graph.ml" 69 1884 1976 "graph.ml" 69 1884 1979
+type(
+  neighborst Graph.t
+)
+ident(
+  int_ref acc "graph.ml" 69 1884 1908 "graph.ml" 69 1884 1911
+)
+"graph.ml" 69 1884 1950 "graph.ml" 69 1884 1980
+type(
+  neighborst Graph.t
+)
+"graph.ml" 69 1884 1915 "graph.ml" 69 1884 1980
+type(
+  neighborst Graph.t
+)
+"graph.ml" 69 1884 1888 "graph.ml" 69 1884 1981
+type(
+  Graph.key -> neighborst -> neighborst Graph.t -> neighborst Graph.t
+)
+"graph.ml" 70 1982 1986 "graph.ml" 70 1982 1988
+type(
+  grapht
+)
+ident(
+  int_ref g2 "graph.ml" 57 1485 1517 "graph.ml" 57 1485 1519
+)
+"graph.ml" 71 1989 1993 "graph.ml" 71 1989 2002
+type(
+  NeighborSet.t Graph.t
+)
+ident(
+  int_ref g1s_added "graph.ml" 58 1541 1547 "graph.ml" 58 1541 1556
+)
+"graph.ml" 68 1869 1871 "graph.ml" 71 1989 2003
+type(
+  neighborst Graph.t
+)
+"graph.ml" 58 1541 1543 "graph.ml" 71 1989 2003
+type(
+  grapht
+)
+"graph.ml" 73 2005 2009 "graph.ml" 73 2005 2025
+type(
+  string -> StringSet.t -> grapht -> grapht
+)
+ident(
+  def make_connections "graph.ml" 80 2273 2273 "graph.ml" 0 0 -1
+)
+"graph.ml" 73 2005 2027 "graph.ml" 73 2005 2031
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def root "graph.ml" 73 2005 2042 "graph.ml" 77 2183 2186
+)
+"graph.ml" 73 2005 2043 "graph.ml" 73 2005 2054
+type(
+  StringSet.t
+)
+type(
+  StringSet.t
+)
+ident(
+  def connections "graph.ml" 73 2005 2070 "graph.ml" 77 2183 2186
+)
+"graph.ml" 73 2005 2071 "graph.ml" 73 2005 2072
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 74 2095 2097 "graph.ml" 77 2183 2186
+)
+"graph.ml" 74 2095 2097 "graph.ml" 74 2095 2111
+type(
+  (StringSet.elt -> grapht -> grapht) -> StringSet.t -> grapht -> grapht
+)
+ident(
+  int_ref StringSet.fold "set.mli" 141 5301 5305 "set.mli" 141 5301 5349
+)
+"graph.ml" 75 2112 2119 "graph.ml" 75 2112 2129
+type(
+  StringSet.elt
+)
+ident(
+  def connection "graph.ml" 75 2112 2130 "graph.ml" 75 2112 2167
+)
+"graph.ml" 75 2112 2130 "graph.ml" 75 2112 2134
+type(
+  grapht
+)
+ident(
+  def gacc "graph.ml" 75 2112 2138 "graph.ml" 75 2112 2167
+)
+"graph.ml" 75 2112 2138 "graph.ml" 75 2112 2146
+type(
+  grapht -> string -> StringSet.elt -> grapht
+)
+ident(
+  int_ref add_edge "graph.ml" 27 594 598 "graph.ml" 27 594 606
+)
+"graph.ml" 75 2112 2147 "graph.ml" 75 2112 2151
+type(
+  grapht
+)
+ident(
+  int_ref gacc "graph.ml" 75 2112 2130 "graph.ml" 75 2112 2134
+)
+"graph.ml" 75 2112 2152 "graph.ml" 75 2112 2156
+type(
+  string
+)
+ident(
+  int_ref root "graph.ml" 73 2005 2027 "graph.ml" 73 2005 2031
+)
+"graph.ml" 75 2112 2157 "graph.ml" 75 2112 2167
+type(
+  StringSet.elt
+)
+ident(
+  int_ref connection "graph.ml" 75 2112 2119 "graph.ml" 75 2112 2129
+)
+"graph.ml" 75 2112 2138 "graph.ml" 75 2112 2167
+type(
+  grapht
+)
+"graph.ml" 75 2112 2114 "graph.ml" 75 2112 2168
+type(
+  StringSet.elt -> grapht -> grapht
+)
+"graph.ml" 76 2169 2171 "graph.ml" 76 2169 2182
+type(
+  StringSet.t
+)
+ident(
+  int_ref connections "graph.ml" 73 2005 2043 "graph.ml" 73 2005 2054
+)
+"graph.ml" 77 2183 2185 "graph.ml" 77 2183 2186
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 73 2005 2071 "graph.ml" 73 2005 2072
+)
+"graph.ml" 74 2095 2097 "graph.ml" 77 2183 2186
+type(
+  grapht
+)
+"graph.ml" 80 2273 2277 "graph.ml" 80 2273 2286
+type(
+  string list -> grapht -> grapht
+)
+ident(
+  def add_nodes "graph.ml" 92 2590 2590 "graph.ml" 0 0 -1
+)
+"graph.ml" 80 2273 2288 "graph.ml" 80 2273 2293
+type(
+  string list
+)
+type(
+  string list
+)
+ident(
+  def nodes "graph.ml" 80 2273 2309 "graph.ml" 88 2573 2584
+)
+"graph.ml" 80 2273 2310 "graph.ml" 80 2273 2311
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 81 2324 2326 "graph.ml" 88 2573 2584
+)
+"graph.ml" 81 2324 2331 "graph.ml" 81 2324 2340
+type(
+  grapht
+)
+ident(
+  def res_graph "graph.ml" 88 2573 2575 "graph.ml" 88 2573 2584
+)
+"graph.ml" 81 2324 2342 "graph.ml" 81 2324 2343
+type(
+  StringSet.t
+)
+"graph.ml" 81 2324 2330 "graph.ml" 81 2324 2344
+type(
+  grapht * StringSet.t
+)
+"graph.ml" 82 2348 2351 "graph.ml" 82 2348 2365
+type(
+  (grapht * StringSet.t -> NeighborSet.elt -> grapht * StringSet.t) ->
+  grapht * StringSet.t -> NeighborSet.elt list -> grapht * StringSet.t
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 211 7387 7387 "list.mli" 211 7387 7442
+)
+"graph.ml" 83 2366 2374 "graph.ml" 83 2366 2378
+type(
+  grapht
+)
+ident(
+  def gacc "graph.ml" 83 2366 2386 "graph.ml" 85 2494 2534
+)
+"graph.ml" 83 2366 2380 "graph.ml" 83 2366 2384
+type(
+  StringSet.t
+)
+ident(
+  def prev "graph.ml" 83 2366 2386 "graph.ml" 85 2494 2534
+)
+"graph.ml" 83 2366 2373 "graph.ml" 83 2366 2385
+type(
+  grapht * StringSet.t
+)
+"graph.ml" 83 2366 2386 "graph.ml" 83 2366 2390
+type(
+  NeighborSet.elt
+)
+ident(
+  def node "graph.ml" 83 2366 2394 "graph.ml" 85 2494 2534
+)
+"graph.ml" 83 2366 2398 "graph.ml" 83 2366 2408
+type(
+  grapht
+)
+ident(
+  def added_node "graph.ml" 84 2432 2435 "graph.ml" 85 2494 2534
+)
+"graph.ml" 83 2366 2412 "graph.ml" 83 2366 2420
+type(
+  grapht -> NeighborSet.elt -> grapht
+)
+ident(
+  int_ref add_node "graph.ml" 17 251 255 "graph.ml" 17 251 263
+)
+"graph.ml" 83 2366 2421 "graph.ml" 83 2366 2425
+type(
+  grapht
+)
+ident(
+  int_ref gacc "graph.ml" 83 2366 2374 "graph.ml" 83 2366 2378
+)
+"graph.ml" 83 2366 2426 "graph.ml" 83 2366 2430
+type(
+  NeighborSet.elt
+)
+ident(
+  int_ref node "graph.ml" 83 2366 2386 "graph.ml" 83 2366 2390
+)
+"graph.ml" 83 2366 2411 "graph.ml" 83 2366 2431
+type(
+  grapht
+)
+"graph.ml" 84 2432 2439 "graph.ml" 84 2432 2448
+type(
+  grapht
+)
+ident(
+  def connected "graph.ml" 85 2494 2496 "graph.ml" 85 2494 2534
+)
+"graph.ml" 84 2432 2452 "graph.ml" 84 2432 2468
+type(
+  NeighborSet.elt -> StringSet.t -> grapht -> grapht
+)
+ident(
+  int_ref make_connections "graph.ml" 73 2005 2009 "graph.ml" 73 2005 2025
+)
+"graph.ml" 84 2432 2469 "graph.ml" 84 2432 2473
+type(
+  NeighborSet.elt
+)
+ident(
+  int_ref node "graph.ml" 83 2366 2386 "graph.ml" 83 2366 2390
+)
+"graph.ml" 84 2432 2474 "graph.ml" 84 2432 2478
+type(
+  StringSet.t
+)
+ident(
+  int_ref prev "graph.ml" 83 2366 2380 "graph.ml" 83 2366 2384
+)
+"graph.ml" 84 2432 2479 "graph.ml" 84 2432 2489
+type(
+  grapht
+)
+ident(
+  int_ref added_node "graph.ml" 83 2366 2398 "graph.ml" 83 2366 2408
+)
+"graph.ml" 84 2432 2451 "graph.ml" 84 2432 2490
+type(
+  grapht
+)
+"graph.ml" 85 2494 2497 "graph.ml" 85 2494 2506
+type(
+  grapht
+)
+ident(
+  int_ref connected "graph.ml" 84 2432 2439 "graph.ml" 84 2432 2448
+)
+"graph.ml" 85 2494 2508 "graph.ml" 85 2494 2523
+type(
+  NeighborSet.elt -> NeighborSet.t -> NeighborSet.t
+)
+ident(
+  int_ref NeighborSet.add "set.mli" 83 3129 3133 "set.mli" 83 3129 3155
+)
+"graph.ml" 85 2494 2524 "graph.ml" 85 2494 2528
+type(
+  NeighborSet.elt
+)
+ident(
+  int_ref node "graph.ml" 83 2366 2386 "graph.ml" 83 2366 2390
+)
+"graph.ml" 85 2494 2529 "graph.ml" 85 2494 2533
+type(
+  StringSet.t
+)
+ident(
+  int_ref prev "graph.ml" 83 2366 2380 "graph.ml" 83 2366 2384
+)
+"graph.ml" 85 2494 2508 "graph.ml" 85 2494 2533
+type(
+  NeighborSet.t
+)
+"graph.ml" 85 2494 2496 "graph.ml" 85 2494 2534
+type(
+  grapht * NeighborSet.t
+)
+"graph.ml" 84 2432 2435 "graph.ml" 85 2494 2534
+type(
+  grapht * NeighborSet.t
+)
+"graph.ml" 83 2366 2394 "graph.ml" 85 2494 2534
+type(
+  grapht * StringSet.t
+)
+"graph.ml" 83 2366 2368 "graph.ml" 85 2494 2535
+type(
+  grapht * StringSet.t -> NeighborSet.elt -> grapht * StringSet.t
+)
+"graph.ml" 86 2536 2539 "graph.ml" 86 2536 2540
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 80 2273 2310 "graph.ml" 80 2273 2311
+)
+"graph.ml" 86 2536 2542 "graph.ml" 86 2536 2559
+type(
+  NeighborSet.t
+)
+ident(
+  int_ref NeighborSet.empty "set.mli" 74 2915 2919 "set.mli" 74 2915 2931
+)
+"graph.ml" 86 2536 2538 "graph.ml" 86 2536 2560
+type(
+  grapht * StringSet.t
+)
+"graph.ml" 87 2561 2563 "graph.ml" 87 2561 2568
+type(
+  NeighborSet.elt list
+)
+ident(
+  int_ref nodes "graph.ml" 80 2273 2288 "graph.ml" 80 2273 2293
+)
+"graph.ml" 82 2348 2350 "graph.ml" 87 2561 2569
+type(
+  grapht * StringSet.t
+)
+"graph.ml" 88 2573 2575 "graph.ml" 88 2573 2584
+type(
+  grapht
+)
+ident(
+  int_ref res_graph "graph.ml" 81 2324 2331 "graph.ml" 81 2324 2340
+)
+"graph.ml" 81 2324 2326 "graph.ml" 88 2573 2584
+type(
+  grapht
+)
+"graph.ml" 92 2590 2594 "graph.ml" 92 2590 2609
+type(
+  string -> NeighborSet.t -> NeighborSet.t
+)
+ident(
+  def remove_neighbor "graph.ml" 97 2736 2736 "graph.ml" 0 0 -1
+)
+"graph.ml" 92 2590 2611 "graph.ml" 92 2590 2620
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def node_name "graph.ml" 92 2590 2631 "graph.ml" 95 2726 2732
+)
+"graph.ml" 92 2590 2632 "graph.ml" 92 2590 2634
+type(
+  NeighborSet.t
+)
+type(
+  NeighborSet.t
+)
+ident(
+  def ns "graph.ml" 93 2671 2673 "graph.ml" 95 2726 2732
+)
+"graph.ml" 93 2671 2673 "graph.ml" 93 2671 2689
+type(
+  (StringSet.elt -> bool) -> StringSet.t -> StringSet.t
+)
+ident(
+  int_ref StringSet.filter "set.mli" 153 5778 5782 "set.mli" 153 5778 5817
+)
+"graph.ml" 94 2690 2699 "graph.ml" 94 2690 2702
+type(
+  StringSet.elt
+)
+ident(
+  def str "graph.ml" 94 2690 2706 "graph.ml" 94 2690 2724
+)
+"graph.ml" 94 2690 2707 "graph.ml" 94 2690 2710
+type(
+  StringSet.elt
+)
+ident(
+  int_ref str "graph.ml" 94 2690 2699 "graph.ml" 94 2690 2702
+)
+"graph.ml" 94 2690 2711 "graph.ml" 94 2690 2713
+type(
+  StringSet.elt -> StringSet.elt -> bool
+)
+ident(
+  int_ref Stdlib.( != ) "stdlib.mli" 203 8696 8696 "stdlib.mli" 203 8696 8741
+)
+"graph.ml" 94 2690 2714 "graph.ml" 94 2690 2723
+type(
+  StringSet.elt
+)
+ident(
+  int_ref node_name "graph.ml" 92 2590 2611 "graph.ml" 92 2590 2620
+)
+"graph.ml" 94 2690 2706 "graph.ml" 94 2690 2724
+type(
+  bool
+)
+"graph.ml" 94 2690 2694 "graph.ml" 94 2690 2725
+type(
+  StringSet.elt -> bool
+)
+"graph.ml" 95 2726 2730 "graph.ml" 95 2726 2732
+type(
+  NeighborSet.t
+)
+ident(
+  int_ref ns "graph.ml" 92 2590 2632 "graph.ml" 92 2590 2634
+)
+"graph.ml" 93 2671 2673 "graph.ml" 95 2726 2732
+type(
+  NeighborSet.t
+)
+"graph.ml" 97 2736 2740 "graph.ml" 97 2736 2751
+type(
+  string -> grapht -> grapht
+)
+ident(
+  def remove_node "graph.ml" 103 2956 2956 "graph.ml" 0 0 -1
+)
+"graph.ml" 97 2736 2753 "graph.ml" 97 2736 2762
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def node_name "graph.ml" 97 2736 2773 "graph.ml" 101 2939 2952
+)
+"graph.ml" 97 2736 2774 "graph.ml" 97 2736 2775
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 98 2798 2800 "graph.ml" 101 2939 2952
+)
+"graph.ml" 98 2798 2800 "graph.ml" 98 2798 2810
+type(
+  (Graph.key ->
+   NeighborSet.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t) ->
+  NeighborSet.t Graph.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t
+)
+ident(
+  int_ref Graph.fold "map.mli" 160 6864 6868 "map.mli" 160 6864 6921
+)
+"graph.ml" 99 2811 2818 "graph.ml" 99 2811 2822
+type(
+  Graph.key
+)
+ident(
+  def name "graph.ml" 99 2811 2823 "graph.ml" 99 2811 2933
+)
+"graph.ml" 99 2811 2823 "graph.ml" 99 2811 2830
+type(
+  NeighborSet.t
+)
+ident(
+  def neighbs "graph.ml" 99 2811 2831 "graph.ml" 99 2811 2933
+)
+"graph.ml" 99 2811 2831 "graph.ml" 99 2811 2835
+type(
+  NeighborSet.t Graph.t
+)
+ident(
+  def gacc "graph.ml" 99 2811 2839 "graph.ml" 99 2811 2933
+)
+"graph.ml" 99 2811 2843 "graph.ml" 99 2811 2847
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 99 2811 2818 "graph.ml" 99 2811 2822
+)
+"graph.ml" 99 2811 2848 "graph.ml" 99 2811 2849
+type(
+  Graph.key -> Graph.key -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"graph.ml" 99 2811 2850 "graph.ml" 99 2811 2859
+type(
+  Graph.key
+)
+ident(
+  int_ref node_name "graph.ml" 97 2736 2753 "graph.ml" 97 2736 2762
+)
+"graph.ml" 99 2811 2843 "graph.ml" 99 2811 2859
+type(
+  bool
+)
+"graph.ml" 99 2811 2865 "graph.ml" 99 2811 2869
+type(
+  NeighborSet.t Graph.t
+)
+ident(
+  int_ref gacc "graph.ml" 99 2811 2831 "graph.ml" 99 2811 2835
+)
+"graph.ml" 99 2811 2876 "graph.ml" 99 2811 2885
+type(
+  Graph.key ->
+  NeighborSet.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t
+)
+ident(
+  int_ref Graph.add "map.mli" 83 3211 3215 "map.mli" 83 3211 3249
+)
+"graph.ml" 99 2811 2886 "graph.ml" 99 2811 2890
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 99 2811 2818 "graph.ml" 99 2811 2822
+)
+"graph.ml" 99 2811 2892 "graph.ml" 99 2811 2907
+type(
+  string -> NeighborSet.t -> NeighborSet.t
+)
+ident(
+  int_ref remove_neighbor "graph.ml" 92 2590 2594 "graph.ml" 92 2590 2609
+)
+"graph.ml" 99 2811 2908 "graph.ml" 99 2811 2917
+type(
+  string
+)
+ident(
+  int_ref node_name "graph.ml" 97 2736 2753 "graph.ml" 97 2736 2762
+)
+"graph.ml" 99 2811 2918 "graph.ml" 99 2811 2925
+type(
+  NeighborSet.t
+)
+ident(
+  int_ref neighbs "graph.ml" 99 2811 2823 "graph.ml" 99 2811 2830
+)
+"graph.ml" 99 2811 2891 "graph.ml" 99 2811 2926
+type(
+  NeighborSet.t
+)
+"graph.ml" 99 2811 2927 "graph.ml" 99 2811 2931
+type(
+  NeighborSet.t Graph.t
+)
+ident(
+  int_ref gacc "graph.ml" 99 2811 2831 "graph.ml" 99 2811 2835
+)
+"graph.ml" 99 2811 2875 "graph.ml" 99 2811 2932
+type(
+  NeighborSet.t Graph.t
+)
+"graph.ml" 99 2811 2839 "graph.ml" 99 2811 2933
+type(
+  NeighborSet.t Graph.t
+)
+"graph.ml" 99 2811 2813 "graph.ml" 99 2811 2934
+type(
+  Graph.key ->
+  NeighborSet.t -> NeighborSet.t Graph.t -> NeighborSet.t Graph.t
+)
+"graph.ml" 100 2935 2937 "graph.ml" 100 2935 2938
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 97 2736 2774 "graph.ml" 97 2736 2775
+)
+"graph.ml" 101 2939 2941 "graph.ml" 101 2939 2952
+type(
+  NeighborSet.t Graph.t
+)
+ident(
+  int_ref Graph.empty "map.mli" 73 2950 2954 "map.mli" 73 2950 2969
+)
+"graph.ml" 98 2798 2800 "graph.ml" 101 2939 2952
+type(
+  grapht
+)
+"graph.ml" 103 2956 2960 "graph.ml" 103 2956 2972
+type(
+  string list -> grapht -> grapht
+)
+ident(
+  def remove_nodes "graph.ml" 109 3095 3095 "graph.ml" 0 0 -1
+)
+"graph.ml" 103 2956 2974 "graph.ml" 103 2956 2979
+type(
+  string list
+)
+type(
+  string list
+)
+ident(
+  def nodes "graph.ml" 103 2956 2995 "graph.ml" 107 3086 3093
+)
+"graph.ml" 103 2956 2996 "graph.ml" 103 2956 2997
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 104 3020 3022 "graph.ml" 107 3086 3093
+)
+"graph.ml" 104 3020 3022 "graph.ml" 104 3020 3036
+type(
+  (grapht -> string -> grapht) -> grapht -> string list -> grapht
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 211 7387 7387 "list.mli" 211 7387 7442
+)
+"graph.ml" 105 3037 3044 "graph.ml" 105 3037 3048
+type(
+  grapht
+)
+ident(
+  def gacc "graph.ml" 105 3037 3049 "graph.ml" 105 3037 3080
+)
+"graph.ml" 105 3037 3049 "graph.ml" 105 3037 3053
+type(
+  string
+)
+ident(
+  def curr "graph.ml" 105 3037 3057 "graph.ml" 105 3037 3080
+)
+"graph.ml" 105 3037 3058 "graph.ml" 105 3037 3069
+type(
+  string -> grapht -> grapht
+)
+ident(
+  int_ref remove_node "graph.ml" 97 2736 2740 "graph.ml" 97 2736 2751
+)
+"graph.ml" 105 3037 3070 "graph.ml" 105 3037 3074
+type(
+  string
+)
+ident(
+  int_ref curr "graph.ml" 105 3037 3049 "graph.ml" 105 3037 3053
+)
+"graph.ml" 105 3037 3075 "graph.ml" 105 3037 3079
+type(
+  grapht
+)
+ident(
+  int_ref gacc "graph.ml" 105 3037 3044 "graph.ml" 105 3037 3048
+)
+"graph.ml" 105 3037 3057 "graph.ml" 105 3037 3080
+type(
+  grapht
+)
+"graph.ml" 105 3037 3039 "graph.ml" 105 3037 3081
+type(
+  grapht -> string -> grapht
+)
+"graph.ml" 106 3082 3084 "graph.ml" 106 3082 3085
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 103 2956 2996 "graph.ml" 103 2956 2997
+)
+"graph.ml" 107 3086 3088 "graph.ml" 107 3086 3093
+type(
+  string list
+)
+ident(
+  int_ref nodes "graph.ml" 103 2956 2974 "graph.ml" 103 2956 2979
+)
+"graph.ml" 104 3020 3022 "graph.ml" 107 3086 3093
+type(
+  grapht
+)
+"graph.ml" 109 3095 3099 "graph.ml" 109 3095 3113
+type(
+  grapht -> string
+)
+ident(
+  def highest_degree "graph.ml" 120 3427 3427 "graph.ml" 0 0 -1
+)
+"graph.ml" 109 3095 3115 "graph.ml" 109 3095 3116
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 110 3138 3140 "graph.ml" 118 3417 3425
+)
+"graph.ml" 110 3138 3145 "graph.ml" 110 3138 3149
+type(
+  Graph.key
+)
+ident(
+  def name "graph.ml" 117 3359 3361 "graph.ml" 118 3417 3425
+)
+"graph.ml" 110 3138 3151 "graph.ml" 110 3138 3157
+type(
+  int
+)
+ident(
+  def degree "graph.ml" 117 3359 3361 "graph.ml" 118 3417 3425
+)
+"graph.ml" 110 3138 3144 "graph.ml" 110 3138 3158
+type(
+  Graph.key * int
+)
+"graph.ml" 111 3162 3165 "graph.ml" 111 3162 3175
+type(
+  (Graph.key -> NeighborSet.t -> Graph.key * int -> Graph.key * int) ->
+  NeighborSet.t Graph.t -> Graph.key * int -> Graph.key * int
+)
+ident(
+  int_ref Graph.fold "map.mli" 160 6864 6868 "map.mli" 160 6864 6921
+)
+"graph.ml" 112 3176 3183 "graph.ml" 112 3176 3187
+type(
+  Graph.key
+)
+ident(
+  def name "graph.ml" 112 3176 3188 "graph.ml" 114 3279 3338
+)
+"graph.ml" 112 3176 3188 "graph.ml" 112 3176 3195
+type(
+  NeighborSet.t
+)
+ident(
+  def neighbs "graph.ml" 112 3176 3196 "graph.ml" 114 3279 3338
+)
+"graph.ml" 112 3176 3197 "graph.ml" 112 3176 3205
+type(
+  Graph.key
+)
+ident(
+  def smallest "graph.ml" 113 3219 3223 "graph.ml" 114 3279 3338
+)
+"graph.ml" 112 3176 3207 "graph.ml" 112 3176 3213
+type(
+  int
+)
+ident(
+  def degree "graph.ml" 113 3219 3223 "graph.ml" 114 3279 3338
+)
+"graph.ml" 112 3176 3196 "graph.ml" 112 3176 3214
+type(
+  Graph.key * int
+)
+"graph.ml" 113 3219 3227 "graph.ml" 113 3219 3228
+type(
+  int
+)
+ident(
+  def n "graph.ml" 114 3279 3285 "graph.ml" 114 3279 3338
+)
+"graph.ml" 113 3219 3232 "graph.ml" 113 3219 3243
+type(
+  NeighborSet.elt list -> int
+)
+ident(
+  int_ref Stdlib.List.length "list.mli" 43 2033 2033 "list.mli" 43 2033 2060
+)
+"graph.ml" 113 3219 3245 "graph.ml" 113 3219 3265
+type(
+  NeighborSet.t -> NeighborSet.elt list
+)
+ident(
+  int_ref NeighborSet.elements "set.mli" 185 7039 7043 "set.mli" 185 7039 7070
+)
+"graph.ml" 113 3219 3266 "graph.ml" 113 3219 3273
+type(
+  NeighborSet.t
+)
+ident(
+  int_ref neighbs "graph.ml" 112 3176 3188 "graph.ml" 112 3176 3195
+)
+"graph.ml" 113 3219 3244 "graph.ml" 113 3219 3274
+type(
+  NeighborSet.elt list
+)
+"graph.ml" 113 3219 3231 "graph.ml" 113 3219 3275
+type(
+  int
+)
+"graph.ml" 114 3279 3288 "graph.ml" 114 3279 3289
+type(
+  int
+)
+ident(
+  int_ref n "graph.ml" 113 3219 3227 "graph.ml" 113 3219 3228
+)
+"graph.ml" 114 3279 3290 "graph.ml" 114 3279 3292
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"graph.ml" 114 3279 3293 "graph.ml" 114 3279 3299
+type(
+  int
+)
+ident(
+  int_ref degree "graph.ml" 112 3176 3207 "graph.ml" 112 3176 3213
+)
+"graph.ml" 114 3279 3288 "graph.ml" 114 3279 3299
+type(
+  bool
+)
+"graph.ml" 114 3279 3306 "graph.ml" 114 3279 3310
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 112 3176 3183 "graph.ml" 112 3176 3187
+)
+"graph.ml" 114 3279 3312 "graph.ml" 114 3279 3313
+type(
+  int
+)
+ident(
+  int_ref n "graph.ml" 113 3219 3227 "graph.ml" 113 3219 3228
+)
+"graph.ml" 114 3279 3305 "graph.ml" 114 3279 3314
+type(
+  Graph.key * int
+)
+"graph.ml" 114 3279 3321 "graph.ml" 114 3279 3329
+type(
+  Graph.key
+)
+ident(
+  int_ref smallest "graph.ml" 112 3176 3197 "graph.ml" 112 3176 3205
+)
+"graph.ml" 114 3279 3331 "graph.ml" 114 3279 3337
+type(
+  int
+)
+ident(
+  int_ref degree "graph.ml" 112 3176 3207 "graph.ml" 112 3176 3213
+)
+"graph.ml" 114 3279 3320 "graph.ml" 114 3279 3338
+type(
+  Graph.key * int
+)
+"graph.ml" 114 3279 3285 "graph.ml" 114 3279 3338
+type(
+  Graph.key * int
+)
+"graph.ml" 113 3219 3223 "graph.ml" 114 3279 3338
+type(
+  Graph.key * int
+)
+"graph.ml" 112 3176 3178 "graph.ml" 114 3279 3339
+type(
+  Graph.key -> NeighborSet.t -> Graph.key * int -> Graph.key * int
+)
+"graph.ml" 115 3340 3342 "graph.ml" 115 3340 3343
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 109 3095 3115 "graph.ml" 109 3095 3116
+)
+"graph.ml" 116 3344 3347 "graph.ml" 116 3344 3349
+type(
+  Graph.key
+)
+"graph.ml" 116 3344 3351 "graph.ml" 116 3344 3353
+type(
+  int
+)
+"graph.ml" 116 3344 3346 "graph.ml" 116 3344 3354
+type(
+  Graph.key * int
+)
+"graph.ml" 111 3162 3164 "graph.ml" 116 3344 3355
+type(
+  Graph.key * int
+)
+"graph.ml" 117 3359 3364 "graph.ml" 117 3359 3368
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 110 3138 3145 "graph.ml" 110 3138 3149
+)
+"graph.ml" 117 3359 3369 "graph.ml" 117 3359 3370
+type(
+  Graph.key -> Graph.key -> bool
+)
+ident(
+  int_ref Stdlib.( = ) "stdlib.mli" 121 5051 5051 "stdlib.mli" 121 5051 5095
+)
+"graph.ml" 117 3359 3371 "graph.ml" 117 3359 3373
+type(
+  Graph.key
+)
+"graph.ml" 117 3359 3364 "graph.ml" 117 3359 3373
+type(
+  bool
+)
+"graph.ml" 117 3359 3379 "graph.ml" 117 3359 3387
+type(
+  string -> Graph.key
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"graph.ml" 117 3359 3388 "graph.ml" 117 3359 3411
+type(
+  string
+)
+"graph.ml" 117 3359 3379 "graph.ml" 117 3359 3411
+type(
+  Graph.key
+)
+"graph.ml" 118 3417 3421 "graph.ml" 118 3417 3425
+type(
+  Graph.key
+)
+ident(
+  int_ref name "graph.ml" 110 3138 3145 "graph.ml" 110 3138 3149
+)
+"graph.ml" 117 3359 3361 "graph.ml" 118 3417 3425
+type(
+  Graph.key
+)
+"graph.ml" 110 3138 3140 "graph.ml" 118 3417 3425
+type(
+  string
+)
+"graph.ml" 120 3427 3431 "graph.ml" 120 3427 3446
+type(
+  grapht -> string list
+)
+ident(
+  def create_worklist "graph.ml" 124 3614 3630 "graph.ml" 0 0 -1
+)
+"graph.ml" 120 3427 3448 "graph.ml" 120 3427 3449
+type(
+  grapht
+)
+type(
+  grapht
+)
+ident(
+  def g "graph.ml" 121 3478 3480 "graph.ml" 124 3614 3630
+)
+"graph.ml" 121 3478 3485 "graph.ml" 121 3478 3489
+type(
+  grapht
+)
+ident(
+  def gacc "graph.ml" 124 3614 3628 "graph.ml" 124 3614 3630
+)
+"graph.ml" 121 3478 3491 "graph.ml" 121 3478 3493
+type(
+  string list
+)
+ident(
+  def wl "graph.ml" 124 3614 3628 "graph.ml" 124 3614 3630
+)
+"graph.ml" 121 3478 3484 "graph.ml" 121 3478 3494
+type(
+  grapht * string list
+)
+"graph.ml" 121 3478 3498 "graph.ml" 121 3478 3508
+type(
+  (Graph.key -> neighborst -> grapht * string list -> grapht * string list) ->
+  neighborst Graph.t -> grapht * string list -> grapht * string list
+)
+ident(
+  int_ref Graph.fold "map.mli" 160 6864 6868 "map.mli" 160 6864 6921
+)
+"graph.ml" 122 3509 3516 "graph.ml" 122 3509 3520
+type(
+  Graph.key
+)
+ident(
+  def name "graph.ml" 122 3509 3521 "graph.ml" 122 3509 3608
+)
+"graph.ml" 122 3509 3521 "graph.ml" 122 3509 3528
+type(
+  neighborst
+)
+ident(
+  def neighbs "graph.ml" 122 3509 3529 "graph.ml" 122 3509 3608
+)
+"graph.ml" 122 3509 3530 "graph.ml" 122 3509 3534
+type(
+  grapht
+)
+ident(
+  def gacc "graph.ml" 122 3509 3543 "graph.ml" 122 3509 3608
+)
+"graph.ml" 122 3509 3536 "graph.ml" 122 3509 3538
+type(
+  string list
+)
+ident(
+  def wl "graph.ml" 122 3509 3543 "graph.ml" 122 3509 3608
+)
+"graph.ml" 122 3509 3529 "graph.ml" 122 3509 3539
+type(
+  grapht * string list
+)
+"graph.ml" 122 3509 3547 "graph.ml" 122 3509 3549
+type(
+  string
+)
+ident(
+  def sd "graph.ml" 122 3509 3577 "graph.ml" 122 3509 3608
+)
+"graph.ml" 122 3509 3553 "graph.ml" 122 3509 3567
+type(
+  grapht -> string
+)
+ident(
+  int_ref highest_degree "graph.ml" 109 3095 3099 "graph.ml" 109 3095 3113
+)
+"graph.ml" 122 3509 3568 "graph.ml" 122 3509 3572
+type(
+  grapht
+)
+ident(
+  int_ref gacc "graph.ml" 122 3509 3530 "graph.ml" 122 3509 3534
+)
+"graph.ml" 122 3509 3552 "graph.ml" 122 3509 3573
+type(
+  string
+)
+"graph.ml" 122 3509 3579 "graph.ml" 122 3509 3590
+type(
+  string -> grapht -> grapht
+)
+ident(
+  int_ref remove_node "graph.ml" 97 2736 2740 "graph.ml" 97 2736 2751
+)
+"graph.ml" 122 3509 3591 "graph.ml" 122 3509 3593
+type(
+  string
+)
+ident(
+  int_ref sd "graph.ml" 122 3509 3547 "graph.ml" 122 3509 3549
+)
+"graph.ml" 122 3509 3594 "graph.ml" 122 3509 3598
+type(
+  grapht
+)
+ident(
+  int_ref gacc "graph.ml" 122 3509 3530 "graph.ml" 122 3509 3534
+)
+"graph.ml" 122 3509 3578 "graph.ml" 122 3509 3599
+type(
+  grapht
+)
+"graph.ml" 122 3509 3601 "graph.ml" 122 3509 3603
+type(
+  string
+)
+ident(
+  int_ref sd "graph.ml" 122 3509 3547 "graph.ml" 122 3509 3549
+)
+"graph.ml" 122 3509 3605 "graph.ml" 122 3509 3607
+type(
+  string list
+)
+ident(
+  int_ref wl "graph.ml" 122 3509 3536 "graph.ml" 122 3509 3538
+)
+"graph.ml" 122 3509 3601 "graph.ml" 122 3509 3607
+type(
+  string list
+)
+"graph.ml" 122 3509 3577 "graph.ml" 122 3509 3608
+type(
+  grapht * string list
+)
+"graph.ml" 122 3509 3543 "graph.ml" 122 3509 3608
+type(
+  grapht * string list
+)
+"graph.ml" 122 3509 3511 "graph.ml" 122 3509 3609
+type(
+  Graph.key -> neighborst -> grapht * string list -> grapht * string list
+)
+"graph.ml" 123 3610 3612 "graph.ml" 123 3610 3613
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 120 3427 3448 "graph.ml" 120 3427 3449
+)
+"graph.ml" 124 3614 3617 "graph.ml" 124 3614 3618
+type(
+  grapht
+)
+ident(
+  int_ref g "graph.ml" 120 3427 3448 "graph.ml" 120 3427 3449
+)
+"graph.ml" 124 3614 3620 "graph.ml" 124 3614 3622
+type(
+  string list
+)
+"graph.ml" 124 3614 3616 "graph.ml" 124 3614 3623
+type(
+  grapht * string list
+)
+"graph.ml" 121 3478 3497 "graph.ml" 124 3614 3624
+type(
+  grapht * string list
+)
+"graph.ml" 124 3614 3628 "graph.ml" 124 3614 3630
+type(
+  string list
+)
+ident(
+  int_ref wl "graph.ml" 121 3478 3491 "graph.ml" 121 3478 3493
+)
+"graph.ml" 121 3478 3480 "graph.ml" 124 3614 3630
+type(
+  string list
+)

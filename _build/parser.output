@@ -1,0 +1,2230 @@
+   0  $accept : %entry% $end
+
+   1  const : NUM
+   2        | TRUE
+   3        | FALSE
+   4        | NIL
+
+   5  prim1 : ADD1
+   6        | SUB1
+   7        | NOT
+   8        | PRINT
+   9        | ISBOOL
+  10        | ISNUM
+  11        | ISTUPLE
+  12        | PRINTSTACK
+
+  13  bindings : bind EQUAL expr
+  14           | bind EQUAL expr COMMA bindings
+
+  15  namebindings : namebind EQUAL expr
+  16               | namebind EQUAL expr COMMA namebindings
+
+  17  expr : LET bindings IN expr
+  18       | LET REC namebindings IN expr
+  19       | IF expr COLON expr ELSECOLON expr
+  20       | BEGIN expr END
+  21       | binop_expr SEMI expr
+  22       | binop_expr
+
+  23  exprs : expr
+  24        | expr COMMA exprs
+
+  25  tuple_expr : LPARENNOSPACE RPAREN
+  26             | LPARENSPACE RPAREN
+  27             | LPARENNOSPACE expr COMMA RPAREN
+  28             | LPARENSPACE expr COMMA RPAREN
+  29             | LPARENNOSPACE expr COMMA exprs RPAREN
+  30             | LPARENSPACE expr COMMA exprs RPAREN
+
+  31  id : ID
+
+  32  prim2 : PLUS
+  33        | MINUS
+  34        | TIMES
+  35        | AND
+  36        | OR
+  37        | GREATER
+  38        | GREATEREQ
+  39        | LESSSPACE
+  40        | LESSEQ
+  41        | EQEQ
+
+  42  binop_expr : binop_expr prim2 binop_operand
+  43             | binop_operand COLONEQ binop_expr
+  44             | binop_operand
+
+  45  binop_operand : prim1 LPARENNOSPACE expr RPAREN
+  46                | tuple_expr
+  47                | binop_operand LBRACK expr RBRACK
+  48                | binop_operand LPARENNOSPACE exprs RPAREN
+  49                | binop_operand LPARENNOSPACE RPAREN
+  50                | LPARENSPACE expr RPAREN
+  51                | LPARENNOSPACE expr RPAREN
+  52                | LPARENNOSPACE LAMBDA LPARENNOSPACE binds RPAREN COLON expr RPAREN
+  53                | LPARENNOSPACE LAMBDA LPARENSPACE binds RPAREN COLON expr RPAREN
+  54                | LPARENNOSPACE LAMBDA COLON expr RPAREN
+  55                | LPARENSPACE LAMBDA LPARENNOSPACE binds RPAREN COLON expr RPAREN
+  56                | LPARENSPACE LAMBDA LPARENSPACE binds RPAREN COLON expr RPAREN
+  57                | LPARENSPACE LAMBDA COLON expr RPAREN
+  58                | const
+  59                | id
+
+  60  decl : DEF ID LPARENNOSPACE RPAREN COLON expr
+  61       | DEF ID LPARENNOSPACE binds RPAREN COLON expr
+
+  62  binds : bind
+  63        | bind COMMA binds
+
+  64  bind : namebind
+  65       | blankbind
+  66       | LPARENNOSPACE binds RPAREN
+  67       | LPARENSPACE binds RPAREN
+
+  68  blankbind : UNDERSCORE
+
+  69  namebind : ID
+  70           | SHADOW ID
+
+  71  declgroup : decl
+  72            | decl ANDDEF declgroup
+
+  73  decls :
+  74        | declgroup decls
+
+  75  program : decls expr EOF
+
+  76  %entry% : '\001' program
+
+state 0
+	$accept : . %entry% $end  (0)
+
+	'\001'  shift 1
+	.  error
+
+	%entry%  goto 2
+
+
+state 1
+	%entry% : '\001' . program  (76)
+	decls : .  (73)
+
+	DEF  shift 3
+	NUM  reduce 73
+	ID  reduce 73
+	ADD1  reduce 73
+	SUB1  reduce 73
+	LPARENSPACE  reduce 73
+	LPARENNOSPACE  reduce 73
+	LET  reduce 73
+	IF  reduce 73
+	PRINT  reduce 73
+	PRINTSTACK  reduce 73
+	TRUE  reduce 73
+	FALSE  reduce 73
+	ISBOOL  reduce 73
+	ISNUM  reduce 73
+	ISTUPLE  reduce 73
+	NOT  reduce 73
+	NIL  reduce 73
+	BEGIN  reduce 73
+
+	program  goto 4
+	decl  goto 5
+	declgroup  goto 6
+	decls  goto 7
+
+
+state 2
+	$accept : %entry% . $end  (0)
+
+	$end  accept
+
+
+state 3
+	decl : DEF . ID LPARENNOSPACE RPAREN COLON expr  (60)
+	decl : DEF . ID LPARENNOSPACE binds RPAREN COLON expr  (61)
+
+	ID  shift 8
+	.  error
+
+
+state 4
+	%entry% : '\001' program .  (76)
+
+	.  reduce 76
+
+
+state 5
+	declgroup : decl .  (71)
+	declgroup : decl . ANDDEF declgroup  (72)
+
+	ANDDEF  shift 9
+	NUM  reduce 71
+	ID  reduce 71
+	DEF  reduce 71
+	ADD1  reduce 71
+	SUB1  reduce 71
+	LPARENSPACE  reduce 71
+	LPARENNOSPACE  reduce 71
+	LET  reduce 71
+	IF  reduce 71
+	PRINT  reduce 71
+	PRINTSTACK  reduce 71
+	TRUE  reduce 71
+	FALSE  reduce 71
+	ISBOOL  reduce 71
+	ISNUM  reduce 71
+	ISTUPLE  reduce 71
+	NOT  reduce 71
+	NIL  reduce 71
+	BEGIN  reduce 71
+
+
+state 6
+	decls : declgroup . decls  (74)
+	decls : .  (73)
+
+	DEF  shift 3
+	NUM  reduce 73
+	ID  reduce 73
+	ADD1  reduce 73
+	SUB1  reduce 73
+	LPARENSPACE  reduce 73
+	LPARENNOSPACE  reduce 73
+	LET  reduce 73
+	IF  reduce 73
+	PRINT  reduce 73
+	PRINTSTACK  reduce 73
+	TRUE  reduce 73
+	FALSE  reduce 73
+	ISBOOL  reduce 73
+	ISNUM  reduce 73
+	ISTUPLE  reduce 73
+	NOT  reduce 73
+	NIL  reduce 73
+	BEGIN  reduce 73
+
+	decl  goto 5
+	declgroup  goto 6
+	decls  goto 10
+
+
+state 7
+	program : decls . expr EOF  (75)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 31
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 8
+	decl : DEF ID . LPARENNOSPACE RPAREN COLON expr  (60)
+	decl : DEF ID . LPARENNOSPACE binds RPAREN COLON expr  (61)
+
+	LPARENNOSPACE  shift 36
+	.  error
+
+
+state 9
+	declgroup : decl ANDDEF . declgroup  (72)
+
+	DEF  shift 3
+	.  error
+
+	decl  goto 5
+	declgroup  goto 37
+
+
+state 10
+	decls : declgroup decls .  (74)
+
+	.  reduce 74
+
+
+state 11
+	const : NUM .  (1)
+
+	.  reduce 1
+
+
+state 12
+	id : ID .  (31)
+
+	.  reduce 31
+
+
+state 13
+	prim1 : ADD1 .  (5)
+
+	.  reduce 5
+
+
+state 14
+	prim1 : SUB1 .  (6)
+
+	.  reduce 6
+
+
+state 15
+	tuple_expr : LPARENSPACE . RPAREN  (26)
+	tuple_expr : LPARENSPACE . expr COMMA RPAREN  (28)
+	tuple_expr : LPARENSPACE . expr COMMA exprs RPAREN  (30)
+	binop_operand : LPARENSPACE . expr RPAREN  (50)
+	binop_operand : LPARENSPACE . LAMBDA LPARENNOSPACE binds RPAREN COLON expr RPAREN  (55)
+	binop_operand : LPARENSPACE . LAMBDA LPARENSPACE binds RPAREN COLON expr RPAREN  (56)
+	binop_operand : LPARENSPACE . LAMBDA COLON expr RPAREN  (57)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	RPAREN  shift 38
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	LAMBDA  shift 39
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 40
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 16
+	tuple_expr : LPARENNOSPACE . RPAREN  (25)
+	tuple_expr : LPARENNOSPACE . expr COMMA RPAREN  (27)
+	tuple_expr : LPARENNOSPACE . expr COMMA exprs RPAREN  (29)
+	binop_operand : LPARENNOSPACE . expr RPAREN  (51)
+	binop_operand : LPARENNOSPACE . LAMBDA LPARENNOSPACE binds RPAREN COLON expr RPAREN  (52)
+	binop_operand : LPARENNOSPACE . LAMBDA LPARENSPACE binds RPAREN COLON expr RPAREN  (53)
+	binop_operand : LPARENNOSPACE . LAMBDA COLON expr RPAREN  (54)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	RPAREN  shift 41
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	LAMBDA  shift 42
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 43
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 17
+	expr : LET . bindings IN expr  (17)
+	expr : LET . REC namebindings IN expr  (18)
+
+	ID  shift 44
+	LPARENSPACE  shift 45
+	LPARENNOSPACE  shift 46
+	SHADOW  shift 47
+	REC  shift 48
+	UNDERSCORE  shift 49
+	.  error
+
+	bindings  goto 50
+	bind  goto 51
+	namebind  goto 52
+	blankbind  goto 53
+
+
+state 18
+	expr : IF . expr COLON expr ELSECOLON expr  (19)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 54
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 19
+	prim1 : PRINT .  (8)
+
+	.  reduce 8
+
+
+state 20
+	prim1 : PRINTSTACK .  (12)
+
+	.  reduce 12
+
+
+state 21
+	const : TRUE .  (2)
+
+	.  reduce 2
+
+
+state 22
+	const : FALSE .  (3)
+
+	.  reduce 3
+
+
+state 23
+	prim1 : ISBOOL .  (9)
+
+	.  reduce 9
+
+
+state 24
+	prim1 : ISNUM .  (10)
+
+	.  reduce 10
+
+
+state 25
+	prim1 : ISTUPLE .  (11)
+
+	.  reduce 11
+
+
+state 26
+	prim1 : NOT .  (7)
+
+	.  reduce 7
+
+
+state 27
+	const : NIL .  (4)
+
+	.  reduce 4
+
+
+state 28
+	expr : BEGIN . expr END  (20)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 55
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 29
+	binop_operand : const .  (58)
+
+	.  reduce 58
+
+
+state 30
+	binop_operand : prim1 . LPARENNOSPACE expr RPAREN  (45)
+
+	LPARENNOSPACE  shift 56
+	.  error
+
+
+state 31
+	program : decls expr . EOF  (75)
+
+	EOF  shift 57
+	.  error
+
+
+state 32
+	expr : binop_expr . SEMI expr  (21)
+	expr : binop_expr .  (22)
+	binop_expr : binop_expr . prim2 binop_operand  (42)
+
+	PLUS  shift 58
+	MINUS  shift 59
+	TIMES  shift 60
+	EQEQ  shift 61
+	LESSSPACE  shift 62
+	GREATER  shift 63
+	LESSEQ  shift 64
+	GREATEREQ  shift 65
+	AND  shift 66
+	OR  shift 67
+	SEMI  shift 68
+	NUM  reduce 22
+	ID  reduce 22
+	DEF  reduce 22
+	ANDDEF  reduce 22
+	ADD1  reduce 22
+	SUB1  reduce 22
+	LPARENSPACE  reduce 22
+	LPARENNOSPACE  reduce 22
+	RPAREN  reduce 22
+	RBRACK  reduce 22
+	LET  reduce 22
+	IN  reduce 22
+	COMMA  reduce 22
+	IF  reduce 22
+	COLON  reduce 22
+	ELSECOLON  reduce 22
+	EOF  reduce 22
+	PRINT  reduce 22
+	PRINTSTACK  reduce 22
+	TRUE  reduce 22
+	FALSE  reduce 22
+	ISBOOL  reduce 22
+	ISNUM  reduce 22
+	ISTUPLE  reduce 22
+	NOT  reduce 22
+	NIL  reduce 22
+	BEGIN  reduce 22
+	END  reduce 22
+
+	prim2  goto 69
+
+
+state 33
+	binop_operand : tuple_expr .  (46)
+
+	.  reduce 46
+
+
+state 34
+	binop_operand : id .  (59)
+
+	.  reduce 59
+
+
+state 35
+	binop_expr : binop_operand . COLONEQ binop_expr  (43)
+	binop_expr : binop_operand .  (44)
+	binop_operand : binop_operand . LBRACK expr RBRACK  (47)
+	binop_operand : binop_operand . LPARENNOSPACE exprs RPAREN  (48)
+	binop_operand : binop_operand . LPARENNOSPACE RPAREN  (49)
+
+	LPARENNOSPACE  shift 70
+	LBRACK  shift 71
+	COLONEQ  shift 72
+	NUM  reduce 44
+	ID  reduce 44
+	DEF  reduce 44
+	ANDDEF  reduce 44
+	ADD1  reduce 44
+	SUB1  reduce 44
+	LPARENSPACE  reduce 44
+	RPAREN  reduce 44
+	RBRACK  reduce 44
+	LET  reduce 44
+	IN  reduce 44
+	COMMA  reduce 44
+	PLUS  reduce 44
+	MINUS  reduce 44
+	TIMES  reduce 44
+	IF  reduce 44
+	COLON  reduce 44
+	ELSECOLON  reduce 44
+	EOF  reduce 44
+	PRINT  reduce 44
+	PRINTSTACK  reduce 44
+	TRUE  reduce 44
+	FALSE  reduce 44
+	ISBOOL  reduce 44
+	ISNUM  reduce 44
+	ISTUPLE  reduce 44
+	EQEQ  reduce 44
+	LESSSPACE  reduce 44
+	GREATER  reduce 44
+	LESSEQ  reduce 44
+	GREATEREQ  reduce 44
+	AND  reduce 44
+	OR  reduce 44
+	NOT  reduce 44
+	SEMI  reduce 44
+	NIL  reduce 44
+	BEGIN  reduce 44
+	END  reduce 44
+
+
+state 36
+	decl : DEF ID LPARENNOSPACE . RPAREN COLON expr  (60)
+	decl : DEF ID LPARENNOSPACE . binds RPAREN COLON expr  (61)
+
+	ID  shift 44
+	LPARENSPACE  shift 45
+	LPARENNOSPACE  shift 46
+	RPAREN  shift 73
+	SHADOW  shift 47
+	UNDERSCORE  shift 49
+	.  error
+
+	bind  goto 74
+	namebind  goto 52
+	binds  goto 75
+	blankbind  goto 53
+
+
+state 37
+	declgroup : decl ANDDEF declgroup .  (72)
+
+	.  reduce 72
+
+
+state 38
+	tuple_expr : LPARENSPACE RPAREN .  (26)
+
+	.  reduce 26
+
+
+state 39
+	binop_operand : LPARENSPACE LAMBDA . LPARENNOSPACE binds RPAREN COLON expr RPAREN  (55)
+	binop_operand : LPARENSPACE LAMBDA . LPARENSPACE binds RPAREN COLON expr RPAREN  (56)
+	binop_operand : LPARENSPACE LAMBDA . COLON expr RPAREN  (57)
+
+	LPARENSPACE  shift 76
+	LPARENNOSPACE  shift 77
+	COLON  shift 78
+	.  error
+
+
+state 40
+	tuple_expr : LPARENSPACE expr . COMMA RPAREN  (28)
+	tuple_expr : LPARENSPACE expr . COMMA exprs RPAREN  (30)
+	binop_operand : LPARENSPACE expr . RPAREN  (50)
+
+	RPAREN  shift 79
+	COMMA  shift 80
+	.  error
+
+
+state 41
+	tuple_expr : LPARENNOSPACE RPAREN .  (25)
+
+	.  reduce 25
+
+
+state 42
+	binop_operand : LPARENNOSPACE LAMBDA . LPARENNOSPACE binds RPAREN COLON expr RPAREN  (52)
+	binop_operand : LPARENNOSPACE LAMBDA . LPARENSPACE binds RPAREN COLON expr RPAREN  (53)
+	binop_operand : LPARENNOSPACE LAMBDA . COLON expr RPAREN  (54)
+
+	LPARENSPACE  shift 81
+	LPARENNOSPACE  shift 82
+	COLON  shift 83
+	.  error
+
+
+state 43
+	tuple_expr : LPARENNOSPACE expr . COMMA RPAREN  (27)
+	tuple_expr : LPARENNOSPACE expr . COMMA exprs RPAREN  (29)
+	binop_operand : LPARENNOSPACE expr . RPAREN  (51)
+
+	RPAREN  shift 84
+	COMMA  shift 85
+	.  error
+
+
+state 44
+	namebind : ID .  (69)
+
+	.  reduce 69
+
+
+state 45
+	bind : LPARENSPACE . binds RPAREN  (67)
+
+	ID  shift 44
+	LPARENSPACE  shift 45
+	LPARENNOSPACE  shift 46
+	SHADOW  shift 47
+	UNDERSCORE  shift 49
+	.  error
+
+	bind  goto 74
+	namebind  goto 52
+	binds  goto 86
+	blankbind  goto 53
+
+
+state 46
+	bind : LPARENNOSPACE . binds RPAREN  (66)
+
+	ID  shift 44
+	LPARENSPACE  shift 45
+	LPARENNOSPACE  shift 46
+	SHADOW  shift 47
+	UNDERSCORE  shift 49
+	.  error
+
+	bind  goto 74
+	namebind  goto 52
+	binds  goto 87
+	blankbind  goto 53
+
+
+state 47
+	namebind : SHADOW . ID  (70)
+
+	ID  shift 88
+	.  error
+
+
+state 48
+	expr : LET REC . namebindings IN expr  (18)
+
+	ID  shift 44
+	SHADOW  shift 47
+	.  error
+
+	namebindings  goto 89
+	namebind  goto 90
+
+
+state 49
+	blankbind : UNDERSCORE .  (68)
+
+	.  reduce 68
+
+
+state 50
+	expr : LET bindings . IN expr  (17)
+
+	IN  shift 91
+	.  error
+
+
+state 51
+	bindings : bind . EQUAL expr  (13)
+	bindings : bind . EQUAL expr COMMA bindings  (14)
+
+	EQUAL  shift 92
+	.  error
+
+
+state 52
+	bind : namebind .  (64)
+
+	.  reduce 64
+
+
+state 53
+	bind : blankbind .  (65)
+
+	.  reduce 65
+
+
+state 54
+	expr : IF expr . COLON expr ELSECOLON expr  (19)
+
+	COLON  shift 93
+	.  error
+
+
+state 55
+	expr : BEGIN expr . END  (20)
+
+	END  shift 94
+	.  error
+
+
+state 56
+	binop_operand : prim1 LPARENNOSPACE . expr RPAREN  (45)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 95
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 57
+	program : decls expr EOF .  (75)
+
+	.  reduce 75
+
+
+state 58
+	prim2 : PLUS .  (32)
+
+	.  reduce 32
+
+
+state 59
+	prim2 : MINUS .  (33)
+
+	.  reduce 33
+
+
+state 60
+	prim2 : TIMES .  (34)
+
+	.  reduce 34
+
+
+state 61
+	prim2 : EQEQ .  (41)
+
+	.  reduce 41
+
+
+state 62
+	prim2 : LESSSPACE .  (39)
+
+	.  reduce 39
+
+
+state 63
+	prim2 : GREATER .  (37)
+
+	.  reduce 37
+
+
+state 64
+	prim2 : LESSEQ .  (40)
+
+	.  reduce 40
+
+
+state 65
+	prim2 : GREATEREQ .  (38)
+
+	.  reduce 38
+
+
+state 66
+	prim2 : AND .  (35)
+
+	.  reduce 35
+
+
+state 67
+	prim2 : OR .  (36)
+
+	.  reduce 36
+
+
+state 68
+	expr : binop_expr SEMI . expr  (21)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 96
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 69
+	binop_expr : binop_expr prim2 . binop_operand  (42)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 97
+
+
+state 70
+	binop_operand : binop_operand LPARENNOSPACE . exprs RPAREN  (48)
+	binop_operand : binop_operand LPARENNOSPACE . RPAREN  (49)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	RPAREN  shift 98
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 99
+	binop_expr  goto 32
+	exprs  goto 100
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 71
+	binop_operand : binop_operand LBRACK . expr RBRACK  (47)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 101
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 72
+	binop_expr : binop_operand COLONEQ . binop_expr  (43)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	binop_expr  goto 102
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 73
+	decl : DEF ID LPARENNOSPACE RPAREN . COLON expr  (60)
+
+	COLON  shift 103
+	.  error
+
+
+state 74
+	binds : bind .  (62)
+	binds : bind . COMMA binds  (63)
+
+	COMMA  shift 104
+	RPAREN  reduce 62
+
+
+state 75
+	decl : DEF ID LPARENNOSPACE binds . RPAREN COLON expr  (61)
+
+	RPAREN  shift 105
+	.  error
+
+
+state 76
+	binop_operand : LPARENSPACE LAMBDA LPARENSPACE . binds RPAREN COLON expr RPAREN  (56)
+
+	ID  shift 44
+	LPARENSPACE  shift 45
+	LPARENNOSPACE  shift 46
+	SHADOW  shift 47
+	UNDERSCORE  shift 49
+	.  error
+
+	bind  goto 74
+	namebind  goto 52
+	binds  goto 106
+	blankbind  goto 53
+
+
+state 77
+	binop_operand : LPARENSPACE LAMBDA LPARENNOSPACE . binds RPAREN COLON expr RPAREN  (55)
+
+	ID  shift 44
+	LPARENSPACE  shift 45
+	LPARENNOSPACE  shift 46
+	SHADOW  shift 47
+	UNDERSCORE  shift 49
+	.  error
+
+	bind  goto 74
+	namebind  goto 52
+	binds  goto 107
+	blankbind  goto 53
+
+
+state 78
+	binop_operand : LPARENSPACE LAMBDA COLON . expr RPAREN  (57)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 108
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 79
+	binop_operand : LPARENSPACE expr RPAREN .  (50)
+
+	.  reduce 50
+
+
+state 80
+	tuple_expr : LPARENSPACE expr COMMA . RPAREN  (28)
+	tuple_expr : LPARENSPACE expr COMMA . exprs RPAREN  (30)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	RPAREN  shift 109
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 99
+	binop_expr  goto 32
+	exprs  goto 110
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 81
+	binop_operand : LPARENNOSPACE LAMBDA LPARENSPACE . binds RPAREN COLON expr RPAREN  (53)
+
+	ID  shift 44
+	LPARENSPACE  shift 45
+	LPARENNOSPACE  shift 46
+	SHADOW  shift 47
+	UNDERSCORE  shift 49
+	.  error
+
+	bind  goto 74
+	namebind  goto 52
+	binds  goto 111
+	blankbind  goto 53
+
+
+state 82
+	binop_operand : LPARENNOSPACE LAMBDA LPARENNOSPACE . binds RPAREN COLON expr RPAREN  (52)
+
+	ID  shift 44
+	LPARENSPACE  shift 45
+	LPARENNOSPACE  shift 46
+	SHADOW  shift 47
+	UNDERSCORE  shift 49
+	.  error
+
+	bind  goto 74
+	namebind  goto 52
+	binds  goto 112
+	blankbind  goto 53
+
+
+state 83
+	binop_operand : LPARENNOSPACE LAMBDA COLON . expr RPAREN  (54)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 113
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 84
+	binop_operand : LPARENNOSPACE expr RPAREN .  (51)
+
+	.  reduce 51
+
+
+state 85
+	tuple_expr : LPARENNOSPACE expr COMMA . RPAREN  (27)
+	tuple_expr : LPARENNOSPACE expr COMMA . exprs RPAREN  (29)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	RPAREN  shift 114
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 99
+	binop_expr  goto 32
+	exprs  goto 115
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 86
+	bind : LPARENSPACE binds . RPAREN  (67)
+
+	RPAREN  shift 116
+	.  error
+
+
+state 87
+	bind : LPARENNOSPACE binds . RPAREN  (66)
+
+	RPAREN  shift 117
+	.  error
+
+
+state 88
+	namebind : SHADOW ID .  (70)
+
+	.  reduce 70
+
+
+state 89
+	expr : LET REC namebindings . IN expr  (18)
+
+	IN  shift 118
+	.  error
+
+
+state 90
+	namebindings : namebind . EQUAL expr  (15)
+	namebindings : namebind . EQUAL expr COMMA namebindings  (16)
+
+	EQUAL  shift 119
+	.  error
+
+
+state 91
+	expr : LET bindings IN . expr  (17)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 120
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 92
+	bindings : bind EQUAL . expr  (13)
+	bindings : bind EQUAL . expr COMMA bindings  (14)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 121
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 93
+	expr : IF expr COLON . expr ELSECOLON expr  (19)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 122
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 94
+	expr : BEGIN expr END .  (20)
+
+	.  reduce 20
+
+
+state 95
+	binop_operand : prim1 LPARENNOSPACE expr . RPAREN  (45)
+
+	RPAREN  shift 123
+	.  error
+
+
+state 96
+	expr : binop_expr SEMI expr .  (21)
+
+	.  reduce 21
+
+
+state 97
+	binop_expr : binop_expr prim2 binop_operand .  (42)
+	binop_operand : binop_operand . LBRACK expr RBRACK  (47)
+	binop_operand : binop_operand . LPARENNOSPACE exprs RPAREN  (48)
+	binop_operand : binop_operand . LPARENNOSPACE RPAREN  (49)
+
+	LPARENNOSPACE  shift 70
+	LBRACK  shift 71
+	NUM  reduce 42
+	ID  reduce 42
+	DEF  reduce 42
+	ANDDEF  reduce 42
+	ADD1  reduce 42
+	SUB1  reduce 42
+	LPARENSPACE  reduce 42
+	RPAREN  reduce 42
+	RBRACK  reduce 42
+	LET  reduce 42
+	IN  reduce 42
+	COMMA  reduce 42
+	PLUS  reduce 42
+	MINUS  reduce 42
+	TIMES  reduce 42
+	IF  reduce 42
+	COLON  reduce 42
+	ELSECOLON  reduce 42
+	EOF  reduce 42
+	PRINT  reduce 42
+	PRINTSTACK  reduce 42
+	TRUE  reduce 42
+	FALSE  reduce 42
+	ISBOOL  reduce 42
+	ISNUM  reduce 42
+	ISTUPLE  reduce 42
+	EQEQ  reduce 42
+	LESSSPACE  reduce 42
+	GREATER  reduce 42
+	LESSEQ  reduce 42
+	GREATEREQ  reduce 42
+	AND  reduce 42
+	OR  reduce 42
+	NOT  reduce 42
+	SEMI  reduce 42
+	NIL  reduce 42
+	BEGIN  reduce 42
+	END  reduce 42
+
+
+state 98
+	binop_operand : binop_operand LPARENNOSPACE RPAREN .  (49)
+
+	.  reduce 49
+
+
+state 99
+	exprs : expr .  (23)
+	exprs : expr . COMMA exprs  (24)
+
+	COMMA  shift 124
+	RPAREN  reduce 23
+
+
+state 100
+	binop_operand : binop_operand LPARENNOSPACE exprs . RPAREN  (48)
+
+	RPAREN  shift 125
+	.  error
+
+
+state 101
+	binop_operand : binop_operand LBRACK expr . RBRACK  (47)
+
+	RBRACK  shift 126
+	.  error
+
+
+state 102
+	binop_expr : binop_expr . prim2 binop_operand  (42)
+	binop_expr : binop_operand COLONEQ binop_expr .  (43)
+
+	PLUS  shift 58
+	MINUS  shift 59
+	TIMES  shift 60
+	EQEQ  shift 61
+	LESSSPACE  shift 62
+	GREATER  shift 63
+	LESSEQ  shift 64
+	GREATEREQ  shift 65
+	AND  shift 66
+	OR  shift 67
+	NUM  reduce 43
+	ID  reduce 43
+	DEF  reduce 43
+	ANDDEF  reduce 43
+	ADD1  reduce 43
+	SUB1  reduce 43
+	LPARENSPACE  reduce 43
+	LPARENNOSPACE  reduce 43
+	RPAREN  reduce 43
+	RBRACK  reduce 43
+	LET  reduce 43
+	IN  reduce 43
+	COMMA  reduce 43
+	IF  reduce 43
+	COLON  reduce 43
+	ELSECOLON  reduce 43
+	EOF  reduce 43
+	PRINT  reduce 43
+	PRINTSTACK  reduce 43
+	TRUE  reduce 43
+	FALSE  reduce 43
+	ISBOOL  reduce 43
+	ISNUM  reduce 43
+	ISTUPLE  reduce 43
+	NOT  reduce 43
+	SEMI  reduce 43
+	NIL  reduce 43
+	BEGIN  reduce 43
+	END  reduce 43
+
+	prim2  goto 69
+
+
+state 103
+	decl : DEF ID LPARENNOSPACE RPAREN COLON . expr  (60)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 127
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 104
+	binds : bind COMMA . binds  (63)
+
+	ID  shift 44
+	LPARENSPACE  shift 45
+	LPARENNOSPACE  shift 46
+	SHADOW  shift 47
+	UNDERSCORE  shift 49
+	.  error
+
+	bind  goto 74
+	namebind  goto 52
+	binds  goto 128
+	blankbind  goto 53
+
+
+state 105
+	decl : DEF ID LPARENNOSPACE binds RPAREN . COLON expr  (61)
+
+	COLON  shift 129
+	.  error
+
+
+state 106
+	binop_operand : LPARENSPACE LAMBDA LPARENSPACE binds . RPAREN COLON expr RPAREN  (56)
+
+	RPAREN  shift 130
+	.  error
+
+
+state 107
+	binop_operand : LPARENSPACE LAMBDA LPARENNOSPACE binds . RPAREN COLON expr RPAREN  (55)
+
+	RPAREN  shift 131
+	.  error
+
+
+state 108
+	binop_operand : LPARENSPACE LAMBDA COLON expr . RPAREN  (57)
+
+	RPAREN  shift 132
+	.  error
+
+
+state 109
+	tuple_expr : LPARENSPACE expr COMMA RPAREN .  (28)
+
+	.  reduce 28
+
+
+state 110
+	tuple_expr : LPARENSPACE expr COMMA exprs . RPAREN  (30)
+
+	RPAREN  shift 133
+	.  error
+
+
+state 111
+	binop_operand : LPARENNOSPACE LAMBDA LPARENSPACE binds . RPAREN COLON expr RPAREN  (53)
+
+	RPAREN  shift 134
+	.  error
+
+
+state 112
+	binop_operand : LPARENNOSPACE LAMBDA LPARENNOSPACE binds . RPAREN COLON expr RPAREN  (52)
+
+	RPAREN  shift 135
+	.  error
+
+
+state 113
+	binop_operand : LPARENNOSPACE LAMBDA COLON expr . RPAREN  (54)
+
+	RPAREN  shift 136
+	.  error
+
+
+state 114
+	tuple_expr : LPARENNOSPACE expr COMMA RPAREN .  (27)
+
+	.  reduce 27
+
+
+state 115
+	tuple_expr : LPARENNOSPACE expr COMMA exprs . RPAREN  (29)
+
+	RPAREN  shift 137
+	.  error
+
+
+state 116
+	bind : LPARENSPACE binds RPAREN .  (67)
+
+	.  reduce 67
+
+
+state 117
+	bind : LPARENNOSPACE binds RPAREN .  (66)
+
+	.  reduce 66
+
+
+state 118
+	expr : LET REC namebindings IN . expr  (18)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 138
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 119
+	namebindings : namebind EQUAL . expr  (15)
+	namebindings : namebind EQUAL . expr COMMA namebindings  (16)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 139
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 120
+	expr : LET bindings IN expr .  (17)
+
+	.  reduce 17
+
+
+state 121
+	bindings : bind EQUAL expr .  (13)
+	bindings : bind EQUAL expr . COMMA bindings  (14)
+
+	COMMA  shift 140
+	IN  reduce 13
+
+
+state 122
+	expr : IF expr COLON expr . ELSECOLON expr  (19)
+
+	ELSECOLON  shift 141
+	.  error
+
+
+state 123
+	binop_operand : prim1 LPARENNOSPACE expr RPAREN .  (45)
+
+	.  reduce 45
+
+
+state 124
+	exprs : expr COMMA . exprs  (24)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 99
+	binop_expr  goto 32
+	exprs  goto 142
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 125
+	binop_operand : binop_operand LPARENNOSPACE exprs RPAREN .  (48)
+
+	.  reduce 48
+
+
+state 126
+	binop_operand : binop_operand LBRACK expr RBRACK .  (47)
+
+	.  reduce 47
+
+
+state 127
+	decl : DEF ID LPARENNOSPACE RPAREN COLON expr .  (60)
+
+	.  reduce 60
+
+
+state 128
+	binds : bind COMMA binds .  (63)
+
+	.  reduce 63
+
+
+state 129
+	decl : DEF ID LPARENNOSPACE binds RPAREN COLON . expr  (61)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 143
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 130
+	binop_operand : LPARENSPACE LAMBDA LPARENSPACE binds RPAREN . COLON expr RPAREN  (56)
+
+	COLON  shift 144
+	.  error
+
+
+state 131
+	binop_operand : LPARENSPACE LAMBDA LPARENNOSPACE binds RPAREN . COLON expr RPAREN  (55)
+
+	COLON  shift 145
+	.  error
+
+
+state 132
+	binop_operand : LPARENSPACE LAMBDA COLON expr RPAREN .  (57)
+
+	.  reduce 57
+
+
+state 133
+	tuple_expr : LPARENSPACE expr COMMA exprs RPAREN .  (30)
+
+	.  reduce 30
+
+
+state 134
+	binop_operand : LPARENNOSPACE LAMBDA LPARENSPACE binds RPAREN . COLON expr RPAREN  (53)
+
+	COLON  shift 146
+	.  error
+
+
+state 135
+	binop_operand : LPARENNOSPACE LAMBDA LPARENNOSPACE binds RPAREN . COLON expr RPAREN  (52)
+
+	COLON  shift 147
+	.  error
+
+
+state 136
+	binop_operand : LPARENNOSPACE LAMBDA COLON expr RPAREN .  (54)
+
+	.  reduce 54
+
+
+state 137
+	tuple_expr : LPARENNOSPACE expr COMMA exprs RPAREN .  (29)
+
+	.  reduce 29
+
+
+state 138
+	expr : LET REC namebindings IN expr .  (18)
+
+	.  reduce 18
+
+
+state 139
+	namebindings : namebind EQUAL expr .  (15)
+	namebindings : namebind EQUAL expr . COMMA namebindings  (16)
+
+	COMMA  shift 148
+	IN  reduce 15
+
+
+state 140
+	bindings : bind EQUAL expr COMMA . bindings  (14)
+
+	ID  shift 44
+	LPARENSPACE  shift 45
+	LPARENNOSPACE  shift 46
+	SHADOW  shift 47
+	UNDERSCORE  shift 49
+	.  error
+
+	bindings  goto 149
+	bind  goto 51
+	namebind  goto 52
+	blankbind  goto 53
+
+
+state 141
+	expr : IF expr COLON expr ELSECOLON . expr  (19)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 150
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 142
+	exprs : expr COMMA exprs .  (24)
+
+	.  reduce 24
+
+
+state 143
+	decl : DEF ID LPARENNOSPACE binds RPAREN COLON expr .  (61)
+
+	.  reduce 61
+
+
+state 144
+	binop_operand : LPARENSPACE LAMBDA LPARENSPACE binds RPAREN COLON . expr RPAREN  (56)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 151
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 145
+	binop_operand : LPARENSPACE LAMBDA LPARENNOSPACE binds RPAREN COLON . expr RPAREN  (55)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 152
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 146
+	binop_operand : LPARENNOSPACE LAMBDA LPARENSPACE binds RPAREN COLON . expr RPAREN  (53)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 153
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 147
+	binop_operand : LPARENNOSPACE LAMBDA LPARENNOSPACE binds RPAREN COLON . expr RPAREN  (52)
+
+	NUM  shift 11
+	ID  shift 12
+	ADD1  shift 13
+	SUB1  shift 14
+	LPARENSPACE  shift 15
+	LPARENNOSPACE  shift 16
+	LET  shift 17
+	IF  shift 18
+	PRINT  shift 19
+	PRINTSTACK  shift 20
+	TRUE  shift 21
+	FALSE  shift 22
+	ISBOOL  shift 23
+	ISNUM  shift 24
+	ISTUPLE  shift 25
+	NOT  shift 26
+	NIL  shift 27
+	BEGIN  shift 28
+	.  error
+
+	const  goto 29
+	prim1  goto 30
+	expr  goto 154
+	binop_expr  goto 32
+	tuple_expr  goto 33
+	id  goto 34
+	binop_operand  goto 35
+
+
+state 148
+	namebindings : namebind EQUAL expr COMMA . namebindings  (16)
+
+	ID  shift 44
+	SHADOW  shift 47
+	.  error
+
+	namebindings  goto 155
+	namebind  goto 90
+
+
+state 149
+	bindings : bind EQUAL expr COMMA bindings .  (14)
+
+	.  reduce 14
+
+
+state 150
+	expr : IF expr COLON expr ELSECOLON expr .  (19)
+
+	.  reduce 19
+
+
+state 151
+	binop_operand : LPARENSPACE LAMBDA LPARENSPACE binds RPAREN COLON expr . RPAREN  (56)
+
+	RPAREN  shift 156
+	.  error
+
+
+state 152
+	binop_operand : LPARENSPACE LAMBDA LPARENNOSPACE binds RPAREN COLON expr . RPAREN  (55)
+
+	RPAREN  shift 157
+	.  error
+
+
+state 153
+	binop_operand : LPARENNOSPACE LAMBDA LPARENSPACE binds RPAREN COLON expr . RPAREN  (53)
+
+	RPAREN  shift 158
+	.  error
+
+
+state 154
+	binop_operand : LPARENNOSPACE LAMBDA LPARENNOSPACE binds RPAREN COLON expr . RPAREN  (52)
+
+	RPAREN  shift 159
+	.  error
+
+
+state 155
+	namebindings : namebind EQUAL expr COMMA namebindings .  (16)
+
+	.  reduce 16
+
+
+state 156
+	binop_operand : LPARENSPACE LAMBDA LPARENSPACE binds RPAREN COLON expr RPAREN .  (56)
+
+	.  reduce 56
+
+
+state 157
+	binop_operand : LPARENSPACE LAMBDA LPARENNOSPACE binds RPAREN COLON expr RPAREN .  (55)
+
+	.  reduce 55
+
+
+state 158
+	binop_operand : LPARENNOSPACE LAMBDA LPARENSPACE binds RPAREN COLON expr RPAREN .  (53)
+
+	.  reduce 53
+
+
+state 159
+	binop_operand : LPARENNOSPACE LAMBDA LPARENNOSPACE binds RPAREN COLON expr RPAREN .  (52)
+
+	.  reduce 52
+
+
+49 terminals, 21 nonterminals
+77 grammar rules, 160 states

@@ -1,0 +1,76 @@
+### Starting build.
+# Target: test.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:test.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules test.ml > test.ml.depends
+# Target: compile.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:compile.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules compile.ml > compile.ml.depends # cached
+# Target: assembly.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:assembly.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules assembly.ml > assembly.ml.depends # cached
+# Target: assembly.cmo, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:cmo, extension:ml, file:assembly.cmo, file:assembly.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o assembly.cmo assembly.ml # cached
+# Target: errors.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:errors.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules errors.ml > errors.ml.depends # cached
+# Target: exprs.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:exprs.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules exprs.ml > exprs.ml.depends # cached
+# Target: exprs.cmo, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:cmo, extension:ml, file:exprs.cmo, file:exprs.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o exprs.cmo exprs.ml # cached
+# Target: pretty.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:pretty.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules pretty.ml > pretty.ml.depends # cached
+# Target: pretty.cmo, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:cmo, extension:ml, file:pretty.cmo, file:pretty.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o pretty.cmo pretty.ml # cached
+# Target: errors.cmo, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:cmo, extension:ml, file:errors.cmo, file:errors.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o errors.cmo errors.ml # cached
+# Target: graph.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:graph.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules graph.ml > graph.ml.depends # cached
+# Target: graph.cmo, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:cmo, extension:ml, file:graph.cmo, file:graph.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o graph.cmo graph.ml # cached
+# Target: phases.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:phases.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules phases.ml > phases.ml.depends # cached
+# Target: phases.cmo, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:cmo, extension:ml, file:phases.cmo, file:phases.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o phases.cmo phases.ml # cached
+# Target: compile.cmo, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:cmo, extension:ml, file:compile.cmo, file:compile.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o compile.cmo compile.ml # cached
+# Target: runner.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:runner.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules runner.ml > runner.ml.depends # cached
+# Target: lexer.mll, tags: { package(ounit2,extlib,unix,str), extension:mll, file:lexer.mll, lexer, ocaml, ocamllex, quiet, traverse }
+/Users/joelkeohane/.opam/4.14.1/bin/ocamllex.opt -q lexer.mll # cached
+# Target: lexer.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:lexer.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules lexer.ml > lexer.ml.depends # cached
+# Target: parser.mly, tags: { package(ounit2,extlib,unix,str), extension:mly, file:parser.mly, infer, ocaml, ocamlyacc, parser, quiet, traverse }
+ocamlyacc -v parser.mly # cached
+# Target: parser.mli.depends, tags: { package(ounit2,extlib,unix,str), extension:mli, file:parser.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules parser.mli > parser.mli.depends # cached
+# Target: parser.cmi, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:mli, file:parser.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o parser.cmi parser.mli # cached
+# Target: lexer.cmo, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:cmo, extension:ml, file:lexer.cmo, file:lexer.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o lexer.cmo lexer.ml # cached
+# Target: runner.cmo, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:cmo, extension:ml, file:runner.cmo, file:runner.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o runner.cmo runner.ml # cached
+# Target: test.cmo, tags: { package(ounit2,extlib,unix,str), byte, compile, extension:cmo, extension:ml, file:test.cmo, file:test.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -annot -package ounit2,extlib,unix,str -o test.cmo test.ml
+# Target: assembly.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:assembly.cmx, file:assembly.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o assembly.cmx assembly.ml # cached
+# Target: exprs.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:exprs.cmx, file:exprs.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o exprs.cmx exprs.ml # cached
+# Target: pretty.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:pretty.cmx, file:pretty.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o pretty.cmx pretty.ml # cached
+# Target: errors.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:errors.cmx, file:errors.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o errors.cmx errors.ml # cached
+# Target: graph.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:graph.cmx, file:graph.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o graph.cmx graph.ml # cached
+# Target: phases.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:phases.cmx, file:phases.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o phases.cmx phases.ml # cached
+# Target: compile.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:compile.cmx, file:compile.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o compile.cmx compile.ml # cached
+# Target: parser.ml.depends, tags: { package(ounit2,extlib,unix,str), extension:ml, file:parser.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2,extlib,unix,str -modules parser.ml > parser.ml.depends # cached
+# Target: parser.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:parser.cmx, file:parser.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o parser.cmx parser.ml # cached
+# Target: lexer.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:lexer.cmx, file:lexer.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o lexer.cmx lexer.ml # cached
+# Target: runner.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:runner.cmx, file:runner.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o runner.cmx runner.ml # cached
+# Target: test.cmx, tags: { package(ounit2,extlib,unix,str), compile, extension:cmx, extension:ml, file:test.cmx, file:test.ml, implem, native, ocaml, quiet, traverse }
+ocamlfind ocamlopt -c -annot -package ounit2,extlib,unix,str -o test.cmx test.ml
+# Target: test.native, tags: { package(ounit2,extlib,unix,str), dont_link_with, extension:native, file:test.native, link, native, ocaml, program, quiet, traverse }
+ocamlfind ocamlopt -linkpkg -package ounit2,extlib,unix,str assembly.cmx exprs.cmx pretty.cmx errors.cmx graph.cmx phases.cmx compile.cmx parser.cmx lexer.cmx runner.cmx test.cmx -o test.native # cached
+# Compilation successful.

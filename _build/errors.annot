@@ -1,0 +1,1000 @@
+"errors.ml" 25 1256 1260 "errors.ml" 25 1256 1272
+type(
+  exn list -> string list
+)
+ident(
+  def print_errors "errors.ml" 64 3459 3469 "errors.ml" 0 0 -1
+)
+"errors.ml" 25 1256 1274 "errors.ml" 25 1256 1278
+type(
+  exn list
+)
+type(
+  exn list
+)
+ident(
+  def exns "errors.ml" 26 1307 1309 "errors.ml" 64 3459 3469
+)
+"errors.ml" 26 1307 1309 "errors.ml" 26 1307 1317
+type(
+  (exn -> string) -> exn list -> string list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"errors.ml" 26 1307 1323 "errors.ml" 26 1307 1324
+type(
+  exn
+)
+ident(
+  def e "errors.ml" 27 1328 1334 "errors.ml" 63 3414 3458
+)
+"errors.ml" 27 1328 1340 "errors.ml" 27 1328 1341
+type(
+  exn
+)
+ident(
+  int_ref e "errors.ml" 26 1307 1323 "errors.ml" 26 1307 1324
+)
+"errors.ml" 28 1347 1366 "errors.ml" 28 1347 1369
+type(
+  string
+)
+ident(
+  def msg "errors.ml" 28 1347 1373 "errors.ml" 28 1347 1376
+)
+"errors.ml" 28 1347 1355 "errors.ml" 28 1347 1369
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 28 1347 1373 "errors.ml" 28 1347 1376
+type(
+  string
+)
+ident(
+  int_ref msg "errors.ml" 28 1347 1366 "errors.ml" 28 1347 1369
+)
+"errors.ml" 29 1377 1403 "errors.ml" 29 1377 1406
+type(
+  string
+)
+ident(
+  def msg "errors.ml" 30 1410 1419 "errors.ml" 30 1410 1448
+)
+"errors.ml" 29 1377 1385 "errors.ml" 29 1377 1406
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 30 1410 1419 "errors.ml" 30 1410 1442
+type(
+  string
+)
+"errors.ml" 30 1410 1443 "errors.ml" 30 1410 1444
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"errors.ml" 30 1410 1445 "errors.ml" 30 1410 1448
+type(
+  string
+)
+ident(
+  int_ref msg "errors.ml" 29 1377 1403 "errors.ml" 29 1377 1406
+)
+"errors.ml" 30 1410 1419 "errors.ml" 30 1410 1448
+type(
+  string
+)
+"errors.ml" 31 1449 1469 "errors.ml" 31 1449 1472
+type(
+  string
+)
+ident(
+  def msg "errors.ml" 32 1482 1491 "errors.ml" 32 1482 1555
+)
+"errors.ml" 31 1449 1474 "errors.ml" 31 1449 1477
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 32 1482 1491 "errors.ml" 32 1482 1555
+)
+"errors.ml" 31 1449 1457 "errors.ml" 31 1449 1478
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 32 1482 1491 "errors.ml" 32 1482 1498
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 32 1482 1499 "errors.ml" 32 1482 1524
+type(
+  (string -> string -> string, unit, string) format
+)
+"errors.ml" 32 1482 1525 "errors.ml" 32 1482 1528
+type(
+  string
+)
+ident(
+  int_ref msg "errors.ml" 31 1449 1469 "errors.ml" 31 1449 1472
+)
+"errors.ml" 32 1482 1530 "errors.ml" 32 1482 1550
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 32 1482 1551 "errors.ml" 32 1482 1554
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 31 1449 1474 "errors.ml" 31 1449 1477
+)
+"errors.ml" 32 1482 1529 "errors.ml" 32 1482 1555
+type(
+  string
+)
+"errors.ml" 32 1482 1491 "errors.ml" 32 1482 1555
+type(
+  string
+)
+"errors.ml" 33 1556 1586 "errors.ml" 33 1556 1589
+type(
+  string
+)
+ident(
+  def msg "errors.ml" 34 1593 1602 "errors.ml" 34 1593 1635
+)
+"errors.ml" 33 1556 1564 "errors.ml" 33 1556 1589
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 34 1593 1602 "errors.ml" 34 1593 1629
+type(
+  string
+)
+"errors.ml" 34 1593 1630 "errors.ml" 34 1593 1631
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"errors.ml" 34 1593 1632 "errors.ml" 34 1593 1635
+type(
+  string
+)
+ident(
+  int_ref msg "errors.ml" 33 1556 1586 "errors.ml" 33 1556 1589
+)
+"errors.ml" 34 1593 1602 "errors.ml" 34 1593 1635
+type(
+  string
+)
+"errors.ml" 35 1636 1654 "errors.ml" 35 1636 1655
+type(
+  string
+)
+ident(
+  def x "errors.ml" 36 1665 1674 "errors.ml" 36 1665 1761
+)
+"errors.ml" 35 1636 1657 "errors.ml" 35 1636 1660
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 36 1665 1674 "errors.ml" 36 1665 1761
+)
+"errors.ml" 35 1636 1644 "errors.ml" 35 1636 1661
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 36 1665 1674 "errors.ml" 36 1665 1681
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 36 1665 1682 "errors.ml" 36 1665 1732
+type(
+  (string -> string -> string, unit, string) format
+)
+"errors.ml" 36 1665 1733 "errors.ml" 36 1665 1734
+type(
+  string
+)
+ident(
+  int_ref x "errors.ml" 35 1636 1654 "errors.ml" 35 1636 1655
+)
+"errors.ml" 36 1665 1736 "errors.ml" 36 1665 1756
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 36 1665 1757 "errors.ml" 36 1665 1760
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 35 1636 1657 "errors.ml" 35 1636 1660
+)
+"errors.ml" 36 1665 1735 "errors.ml" 36 1665 1761
+type(
+  string
+)
+"errors.ml" 36 1665 1674 "errors.ml" 36 1665 1761
+type(
+  string
+)
+"errors.ml" 37 1762 1781 "errors.ml" 37 1762 1782
+type(
+  string
+)
+ident(
+  def x "errors.ml" 38 1792 1801 "errors.ml" 38 1792 1891
+)
+"errors.ml" 37 1762 1784 "errors.ml" 37 1762 1787
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 38 1792 1801 "errors.ml" 38 1792 1891
+)
+"errors.ml" 37 1762 1770 "errors.ml" 37 1762 1788
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 38 1792 1801 "errors.ml" 38 1792 1808
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 38 1792 1809 "errors.ml" 38 1792 1862
+type(
+  (string -> string -> string, unit, string) format
+)
+"errors.ml" 38 1792 1863 "errors.ml" 38 1792 1864
+type(
+  string
+)
+ident(
+  int_ref x "errors.ml" 37 1762 1781 "errors.ml" 37 1762 1782
+)
+"errors.ml" 38 1792 1866 "errors.ml" 38 1792 1886
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 38 1792 1887 "errors.ml" 38 1792 1890
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 37 1762 1784 "errors.ml" 37 1762 1787
+)
+"errors.ml" 38 1792 1865 "errors.ml" 38 1792 1891
+type(
+  string
+)
+"errors.ml" 38 1792 1801 "errors.ml" 38 1792 1891
+type(
+  string
+)
+"errors.ml" 39 1892 1909 "errors.ml" 39 1892 1910
+type(
+  string
+)
+ident(
+  def x "errors.ml" 40 1930 1939 "errors.ml" 41 2013 2090
+)
+"errors.ml" 39 1892 1912 "errors.ml" 39 1892 1915
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 40 1930 1939 "errors.ml" 41 2013 2090
+)
+"errors.ml" 39 1892 1917 "errors.ml" 39 1892 1925
+type(
+  Exprs.sourcespan
+)
+ident(
+  def existing "errors.ml" 40 1930 1939 "errors.ml" 41 2013 2090
+)
+"errors.ml" 39 1892 1900 "errors.ml" 39 1892 1926
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 40 1930 1939 "errors.ml" 40 1930 1946
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 40 1930 1947 "errors.ml" 40 1930 2012
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"errors.ml" 41 2013 2030 "errors.ml" 41 2013 2031
+type(
+  string
+)
+ident(
+  int_ref x "errors.ml" 39 1892 1909 "errors.ml" 39 1892 1910
+)
+"errors.ml" 41 2013 2033 "errors.ml" 41 2013 2053
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 41 2013 2054 "errors.ml" 41 2013 2057
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 39 1892 1912 "errors.ml" 39 1892 1915
+)
+"errors.ml" 41 2013 2032 "errors.ml" 41 2013 2058
+type(
+  string
+)
+"errors.ml" 41 2013 2060 "errors.ml" 41 2013 2080
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 41 2013 2081 "errors.ml" 41 2013 2089
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref existing "errors.ml" 39 1892 1917 "errors.ml" 39 1892 1925
+)
+"errors.ml" 41 2013 2059 "errors.ml" 41 2013 2090
+type(
+  string
+)
+"errors.ml" 40 1930 1939 "errors.ml" 41 2013 2090
+type(
+  string
+)
+"errors.ml" 42 2091 2111 "errors.ml" 42 2091 2112
+type(
+  string
+)
+ident(
+  def x "errors.ml" 43 2132 2141 "errors.ml" 44 2212 2289
+)
+"errors.ml" 42 2091 2114 "errors.ml" 42 2091 2117
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 43 2132 2141 "errors.ml" 44 2212 2289
+)
+"errors.ml" 42 2091 2119 "errors.ml" 42 2091 2127
+type(
+  Exprs.sourcespan
+)
+ident(
+  def existing "errors.ml" 43 2132 2141 "errors.ml" 44 2212 2289
+)
+"errors.ml" 42 2091 2099 "errors.ml" 42 2091 2128
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 43 2132 2141 "errors.ml" 43 2132 2148
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 43 2132 2149 "errors.ml" 43 2132 2211
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"errors.ml" 44 2212 2229 "errors.ml" 44 2212 2230
+type(
+  string
+)
+ident(
+  int_ref x "errors.ml" 42 2091 2111 "errors.ml" 42 2091 2112
+)
+"errors.ml" 44 2212 2232 "errors.ml" 44 2212 2252
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 44 2212 2253 "errors.ml" 44 2212 2256
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 42 2091 2114 "errors.ml" 42 2091 2117
+)
+"errors.ml" 44 2212 2231 "errors.ml" 44 2212 2257
+type(
+  string
+)
+"errors.ml" 44 2212 2259 "errors.ml" 44 2212 2279
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 44 2212 2280 "errors.ml" 44 2212 2288
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref existing "errors.ml" 42 2091 2119 "errors.ml" 42 2091 2127
+)
+"errors.ml" 44 2212 2258 "errors.ml" 44 2212 2289
+type(
+  string
+)
+"errors.ml" 43 2132 2141 "errors.ml" 44 2212 2289
+type(
+  string
+)
+"errors.ml" 45 2290 2311 "errors.ml" 45 2290 2312
+type(
+  string
+)
+ident(
+  def x "errors.ml" 46 2332 2341 "errors.ml" 47 2415 2492
+)
+"errors.ml" 45 2290 2314 "errors.ml" 45 2290 2317
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 46 2332 2341 "errors.ml" 47 2415 2492
+)
+"errors.ml" 45 2290 2319 "errors.ml" 45 2290 2327
+type(
+  Exprs.sourcespan
+)
+ident(
+  def existing "errors.ml" 46 2332 2341 "errors.ml" 47 2415 2492
+)
+"errors.ml" 45 2290 2298 "errors.ml" 45 2290 2328
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 46 2332 2341 "errors.ml" 46 2332 2348
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 46 2332 2349 "errors.ml" 46 2332 2414
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"errors.ml" 47 2415 2432 "errors.ml" 47 2415 2433
+type(
+  string
+)
+ident(
+  int_ref x "errors.ml" 45 2290 2311 "errors.ml" 45 2290 2312
+)
+"errors.ml" 47 2415 2435 "errors.ml" 47 2415 2455
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 47 2415 2456 "errors.ml" 47 2415 2459
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 45 2290 2314 "errors.ml" 45 2290 2317
+)
+"errors.ml" 47 2415 2434 "errors.ml" 47 2415 2460
+type(
+  string
+)
+"errors.ml" 47 2415 2462 "errors.ml" 47 2415 2482
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 47 2415 2483 "errors.ml" 47 2415 2491
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref existing "errors.ml" 45 2290 2319 "errors.ml" 45 2290 2327
+)
+"errors.ml" 47 2415 2461 "errors.ml" 47 2415 2492
+type(
+  string
+)
+"errors.ml" 46 2332 2341 "errors.ml" 47 2415 2492
+type(
+  string
+)
+"errors.ml" 48 2493 2510 "errors.ml" 48 2493 2513
+type(
+  int64
+)
+ident(
+  def num "errors.ml" 49 2523 2532 "errors.ml" 50 2614 2661
+)
+"errors.ml" 48 2493 2515 "errors.ml" 48 2493 2518
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 49 2523 2532 "errors.ml" 50 2614 2661
+)
+"errors.ml" 48 2493 2501 "errors.ml" 48 2493 2519
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 49 2523 2532 "errors.ml" 49 2523 2539
+type(
+  (int64 -> string -> string, unit, string) format ->
+  int64 -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 49 2523 2540 "errors.ml" 49 2523 2613
+type(
+  (int64 -> string -> string, unit, string) format
+)
+"errors.ml" 50 2614 2631 "errors.ml" 50 2614 2634
+type(
+  int64
+)
+ident(
+  int_ref num "errors.ml" 48 2493 2510 "errors.ml" 48 2493 2513
+)
+"errors.ml" 50 2614 2636 "errors.ml" 50 2614 2656
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 50 2614 2657 "errors.ml" 50 2614 2660
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 48 2493 2515 "errors.ml" 48 2493 2518
+)
+"errors.ml" 50 2614 2635 "errors.ml" 50 2614 2661
+type(
+  string
+)
+"errors.ml" 49 2523 2532 "errors.ml" 50 2614 2661
+type(
+  string
+)
+"errors.ml" 51 2662 2676 "errors.ml" 51 2662 2684
+type(
+  int
+)
+ident(
+  def expected "errors.ml" 52 2702 2711 "errors.ml" 53 2800 2859
+)
+"errors.ml" 51 2662 2686 "errors.ml" 51 2662 2692
+type(
+  int
+)
+ident(
+  def actual "errors.ml" 52 2702 2711 "errors.ml" 53 2800 2859
+)
+"errors.ml" 51 2662 2694 "errors.ml" 51 2662 2697
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 52 2702 2711 "errors.ml" 53 2800 2859
+)
+"errors.ml" 51 2662 2670 "errors.ml" 51 2662 2698
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 52 2702 2711 "errors.ml" 52 2702 2718
+type(
+  (string -> int -> int -> string, unit, string) format ->
+  string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 52 2702 2719 "errors.ml" 52 2702 2799
+type(
+  (string -> int -> int -> string, unit, string) format
+)
+"errors.ml" 53 2800 2818 "errors.ml" 53 2800 2838
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 53 2800 2839 "errors.ml" 53 2800 2842
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 51 2662 2694 "errors.ml" 51 2662 2697
+)
+"errors.ml" 53 2800 2817 "errors.ml" 53 2800 2843
+type(
+  string
+)
+"errors.ml" 53 2800 2844 "errors.ml" 53 2800 2852
+type(
+  int
+)
+ident(
+  int_ref expected "errors.ml" 51 2662 2676 "errors.ml" 51 2662 2684
+)
+"errors.ml" 53 2800 2853 "errors.ml" 53 2800 2859
+type(
+  int
+)
+ident(
+  int_ref actual "errors.ml" 51 2662 2686 "errors.ml" 51 2662 2692
+)
+"errors.ml" 52 2702 2711 "errors.ml" 53 2800 2859
+type(
+  string
+)
+"errors.ml" 54 2860 2878 "errors.ml" 54 2860 2882
+type(
+  string
+)
+ident(
+  def name "errors.ml" 55 2913 2922 "errors.ml" 56 3008 3075
+)
+"errors.ml" 54 2860 2884 "errors.ml" 54 2860 2892
+type(
+  int
+)
+ident(
+  def num_args "errors.ml" 55 2913 2922 "errors.ml" 56 3008 3075
+)
+"errors.ml" 54 2860 2894 "errors.ml" 54 2860 2903
+type(
+  int
+)
+ident(
+  def num_types "errors.ml" 55 2913 2922 "errors.ml" 56 3008 3075
+)
+"errors.ml" 54 2860 2905 "errors.ml" 54 2860 2908
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 55 2913 2922 "errors.ml" 56 3008 3075
+)
+"errors.ml" 54 2860 2868 "errors.ml" 54 2860 2909
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 55 2913 2922 "errors.ml" 55 2913 2929
+type(
+  (string -> string -> int -> int -> string, unit, string) format ->
+  string -> string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 55 2913 2930 "errors.ml" 55 2913 3007
+type(
+  (string -> string -> int -> int -> string, unit, string) format
+)
+"errors.ml" 56 3008 3025 "errors.ml" 56 3008 3029
+type(
+  string
+)
+ident(
+  int_ref name "errors.ml" 54 2860 2878 "errors.ml" 54 2860 2882
+)
+"errors.ml" 56 3008 3031 "errors.ml" 56 3008 3051
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 56 3008 3052 "errors.ml" 56 3008 3055
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 54 2860 2905 "errors.ml" 54 2860 2908
+)
+"errors.ml" 56 3008 3030 "errors.ml" 56 3008 3056
+type(
+  string
+)
+"errors.ml" 56 3008 3057 "errors.ml" 56 3008 3065
+type(
+  int
+)
+ident(
+  int_ref num_args "errors.ml" 54 2860 2884 "errors.ml" 54 2860 2892
+)
+"errors.ml" 56 3008 3066 "errors.ml" 56 3008 3075
+type(
+  int
+)
+ident(
+  int_ref num_types "errors.ml" 54 2860 2894 "errors.ml" 54 2860 2903
+)
+"errors.ml" 55 2913 2922 "errors.ml" 56 3008 3075
+type(
+  string
+)
+"errors.ml" 57 3076 3101 "errors.ml" 57 3076 3105
+type(
+  string
+)
+ident(
+  def name "errors.ml" 58 3115 3124 "errors.ml" 58 3115 3208
+)
+"errors.ml" 57 3076 3107 "errors.ml" 57 3076 3110
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 58 3115 3124 "errors.ml" 58 3115 3208
+)
+"errors.ml" 57 3076 3084 "errors.ml" 57 3076 3111
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 58 3115 3124 "errors.ml" 58 3115 3131
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 58 3115 3132 "errors.ml" 58 3115 3176
+type(
+  (string -> string -> string, unit, string) format
+)
+"errors.ml" 58 3115 3177 "errors.ml" 58 3115 3181
+type(
+  string
+)
+ident(
+  int_ref name "errors.ml" 57 3076 3101 "errors.ml" 57 3076 3105
+)
+"errors.ml" 58 3115 3183 "errors.ml" 58 3115 3203
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 58 3115 3204 "errors.ml" 58 3115 3207
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 57 3076 3107 "errors.ml" 57 3076 3110
+)
+"errors.ml" 58 3115 3182 "errors.ml" 58 3115 3208
+type(
+  string
+)
+"errors.ml" 58 3115 3124 "errors.ml" 58 3115 3208
+type(
+  string
+)
+"errors.ml" 59 3209 3235 "errors.ml" 59 3209 3239
+type(
+  Exprs.sourcespan Exprs.bind
+)
+ident(
+  def bind "errors.ml" 60 3249 3258 "errors.ml" 61 3341 3400
+)
+"errors.ml" 59 3209 3241 "errors.ml" 59 3209 3244
+type(
+  Exprs.sourcespan
+)
+ident(
+  def loc "errors.ml" 60 3249 3258 "errors.ml" 61 3341 3400
+)
+"errors.ml" 59 3209 3217 "errors.ml" 59 3209 3245
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 60 3249 3258 "errors.ml" 60 3249 3265
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 60 3249 3266 "errors.ml" 60 3249 3340
+type(
+  (string -> string -> string, unit, string) format
+)
+"errors.ml" 61 3341 3353 "errors.ml" 61 3341 3373
+type(
+  Exprs.sourcespan -> string
+)
+ident(
+  int_ref Pretty.string_of_sourcespan "pretty.ml" 145 5195 5199 "pretty.ml" 145 5195 5219
+)
+"errors.ml" 61 3341 3374 "errors.ml" 61 3341 3377
+type(
+  Exprs.sourcespan
+)
+ident(
+  int_ref loc "errors.ml" 59 3209 3241 "errors.ml" 59 3209 3244
+)
+"errors.ml" 61 3341 3352 "errors.ml" 61 3341 3378
+type(
+  string
+)
+"errors.ml" 61 3341 3380 "errors.ml" 61 3341 3394
+type(
+  Exprs.sourcespan Exprs.bind -> string
+)
+ident(
+  int_ref Pretty.string_of_bind "pretty.ml" 62 1165 1173 "pretty.ml" 62 1165 1187
+)
+"errors.ml" 61 3341 3395 "errors.ml" 61 3341 3399
+type(
+  Exprs.sourcespan Exprs.bind
+)
+ident(
+  int_ref bind "errors.ml" 59 3209 3235 "errors.ml" 59 3209 3239
+)
+"errors.ml" 61 3341 3379 "errors.ml" 61 3341 3400
+type(
+  string
+)
+"errors.ml" 60 3249 3258 "errors.ml" 61 3341 3400
+type(
+  string
+)
+"errors.ml" 62 3401 3409 "errors.ml" 62 3401 3410
+type(
+  exn
+)
+type(
+  exn
+)
+"errors.ml" 63 3414 3423 "errors.ml" 63 3414 3430
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"errors.ml" 63 3414 3431 "errors.ml" 63 3414 3435
+type(
+  (string -> string, unit, string) format
+)
+"errors.ml" 63 3414 3437 "errors.ml" 63 3414 3455
+type(
+  exn -> string
+)
+ident(
+  int_ref Stdlib.Printexc.to_string "printexc.mli" 21 1213 1213 "printexc.mli" 21 1213 1241
+)
+"errors.ml" 63 3414 3456 "errors.ml" 63 3414 3457
+type(
+  exn
+)
+ident(
+  int_ref e "errors.ml" 26 1307 1323 "errors.ml" 26 1307 1324
+)
+"errors.ml" 63 3414 3436 "errors.ml" 63 3414 3458
+type(
+  string
+)
+"errors.ml" 63 3414 3423 "errors.ml" 63 3414 3458
+type(
+  string
+)
+"errors.ml" 27 1328 1334 "errors.ml" 63 3414 3458
+type(
+  string
+)
+"errors.ml" 26 1307 1318 "errors.ml" 64 3459 3464
+type(
+  exn -> string
+)
+"errors.ml" 64 3459 3465 "errors.ml" 64 3459 3469
+type(
+  exn list
+)
+ident(
+  int_ref exns "errors.ml" 25 1256 1274 "errors.ml" 25 1256 1278
+)
+"errors.ml" 26 1307 1309 "errors.ml" 64 3459 3469
+type(
+  string list
+)

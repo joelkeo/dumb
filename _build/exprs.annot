@@ -1,0 +1,7857 @@
+"exprs.ml" 4 14 18 "exprs.ml" 4 14 34
+type(
+  bool ref
+)
+ident(
+  def show_debug_print "exprs.ml" 5 46 46 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 4 14 37 "exprs.ml" 4 14 40
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1227 46636 46636 "stdlib.mli" 1227 46636 46680
+)
+"exprs.ml" 4 14 41 "exprs.ml" 4 14 45
+type(
+  bool
+)
+"exprs.ml" 4 14 37 "exprs.ml" 4 14 45
+type(
+  bool ref
+)
+"exprs.ml" 5 46 50 "exprs.ml" 5 46 62
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def debug_printf "exprs.ml" 11 141 141 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 5 46 63 "exprs.ml" 5 46 66
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  def fmt "exprs.ml" 6 69 71 "exprs.ml" 8 110 136
+)
+"exprs.ml" 6 69 74 "exprs.ml" 6 69 75
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"exprs.ml" 6 69 75 "exprs.ml" 6 69 91
+type(
+  bool ref
+)
+ident(
+  int_ref show_debug_print "exprs.ml" 4 14 18 "exprs.ml" 4 14 34
+)
+"exprs.ml" 6 69 74 "exprs.ml" 6 69 91
+type(
+  bool
+)
+"exprs.ml" 7 92 99 "exprs.ml" 7 92 105
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"exprs.ml" 7 92 106 "exprs.ml" 7 92 109
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "exprs.ml" 5 46 63 "exprs.ml" 5 46 66
+)
+"exprs.ml" 7 92 99 "exprs.ml" 7 92 109
+type(
+  'a
+)
+"exprs.ml" 8 110 117 "exprs.ml" 8 110 125
+type(
+  out_channel -> ('a, out_channel, unit, unit) format4 -> 'a
+)
+ident(
+  int_ref Stdlib.Printf.ifprintf "printf.mli" 144 7538 7538 "printf.mli" 144 7538 7591
+)
+"exprs.ml" 8 110 126 "exprs.ml" 8 110 132
+type(
+  out_channel
+)
+ident(
+  int_ref Stdlib.stdout "stdlib.mli" 844 31118 31118 "stdlib.mli" 844 31118 31142
+)
+"exprs.ml" 8 110 133 "exprs.ml" 8 110 136
+type(
+  ('a, out_channel, unit) format
+)
+ident(
+  int_ref fmt "exprs.ml" 5 46 63 "exprs.ml" 5 46 66
+)
+"exprs.ml" 8 110 117 "exprs.ml" 8 110 136
+type(
+  'a
+)
+"exprs.ml" 6 69 71 "exprs.ml" 8 110 136
+type(
+  'a
+)
+"exprs.ml" 95 2320 2324 "exprs.ml" 95 2320 2331
+type(
+  ('a -> 'b) -> 'a option -> 'b option
+)
+ident(
+  def map_opt "exprs.ml" 99 2393 2393 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 95 2320 2332 "exprs.ml" 95 2320 2333
+type(
+  'a -> 'b
+)
+ident(
+  def f "exprs.ml" 95 2320 2334 "exprs.ml" 96 2338 2388
+)
+"exprs.ml" 95 2320 2334 "exprs.ml" 95 2320 2335
+type(
+  'a option
+)
+ident(
+  def v "exprs.ml" 96 2338 2340 "exprs.ml" 96 2338 2388
+)
+"exprs.ml" 96 2338 2346 "exprs.ml" 96 2338 2347
+type(
+  'a option
+)
+ident(
+  int_ref v "exprs.ml" 95 2320 2334 "exprs.ml" 95 2320 2335
+)
+"exprs.ml" 96 2338 2353 "exprs.ml" 96 2338 2357
+type(
+  'a option
+)
+type(
+  'a option
+)
+"exprs.ml" 96 2338 2361 "exprs.ml" 96 2338 2365
+type(
+  'b option
+)
+"exprs.ml" 96 2338 2373 "exprs.ml" 96 2338 2374
+type(
+  'a
+)
+ident(
+  def v "exprs.ml" 96 2338 2378 "exprs.ml" 96 2338 2388
+)
+"exprs.ml" 96 2338 2368 "exprs.ml" 96 2338 2374
+type(
+  'a option
+)
+type(
+  'a option
+)
+"exprs.ml" 96 2338 2384 "exprs.ml" 96 2338 2385
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 95 2320 2332 "exprs.ml" 95 2320 2333
+)
+"exprs.ml" 96 2338 2386 "exprs.ml" 96 2338 2387
+type(
+  'a
+)
+ident(
+  int_ref v "exprs.ml" 96 2338 2373 "exprs.ml" 96 2338 2374
+)
+"exprs.ml" 96 2338 2383 "exprs.ml" 96 2338 2388
+type(
+  'b
+)
+"exprs.ml" 96 2338 2378 "exprs.ml" 96 2338 2388
+type(
+  'b option
+)
+"exprs.ml" 96 2338 2340 "exprs.ml" 96 2338 2388
+type(
+  'b option
+)
+"exprs.ml" 99 2393 2397 "exprs.ml" 99 2393 2406
+type(
+  'a expr -> 'a
+)
+ident(
+  def get_tag_E "exprs.ml" 117 2788 2788 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 99 2393 2407 "exprs.ml" 99 2393 2408
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 99 2393 2411 "exprs.ml" 114 2758 2783
+)
+"exprs.ml" 99 2393 2417 "exprs.ml" 99 2393 2418
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 99 2393 2407 "exprs.ml" 99 2393 2408
+)
+"exprs.ml" 100 2424 2433 "exprs.ml" 100 2424 2434
+type(
+  'a binding list
+)
+"exprs.ml" 100 2424 2436 "exprs.ml" 100 2424 2437
+type(
+  'a expr
+)
+"exprs.ml" 100 2424 2439 "exprs.ml" 100 2424 2440
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 100 2424 2445 "exprs.ml" 100 2424 2446
+)
+"exprs.ml" 100 2424 2428 "exprs.ml" 100 2424 2441
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 100 2424 2445 "exprs.ml" 100 2424 2446
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 100 2424 2439 "exprs.ml" 100 2424 2440
+)
+"exprs.ml" 101 2447 2459 "exprs.ml" 101 2447 2460
+type(
+  'a binding list
+)
+"exprs.ml" 101 2447 2462 "exprs.ml" 101 2447 2463
+type(
+  'a expr
+)
+"exprs.ml" 101 2447 2465 "exprs.ml" 101 2447 2466
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 101 2447 2471 "exprs.ml" 101 2447 2472
+)
+"exprs.ml" 101 2447 2451 "exprs.ml" 101 2447 2467
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 101 2447 2471 "exprs.ml" 101 2447 2472
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 101 2447 2465 "exprs.ml" 101 2447 2466
+)
+"exprs.ml" 102 2473 2484 "exprs.ml" 102 2473 2485
+type(
+  prim1
+)
+"exprs.ml" 102 2473 2487 "exprs.ml" 102 2473 2488
+type(
+  'a expr
+)
+"exprs.ml" 102 2473 2490 "exprs.ml" 102 2473 2491
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 102 2473 2496 "exprs.ml" 102 2473 2497
+)
+"exprs.ml" 102 2473 2477 "exprs.ml" 102 2473 2492
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 102 2473 2496 "exprs.ml" 102 2473 2497
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 102 2473 2490 "exprs.ml" 102 2473 2491
+)
+"exprs.ml" 103 2498 2509 "exprs.ml" 103 2498 2510
+type(
+  prim2
+)
+"exprs.ml" 103 2498 2512 "exprs.ml" 103 2498 2513
+type(
+  'a expr
+)
+"exprs.ml" 103 2498 2515 "exprs.ml" 103 2498 2516
+type(
+  'a expr
+)
+"exprs.ml" 103 2498 2518 "exprs.ml" 103 2498 2519
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 103 2498 2524 "exprs.ml" 103 2498 2525
+)
+"exprs.ml" 103 2498 2502 "exprs.ml" 103 2498 2520
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 103 2498 2524 "exprs.ml" 103 2498 2525
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 103 2498 2518 "exprs.ml" 103 2498 2519
+)
+"exprs.ml" 104 2526 2534 "exprs.ml" 104 2526 2535
+type(
+  'a expr
+)
+"exprs.ml" 104 2526 2537 "exprs.ml" 104 2526 2538
+type(
+  'a expr
+)
+"exprs.ml" 104 2526 2540 "exprs.ml" 104 2526 2541
+type(
+  'a expr
+)
+"exprs.ml" 104 2526 2543 "exprs.ml" 104 2526 2544
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 104 2526 2549 "exprs.ml" 104 2526 2550
+)
+"exprs.ml" 104 2526 2530 "exprs.ml" 104 2526 2545
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 104 2526 2549 "exprs.ml" 104 2526 2550
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 104 2526 2543 "exprs.ml" 104 2526 2544
+)
+"exprs.ml" 105 2551 2560 "exprs.ml" 105 2551 2561
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 105 2551 2565 "exprs.ml" 105 2551 2566
+)
+"exprs.ml" 105 2551 2555 "exprs.ml" 105 2551 2561
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 105 2551 2565 "exprs.ml" 105 2551 2566
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 105 2551 2560 "exprs.ml" 105 2551 2561
+)
+"exprs.ml" 106 2567 2579 "exprs.ml" 106 2567 2580
+type(
+  int64
+)
+"exprs.ml" 106 2567 2582 "exprs.ml" 106 2567 2583
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 106 2567 2588 "exprs.ml" 106 2567 2589
+)
+"exprs.ml" 106 2567 2571 "exprs.ml" 106 2567 2584
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 106 2567 2588 "exprs.ml" 106 2567 2589
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 106 2567 2582 "exprs.ml" 106 2567 2583
+)
+"exprs.ml" 107 2590 2600 "exprs.ml" 107 2590 2601
+type(
+  bool
+)
+"exprs.ml" 107 2590 2603 "exprs.ml" 107 2590 2604
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 107 2590 2609 "exprs.ml" 107 2590 2610
+)
+"exprs.ml" 107 2590 2594 "exprs.ml" 107 2590 2605
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 107 2590 2609 "exprs.ml" 107 2590 2610
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 107 2590 2603 "exprs.ml" 107 2590 2604
+)
+"exprs.ml" 108 2611 2619 "exprs.ml" 108 2611 2620
+type(
+  string
+)
+"exprs.ml" 108 2611 2622 "exprs.ml" 108 2611 2623
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 108 2611 2628 "exprs.ml" 108 2611 2629
+)
+"exprs.ml" 108 2611 2615 "exprs.ml" 108 2611 2624
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 108 2611 2628 "exprs.ml" 108 2611 2629
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 108 2611 2622 "exprs.ml" 108 2611 2623
+)
+"exprs.ml" 109 2630 2639 "exprs.ml" 109 2630 2640
+type(
+  'a expr
+)
+"exprs.ml" 109 2630 2642 "exprs.ml" 109 2630 2643
+type(
+  'a expr list
+)
+"exprs.ml" 109 2630 2645 "exprs.ml" 109 2630 2646
+type(
+  call_type
+)
+"exprs.ml" 109 2630 2648 "exprs.ml" 109 2630 2649
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 109 2630 2654 "exprs.ml" 109 2630 2655
+)
+"exprs.ml" 109 2630 2634 "exprs.ml" 109 2630 2650
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 109 2630 2654 "exprs.ml" 109 2630 2655
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 109 2630 2648 "exprs.ml" 109 2630 2649
+)
+"exprs.ml" 110 2656 2667 "exprs.ml" 110 2656 2668
+type(
+  'a expr list
+)
+"exprs.ml" 110 2656 2670 "exprs.ml" 110 2656 2671
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 110 2656 2676 "exprs.ml" 110 2656 2677
+)
+"exprs.ml" 110 2656 2660 "exprs.ml" 110 2656 2672
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 110 2656 2676 "exprs.ml" 110 2656 2677
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 110 2656 2670 "exprs.ml" 110 2656 2671
+)
+"exprs.ml" 111 2678 2691 "exprs.ml" 111 2678 2692
+type(
+  'a expr
+)
+"exprs.ml" 111 2678 2694 "exprs.ml" 111 2678 2695
+type(
+  'a expr
+)
+"exprs.ml" 111 2678 2697 "exprs.ml" 111 2678 2698
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 111 2678 2703 "exprs.ml" 111 2678 2704
+)
+"exprs.ml" 111 2678 2682 "exprs.ml" 111 2678 2699
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 111 2678 2703 "exprs.ml" 111 2678 2704
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 111 2678 2697 "exprs.ml" 111 2678 2698
+)
+"exprs.ml" 112 2705 2718 "exprs.ml" 112 2705 2719
+type(
+  'a expr
+)
+"exprs.ml" 112 2705 2721 "exprs.ml" 112 2705 2722
+type(
+  'a expr
+)
+"exprs.ml" 112 2705 2724 "exprs.ml" 112 2705 2725
+type(
+  'a expr
+)
+"exprs.ml" 112 2705 2727 "exprs.ml" 112 2705 2728
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 112 2705 2733 "exprs.ml" 112 2705 2734
+)
+"exprs.ml" 112 2705 2709 "exprs.ml" 112 2705 2729
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 112 2705 2733 "exprs.ml" 112 2705 2734
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 112 2705 2727 "exprs.ml" 112 2705 2728
+)
+"exprs.ml" 113 2735 2744 "exprs.ml" 113 2735 2745
+type(
+  'a expr
+)
+"exprs.ml" 113 2735 2747 "exprs.ml" 113 2735 2748
+type(
+  'a expr
+)
+"exprs.ml" 113 2735 2750 "exprs.ml" 113 2735 2751
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 113 2735 2756 "exprs.ml" 113 2735 2757
+)
+"exprs.ml" 113 2735 2739 "exprs.ml" 113 2735 2752
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 113 2735 2756 "exprs.ml" 113 2735 2757
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 113 2735 2750 "exprs.ml" 113 2735 2751
+)
+"exprs.ml" 114 2758 2770 "exprs.ml" 114 2758 2771
+type(
+  'a bind list
+)
+"exprs.ml" 114 2758 2773 "exprs.ml" 114 2758 2774
+type(
+  'a expr
+)
+"exprs.ml" 114 2758 2776 "exprs.ml" 114 2758 2777
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 114 2758 2782 "exprs.ml" 114 2758 2783
+)
+"exprs.ml" 114 2758 2762 "exprs.ml" 114 2758 2778
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 114 2758 2782 "exprs.ml" 114 2758 2783
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 114 2758 2776 "exprs.ml" 114 2758 2777
+)
+"exprs.ml" 99 2393 2411 "exprs.ml" 114 2758 2783
+type(
+  'a
+)
+"exprs.ml" 117 2788 2792 "exprs.ml" 117 2788 2801
+type(
+  'a decl -> 'a
+)
+ident(
+  def get_tag_D "exprs.ml" 122 2861 2861 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 117 2788 2802 "exprs.ml" 117 2788 2803
+type(
+  'a decl
+)
+ident(
+  def d "exprs.ml" 117 2788 2806 "exprs.ml" 118 2819 2844
+)
+"exprs.ml" 117 2788 2812 "exprs.ml" 117 2788 2813
+type(
+  'a decl
+)
+ident(
+  int_ref d "exprs.ml" 117 2788 2802 "exprs.ml" 117 2788 2803
+)
+"exprs.ml" 118 2819 2828 "exprs.ml" 118 2819 2829
+type(
+  string
+)
+"exprs.ml" 118 2819 2831 "exprs.ml" 118 2819 2832
+type(
+  'a bind list
+)
+"exprs.ml" 118 2819 2834 "exprs.ml" 118 2819 2835
+type(
+  'a expr
+)
+"exprs.ml" 118 2819 2837 "exprs.ml" 118 2819 2838
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 118 2819 2843 "exprs.ml" 118 2819 2844
+)
+"exprs.ml" 118 2819 2823 "exprs.ml" 118 2819 2839
+type(
+  'a decl
+)
+type(
+  'a decl
+)
+"exprs.ml" 118 2819 2843 "exprs.ml" 118 2819 2844
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 118 2819 2837 "exprs.ml" 118 2819 2838
+)
+"exprs.ml" 117 2788 2806 "exprs.ml" 118 2819 2844
+type(
+  'a
+)
+"exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  def map_tag_E "exprs.ml" 122 2861 2861 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+type(
+  'a -> 'b
+)
+type(
+  'a -> 'b
+)
+ident(
+  def f "exprs.ml" 122 2861 2894 "exprs.ml" 171 4737 4806
+)
+"exprs.ml" 122 2861 2895 "exprs.ml" 122 2861 2896
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 123 2910 2912 "exprs.ml" 171 4737 4806
+)
+"exprs.ml" 123 2910 2918 "exprs.ml" 123 2910 2919
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 122 2861 2895 "exprs.ml" 122 2861 2896
+)
+"exprs.ml" 124 2925 2934 "exprs.ml" 124 2925 2936
+type(
+  'a expr
+)
+ident(
+  def e1 "exprs.ml" 124 2925 2948 "exprs.ml" 124 2925 2989
+)
+"exprs.ml" 124 2925 2938 "exprs.ml" 124 2925 2940
+type(
+  'a expr
+)
+ident(
+  def e2 "exprs.ml" 124 2925 2948 "exprs.ml" 124 2925 2989
+)
+"exprs.ml" 124 2925 2942 "exprs.ml" 124 2925 2943
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 124 2925 2948 "exprs.ml" 124 2925 2989
+)
+"exprs.ml" 124 2925 2929 "exprs.ml" 124 2925 2944
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 124 2925 2953 "exprs.ml" 124 2925 2962
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 124 2925 2963 "exprs.ml" 124 2925 2964
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 124 2925 2965 "exprs.ml" 124 2925 2967
+type(
+  'a expr
+)
+ident(
+  int_ref e1 "exprs.ml" 124 2925 2934 "exprs.ml" 124 2925 2936
+)
+"exprs.ml" 124 2925 2953 "exprs.ml" 124 2925 2967
+type(
+  'b expr
+)
+"exprs.ml" 124 2925 2969 "exprs.ml" 124 2925 2978
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 124 2925 2979 "exprs.ml" 124 2925 2980
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 124 2925 2981 "exprs.ml" 124 2925 2983
+type(
+  'a expr
+)
+ident(
+  int_ref e2 "exprs.ml" 124 2925 2938 "exprs.ml" 124 2925 2940
+)
+"exprs.ml" 124 2925 2969 "exprs.ml" 124 2925 2983
+type(
+  'b expr
+)
+"exprs.ml" 124 2925 2985 "exprs.ml" 124 2925 2986
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 124 2925 2987 "exprs.ml" 124 2925 2988
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 124 2925 2942 "exprs.ml" 124 2925 2943
+)
+"exprs.ml" 124 2925 2985 "exprs.ml" 124 2925 2988
+type(
+  'b
+)
+"exprs.ml" 124 2925 2948 "exprs.ml" 124 2925 2989
+type(
+  'b expr
+)
+"exprs.ml" 125 2990 3001 "exprs.ml" 125 2990 3006
+type(
+  'a expr list
+)
+ident(
+  def exprs "exprs.ml" 125 2990 3014 "exprs.ml" 125 2990 3055
+)
+"exprs.ml" 125 2990 3008 "exprs.ml" 125 2990 3009
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 125 2990 3014 "exprs.ml" 125 2990 3055
+)
+"exprs.ml" 125 2990 2994 "exprs.ml" 125 2990 3010
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 125 2990 3021 "exprs.ml" 125 2990 3029
+type(
+  ('a expr -> 'b expr) -> 'a expr list -> 'b expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 125 2990 3031 "exprs.ml" 125 2990 3040
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 125 2990 3041 "exprs.ml" 125 2990 3042
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 125 2990 3030 "exprs.ml" 125 2990 3043
+type(
+  'a expr -> 'b expr
+)
+"exprs.ml" 125 2990 3044 "exprs.ml" 125 2990 3049
+type(
+  'a expr list
+)
+ident(
+  int_ref exprs "exprs.ml" 125 2990 3001 "exprs.ml" 125 2990 3006
+)
+"exprs.ml" 125 2990 3021 "exprs.ml" 125 2990 3049
+type(
+  'b expr list
+)
+"exprs.ml" 125 2990 3051 "exprs.ml" 125 2990 3052
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 125 2990 3053 "exprs.ml" 125 2990 3054
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 125 2990 3008 "exprs.ml" 125 2990 3009
+)
+"exprs.ml" 125 2990 3051 "exprs.ml" 125 2990 3054
+type(
+  'b
+)
+"exprs.ml" 125 2990 3014 "exprs.ml" 125 2990 3055
+type(
+  'b expr
+)
+"exprs.ml" 126 3056 3069 "exprs.ml" 126 3056 3070
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 126 3056 3083 "exprs.ml" 126 3056 3128
+)
+"exprs.ml" 126 3056 3072 "exprs.ml" 126 3056 3075
+type(
+  'a expr
+)
+ident(
+  def idx "exprs.ml" 126 3056 3083 "exprs.ml" 126 3056 3128
+)
+"exprs.ml" 126 3056 3077 "exprs.ml" 126 3056 3078
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 126 3056 3083 "exprs.ml" 126 3056 3128
+)
+"exprs.ml" 126 3056 3060 "exprs.ml" 126 3056 3079
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 126 3056 3092 "exprs.ml" 126 3056 3101
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 126 3056 3102 "exprs.ml" 126 3056 3103
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 126 3056 3104 "exprs.ml" 126 3056 3105
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 126 3056 3069 "exprs.ml" 126 3056 3070
+)
+"exprs.ml" 126 3056 3092 "exprs.ml" 126 3056 3105
+type(
+  'b expr
+)
+"exprs.ml" 126 3056 3107 "exprs.ml" 126 3056 3116
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 126 3056 3117 "exprs.ml" 126 3056 3118
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 126 3056 3119 "exprs.ml" 126 3056 3122
+type(
+  'a expr
+)
+ident(
+  int_ref idx "exprs.ml" 126 3056 3072 "exprs.ml" 126 3056 3075
+)
+"exprs.ml" 126 3056 3107 "exprs.ml" 126 3056 3122
+type(
+  'b expr
+)
+"exprs.ml" 126 3056 3124 "exprs.ml" 126 3056 3125
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 126 3056 3126 "exprs.ml" 126 3056 3127
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 126 3056 3077 "exprs.ml" 126 3056 3078
+)
+"exprs.ml" 126 3056 3124 "exprs.ml" 126 3056 3127
+type(
+  'b
+)
+"exprs.ml" 126 3056 3083 "exprs.ml" 126 3056 3128
+type(
+  'b expr
+)
+"exprs.ml" 127 3129 3142 "exprs.ml" 127 3129 3143
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 127 3129 3164 "exprs.ml" 127 3129 3229
+)
+"exprs.ml" 127 3129 3145 "exprs.ml" 127 3129 3148
+type(
+  'a expr
+)
+ident(
+  def idx "exprs.ml" 127 3129 3164 "exprs.ml" 127 3129 3229
+)
+"exprs.ml" 127 3129 3150 "exprs.ml" 127 3129 3156
+type(
+  'a expr
+)
+ident(
+  def newval "exprs.ml" 127 3129 3164 "exprs.ml" 127 3129 3229
+)
+"exprs.ml" 127 3129 3158 "exprs.ml" 127 3129 3159
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 127 3129 3164 "exprs.ml" 127 3129 3229
+)
+"exprs.ml" 127 3129 3133 "exprs.ml" 127 3129 3160
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 127 3129 3173 "exprs.ml" 127 3129 3182
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 127 3129 3183 "exprs.ml" 127 3129 3184
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 127 3129 3185 "exprs.ml" 127 3129 3186
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 127 3129 3142 "exprs.ml" 127 3129 3143
+)
+"exprs.ml" 127 3129 3173 "exprs.ml" 127 3129 3186
+type(
+  'b expr
+)
+"exprs.ml" 127 3129 3188 "exprs.ml" 127 3129 3197
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 127 3129 3198 "exprs.ml" 127 3129 3199
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 127 3129 3200 "exprs.ml" 127 3129 3203
+type(
+  'a expr
+)
+ident(
+  int_ref idx "exprs.ml" 127 3129 3145 "exprs.ml" 127 3129 3148
+)
+"exprs.ml" 127 3129 3188 "exprs.ml" 127 3129 3203
+type(
+  'b expr
+)
+"exprs.ml" 127 3129 3205 "exprs.ml" 127 3129 3214
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 127 3129 3215 "exprs.ml" 127 3129 3216
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 127 3129 3217 "exprs.ml" 127 3129 3223
+type(
+  'a expr
+)
+ident(
+  int_ref newval "exprs.ml" 127 3129 3150 "exprs.ml" 127 3129 3156
+)
+"exprs.ml" 127 3129 3205 "exprs.ml" 127 3129 3223
+type(
+  'b expr
+)
+"exprs.ml" 127 3129 3225 "exprs.ml" 127 3129 3226
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 127 3129 3227 "exprs.ml" 127 3129 3228
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 127 3129 3158 "exprs.ml" 127 3129 3159
+)
+"exprs.ml" 127 3129 3225 "exprs.ml" 127 3129 3228
+type(
+  'b
+)
+"exprs.ml" 127 3129 3164 "exprs.ml" 127 3129 3229
+type(
+  'b expr
+)
+"exprs.ml" 128 3230 3238 "exprs.ml" 128 3230 3239
+type(
+  string
+)
+ident(
+  def x "exprs.ml" 128 3230 3247 "exprs.ml" 128 3230 3258
+)
+"exprs.ml" 128 3230 3241 "exprs.ml" 128 3230 3242
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 128 3230 3247 "exprs.ml" 128 3230 3258
+)
+"exprs.ml" 128 3230 3234 "exprs.ml" 128 3230 3243
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 128 3230 3251 "exprs.ml" 128 3230 3252
+type(
+  string
+)
+ident(
+  int_ref x "exprs.ml" 128 3230 3238 "exprs.ml" 128 3230 3239
+)
+"exprs.ml" 128 3230 3254 "exprs.ml" 128 3230 3255
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 128 3230 3256 "exprs.ml" 128 3230 3257
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 128 3230 3241 "exprs.ml" 128 3230 3242
+)
+"exprs.ml" 128 3230 3254 "exprs.ml" 128 3230 3257
+type(
+  'b
+)
+"exprs.ml" 128 3230 3247 "exprs.ml" 128 3230 3258
+type(
+  'b expr
+)
+"exprs.ml" 129 3259 3271 "exprs.ml" 129 3259 3272
+type(
+  int64
+)
+ident(
+  def n "exprs.ml" 129 3259 3280 "exprs.ml" 129 3259 3295
+)
+"exprs.ml" 129 3259 3274 "exprs.ml" 129 3259 3275
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 129 3259 3280 "exprs.ml" 129 3259 3295
+)
+"exprs.ml" 129 3259 3263 "exprs.ml" 129 3259 3276
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 129 3259 3288 "exprs.ml" 129 3259 3289
+type(
+  int64
+)
+ident(
+  int_ref n "exprs.ml" 129 3259 3271 "exprs.ml" 129 3259 3272
+)
+"exprs.ml" 129 3259 3291 "exprs.ml" 129 3259 3292
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 129 3259 3293 "exprs.ml" 129 3259 3294
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 129 3259 3274 "exprs.ml" 129 3259 3275
+)
+"exprs.ml" 129 3259 3291 "exprs.ml" 129 3259 3294
+type(
+  'b
+)
+"exprs.ml" 129 3259 3280 "exprs.ml" 129 3259 3295
+type(
+  'b expr
+)
+"exprs.ml" 130 3296 3306 "exprs.ml" 130 3296 3307
+type(
+  bool
+)
+ident(
+  def b "exprs.ml" 130 3296 3315 "exprs.ml" 130 3296 3328
+)
+"exprs.ml" 130 3296 3309 "exprs.ml" 130 3296 3310
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 130 3296 3315 "exprs.ml" 130 3296 3328
+)
+"exprs.ml" 130 3296 3300 "exprs.ml" 130 3296 3311
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 130 3296 3321 "exprs.ml" 130 3296 3322
+type(
+  bool
+)
+ident(
+  int_ref b "exprs.ml" 130 3296 3306 "exprs.ml" 130 3296 3307
+)
+"exprs.ml" 130 3296 3324 "exprs.ml" 130 3296 3325
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 130 3296 3326 "exprs.ml" 130 3296 3327
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 130 3296 3309 "exprs.ml" 130 3296 3310
+)
+"exprs.ml" 130 3296 3324 "exprs.ml" 130 3296 3327
+type(
+  'b
+)
+"exprs.ml" 130 3296 3315 "exprs.ml" 130 3296 3328
+type(
+  'b expr
+)
+"exprs.ml" 131 3329 3338 "exprs.ml" 131 3329 3339
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 131 3329 3343 "exprs.ml" 131 3329 3352
+)
+"exprs.ml" 131 3329 3333 "exprs.ml" 131 3329 3339
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 131 3329 3348 "exprs.ml" 131 3329 3349
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 131 3329 3350 "exprs.ml" 131 3329 3351
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 131 3329 3338 "exprs.ml" 131 3329 3339
+)
+"exprs.ml" 131 3329 3347 "exprs.ml" 131 3329 3352
+type(
+  'b
+)
+"exprs.ml" 131 3329 3343 "exprs.ml" 131 3329 3352
+type(
+  'b expr
+)
+"exprs.ml" 132 3353 3364 "exprs.ml" 132 3353 3366
+type(
+  prim1
+)
+ident(
+  def op "exprs.ml" 133 3377 3382 "exprs.ml" 134 3404 3444
+)
+"exprs.ml" 132 3353 3368 "exprs.ml" 132 3353 3369
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 133 3377 3382 "exprs.ml" 134 3404 3444
+)
+"exprs.ml" 132 3353 3371 "exprs.ml" 132 3353 3372
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 133 3377 3382 "exprs.ml" 134 3404 3444
+)
+"exprs.ml" 132 3353 3357 "exprs.ml" 132 3353 3373
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 133 3377 3386 "exprs.ml" 133 3377 3394
+type(
+  'b
+)
+ident(
+  def tag_prim "exprs.ml" 134 3404 3409 "exprs.ml" 134 3404 3444
+)
+"exprs.ml" 133 3377 3397 "exprs.ml" 133 3377 3398
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 133 3377 3399 "exprs.ml" 133 3377 3400
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 132 3353 3371 "exprs.ml" 132 3353 3372
+)
+"exprs.ml" 133 3377 3397 "exprs.ml" 133 3377 3400
+type(
+  'b
+)
+"exprs.ml" 134 3404 3416 "exprs.ml" 134 3404 3418
+type(
+  prim1
+)
+ident(
+  int_ref op "exprs.ml" 132 3353 3364 "exprs.ml" 132 3353 3366
+)
+"exprs.ml" 134 3404 3420 "exprs.ml" 134 3404 3429
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 134 3404 3430 "exprs.ml" 134 3404 3431
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 134 3404 3432 "exprs.ml" 134 3404 3433
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 132 3353 3368 "exprs.ml" 132 3353 3369
+)
+"exprs.ml" 134 3404 3420 "exprs.ml" 134 3404 3433
+type(
+  'b expr
+)
+"exprs.ml" 134 3404 3435 "exprs.ml" 134 3404 3443
+type(
+  'b
+)
+ident(
+  int_ref tag_prim "exprs.ml" 133 3377 3386 "exprs.ml" 133 3377 3394
+)
+"exprs.ml" 134 3404 3409 "exprs.ml" 134 3404 3444
+type(
+  'b expr
+)
+"exprs.ml" 133 3377 3382 "exprs.ml" 134 3404 3444
+type(
+  'b expr
+)
+"exprs.ml" 135 3445 3456 "exprs.ml" 135 3445 3458
+type(
+  prim2
+)
+ident(
+  def op "exprs.ml" 136 3474 3479 "exprs.ml" 139 3573 3614
+)
+"exprs.ml" 135 3445 3460 "exprs.ml" 135 3445 3462
+type(
+  'a expr
+)
+ident(
+  def e1 "exprs.ml" 136 3474 3479 "exprs.ml" 139 3573 3614
+)
+"exprs.ml" 135 3445 3464 "exprs.ml" 135 3445 3466
+type(
+  'a expr
+)
+ident(
+  def e2 "exprs.ml" 136 3474 3479 "exprs.ml" 139 3573 3614
+)
+"exprs.ml" 135 3445 3468 "exprs.ml" 135 3445 3469
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 136 3474 3479 "exprs.ml" 139 3573 3614
+)
+"exprs.ml" 135 3445 3449 "exprs.ml" 135 3445 3470
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 136 3474 3483 "exprs.ml" 136 3474 3491
+type(
+  'b
+)
+ident(
+  def tag_prim "exprs.ml" 137 3501 3506 "exprs.ml" 139 3573 3614
+)
+"exprs.ml" 136 3474 3494 "exprs.ml" 136 3474 3495
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 136 3474 3496 "exprs.ml" 136 3474 3497
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 135 3445 3468 "exprs.ml" 135 3445 3469
+)
+"exprs.ml" 136 3474 3494 "exprs.ml" 136 3474 3497
+type(
+  'b
+)
+"exprs.ml" 137 3501 3510 "exprs.ml" 137 3501 3516
+type(
+  'b expr
+)
+ident(
+  def tag_e1 "exprs.ml" 138 3537 3542 "exprs.ml" 139 3573 3614
+)
+"exprs.ml" 137 3501 3519 "exprs.ml" 137 3501 3528
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 137 3501 3529 "exprs.ml" 137 3501 3530
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 137 3501 3531 "exprs.ml" 137 3501 3533
+type(
+  'a expr
+)
+ident(
+  int_ref e1 "exprs.ml" 135 3445 3460 "exprs.ml" 135 3445 3462
+)
+"exprs.ml" 137 3501 3519 "exprs.ml" 137 3501 3533
+type(
+  'b expr
+)
+"exprs.ml" 138 3537 3546 "exprs.ml" 138 3537 3552
+type(
+  'b expr
+)
+ident(
+  def tag_e2 "exprs.ml" 139 3573 3578 "exprs.ml" 139 3573 3614
+)
+"exprs.ml" 138 3537 3555 "exprs.ml" 138 3537 3564
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 138 3537 3565 "exprs.ml" 138 3537 3566
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 138 3537 3567 "exprs.ml" 138 3537 3569
+type(
+  'a expr
+)
+ident(
+  int_ref e2 "exprs.ml" 135 3445 3464 "exprs.ml" 135 3445 3466
+)
+"exprs.ml" 138 3537 3555 "exprs.ml" 138 3537 3569
+type(
+  'b expr
+)
+"exprs.ml" 139 3573 3585 "exprs.ml" 139 3573 3587
+type(
+  prim2
+)
+ident(
+  int_ref op "exprs.ml" 135 3445 3456 "exprs.ml" 135 3445 3458
+)
+"exprs.ml" 139 3573 3589 "exprs.ml" 139 3573 3595
+type(
+  'b expr
+)
+ident(
+  int_ref tag_e1 "exprs.ml" 137 3501 3510 "exprs.ml" 137 3501 3516
+)
+"exprs.ml" 139 3573 3597 "exprs.ml" 139 3573 3603
+type(
+  'b expr
+)
+ident(
+  int_ref tag_e2 "exprs.ml" 138 3537 3546 "exprs.ml" 138 3537 3552
+)
+"exprs.ml" 139 3573 3605 "exprs.ml" 139 3573 3613
+type(
+  'b
+)
+ident(
+  int_ref tag_prim "exprs.ml" 136 3474 3483 "exprs.ml" 136 3474 3491
+)
+"exprs.ml" 139 3573 3578 "exprs.ml" 139 3573 3614
+type(
+  'b expr
+)
+"exprs.ml" 138 3537 3542 "exprs.ml" 139 3573 3614
+type(
+  'b expr
+)
+"exprs.ml" 137 3501 3506 "exprs.ml" 139 3573 3614
+type(
+  'b expr
+)
+"exprs.ml" 136 3474 3479 "exprs.ml" 139 3573 3614
+type(
+  'b expr
+)
+"exprs.ml" 140 3615 3624 "exprs.ml" 140 3615 3629
+type(
+  'a binding list
+)
+ident(
+  def binds "exprs.ml" 141 3643 3648 "exprs.ml" 149 3929 3968
+)
+"exprs.ml" 140 3615 3631 "exprs.ml" 140 3615 3635
+type(
+  'a expr
+)
+ident(
+  def body "exprs.ml" 141 3643 3648 "exprs.ml" 149 3929 3968
+)
+"exprs.ml" 140 3615 3637 "exprs.ml" 140 3615 3638
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 141 3643 3648 "exprs.ml" 149 3929 3968
+)
+"exprs.ml" 140 3615 3619 "exprs.ml" 140 3615 3639
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 141 3643 3652 "exprs.ml" 141 3643 3659
+type(
+  'b
+)
+ident(
+  def tag_let "exprs.ml" 142 3669 3674 "exprs.ml" 149 3929 3968
+)
+"exprs.ml" 141 3643 3662 "exprs.ml" 141 3643 3663
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 141 3643 3664 "exprs.ml" 141 3643 3665
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 140 3615 3637 "exprs.ml" 140 3615 3638
+)
+"exprs.ml" 141 3643 3662 "exprs.ml" 141 3643 3665
+type(
+  'b
+)
+"exprs.ml" 142 3669 3678 "exprs.ml" 142 3669 3689
+type(
+  'a bind * 'a expr * 'a -> 'b bind * 'b expr * 'b
+)
+ident(
+  def tag_binding "exprs.ml" 147 3838 3843 "exprs.ml" 149 3929 3968
+)
+"exprs.ml" 142 3669 3691 "exprs.ml" 142 3669 3692
+type(
+  'a bind
+)
+ident(
+  def b "exprs.ml" 143 3702 3709 "exprs.ml" 146 3803 3834
+)
+"exprs.ml" 142 3669 3694 "exprs.ml" 142 3669 3695
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 143 3702 3709 "exprs.ml" 146 3803 3834
+)
+"exprs.ml" 142 3669 3697 "exprs.ml" 142 3669 3698
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 143 3702 3709 "exprs.ml" 146 3803 3834
+)
+"exprs.ml" 142 3669 3690 "exprs.ml" 142 3669 3699
+type(
+  'a bind * 'a expr * 'a
+)
+"exprs.ml" 143 3702 3713 "exprs.ml" 143 3702 3721
+type(
+  'b
+)
+ident(
+  def tag_bind "exprs.ml" 144 3731 3738 "exprs.ml" 146 3803 3834
+)
+"exprs.ml" 143 3702 3724 "exprs.ml" 143 3702 3725
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 143 3702 3726 "exprs.ml" 143 3702 3727
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 142 3669 3697 "exprs.ml" 142 3669 3698
+)
+"exprs.ml" 143 3702 3724 "exprs.ml" 143 3702 3727
+type(
+  'b
+)
+"exprs.ml" 144 3731 3742 "exprs.ml" 144 3731 3747
+type(
+  'b bind
+)
+ident(
+  def tag_b "exprs.ml" 145 3767 3774 "exprs.ml" 146 3803 3834
+)
+"exprs.ml" 144 3731 3750 "exprs.ml" 144 3731 3759
+type(
+  ('a -> 'b) -> 'a bind -> 'b bind
+)
+ident(
+  int_ref map_tag_B "exprs.ml" 172 4807 4811 "exprs.ml" 172 4807 4820
+)
+"exprs.ml" 144 3731 3760 "exprs.ml" 144 3731 3761
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 144 3731 3762 "exprs.ml" 144 3731 3763
+type(
+  'a bind
+)
+ident(
+  int_ref b "exprs.ml" 142 3669 3691 "exprs.ml" 142 3669 3692
+)
+"exprs.ml" 144 3731 3750 "exprs.ml" 144 3731 3763
+type(
+  'b bind
+)
+"exprs.ml" 145 3767 3778 "exprs.ml" 145 3767 3783
+type(
+  'b expr
+)
+ident(
+  def tag_e "exprs.ml" 146 3803 3810 "exprs.ml" 146 3803 3834
+)
+"exprs.ml" 145 3767 3786 "exprs.ml" 145 3767 3795
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 145 3767 3796 "exprs.ml" 145 3767 3797
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 145 3767 3798 "exprs.ml" 145 3767 3799
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 142 3669 3694 "exprs.ml" 142 3669 3695
+)
+"exprs.ml" 145 3767 3786 "exprs.ml" 145 3767 3799
+type(
+  'b expr
+)
+"exprs.ml" 146 3803 3811 "exprs.ml" 146 3803 3816
+type(
+  'b bind
+)
+ident(
+  int_ref tag_b "exprs.ml" 144 3731 3742 "exprs.ml" 144 3731 3747
+)
+"exprs.ml" 146 3803 3818 "exprs.ml" 146 3803 3823
+type(
+  'b expr
+)
+ident(
+  int_ref tag_e "exprs.ml" 145 3767 3778 "exprs.ml" 145 3767 3783
+)
+"exprs.ml" 146 3803 3825 "exprs.ml" 146 3803 3833
+type(
+  'b
+)
+ident(
+  int_ref tag_bind "exprs.ml" 143 3702 3713 "exprs.ml" 143 3702 3721
+)
+"exprs.ml" 146 3803 3810 "exprs.ml" 146 3803 3834
+type(
+  'b bind * 'b expr * 'b
+)
+"exprs.ml" 145 3767 3774 "exprs.ml" 146 3803 3834
+type(
+  'b bind * 'b expr * 'b
+)
+"exprs.ml" 144 3731 3738 "exprs.ml" 146 3803 3834
+type(
+  'b bind * 'b expr * 'b
+)
+"exprs.ml" 143 3702 3709 "exprs.ml" 146 3803 3834
+type(
+  'b bind * 'b expr * 'b
+)
+"exprs.ml" 147 3838 3847 "exprs.ml" 147 3838 3856
+type(
+  ('b bind * 'b expr * 'b) list
+)
+ident(
+  def tag_binds "exprs.ml" 148 3889 3894 "exprs.ml" 149 3929 3968
+)
+"exprs.ml" 147 3838 3859 "exprs.ml" 147 3838 3867
+type(
+  ('a binding -> 'b bind * 'b expr * 'b) ->
+  'a binding list -> ('b bind * 'b expr * 'b) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 147 3838 3868 "exprs.ml" 147 3838 3879
+type(
+  'a binding -> 'b bind * 'b expr * 'b
+)
+ident(
+  int_ref tag_binding "exprs.ml" 142 3669 3678 "exprs.ml" 142 3669 3689
+)
+"exprs.ml" 147 3838 3880 "exprs.ml" 147 3838 3885
+type(
+  'a binding list
+)
+ident(
+  int_ref binds "exprs.ml" 140 3615 3624 "exprs.ml" 140 3615 3629
+)
+"exprs.ml" 147 3838 3859 "exprs.ml" 147 3838 3885
+type(
+  ('b bind * 'b expr * 'b) list
+)
+"exprs.ml" 148 3889 3898 "exprs.ml" 148 3889 3906
+type(
+  'b expr
+)
+ident(
+  def tag_body "exprs.ml" 149 3929 3934 "exprs.ml" 149 3929 3968
+)
+"exprs.ml" 148 3889 3909 "exprs.ml" 148 3889 3918
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 148 3889 3919 "exprs.ml" 148 3889 3920
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 148 3889 3921 "exprs.ml" 148 3889 3925
+type(
+  'a expr
+)
+ident(
+  int_ref body "exprs.ml" 140 3615 3631 "exprs.ml" 140 3615 3635
+)
+"exprs.ml" 148 3889 3909 "exprs.ml" 148 3889 3925
+type(
+  'b expr
+)
+"exprs.ml" 149 3929 3939 "exprs.ml" 149 3929 3948
+type(
+  'b binding list
+)
+ident(
+  int_ref tag_binds "exprs.ml" 147 3838 3847 "exprs.ml" 147 3838 3856
+)
+"exprs.ml" 149 3929 3950 "exprs.ml" 149 3929 3958
+type(
+  'b expr
+)
+ident(
+  int_ref tag_body "exprs.ml" 148 3889 3898 "exprs.ml" 148 3889 3906
+)
+"exprs.ml" 149 3929 3960 "exprs.ml" 149 3929 3967
+type(
+  'b
+)
+ident(
+  int_ref tag_let "exprs.ml" 141 3643 3652 "exprs.ml" 141 3643 3659
+)
+"exprs.ml" 149 3929 3934 "exprs.ml" 149 3929 3968
+type(
+  'b expr
+)
+"exprs.ml" 148 3889 3894 "exprs.ml" 149 3929 3968
+type(
+  'b expr
+)
+"exprs.ml" 147 3838 3843 "exprs.ml" 149 3929 3968
+type(
+  'b expr
+)
+"exprs.ml" 142 3669 3674 "exprs.ml" 149 3929 3968
+type(
+  'b expr
+)
+"exprs.ml" 141 3643 3648 "exprs.ml" 149 3929 3968
+type(
+  'b expr
+)
+"exprs.ml" 150 3969 3981 "exprs.ml" 150 3969 3986
+type(
+  'a binding list
+)
+ident(
+  def binds "exprs.ml" 151 4000 4005 "exprs.ml" 159 4286 4328
+)
+"exprs.ml" 150 3969 3988 "exprs.ml" 150 3969 3992
+type(
+  'a expr
+)
+ident(
+  def body "exprs.ml" 151 4000 4005 "exprs.ml" 159 4286 4328
+)
+"exprs.ml" 150 3969 3994 "exprs.ml" 150 3969 3995
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 151 4000 4005 "exprs.ml" 159 4286 4328
+)
+"exprs.ml" 150 3969 3973 "exprs.ml" 150 3969 3996
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 151 4000 4009 "exprs.ml" 151 4000 4016
+type(
+  'b
+)
+ident(
+  def tag_let "exprs.ml" 152 4026 4031 "exprs.ml" 159 4286 4328
+)
+"exprs.ml" 151 4000 4019 "exprs.ml" 151 4000 4020
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 151 4000 4021 "exprs.ml" 151 4000 4022
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 150 3969 3994 "exprs.ml" 150 3969 3995
+)
+"exprs.ml" 151 4000 4019 "exprs.ml" 151 4000 4022
+type(
+  'b
+)
+"exprs.ml" 152 4026 4035 "exprs.ml" 152 4026 4046
+type(
+  'a bind * 'a expr * 'a -> 'b bind * 'b expr * 'b
+)
+ident(
+  def tag_binding "exprs.ml" 157 4195 4200 "exprs.ml" 159 4286 4328
+)
+"exprs.ml" 152 4026 4048 "exprs.ml" 152 4026 4049
+type(
+  'a bind
+)
+ident(
+  def b "exprs.ml" 153 4059 4066 "exprs.ml" 156 4160 4191
+)
+"exprs.ml" 152 4026 4051 "exprs.ml" 152 4026 4052
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 153 4059 4066 "exprs.ml" 156 4160 4191
+)
+"exprs.ml" 152 4026 4054 "exprs.ml" 152 4026 4055
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 153 4059 4066 "exprs.ml" 156 4160 4191
+)
+"exprs.ml" 152 4026 4047 "exprs.ml" 152 4026 4056
+type(
+  'a bind * 'a expr * 'a
+)
+"exprs.ml" 153 4059 4070 "exprs.ml" 153 4059 4078
+type(
+  'b
+)
+ident(
+  def tag_bind "exprs.ml" 154 4088 4095 "exprs.ml" 156 4160 4191
+)
+"exprs.ml" 153 4059 4081 "exprs.ml" 153 4059 4082
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 153 4059 4083 "exprs.ml" 153 4059 4084
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 152 4026 4054 "exprs.ml" 152 4026 4055
+)
+"exprs.ml" 153 4059 4081 "exprs.ml" 153 4059 4084
+type(
+  'b
+)
+"exprs.ml" 154 4088 4099 "exprs.ml" 154 4088 4104
+type(
+  'b bind
+)
+ident(
+  def tag_b "exprs.ml" 155 4124 4131 "exprs.ml" 156 4160 4191
+)
+"exprs.ml" 154 4088 4107 "exprs.ml" 154 4088 4116
+type(
+  ('a -> 'b) -> 'a bind -> 'b bind
+)
+ident(
+  int_ref map_tag_B "exprs.ml" 172 4807 4811 "exprs.ml" 172 4807 4820
+)
+"exprs.ml" 154 4088 4117 "exprs.ml" 154 4088 4118
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 154 4088 4119 "exprs.ml" 154 4088 4120
+type(
+  'a bind
+)
+ident(
+  int_ref b "exprs.ml" 152 4026 4048 "exprs.ml" 152 4026 4049
+)
+"exprs.ml" 154 4088 4107 "exprs.ml" 154 4088 4120
+type(
+  'b bind
+)
+"exprs.ml" 155 4124 4135 "exprs.ml" 155 4124 4140
+type(
+  'b expr
+)
+ident(
+  def tag_e "exprs.ml" 156 4160 4167 "exprs.ml" 156 4160 4191
+)
+"exprs.ml" 155 4124 4143 "exprs.ml" 155 4124 4152
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 155 4124 4153 "exprs.ml" 155 4124 4154
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 155 4124 4155 "exprs.ml" 155 4124 4156
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 152 4026 4051 "exprs.ml" 152 4026 4052
+)
+"exprs.ml" 155 4124 4143 "exprs.ml" 155 4124 4156
+type(
+  'b expr
+)
+"exprs.ml" 156 4160 4168 "exprs.ml" 156 4160 4173
+type(
+  'b bind
+)
+ident(
+  int_ref tag_b "exprs.ml" 154 4088 4099 "exprs.ml" 154 4088 4104
+)
+"exprs.ml" 156 4160 4175 "exprs.ml" 156 4160 4180
+type(
+  'b expr
+)
+ident(
+  int_ref tag_e "exprs.ml" 155 4124 4135 "exprs.ml" 155 4124 4140
+)
+"exprs.ml" 156 4160 4182 "exprs.ml" 156 4160 4190
+type(
+  'b
+)
+ident(
+  int_ref tag_bind "exprs.ml" 153 4059 4070 "exprs.ml" 153 4059 4078
+)
+"exprs.ml" 156 4160 4167 "exprs.ml" 156 4160 4191
+type(
+  'b bind * 'b expr * 'b
+)
+"exprs.ml" 155 4124 4131 "exprs.ml" 156 4160 4191
+type(
+  'b bind * 'b expr * 'b
+)
+"exprs.ml" 154 4088 4095 "exprs.ml" 156 4160 4191
+type(
+  'b bind * 'b expr * 'b
+)
+"exprs.ml" 153 4059 4066 "exprs.ml" 156 4160 4191
+type(
+  'b bind * 'b expr * 'b
+)
+"exprs.ml" 157 4195 4204 "exprs.ml" 157 4195 4213
+type(
+  ('b bind * 'b expr * 'b) list
+)
+ident(
+  def tag_binds "exprs.ml" 158 4246 4251 "exprs.ml" 159 4286 4328
+)
+"exprs.ml" 157 4195 4216 "exprs.ml" 157 4195 4224
+type(
+  ('a binding -> 'b bind * 'b expr * 'b) ->
+  'a binding list -> ('b bind * 'b expr * 'b) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 157 4195 4225 "exprs.ml" 157 4195 4236
+type(
+  'a binding -> 'b bind * 'b expr * 'b
+)
+ident(
+  int_ref tag_binding "exprs.ml" 152 4026 4035 "exprs.ml" 152 4026 4046
+)
+"exprs.ml" 157 4195 4237 "exprs.ml" 157 4195 4242
+type(
+  'a binding list
+)
+ident(
+  int_ref binds "exprs.ml" 150 3969 3981 "exprs.ml" 150 3969 3986
+)
+"exprs.ml" 157 4195 4216 "exprs.ml" 157 4195 4242
+type(
+  ('b bind * 'b expr * 'b) list
+)
+"exprs.ml" 158 4246 4255 "exprs.ml" 158 4246 4263
+type(
+  'b expr
+)
+ident(
+  def tag_body "exprs.ml" 159 4286 4291 "exprs.ml" 159 4286 4328
+)
+"exprs.ml" 158 4246 4266 "exprs.ml" 158 4246 4275
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 158 4246 4276 "exprs.ml" 158 4246 4277
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 158 4246 4278 "exprs.ml" 158 4246 4282
+type(
+  'a expr
+)
+ident(
+  int_ref body "exprs.ml" 150 3969 3988 "exprs.ml" 150 3969 3992
+)
+"exprs.ml" 158 4246 4266 "exprs.ml" 158 4246 4282
+type(
+  'b expr
+)
+"exprs.ml" 159 4286 4299 "exprs.ml" 159 4286 4308
+type(
+  'b binding list
+)
+ident(
+  int_ref tag_binds "exprs.ml" 157 4195 4204 "exprs.ml" 157 4195 4213
+)
+"exprs.ml" 159 4286 4310 "exprs.ml" 159 4286 4318
+type(
+  'b expr
+)
+ident(
+  int_ref tag_body "exprs.ml" 158 4246 4255 "exprs.ml" 158 4246 4263
+)
+"exprs.ml" 159 4286 4320 "exprs.ml" 159 4286 4327
+type(
+  'b
+)
+ident(
+  int_ref tag_let "exprs.ml" 151 4000 4009 "exprs.ml" 151 4000 4016
+)
+"exprs.ml" 159 4286 4291 "exprs.ml" 159 4286 4328
+type(
+  'b expr
+)
+"exprs.ml" 158 4246 4251 "exprs.ml" 159 4286 4328
+type(
+  'b expr
+)
+"exprs.ml" 157 4195 4200 "exprs.ml" 159 4286 4328
+type(
+  'b expr
+)
+"exprs.ml" 152 4026 4031 "exprs.ml" 159 4286 4328
+type(
+  'b expr
+)
+"exprs.ml" 151 4000 4005 "exprs.ml" 159 4286 4328
+type(
+  'b expr
+)
+"exprs.ml" 160 4329 4337 "exprs.ml" 160 4329 4341
+type(
+  'a expr
+)
+ident(
+  def cond "exprs.ml" 161 4359 4364 "exprs.ml" 165 4500 4544
+)
+"exprs.ml" 160 4329 4343 "exprs.ml" 160 4329 4346
+type(
+  'a expr
+)
+ident(
+  def thn "exprs.ml" 161 4359 4364 "exprs.ml" 165 4500 4544
+)
+"exprs.ml" 160 4329 4348 "exprs.ml" 160 4329 4351
+type(
+  'a expr
+)
+ident(
+  def els "exprs.ml" 161 4359 4364 "exprs.ml" 165 4500 4544
+)
+"exprs.ml" 160 4329 4353 "exprs.ml" 160 4329 4354
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 161 4359 4364 "exprs.ml" 165 4500 4544
+)
+"exprs.ml" 160 4329 4333 "exprs.ml" 160 4329 4355
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 161 4359 4368 "exprs.ml" 161 4359 4374
+type(
+  'b
+)
+ident(
+  def tag_if "exprs.ml" 162 4384 4389 "exprs.ml" 165 4500 4544
+)
+"exprs.ml" 161 4359 4377 "exprs.ml" 161 4359 4378
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 161 4359 4379 "exprs.ml" 161 4359 4380
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 160 4329 4353 "exprs.ml" 160 4329 4354
+)
+"exprs.ml" 161 4359 4377 "exprs.ml" 161 4359 4380
+type(
+  'b
+)
+"exprs.ml" 162 4384 4393 "exprs.ml" 162 4384 4401
+type(
+  'b expr
+)
+ident(
+  def tag_cond "exprs.ml" 163 4424 4429 "exprs.ml" 165 4500 4544
+)
+"exprs.ml" 162 4384 4404 "exprs.ml" 162 4384 4413
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 162 4384 4414 "exprs.ml" 162 4384 4415
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 162 4384 4416 "exprs.ml" 162 4384 4420
+type(
+  'a expr
+)
+ident(
+  int_ref cond "exprs.ml" 160 4329 4337 "exprs.ml" 160 4329 4341
+)
+"exprs.ml" 162 4384 4404 "exprs.ml" 162 4384 4420
+type(
+  'b expr
+)
+"exprs.ml" 163 4424 4433 "exprs.ml" 163 4424 4440
+type(
+  'b expr
+)
+ident(
+  def tag_thn "exprs.ml" 164 4462 4467 "exprs.ml" 165 4500 4544
+)
+"exprs.ml" 163 4424 4443 "exprs.ml" 163 4424 4452
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 163 4424 4453 "exprs.ml" 163 4424 4454
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 163 4424 4455 "exprs.ml" 163 4424 4458
+type(
+  'a expr
+)
+ident(
+  int_ref thn "exprs.ml" 160 4329 4343 "exprs.ml" 160 4329 4346
+)
+"exprs.ml" 163 4424 4443 "exprs.ml" 163 4424 4458
+type(
+  'b expr
+)
+"exprs.ml" 164 4462 4471 "exprs.ml" 164 4462 4478
+type(
+  'b expr
+)
+ident(
+  def tag_els "exprs.ml" 165 4500 4505 "exprs.ml" 165 4500 4544
+)
+"exprs.ml" 164 4462 4481 "exprs.ml" 164 4462 4490
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 164 4462 4491 "exprs.ml" 164 4462 4492
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 164 4462 4493 "exprs.ml" 164 4462 4496
+type(
+  'a expr
+)
+ident(
+  int_ref els "exprs.ml" 160 4329 4348 "exprs.ml" 160 4329 4351
+)
+"exprs.ml" 164 4462 4481 "exprs.ml" 164 4462 4496
+type(
+  'b expr
+)
+"exprs.ml" 165 4500 4509 "exprs.ml" 165 4500 4517
+type(
+  'b expr
+)
+ident(
+  int_ref tag_cond "exprs.ml" 162 4384 4393 "exprs.ml" 162 4384 4401
+)
+"exprs.ml" 165 4500 4519 "exprs.ml" 165 4500 4526
+type(
+  'b expr
+)
+ident(
+  int_ref tag_thn "exprs.ml" 163 4424 4433 "exprs.ml" 163 4424 4440
+)
+"exprs.ml" 165 4500 4528 "exprs.ml" 165 4500 4535
+type(
+  'b expr
+)
+ident(
+  int_ref tag_els "exprs.ml" 164 4462 4471 "exprs.ml" 164 4462 4478
+)
+"exprs.ml" 165 4500 4537 "exprs.ml" 165 4500 4543
+type(
+  'b
+)
+ident(
+  int_ref tag_if "exprs.ml" 161 4359 4368 "exprs.ml" 161 4359 4374
+)
+"exprs.ml" 165 4500 4505 "exprs.ml" 165 4500 4544
+type(
+  'b expr
+)
+"exprs.ml" 164 4462 4467 "exprs.ml" 165 4500 4544
+type(
+  'b expr
+)
+"exprs.ml" 163 4424 4429 "exprs.ml" 165 4500 4544
+type(
+  'b expr
+)
+"exprs.ml" 162 4384 4389 "exprs.ml" 165 4500 4544
+type(
+  'b expr
+)
+"exprs.ml" 161 4359 4364 "exprs.ml" 165 4500 4544
+type(
+  'b expr
+)
+"exprs.ml" 166 4545 4554 "exprs.ml" 166 4545 4558
+type(
+  'a expr
+)
+ident(
+  def func "exprs.ml" 167 4580 4585 "exprs.ml" 168 4606 4679
+)
+"exprs.ml" 166 4545 4560 "exprs.ml" 166 4545 4564
+type(
+  'a expr list
+)
+ident(
+  def args "exprs.ml" 167 4580 4585 "exprs.ml" 168 4606 4679
+)
+"exprs.ml" 166 4545 4566 "exprs.ml" 166 4545 4572
+type(
+  call_type
+)
+ident(
+  def native "exprs.ml" 167 4580 4585 "exprs.ml" 168 4606 4679
+)
+"exprs.ml" 166 4545 4574 "exprs.ml" 166 4545 4575
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 167 4580 4585 "exprs.ml" 168 4606 4679
+)
+"exprs.ml" 166 4545 4549 "exprs.ml" 166 4545 4576
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 167 4580 4589 "exprs.ml" 167 4580 4596
+type(
+  'b
+)
+ident(
+  def tag_app "exprs.ml" 168 4606 4611 "exprs.ml" 168 4606 4679
+)
+"exprs.ml" 167 4580 4599 "exprs.ml" 167 4580 4600
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 167 4580 4601 "exprs.ml" 167 4580 4602
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 166 4545 4574 "exprs.ml" 166 4545 4575
+)
+"exprs.ml" 167 4580 4599 "exprs.ml" 167 4580 4602
+type(
+  'b
+)
+"exprs.ml" 168 4606 4616 "exprs.ml" 168 4606 4625
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 168 4606 4626 "exprs.ml" 168 4606 4627
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 168 4606 4628 "exprs.ml" 168 4606 4632
+type(
+  'a expr
+)
+ident(
+  int_ref func "exprs.ml" 166 4545 4554 "exprs.ml" 166 4545 4558
+)
+"exprs.ml" 168 4606 4616 "exprs.ml" 168 4606 4632
+type(
+  'b expr
+)
+"exprs.ml" 168 4606 4634 "exprs.ml" 168 4606 4642
+type(
+  ('a expr -> 'b expr) -> 'a expr list -> 'b expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 168 4606 4644 "exprs.ml" 168 4606 4653
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 168 4606 4654 "exprs.ml" 168 4606 4655
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 168 4606 4643 "exprs.ml" 168 4606 4656
+type(
+  'a expr -> 'b expr
+)
+"exprs.ml" 168 4606 4657 "exprs.ml" 168 4606 4661
+type(
+  'a expr list
+)
+ident(
+  int_ref args "exprs.ml" 166 4545 4560 "exprs.ml" 166 4545 4564
+)
+"exprs.ml" 168 4606 4634 "exprs.ml" 168 4606 4661
+type(
+  'b expr list
+)
+"exprs.ml" 168 4606 4663 "exprs.ml" 168 4606 4669
+type(
+  call_type
+)
+ident(
+  int_ref native "exprs.ml" 166 4545 4566 "exprs.ml" 166 4545 4572
+)
+"exprs.ml" 168 4606 4671 "exprs.ml" 168 4606 4678
+type(
+  'b
+)
+ident(
+  int_ref tag_app "exprs.ml" 167 4580 4589 "exprs.ml" 167 4580 4596
+)
+"exprs.ml" 168 4606 4611 "exprs.ml" 168 4606 4679
+type(
+  'b expr
+)
+"exprs.ml" 167 4580 4585 "exprs.ml" 168 4606 4679
+type(
+  'b expr
+)
+"exprs.ml" 169 4680 4692 "exprs.ml" 169 4680 4697
+type(
+  'a bind list
+)
+ident(
+  def binds "exprs.ml" 170 4711 4716 "exprs.ml" 171 4737 4806
+)
+"exprs.ml" 169 4680 4699 "exprs.ml" 169 4680 4703
+type(
+  'a expr
+)
+ident(
+  def body "exprs.ml" 170 4711 4716 "exprs.ml" 171 4737 4806
+)
+"exprs.ml" 169 4680 4705 "exprs.ml" 169 4680 4706
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 170 4711 4716 "exprs.ml" 171 4737 4806
+)
+"exprs.ml" 169 4680 4684 "exprs.ml" 169 4680 4707
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 170 4711 4720 "exprs.ml" 170 4711 4727
+type(
+  'b
+)
+ident(
+  def tag_lam "exprs.ml" 171 4737 4742 "exprs.ml" 171 4737 4806
+)
+"exprs.ml" 170 4711 4730 "exprs.ml" 170 4711 4731
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 170 4711 4732 "exprs.ml" 170 4711 4733
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 169 4680 4705 "exprs.ml" 169 4680 4706
+)
+"exprs.ml" 170 4711 4730 "exprs.ml" 170 4711 4733
+type(
+  'b
+)
+"exprs.ml" 171 4737 4750 "exprs.ml" 171 4737 4758
+type(
+  ('a bind -> 'b bind) -> 'a bind list -> 'b bind list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 171 4737 4760 "exprs.ml" 171 4737 4769
+type(
+  ('a -> 'b) -> 'a bind -> 'b bind
+)
+ident(
+  int_ref map_tag_B "exprs.ml" 172 4807 4811 "exprs.ml" 172 4807 4820
+)
+"exprs.ml" 171 4737 4770 "exprs.ml" 171 4737 4771
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 171 4737 4759 "exprs.ml" 171 4737 4772
+type(
+  'a bind -> 'b bind
+)
+"exprs.ml" 171 4737 4773 "exprs.ml" 171 4737 4778
+type(
+  'a bind list
+)
+ident(
+  int_ref binds "exprs.ml" 169 4680 4692 "exprs.ml" 169 4680 4697
+)
+"exprs.ml" 171 4737 4750 "exprs.ml" 171 4737 4778
+type(
+  'b bind list
+)
+"exprs.ml" 171 4737 4780 "exprs.ml" 171 4737 4789
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 171 4737 4790 "exprs.ml" 171 4737 4791
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 122 2861 2880 "exprs.ml" 122 2861 2881
+)
+"exprs.ml" 171 4737 4792 "exprs.ml" 171 4737 4796
+type(
+  'a expr
+)
+ident(
+  int_ref body "exprs.ml" 169 4680 4699 "exprs.ml" 169 4680 4703
+)
+"exprs.ml" 171 4737 4780 "exprs.ml" 171 4737 4796
+type(
+  'b expr
+)
+"exprs.ml" 171 4737 4798 "exprs.ml" 171 4737 4805
+type(
+  'b
+)
+ident(
+  int_ref tag_lam "exprs.ml" 170 4711 4720 "exprs.ml" 170 4711 4727
+)
+"exprs.ml" 171 4737 4742 "exprs.ml" 171 4737 4806
+type(
+  'b expr
+)
+"exprs.ml" 170 4711 4716 "exprs.ml" 171 4737 4806
+type(
+  'b expr
+)
+"exprs.ml" 123 2910 2912 "exprs.ml" 171 4737 4806
+type(
+  'b expr
+)
+"exprs.ml" 172 4807 4811 "exprs.ml" 172 4807 4820
+type(
+  ('a -> 'b) -> 'a bind -> 'b bind
+)
+ident(
+  def map_tag_B "exprs.ml" 122 2861 2861 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 172 4807 4822 "exprs.ml" 172 4807 4823
+type(
+  'a -> 'b
+)
+type(
+  'a -> 'b
+)
+ident(
+  def f "exprs.ml" 172 4807 4836 "exprs.ml" 180 5033 5083
+)
+"exprs.ml" 172 4807 4836 "exprs.ml" 172 4807 4837
+type(
+  'a bind
+)
+ident(
+  def b "exprs.ml" 173 4840 4842 "exprs.ml" 180 5033 5083
+)
+"exprs.ml" 173 4840 4848 "exprs.ml" 173 4840 4849
+type(
+  'a bind
+)
+ident(
+  int_ref b "exprs.ml" 172 4807 4836 "exprs.ml" 172 4807 4837
+)
+"exprs.ml" 174 4855 4866 "exprs.ml" 174 4855 4869
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 174 4855 4873 "exprs.ml" 174 4855 4886
+)
+"exprs.ml" 174 4855 4859 "exprs.ml" 174 4855 4869
+type(
+  'a bind
+)
+type(
+  'a bind
+)
+"exprs.ml" 174 4855 4880 "exprs.ml" 174 4855 4881
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 172 4807 4822 "exprs.ml" 172 4807 4823
+)
+"exprs.ml" 174 4855 4882 "exprs.ml" 174 4855 4885
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 174 4855 4866 "exprs.ml" 174 4855 4869
+)
+"exprs.ml" 174 4855 4879 "exprs.ml" 174 4855 4886
+type(
+  'b
+)
+"exprs.ml" 174 4855 4873 "exprs.ml" 174 4855 4886
+type(
+  'b bind
+)
+"exprs.ml" 175 4887 4897 "exprs.ml" 175 4887 4898
+type(
+  string
+)
+ident(
+  def x "exprs.ml" 176 4921 4926 "exprs.ml" 177 4947 4982
+)
+"exprs.ml" 175 4887 4900 "exprs.ml" 175 4887 4912
+type(
+  bool
+)
+ident(
+  def allow_shadow "exprs.ml" 176 4921 4926 "exprs.ml" 177 4947 4982
+)
+"exprs.ml" 175 4887 4914 "exprs.ml" 175 4887 4916
+type(
+  'a
+)
+ident(
+  def ax "exprs.ml" 176 4921 4926 "exprs.ml" 177 4947 4982
+)
+"exprs.ml" 175 4887 4891 "exprs.ml" 175 4887 4917
+type(
+  'a bind
+)
+type(
+  'a bind
+)
+"exprs.ml" 176 4921 4930 "exprs.ml" 176 4921 4936
+type(
+  'b
+)
+ident(
+  def tag_ax "exprs.ml" 177 4947 4952 "exprs.ml" 177 4947 4982
+)
+"exprs.ml" 176 4921 4939 "exprs.ml" 176 4921 4940
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 172 4807 4822 "exprs.ml" 172 4807 4823
+)
+"exprs.ml" 176 4921 4941 "exprs.ml" 176 4921 4943
+type(
+  'a
+)
+ident(
+  int_ref ax "exprs.ml" 175 4887 4914 "exprs.ml" 175 4887 4916
+)
+"exprs.ml" 176 4921 4939 "exprs.ml" 176 4921 4943
+type(
+  'b
+)
+"exprs.ml" 177 4947 4958 "exprs.ml" 177 4947 4959
+type(
+  string
+)
+ident(
+  int_ref x "exprs.ml" 175 4887 4897 "exprs.ml" 175 4887 4898
+)
+"exprs.ml" 177 4947 4961 "exprs.ml" 177 4947 4973
+type(
+  bool
+)
+ident(
+  int_ref allow_shadow "exprs.ml" 175 4887 4900 "exprs.ml" 175 4887 4912
+)
+"exprs.ml" 177 4947 4975 "exprs.ml" 177 4947 4981
+type(
+  'b
+)
+ident(
+  int_ref tag_ax "exprs.ml" 176 4921 4930 "exprs.ml" 176 4921 4936
+)
+"exprs.ml" 177 4947 4952 "exprs.ml" 177 4947 4982
+type(
+  'b bind
+)
+"exprs.ml" 176 4921 4926 "exprs.ml" 177 4947 4982
+type(
+  'b bind
+)
+"exprs.ml" 178 4983 4994 "exprs.ml" 178 4983 4999
+type(
+  'a bind list
+)
+ident(
+  def binds "exprs.ml" 179 5007 5012 "exprs.ml" 180 5033 5083
+)
+"exprs.ml" 178 4983 5001 "exprs.ml" 178 4983 5002
+type(
+  'a
+)
+ident(
+  def t "exprs.ml" 179 5007 5012 "exprs.ml" 180 5033 5083
+)
+"exprs.ml" 178 4983 4987 "exprs.ml" 178 4983 5003
+type(
+  'a bind
+)
+type(
+  'a bind
+)
+"exprs.ml" 179 5007 5016 "exprs.ml" 179 5007 5023
+type(
+  'b
+)
+ident(
+  def tag_tup "exprs.ml" 180 5033 5038 "exprs.ml" 180 5033 5083
+)
+"exprs.ml" 179 5007 5026 "exprs.ml" 179 5007 5027
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 172 4807 4822 "exprs.ml" 172 4807 4823
+)
+"exprs.ml" 179 5007 5028 "exprs.ml" 179 5007 5029
+type(
+  'a
+)
+ident(
+  int_ref t "exprs.ml" 178 4983 5001 "exprs.ml" 178 4983 5002
+)
+"exprs.ml" 179 5007 5026 "exprs.ml" 179 5007 5029
+type(
+  'b
+)
+"exprs.ml" 180 5033 5045 "exprs.ml" 180 5033 5053
+type(
+  ('a bind -> 'b bind) -> 'a bind list -> 'b bind list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 180 5033 5055 "exprs.ml" 180 5033 5064
+type(
+  ('a -> 'b) -> 'a bind -> 'b bind
+)
+ident(
+  int_ref map_tag_B "exprs.ml" 172 4807 4811 "exprs.ml" 172 4807 4820
+)
+"exprs.ml" 180 5033 5065 "exprs.ml" 180 5033 5066
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 172 4807 4822 "exprs.ml" 172 4807 4823
+)
+"exprs.ml" 180 5033 5054 "exprs.ml" 180 5033 5067
+type(
+  'a bind -> 'b bind
+)
+"exprs.ml" 180 5033 5068 "exprs.ml" 180 5033 5073
+type(
+  'a bind list
+)
+ident(
+  int_ref binds "exprs.ml" 178 4983 4994 "exprs.ml" 178 4983 4999
+)
+"exprs.ml" 180 5033 5045 "exprs.ml" 180 5033 5073
+type(
+  'b bind list
+)
+"exprs.ml" 180 5033 5075 "exprs.ml" 180 5033 5082
+type(
+  'b
+)
+ident(
+  int_ref tag_tup "exprs.ml" 179 5007 5016 "exprs.ml" 179 5007 5023
+)
+"exprs.ml" 180 5033 5038 "exprs.ml" 180 5033 5083
+type(
+  'b bind
+)
+"exprs.ml" 179 5007 5012 "exprs.ml" 180 5033 5083
+type(
+  'b bind
+)
+"exprs.ml" 173 4840 4842 "exprs.ml" 180 5033 5083
+type(
+  'b bind
+)
+"exprs.ml" 181 5084 5088 "exprs.ml" 181 5084 5097
+type(
+  ('a -> 'b) -> 'a decl -> 'b decl
+)
+ident(
+  def map_tag_D "exprs.ml" 122 2861 2861 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 181 5084 5099 "exprs.ml" 181 5084 5100
+type(
+  'a -> 'b
+)
+type(
+  'a -> 'b
+)
+ident(
+  def f "exprs.ml" 181 5084 5113 "exprs.ml" 187 5282 5326
+)
+"exprs.ml" 181 5084 5113 "exprs.ml" 181 5084 5114
+type(
+  'a decl
+)
+ident(
+  def d "exprs.ml" 182 5117 5119 "exprs.ml" 187 5282 5326
+)
+"exprs.ml" 182 5117 5125 "exprs.ml" 182 5117 5126
+type(
+  'a decl
+)
+ident(
+  int_ref d "exprs.ml" 181 5084 5113 "exprs.ml" 181 5084 5114
+)
+"exprs.ml" 183 5132 5141 "exprs.ml" 183 5132 5145
+type(
+  string
+)
+ident(
+  def name "exprs.ml" 184 5165 5170 "exprs.ml" 187 5282 5326
+)
+"exprs.ml" 183 5132 5147 "exprs.ml" 183 5132 5151
+type(
+  'a bind list
+)
+ident(
+  def args "exprs.ml" 184 5165 5170 "exprs.ml" 187 5282 5326
+)
+"exprs.ml" 183 5132 5153 "exprs.ml" 183 5132 5157
+type(
+  'a expr
+)
+ident(
+  def body "exprs.ml" 184 5165 5170 "exprs.ml" 187 5282 5326
+)
+"exprs.ml" 183 5132 5159 "exprs.ml" 183 5132 5160
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 184 5165 5170 "exprs.ml" 187 5282 5326
+)
+"exprs.ml" 183 5132 5136 "exprs.ml" 183 5132 5161
+type(
+  'a decl
+)
+type(
+  'a decl
+)
+"exprs.ml" 184 5165 5174 "exprs.ml" 184 5165 5181
+type(
+  'b
+)
+ident(
+  def tag_fun "exprs.ml" 185 5191 5196 "exprs.ml" 187 5282 5326
+)
+"exprs.ml" 184 5165 5184 "exprs.ml" 184 5165 5185
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 181 5084 5099 "exprs.ml" 181 5084 5100
+)
+"exprs.ml" 184 5165 5186 "exprs.ml" 184 5165 5187
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 183 5132 5159 "exprs.ml" 183 5132 5160
+)
+"exprs.ml" 184 5165 5184 "exprs.ml" 184 5165 5187
+type(
+  'b
+)
+"exprs.ml" 185 5191 5200 "exprs.ml" 185 5191 5208
+type(
+  'b bind list
+)
+ident(
+  def tag_args "exprs.ml" 186 5242 5247 "exprs.ml" 187 5282 5326
+)
+"exprs.ml" 185 5191 5211 "exprs.ml" 185 5191 5219
+type(
+  ('a bind -> 'b bind) -> 'a bind list -> 'b bind list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 185 5191 5221 "exprs.ml" 185 5191 5230
+type(
+  ('a -> 'b) -> 'a bind -> 'b bind
+)
+ident(
+  int_ref map_tag_B "exprs.ml" 172 4807 4811 "exprs.ml" 172 4807 4820
+)
+"exprs.ml" 185 5191 5231 "exprs.ml" 185 5191 5232
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 181 5084 5099 "exprs.ml" 181 5084 5100
+)
+"exprs.ml" 185 5191 5220 "exprs.ml" 185 5191 5233
+type(
+  'a bind -> 'b bind
+)
+"exprs.ml" 185 5191 5234 "exprs.ml" 185 5191 5238
+type(
+  'a bind list
+)
+ident(
+  int_ref args "exprs.ml" 183 5132 5147 "exprs.ml" 183 5132 5151
+)
+"exprs.ml" 185 5191 5211 "exprs.ml" 185 5191 5238
+type(
+  'b bind list
+)
+"exprs.ml" 186 5242 5251 "exprs.ml" 186 5242 5259
+type(
+  'b expr
+)
+ident(
+  def tag_body "exprs.ml" 187 5282 5287 "exprs.ml" 187 5282 5326
+)
+"exprs.ml" 186 5242 5262 "exprs.ml" 186 5242 5271
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 186 5242 5272 "exprs.ml" 186 5242 5273
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 181 5084 5099 "exprs.ml" 181 5084 5100
+)
+"exprs.ml" 186 5242 5274 "exprs.ml" 186 5242 5278
+type(
+  'a expr
+)
+ident(
+  int_ref body "exprs.ml" 183 5132 5153 "exprs.ml" 183 5132 5157
+)
+"exprs.ml" 186 5242 5262 "exprs.ml" 186 5242 5278
+type(
+  'b expr
+)
+"exprs.ml" 187 5282 5292 "exprs.ml" 187 5282 5296
+type(
+  string
+)
+ident(
+  int_ref name "exprs.ml" 183 5132 5141 "exprs.ml" 183 5132 5145
+)
+"exprs.ml" 187 5282 5298 "exprs.ml" 187 5282 5306
+type(
+  'b bind list
+)
+ident(
+  int_ref tag_args "exprs.ml" 185 5191 5200 "exprs.ml" 185 5191 5208
+)
+"exprs.ml" 187 5282 5308 "exprs.ml" 187 5282 5316
+type(
+  'b expr
+)
+ident(
+  int_ref tag_body "exprs.ml" 186 5242 5251 "exprs.ml" 186 5242 5259
+)
+"exprs.ml" 187 5282 5318 "exprs.ml" 187 5282 5325
+type(
+  'b
+)
+ident(
+  int_ref tag_fun "exprs.ml" 184 5165 5174 "exprs.ml" 184 5165 5181
+)
+"exprs.ml" 187 5282 5287 "exprs.ml" 187 5282 5326
+type(
+  'b decl
+)
+"exprs.ml" 186 5242 5247 "exprs.ml" 187 5282 5326
+type(
+  'b decl
+)
+"exprs.ml" 185 5191 5196 "exprs.ml" 187 5282 5326
+type(
+  'b decl
+)
+"exprs.ml" 184 5165 5170 "exprs.ml" 187 5282 5326
+type(
+  'b decl
+)
+"exprs.ml" 182 5117 5119 "exprs.ml" 187 5282 5326
+type(
+  'b decl
+)
+"exprs.ml" 188 5327 5331 "exprs.ml" 188 5327 5340
+type(
+  ('a -> 'b) -> 'a program -> 'b program
+)
+ident(
+  def map_tag_P "exprs.ml" 122 2861 2861 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 188 5327 5342 "exprs.ml" 188 5327 5343
+type(
+  'a -> 'b
+)
+type(
+  'a -> 'b
+)
+ident(
+  def f "exprs.ml" 188 5327 5356 "exprs.ml" 194 5563 5603
+)
+"exprs.ml" 188 5327 5356 "exprs.ml" 188 5327 5357
+type(
+  'a program
+)
+ident(
+  def p "exprs.ml" 189 5360 5362 "exprs.ml" 194 5563 5603
+)
+"exprs.ml" 189 5360 5368 "exprs.ml" 189 5360 5369
+type(
+  'a program
+)
+ident(
+  int_ref p "exprs.ml" 188 5327 5356 "exprs.ml" 188 5327 5357
+)
+"exprs.ml" 190 5375 5387 "exprs.ml" 190 5375 5397
+type(
+  'a decl list list
+)
+ident(
+  def declgroups "exprs.ml" 191 5411 5416 "exprs.ml" 194 5563 5603
+)
+"exprs.ml" 190 5375 5399 "exprs.ml" 190 5375 5403
+type(
+  'a expr
+)
+ident(
+  def body "exprs.ml" 191 5411 5416 "exprs.ml" 194 5563 5603
+)
+"exprs.ml" 190 5375 5405 "exprs.ml" 190 5375 5406
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 191 5411 5416 "exprs.ml" 194 5563 5603
+)
+"exprs.ml" 190 5375 5379 "exprs.ml" 190 5375 5407
+type(
+  'a program
+)
+type(
+  'a program
+)
+"exprs.ml" 191 5411 5420 "exprs.ml" 191 5411 5425
+type(
+  'b
+)
+ident(
+  def tag_a "exprs.ml" 192 5435 5440 "exprs.ml" 194 5563 5603
+)
+"exprs.ml" 191 5411 5428 "exprs.ml" 191 5411 5429
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 188 5327 5342 "exprs.ml" 188 5327 5343
+)
+"exprs.ml" 191 5411 5430 "exprs.ml" 191 5411 5431
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 190 5375 5405 "exprs.ml" 190 5375 5406
+)
+"exprs.ml" 191 5411 5428 "exprs.ml" 191 5411 5431
+type(
+  'b
+)
+"exprs.ml" 192 5435 5444 "exprs.ml" 192 5435 5453
+type(
+  'b decl list list
+)
+ident(
+  def tag_decls "exprs.ml" 193 5523 5528 "exprs.ml" 194 5563 5603
+)
+"exprs.ml" 192 5435 5456 "exprs.ml" 192 5435 5464
+type(
+  ('a decl list -> 'b decl list) -> 'a decl list list -> 'b decl list list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 192 5435 5470 "exprs.ml" 192 5435 5475
+type(
+  'a decl list
+)
+ident(
+  def group "exprs.ml" 192 5435 5479 "exprs.ml" 192 5435 5507
+)
+"exprs.ml" 192 5435 5479 "exprs.ml" 192 5435 5487
+type(
+  ('a decl -> 'b decl) -> 'a decl list -> 'b decl list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 192 5435 5489 "exprs.ml" 192 5435 5498
+type(
+  ('a -> 'b) -> 'a decl -> 'b decl
+)
+ident(
+  int_ref map_tag_D "exprs.ml" 181 5084 5088 "exprs.ml" 181 5084 5097
+)
+"exprs.ml" 192 5435 5499 "exprs.ml" 192 5435 5500
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 188 5327 5342 "exprs.ml" 188 5327 5343
+)
+"exprs.ml" 192 5435 5488 "exprs.ml" 192 5435 5501
+type(
+  'a decl -> 'b decl
+)
+"exprs.ml" 192 5435 5502 "exprs.ml" 192 5435 5507
+type(
+  'a decl list
+)
+ident(
+  int_ref group "exprs.ml" 192 5435 5470 "exprs.ml" 192 5435 5475
+)
+"exprs.ml" 192 5435 5479 "exprs.ml" 192 5435 5507
+type(
+  'b decl list
+)
+"exprs.ml" 192 5435 5465 "exprs.ml" 192 5435 5508
+type(
+  'a decl list -> 'b decl list
+)
+"exprs.ml" 192 5435 5509 "exprs.ml" 192 5435 5519
+type(
+  'a decl list list
+)
+ident(
+  int_ref declgroups "exprs.ml" 190 5375 5387 "exprs.ml" 190 5375 5397
+)
+"exprs.ml" 192 5435 5456 "exprs.ml" 192 5435 5519
+type(
+  'b decl list list
+)
+"exprs.ml" 193 5523 5532 "exprs.ml" 193 5523 5540
+type(
+  'b expr
+)
+ident(
+  def tag_body "exprs.ml" 194 5563 5568 "exprs.ml" 194 5563 5603
+)
+"exprs.ml" 193 5523 5543 "exprs.ml" 193 5523 5552
+type(
+  ('a -> 'b) -> 'a expr -> 'b expr
+)
+ident(
+  int_ref map_tag_E "exprs.ml" 122 2861 2869 "exprs.ml" 122 2861 2878
+)
+"exprs.ml" 193 5523 5553 "exprs.ml" 193 5523 5554
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 188 5327 5342 "exprs.ml" 188 5327 5343
+)
+"exprs.ml" 193 5523 5555 "exprs.ml" 193 5523 5559
+type(
+  'a expr
+)
+ident(
+  int_ref body "exprs.ml" 190 5375 5399 "exprs.ml" 190 5375 5403
+)
+"exprs.ml" 193 5523 5543 "exprs.ml" 193 5523 5559
+type(
+  'b expr
+)
+"exprs.ml" 194 5563 5576 "exprs.ml" 194 5563 5585
+type(
+  'b decl list list
+)
+ident(
+  int_ref tag_decls "exprs.ml" 192 5435 5444 "exprs.ml" 192 5435 5453
+)
+"exprs.ml" 194 5563 5587 "exprs.ml" 194 5563 5595
+type(
+  'b expr
+)
+ident(
+  int_ref tag_body "exprs.ml" 193 5523 5532 "exprs.ml" 193 5523 5540
+)
+"exprs.ml" 194 5563 5597 "exprs.ml" 194 5563 5602
+type(
+  'b
+)
+ident(
+  int_ref tag_a "exprs.ml" 191 5411 5420 "exprs.ml" 191 5411 5425
+)
+"exprs.ml" 194 5563 5568 "exprs.ml" 194 5563 5603
+type(
+  'b program
+)
+"exprs.ml" 193 5523 5528 "exprs.ml" 194 5563 5603
+type(
+  'b program
+)
+"exprs.ml" 192 5435 5440 "exprs.ml" 194 5563 5603
+type(
+  'b program
+)
+"exprs.ml" 191 5411 5416 "exprs.ml" 194 5563 5603
+type(
+  'b program
+)
+"exprs.ml" 189 5360 5362 "exprs.ml" 194 5563 5603
+type(
+  'b program
+)
+"exprs.ml" 196 5605 5609 "exprs.ml" 196 5605 5612
+type(
+  'a program -> tag program
+)
+ident(
+  def tag "exprs.ml" 205 5752 5752 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 196 5605 5614 "exprs.ml" 196 5605 5615
+type(
+  'a program
+)
+type(
+  'a program
+)
+ident(
+  def p "exprs.ml" 197 5646 5648 "exprs.ml" 201 5718 5735
+)
+"exprs.ml" 197 5646 5652 "exprs.ml" 197 5646 5656
+type(
+  int ref
+)
+ident(
+  def next "exprs.ml" 198 5668 5670 "exprs.ml" 201 5718 5735
+)
+"exprs.ml" 197 5646 5659 "exprs.ml" 197 5646 5662
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1227 46636 46636 "stdlib.mli" 1227 46636 46680
+)
+"exprs.ml" 197 5646 5663 "exprs.ml" 197 5646 5664
+type(
+  int
+)
+"exprs.ml" 197 5646 5659 "exprs.ml" 197 5646 5664
+type(
+  int ref
+)
+"exprs.ml" 198 5668 5674 "exprs.ml" 198 5668 5677
+type(
+  'b -> int
+)
+ident(
+  def tag "exprs.ml" 201 5718 5720 "exprs.ml" 201 5718 5735
+)
+"exprs.ml" 198 5668 5678 "exprs.ml" 198 5668 5679
+type(
+  'b
+)
+"exprs.ml" 199 5682 5686 "exprs.ml" 199 5682 5690
+type(
+  int ref
+)
+ident(
+  int_ref next "exprs.ml" 197 5646 5652 "exprs.ml" 197 5646 5656
+)
+"exprs.ml" 199 5682 5691 "exprs.ml" 199 5682 5693
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1236 46948 46948 "stdlib.mli" 1236 46948 47001
+)
+"exprs.ml" 199 5682 5694 "exprs.ml" 199 5682 5695
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"exprs.ml" 199 5682 5695 "exprs.ml" 199 5682 5699
+type(
+  int ref
+)
+ident(
+  int_ref next "exprs.ml" 197 5646 5652 "exprs.ml" 197 5646 5656
+)
+"exprs.ml" 199 5682 5694 "exprs.ml" 199 5682 5699
+type(
+  int
+)
+"exprs.ml" 199 5682 5700 "exprs.ml" 199 5682 5701
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"exprs.ml" 199 5682 5702 "exprs.ml" 199 5682 5703
+type(
+  int
+)
+"exprs.ml" 199 5682 5694 "exprs.ml" 199 5682 5703
+type(
+  int
+)
+"exprs.ml" 199 5682 5686 "exprs.ml" 199 5682 5703
+type(
+  unit
+)
+"exprs.ml" 200 5705 5709 "exprs.ml" 200 5705 5710
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"exprs.ml" 200 5705 5710 "exprs.ml" 200 5705 5714
+type(
+  int ref
+)
+ident(
+  int_ref next "exprs.ml" 197 5646 5652 "exprs.ml" 197 5646 5656
+)
+"exprs.ml" 200 5705 5709 "exprs.ml" 200 5705 5714
+type(
+  int
+)
+"exprs.ml" 199 5682 5686 "exprs.ml" 200 5705 5714
+type(
+  int
+)
+"exprs.ml" 201 5718 5720 "exprs.ml" 201 5718 5729
+type(
+  ('a -> tag) -> 'a program -> tag program
+)
+ident(
+  int_ref map_tag_P "exprs.ml" 188 5327 5331 "exprs.ml" 188 5327 5340
+)
+"exprs.ml" 201 5718 5730 "exprs.ml" 201 5718 5733
+type(
+  'a -> tag
+)
+ident(
+  int_ref tag "exprs.ml" 198 5668 5674 "exprs.ml" 198 5668 5677
+)
+"exprs.ml" 201 5718 5734 "exprs.ml" 201 5718 5735
+type(
+  'a program
+)
+ident(
+  int_ref p "exprs.ml" 196 5605 5614 "exprs.ml" 196 5605 5615
+)
+"exprs.ml" 201 5718 5720 "exprs.ml" 201 5718 5735
+type(
+  tag program
+)
+"exprs.ml" 198 5668 5670 "exprs.ml" 201 5718 5735
+type(
+  tag program
+)
+"exprs.ml" 197 5646 5648 "exprs.ml" 201 5718 5735
+type(
+  tag program
+)
+"exprs.ml" 205 5752 5756 "exprs.ml" 205 5752 5768
+type(
+  ('a -> 'b) -> ('a -> 'c) -> 'a program -> ('b * 'c) program
+)
+ident(
+  def combine_tags "exprs.ml" 208 5881 5881 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 205 5752 5770 "exprs.ml" 205 5752 5772
+type(
+  'a -> 'b
+)
+type(
+  'a -> 'b
+)
+ident(
+  def f1 "exprs.ml" 205 5752 5785 "exprs.ml" 206 5840 5877
+)
+"exprs.ml" 205 5752 5786 "exprs.ml" 205 5752 5788
+type(
+  'a -> 'c
+)
+type(
+  'a -> 'c
+)
+ident(
+  def f2 "exprs.ml" 205 5752 5801 "exprs.ml" 206 5840 5877
+)
+"exprs.ml" 205 5752 5802 "exprs.ml" 205 5752 5803
+type(
+  'a program
+)
+type(
+  'a program
+)
+ident(
+  def p "exprs.ml" 206 5840 5842 "exprs.ml" 206 5840 5877
+)
+"exprs.ml" 206 5840 5842 "exprs.ml" 206 5840 5851
+type(
+  ('a -> 'b * 'c) -> 'a program -> ('b * 'c) program
+)
+ident(
+  int_ref map_tag_P "exprs.ml" 188 5327 5331 "exprs.ml" 188 5327 5340
+)
+"exprs.ml" 206 5840 5857 "exprs.ml" 206 5840 5858
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 206 5840 5862 "exprs.ml" 206 5840 5874
+)
+"exprs.ml" 206 5840 5863 "exprs.ml" 206 5840 5865
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f1 "exprs.ml" 205 5752 5770 "exprs.ml" 205 5752 5772
+)
+"exprs.ml" 206 5840 5866 "exprs.ml" 206 5840 5867
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 206 5840 5857 "exprs.ml" 206 5840 5858
+)
+"exprs.ml" 206 5840 5863 "exprs.ml" 206 5840 5867
+type(
+  'b
+)
+"exprs.ml" 206 5840 5869 "exprs.ml" 206 5840 5871
+type(
+  'a -> 'c
+)
+ident(
+  int_ref f2 "exprs.ml" 205 5752 5786 "exprs.ml" 205 5752 5788
+)
+"exprs.ml" 206 5840 5872 "exprs.ml" 206 5840 5873
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 206 5840 5857 "exprs.ml" 206 5840 5858
+)
+"exprs.ml" 206 5840 5869 "exprs.ml" 206 5840 5873
+type(
+  'c
+)
+"exprs.ml" 206 5840 5862 "exprs.ml" 206 5840 5874
+type(
+  'b * 'c
+)
+"exprs.ml" 206 5840 5852 "exprs.ml" 206 5840 5875
+type(
+  'a -> 'b * 'c
+)
+"exprs.ml" 206 5840 5876 "exprs.ml" 206 5840 5877
+type(
+  'a program
+)
+ident(
+  int_ref p "exprs.ml" 205 5752 5802 "exprs.ml" 205 5752 5803
+)
+"exprs.ml" 206 5840 5842 "exprs.ml" 206 5840 5877
+type(
+  ('b * 'c) program
+)
+"exprs.ml" 208 5881 5885 "exprs.ml" 208 5881 5896
+type(
+  ('a -> 'b) -> 'a program -> ('a * 'b) program
+)
+ident(
+  def tag_and_map "exprs.ml" 211 5988 5988 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 208 5881 5898 "exprs.ml" 208 5881 5899
+type(
+  'a -> 'b
+)
+type(
+  'a -> 'b
+)
+ident(
+  def f "exprs.ml" 208 5881 5912 "exprs.ml" 209 5951 5984
+)
+"exprs.ml" 208 5881 5913 "exprs.ml" 208 5881 5914
+type(
+  'a program
+)
+type(
+  'a program
+)
+ident(
+  def p "exprs.ml" 209 5951 5953 "exprs.ml" 209 5951 5984
+)
+"exprs.ml" 209 5951 5953 "exprs.ml" 209 5951 5962
+type(
+  ('a -> 'a * 'b) -> 'a program -> ('a * 'b) program
+)
+ident(
+  int_ref map_tag_P "exprs.ml" 188 5327 5331 "exprs.ml" 188 5327 5340
+)
+"exprs.ml" 209 5951 5968 "exprs.ml" 209 5951 5969
+type(
+  'a
+)
+ident(
+  def a "exprs.ml" 209 5951 5973 "exprs.ml" 209 5951 5981
+)
+"exprs.ml" 209 5951 5974 "exprs.ml" 209 5951 5975
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 209 5951 5968 "exprs.ml" 209 5951 5969
+)
+"exprs.ml" 209 5951 5977 "exprs.ml" 209 5951 5978
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "exprs.ml" 208 5881 5898 "exprs.ml" 208 5881 5899
+)
+"exprs.ml" 209 5951 5979 "exprs.ml" 209 5951 5980
+type(
+  'a
+)
+ident(
+  int_ref a "exprs.ml" 209 5951 5968 "exprs.ml" 209 5951 5969
+)
+"exprs.ml" 209 5951 5977 "exprs.ml" 209 5951 5980
+type(
+  'b
+)
+"exprs.ml" 209 5951 5973 "exprs.ml" 209 5951 5981
+type(
+  'a * 'b
+)
+"exprs.ml" 209 5951 5963 "exprs.ml" 209 5951 5982
+type(
+  'a -> 'a * 'b
+)
+"exprs.ml" 209 5951 5983 "exprs.ml" 209 5951 5984
+type(
+  'a program
+)
+ident(
+  int_ref p "exprs.ml" 208 5881 5913 "exprs.ml" 208 5881 5914
+)
+"exprs.ml" 209 5951 5953 "exprs.ml" 209 5951 5984
+type(
+  ('a * 'b) program
+)
+"exprs.ml" 211 5988 5992 "exprs.ml" 211 5988 6004
+type(
+  'a program -> ('a * tag) program
+)
+ident(
+  def prog_and_tag "exprs.ml" 219 6152 6152 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 211 5988 6006 "exprs.ml" 211 5988 6007
+type(
+  'a program
+)
+type(
+  'a program
+)
+ident(
+  def p "exprs.ml" 212 6045 6047 "exprs.ml" 216 6117 6136
+)
+"exprs.ml" 212 6045 6051 "exprs.ml" 212 6045 6055
+type(
+  int ref
+)
+ident(
+  def next "exprs.ml" 213 6067 6069 "exprs.ml" 216 6117 6136
+)
+"exprs.ml" 212 6045 6058 "exprs.ml" 212 6045 6061
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1227 46636 46636 "stdlib.mli" 1227 46636 46680
+)
+"exprs.ml" 212 6045 6062 "exprs.ml" 212 6045 6063
+type(
+  int
+)
+"exprs.ml" 212 6045 6058 "exprs.ml" 212 6045 6063
+type(
+  int ref
+)
+"exprs.ml" 213 6067 6073 "exprs.ml" 213 6067 6076
+type(
+  'b -> int
+)
+ident(
+  def tag "exprs.ml" 216 6117 6119 "exprs.ml" 216 6117 6136
+)
+"exprs.ml" 213 6067 6077 "exprs.ml" 213 6067 6078
+type(
+  'b
+)
+"exprs.ml" 214 6081 6085 "exprs.ml" 214 6081 6089
+type(
+  int ref
+)
+ident(
+  int_ref next "exprs.ml" 212 6045 6051 "exprs.ml" 212 6045 6055
+)
+"exprs.ml" 214 6081 6090 "exprs.ml" 214 6081 6092
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1236 46948 46948 "stdlib.mli" 1236 46948 47001
+)
+"exprs.ml" 214 6081 6093 "exprs.ml" 214 6081 6094
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"exprs.ml" 214 6081 6094 "exprs.ml" 214 6081 6098
+type(
+  int ref
+)
+ident(
+  int_ref next "exprs.ml" 212 6045 6051 "exprs.ml" 212 6045 6055
+)
+"exprs.ml" 214 6081 6093 "exprs.ml" 214 6081 6098
+type(
+  int
+)
+"exprs.ml" 214 6081 6099 "exprs.ml" 214 6081 6100
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"exprs.ml" 214 6081 6101 "exprs.ml" 214 6081 6102
+type(
+  int
+)
+"exprs.ml" 214 6081 6093 "exprs.ml" 214 6081 6102
+type(
+  int
+)
+"exprs.ml" 214 6081 6085 "exprs.ml" 214 6081 6102
+type(
+  unit
+)
+"exprs.ml" 215 6104 6108 "exprs.ml" 215 6104 6109
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"exprs.ml" 215 6104 6109 "exprs.ml" 215 6104 6113
+type(
+  int ref
+)
+ident(
+  int_ref next "exprs.ml" 212 6045 6051 "exprs.ml" 212 6045 6055
+)
+"exprs.ml" 215 6104 6108 "exprs.ml" 215 6104 6113
+type(
+  int
+)
+"exprs.ml" 214 6081 6085 "exprs.ml" 215 6104 6113
+type(
+  int
+)
+"exprs.ml" 216 6117 6119 "exprs.ml" 216 6117 6130
+type(
+  ('a -> tag) -> 'a program -> ('a * tag) program
+)
+ident(
+  int_ref tag_and_map "exprs.ml" 208 5881 5885 "exprs.ml" 208 5881 5896
+)
+"exprs.ml" 216 6117 6131 "exprs.ml" 216 6117 6134
+type(
+  'a -> tag
+)
+ident(
+  int_ref tag "exprs.ml" 213 6067 6073 "exprs.ml" 213 6067 6076
+)
+"exprs.ml" 216 6117 6135 "exprs.ml" 216 6117 6136
+type(
+  'a program
+)
+ident(
+  int_ref p "exprs.ml" 211 5988 6006 "exprs.ml" 211 5988 6007
+)
+"exprs.ml" 216 6117 6119 "exprs.ml" 216 6117 6136
+type(
+  ('a * tag) program
+)
+"exprs.ml" 213 6067 6069 "exprs.ml" 216 6117 6136
+type(
+  ('a * tag) program
+)
+"exprs.ml" 212 6045 6047 "exprs.ml" 216 6117 6136
+type(
+  ('a * tag) program
+)
+"exprs.ml" 219 6152 6160 "exprs.ml" 219 6152 6166
+type(
+  'a program -> unit program
+)
+ident(
+  def untagP "exprs.ml" 219 6152 6152 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 219 6152 6168 "exprs.ml" 219 6152 6169
+type(
+  'a program
+)
+type(
+  'a program
+)
+ident(
+  def p "exprs.ml" 220 6201 6203 "exprs.ml" 222 6247 6329
+)
+"exprs.ml" 220 6201 6209 "exprs.ml" 220 6201 6210
+type(
+  'a program
+)
+ident(
+  int_ref p "exprs.ml" 219 6152 6168 "exprs.ml" 219 6152 6169
+)
+"exprs.ml" 221 6216 6228 "exprs.ml" 221 6216 6233
+type(
+  'a decl list list
+)
+ident(
+  def decls "exprs.ml" 222 6247 6252 "exprs.ml" 222 6247 6329
+)
+"exprs.ml" 221 6216 6235 "exprs.ml" 221 6216 6239
+type(
+  'a expr
+)
+ident(
+  def body "exprs.ml" 222 6247 6252 "exprs.ml" 222 6247 6329
+)
+"exprs.ml" 221 6216 6241 "exprs.ml" 221 6216 6242
+type(
+  'a
+)
+"exprs.ml" 221 6216 6220 "exprs.ml" 221 6216 6243
+type(
+  'a program
+)
+type(
+  'a program
+)
+"exprs.ml" 222 6247 6260 "exprs.ml" 222 6247 6268
+type(
+  ('a decl list -> unit decl list) ->
+  'a decl list list -> unit decl list list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 222 6247 6274 "exprs.ml" 222 6247 6279
+type(
+  'a decl list
+)
+ident(
+  def group "exprs.ml" 222 6247 6283 "exprs.ml" 222 6247 6304
+)
+"exprs.ml" 222 6247 6283 "exprs.ml" 222 6247 6291
+type(
+  ('a decl -> unit decl) -> 'a decl list -> unit decl list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 222 6247 6292 "exprs.ml" 222 6247 6298
+type(
+  'a decl -> unit decl
+)
+ident(
+  int_ref untagD "exprs.ml" 252 7528 7532 "exprs.ml" 252 7528 7538
+)
+"exprs.ml" 222 6247 6299 "exprs.ml" 222 6247 6304
+type(
+  'a decl list
+)
+ident(
+  int_ref group "exprs.ml" 222 6247 6274 "exprs.ml" 222 6247 6279
+)
+"exprs.ml" 222 6247 6283 "exprs.ml" 222 6247 6304
+type(
+  unit decl list
+)
+"exprs.ml" 222 6247 6269 "exprs.ml" 222 6247 6305
+type(
+  'a decl list -> unit decl list
+)
+"exprs.ml" 222 6247 6306 "exprs.ml" 222 6247 6311
+type(
+  'a decl list list
+)
+ident(
+  int_ref decls "exprs.ml" 221 6216 6228 "exprs.ml" 221 6216 6233
+)
+"exprs.ml" 222 6247 6260 "exprs.ml" 222 6247 6311
+type(
+  unit decl list list
+)
+"exprs.ml" 222 6247 6313 "exprs.ml" 222 6247 6319
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 222 6247 6320 "exprs.ml" 222 6247 6324
+type(
+  'a expr
+)
+ident(
+  int_ref body "exprs.ml" 221 6216 6235 "exprs.ml" 221 6216 6239
+)
+"exprs.ml" 222 6247 6313 "exprs.ml" 222 6247 6324
+type(
+  unit expr
+)
+"exprs.ml" 222 6247 6326 "exprs.ml" 222 6247 6328
+type(
+  unit
+)
+"exprs.ml" 222 6247 6252 "exprs.ml" 222 6247 6329
+type(
+  unit program
+)
+"exprs.ml" 220 6201 6203 "exprs.ml" 222 6247 6329
+type(
+  unit program
+)
+"exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+type(
+  'a expr -> unit expr
+)
+ident(
+  def untagE "exprs.ml" 219 6152 6152 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 223 6330 6341 "exprs.ml" 223 6330 6342
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 224 6345 6347 "exprs.ml" 246 7301 7353
+)
+"exprs.ml" 224 6345 6353 "exprs.ml" 224 6345 6354
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 223 6330 6341 "exprs.ml" 223 6330 6342
+)
+"exprs.ml" 225 6360 6369 "exprs.ml" 225 6360 6371
+type(
+  'a expr
+)
+ident(
+  def e1 "exprs.ml" 225 6360 6383 "exprs.ml" 225 6360 6413
+)
+"exprs.ml" 225 6360 6373 "exprs.ml" 225 6360 6375
+type(
+  'a expr
+)
+ident(
+  def e2 "exprs.ml" 225 6360 6383 "exprs.ml" 225 6360 6413
+)
+"exprs.ml" 225 6360 6377 "exprs.ml" 225 6360 6378
+type(
+  'a
+)
+"exprs.ml" 225 6360 6364 "exprs.ml" 225 6360 6379
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 225 6360 6388 "exprs.ml" 225 6360 6394
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 225 6360 6395 "exprs.ml" 225 6360 6397
+type(
+  'a expr
+)
+ident(
+  int_ref e1 "exprs.ml" 225 6360 6369 "exprs.ml" 225 6360 6371
+)
+"exprs.ml" 225 6360 6388 "exprs.ml" 225 6360 6397
+type(
+  unit expr
+)
+"exprs.ml" 225 6360 6399 "exprs.ml" 225 6360 6405
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 225 6360 6406 "exprs.ml" 225 6360 6408
+type(
+  'a expr
+)
+ident(
+  int_ref e2 "exprs.ml" 225 6360 6373 "exprs.ml" 225 6360 6375
+)
+"exprs.ml" 225 6360 6399 "exprs.ml" 225 6360 6408
+type(
+  unit expr
+)
+"exprs.ml" 225 6360 6410 "exprs.ml" 225 6360 6412
+type(
+  unit
+)
+"exprs.ml" 225 6360 6383 "exprs.ml" 225 6360 6413
+type(
+  unit expr
+)
+"exprs.ml" 226 6414 6425 "exprs.ml" 226 6414 6430
+type(
+  'a expr list
+)
+ident(
+  def exprs "exprs.ml" 226 6414 6438 "exprs.ml" 226 6414 6471
+)
+"exprs.ml" 226 6414 6432 "exprs.ml" 226 6414 6433
+type(
+  'a
+)
+"exprs.ml" 226 6414 6418 "exprs.ml" 226 6414 6434
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 226 6414 6445 "exprs.ml" 226 6414 6453
+type(
+  ('a expr -> unit expr) -> 'a expr list -> unit expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 226 6414 6454 "exprs.ml" 226 6414 6460
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 226 6414 6461 "exprs.ml" 226 6414 6466
+type(
+  'a expr list
+)
+ident(
+  int_ref exprs "exprs.ml" 226 6414 6425 "exprs.ml" 226 6414 6430
+)
+"exprs.ml" 226 6414 6445 "exprs.ml" 226 6414 6466
+type(
+  unit expr list
+)
+"exprs.ml" 226 6414 6468 "exprs.ml" 226 6414 6470
+type(
+  unit
+)
+"exprs.ml" 226 6414 6438 "exprs.ml" 226 6414 6471
+type(
+  unit expr
+)
+"exprs.ml" 227 6472 6485 "exprs.ml" 227 6472 6486
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 227 6472 6499 "exprs.ml" 227 6472 6533
+)
+"exprs.ml" 227 6472 6488 "exprs.ml" 227 6472 6491
+type(
+  'a expr
+)
+ident(
+  def idx "exprs.ml" 227 6472 6499 "exprs.ml" 227 6472 6533
+)
+"exprs.ml" 227 6472 6493 "exprs.ml" 227 6472 6494
+type(
+  'a
+)
+"exprs.ml" 227 6472 6476 "exprs.ml" 227 6472 6495
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 227 6472 6508 "exprs.ml" 227 6472 6514
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 227 6472 6515 "exprs.ml" 227 6472 6516
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 227 6472 6485 "exprs.ml" 227 6472 6486
+)
+"exprs.ml" 227 6472 6508 "exprs.ml" 227 6472 6516
+type(
+  unit expr
+)
+"exprs.ml" 227 6472 6518 "exprs.ml" 227 6472 6524
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 227 6472 6525 "exprs.ml" 227 6472 6528
+type(
+  'a expr
+)
+ident(
+  int_ref idx "exprs.ml" 227 6472 6488 "exprs.ml" 227 6472 6491
+)
+"exprs.ml" 227 6472 6518 "exprs.ml" 227 6472 6528
+type(
+  unit expr
+)
+"exprs.ml" 227 6472 6530 "exprs.ml" 227 6472 6532
+type(
+  unit
+)
+"exprs.ml" 227 6472 6499 "exprs.ml" 227 6472 6533
+type(
+  unit expr
+)
+"exprs.ml" 228 6534 6547 "exprs.ml" 228 6534 6548
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 228 6534 6569 "exprs.ml" 228 6534 6618
+)
+"exprs.ml" 228 6534 6550 "exprs.ml" 228 6534 6553
+type(
+  'a expr
+)
+ident(
+  def idx "exprs.ml" 228 6534 6569 "exprs.ml" 228 6534 6618
+)
+"exprs.ml" 228 6534 6555 "exprs.ml" 228 6534 6561
+type(
+  'a expr
+)
+ident(
+  def newval "exprs.ml" 228 6534 6569 "exprs.ml" 228 6534 6618
+)
+"exprs.ml" 228 6534 6563 "exprs.ml" 228 6534 6564
+type(
+  'a
+)
+"exprs.ml" 228 6534 6538 "exprs.ml" 228 6534 6565
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 228 6534 6578 "exprs.ml" 228 6534 6584
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 228 6534 6585 "exprs.ml" 228 6534 6586
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 228 6534 6547 "exprs.ml" 228 6534 6548
+)
+"exprs.ml" 228 6534 6578 "exprs.ml" 228 6534 6586
+type(
+  unit expr
+)
+"exprs.ml" 228 6534 6588 "exprs.ml" 228 6534 6594
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 228 6534 6595 "exprs.ml" 228 6534 6598
+type(
+  'a expr
+)
+ident(
+  int_ref idx "exprs.ml" 228 6534 6550 "exprs.ml" 228 6534 6553
+)
+"exprs.ml" 228 6534 6588 "exprs.ml" 228 6534 6598
+type(
+  unit expr
+)
+"exprs.ml" 228 6534 6600 "exprs.ml" 228 6534 6606
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 228 6534 6607 "exprs.ml" 228 6534 6613
+type(
+  'a expr
+)
+ident(
+  int_ref newval "exprs.ml" 228 6534 6555 "exprs.ml" 228 6534 6561
+)
+"exprs.ml" 228 6534 6600 "exprs.ml" 228 6534 6613
+type(
+  unit expr
+)
+"exprs.ml" 228 6534 6615 "exprs.ml" 228 6534 6617
+type(
+  unit
+)
+"exprs.ml" 228 6534 6569 "exprs.ml" 228 6534 6618
+type(
+  unit expr
+)
+"exprs.ml" 229 6619 6627 "exprs.ml" 229 6619 6628
+type(
+  string
+)
+ident(
+  def x "exprs.ml" 229 6619 6636 "exprs.ml" 229 6619 6646
+)
+"exprs.ml" 229 6619 6630 "exprs.ml" 229 6619 6631
+type(
+  'a
+)
+"exprs.ml" 229 6619 6623 "exprs.ml" 229 6619 6632
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 229 6619 6640 "exprs.ml" 229 6619 6641
+type(
+  string
+)
+ident(
+  int_ref x "exprs.ml" 229 6619 6627 "exprs.ml" 229 6619 6628
+)
+"exprs.ml" 229 6619 6643 "exprs.ml" 229 6619 6645
+type(
+  unit
+)
+"exprs.ml" 229 6619 6636 "exprs.ml" 229 6619 6646
+type(
+  unit expr
+)
+"exprs.ml" 230 6647 6659 "exprs.ml" 230 6647 6660
+type(
+  int64
+)
+ident(
+  def n "exprs.ml" 230 6647 6668 "exprs.ml" 230 6647 6682
+)
+"exprs.ml" 230 6647 6662 "exprs.ml" 230 6647 6663
+type(
+  'a
+)
+"exprs.ml" 230 6647 6651 "exprs.ml" 230 6647 6664
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 230 6647 6676 "exprs.ml" 230 6647 6677
+type(
+  int64
+)
+ident(
+  int_ref n "exprs.ml" 230 6647 6659 "exprs.ml" 230 6647 6660
+)
+"exprs.ml" 230 6647 6679 "exprs.ml" 230 6647 6681
+type(
+  unit
+)
+"exprs.ml" 230 6647 6668 "exprs.ml" 230 6647 6682
+type(
+  unit expr
+)
+"exprs.ml" 231 6683 6693 "exprs.ml" 231 6683 6694
+type(
+  bool
+)
+ident(
+  def b "exprs.ml" 231 6683 6702 "exprs.ml" 231 6683 6714
+)
+"exprs.ml" 231 6683 6696 "exprs.ml" 231 6683 6697
+type(
+  'a
+)
+"exprs.ml" 231 6683 6687 "exprs.ml" 231 6683 6698
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 231 6683 6708 "exprs.ml" 231 6683 6709
+type(
+  bool
+)
+ident(
+  int_ref b "exprs.ml" 231 6683 6693 "exprs.ml" 231 6683 6694
+)
+"exprs.ml" 231 6683 6711 "exprs.ml" 231 6683 6713
+type(
+  unit
+)
+"exprs.ml" 231 6683 6702 "exprs.ml" 231 6683 6714
+type(
+  unit expr
+)
+"exprs.ml" 232 6715 6724 "exprs.ml" 232 6715 6725
+type(
+  'a
+)
+"exprs.ml" 232 6715 6719 "exprs.ml" 232 6715 6725
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 232 6715 6734 "exprs.ml" 232 6715 6736
+type(
+  unit
+)
+"exprs.ml" 232 6715 6729 "exprs.ml" 232 6715 6736
+type(
+  unit expr
+)
+"exprs.ml" 233 6737 6748 "exprs.ml" 233 6737 6750
+type(
+  prim1
+)
+ident(
+  def op "exprs.ml" 234 6761 6766 "exprs.ml" 234 6761 6790
+)
+"exprs.ml" 233 6737 6752 "exprs.ml" 233 6737 6753
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 234 6761 6766 "exprs.ml" 234 6761 6790
+)
+"exprs.ml" 233 6737 6755 "exprs.ml" 233 6737 6756
+type(
+  'a
+)
+"exprs.ml" 233 6737 6741 "exprs.ml" 233 6737 6757
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 234 6761 6773 "exprs.ml" 234 6761 6775
+type(
+  prim1
+)
+ident(
+  int_ref op "exprs.ml" 233 6737 6748 "exprs.ml" 233 6737 6750
+)
+"exprs.ml" 234 6761 6777 "exprs.ml" 234 6761 6783
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 234 6761 6784 "exprs.ml" 234 6761 6785
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 233 6737 6752 "exprs.ml" 233 6737 6753
+)
+"exprs.ml" 234 6761 6777 "exprs.ml" 234 6761 6785
+type(
+  unit expr
+)
+"exprs.ml" 234 6761 6787 "exprs.ml" 234 6761 6789
+type(
+  unit
+)
+"exprs.ml" 234 6761 6766 "exprs.ml" 234 6761 6790
+type(
+  unit expr
+)
+"exprs.ml" 235 6791 6802 "exprs.ml" 235 6791 6804
+type(
+  prim2
+)
+ident(
+  def op "exprs.ml" 236 6820 6825 "exprs.ml" 236 6820 6861
+)
+"exprs.ml" 235 6791 6806 "exprs.ml" 235 6791 6808
+type(
+  'a expr
+)
+ident(
+  def e1 "exprs.ml" 236 6820 6825 "exprs.ml" 236 6820 6861
+)
+"exprs.ml" 235 6791 6810 "exprs.ml" 235 6791 6812
+type(
+  'a expr
+)
+ident(
+  def e2 "exprs.ml" 236 6820 6825 "exprs.ml" 236 6820 6861
+)
+"exprs.ml" 235 6791 6814 "exprs.ml" 235 6791 6815
+type(
+  'a
+)
+"exprs.ml" 235 6791 6795 "exprs.ml" 235 6791 6816
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 236 6820 6832 "exprs.ml" 236 6820 6834
+type(
+  prim2
+)
+ident(
+  int_ref op "exprs.ml" 235 6791 6802 "exprs.ml" 235 6791 6804
+)
+"exprs.ml" 236 6820 6836 "exprs.ml" 236 6820 6842
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 236 6820 6843 "exprs.ml" 236 6820 6845
+type(
+  'a expr
+)
+ident(
+  int_ref e1 "exprs.ml" 235 6791 6806 "exprs.ml" 235 6791 6808
+)
+"exprs.ml" 236 6820 6836 "exprs.ml" 236 6820 6845
+type(
+  unit expr
+)
+"exprs.ml" 236 6820 6847 "exprs.ml" 236 6820 6853
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 236 6820 6854 "exprs.ml" 236 6820 6856
+type(
+  'a expr
+)
+ident(
+  int_ref e2 "exprs.ml" 235 6791 6810 "exprs.ml" 235 6791 6812
+)
+"exprs.ml" 236 6820 6847 "exprs.ml" 236 6820 6856
+type(
+  unit expr
+)
+"exprs.ml" 236 6820 6858 "exprs.ml" 236 6820 6860
+type(
+  unit
+)
+"exprs.ml" 236 6820 6825 "exprs.ml" 236 6820 6861
+type(
+  unit expr
+)
+"exprs.ml" 237 6862 6871 "exprs.ml" 237 6862 6876
+type(
+  'a binding list
+)
+ident(
+  def binds "exprs.ml" 238 6890 6895 "exprs.ml" 238 6890 6976
+)
+"exprs.ml" 237 6862 6878 "exprs.ml" 237 6862 6882
+type(
+  'a expr
+)
+ident(
+  def body "exprs.ml" 238 6890 6895 "exprs.ml" 238 6890 6976
+)
+"exprs.ml" 237 6862 6884 "exprs.ml" 237 6862 6885
+type(
+  'a
+)
+"exprs.ml" 237 6862 6866 "exprs.ml" 237 6862 6886
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 238 6890 6900 "exprs.ml" 238 6890 6908
+type(
+  ('a binding -> unit binding) -> 'a binding list -> unit binding list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 238 6890 6915 "exprs.ml" 238 6890 6916
+type(
+  'a bind
+)
+ident(
+  def b "exprs.ml" 238 6890 6927 "exprs.ml" 238 6890 6951
+)
+"exprs.ml" 238 6890 6918 "exprs.ml" 238 6890 6919
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 238 6890 6927 "exprs.ml" 238 6890 6951
+)
+"exprs.ml" 238 6890 6921 "exprs.ml" 238 6890 6922
+type(
+  'a
+)
+"exprs.ml" 238 6890 6914 "exprs.ml" 238 6890 6923
+type(
+  'a bind * 'a expr * 'a
+)
+"exprs.ml" 238 6890 6928 "exprs.ml" 238 6890 6934
+type(
+  'a bind -> unit bind
+)
+ident(
+  int_ref untagB "exprs.ml" 247 7354 7358 "exprs.ml" 247 7354 7364
+)
+"exprs.ml" 238 6890 6935 "exprs.ml" 238 6890 6936
+type(
+  'a bind
+)
+ident(
+  int_ref b "exprs.ml" 238 6890 6915 "exprs.ml" 238 6890 6916
+)
+"exprs.ml" 238 6890 6928 "exprs.ml" 238 6890 6936
+type(
+  unit bind
+)
+"exprs.ml" 238 6890 6938 "exprs.ml" 238 6890 6944
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 238 6890 6945 "exprs.ml" 238 6890 6946
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 238 6890 6918 "exprs.ml" 238 6890 6919
+)
+"exprs.ml" 238 6890 6938 "exprs.ml" 238 6890 6946
+type(
+  unit expr
+)
+"exprs.ml" 238 6890 6948 "exprs.ml" 238 6890 6950
+type(
+  unit
+)
+"exprs.ml" 238 6890 6927 "exprs.ml" 238 6890 6951
+type(
+  unit binding
+)
+"exprs.ml" 238 6890 6909 "exprs.ml" 238 6890 6952
+type(
+  'a binding -> unit binding
+)
+"exprs.ml" 238 6890 6953 "exprs.ml" 238 6890 6958
+type(
+  'a binding list
+)
+ident(
+  int_ref binds "exprs.ml" 237 6862 6871 "exprs.ml" 237 6862 6876
+)
+"exprs.ml" 238 6890 6900 "exprs.ml" 238 6890 6958
+type(
+  unit binding list
+)
+"exprs.ml" 238 6890 6960 "exprs.ml" 238 6890 6966
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 238 6890 6967 "exprs.ml" 238 6890 6971
+type(
+  'a expr
+)
+ident(
+  int_ref body "exprs.ml" 237 6862 6878 "exprs.ml" 237 6862 6882
+)
+"exprs.ml" 238 6890 6960 "exprs.ml" 238 6890 6971
+type(
+  unit expr
+)
+"exprs.ml" 238 6890 6973 "exprs.ml" 238 6890 6975
+type(
+  unit
+)
+"exprs.ml" 238 6890 6895 "exprs.ml" 238 6890 6976
+type(
+  unit expr
+)
+"exprs.ml" 239 6977 6985 "exprs.ml" 239 6977 6989
+type(
+  'a expr
+)
+ident(
+  def cond "exprs.ml" 240 7007 7012 "exprs.ml" 240 7007 7056
+)
+"exprs.ml" 239 6977 6991 "exprs.ml" 239 6977 6994
+type(
+  'a expr
+)
+ident(
+  def thn "exprs.ml" 240 7007 7012 "exprs.ml" 240 7007 7056
+)
+"exprs.ml" 239 6977 6996 "exprs.ml" 239 6977 6999
+type(
+  'a expr
+)
+ident(
+  def els "exprs.ml" 240 7007 7012 "exprs.ml" 240 7007 7056
+)
+"exprs.ml" 239 6977 7001 "exprs.ml" 239 6977 7002
+type(
+  'a
+)
+"exprs.ml" 239 6977 6981 "exprs.ml" 239 6977 7003
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 240 7007 7016 "exprs.ml" 240 7007 7022
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 240 7007 7023 "exprs.ml" 240 7007 7027
+type(
+  'a expr
+)
+ident(
+  int_ref cond "exprs.ml" 239 6977 6985 "exprs.ml" 239 6977 6989
+)
+"exprs.ml" 240 7007 7016 "exprs.ml" 240 7007 7027
+type(
+  unit expr
+)
+"exprs.ml" 240 7007 7029 "exprs.ml" 240 7007 7035
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 240 7007 7036 "exprs.ml" 240 7007 7039
+type(
+  'a expr
+)
+ident(
+  int_ref thn "exprs.ml" 239 6977 6991 "exprs.ml" 239 6977 6994
+)
+"exprs.ml" 240 7007 7029 "exprs.ml" 240 7007 7039
+type(
+  unit expr
+)
+"exprs.ml" 240 7007 7041 "exprs.ml" 240 7007 7047
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 240 7007 7048 "exprs.ml" 240 7007 7051
+type(
+  'a expr
+)
+ident(
+  int_ref els "exprs.ml" 239 6977 6996 "exprs.ml" 239 6977 6999
+)
+"exprs.ml" 240 7007 7041 "exprs.ml" 240 7007 7051
+type(
+  unit expr
+)
+"exprs.ml" 240 7007 7053 "exprs.ml" 240 7007 7055
+type(
+  unit
+)
+"exprs.ml" 240 7007 7012 "exprs.ml" 240 7007 7056
+type(
+  unit expr
+)
+"exprs.ml" 241 7057 7066 "exprs.ml" 241 7057 7070
+type(
+  'a expr
+)
+ident(
+  def func "exprs.ml" 242 7092 7097 "exprs.ml" 242 7092 7148
+)
+"exprs.ml" 241 7057 7072 "exprs.ml" 241 7057 7076
+type(
+  'a expr list
+)
+ident(
+  def args "exprs.ml" 242 7092 7097 "exprs.ml" 242 7092 7148
+)
+"exprs.ml" 241 7057 7078 "exprs.ml" 241 7057 7084
+type(
+  call_type
+)
+ident(
+  def native "exprs.ml" 242 7092 7097 "exprs.ml" 242 7092 7148
+)
+"exprs.ml" 241 7057 7086 "exprs.ml" 241 7057 7087
+type(
+  'a
+)
+"exprs.ml" 241 7057 7061 "exprs.ml" 241 7057 7088
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 242 7092 7102 "exprs.ml" 242 7092 7108
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 242 7092 7109 "exprs.ml" 242 7092 7113
+type(
+  'a expr
+)
+ident(
+  int_ref func "exprs.ml" 241 7057 7066 "exprs.ml" 241 7057 7070
+)
+"exprs.ml" 242 7092 7102 "exprs.ml" 242 7092 7113
+type(
+  unit expr
+)
+"exprs.ml" 242 7092 7115 "exprs.ml" 242 7092 7123
+type(
+  ('a expr -> unit expr) -> 'a expr list -> unit expr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 242 7092 7124 "exprs.ml" 242 7092 7130
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 242 7092 7131 "exprs.ml" 242 7092 7135
+type(
+  'a expr list
+)
+ident(
+  int_ref args "exprs.ml" 241 7057 7072 "exprs.ml" 241 7057 7076
+)
+"exprs.ml" 242 7092 7115 "exprs.ml" 242 7092 7135
+type(
+  unit expr list
+)
+"exprs.ml" 242 7092 7137 "exprs.ml" 242 7092 7143
+type(
+  call_type
+)
+ident(
+  int_ref native "exprs.ml" 241 7057 7078 "exprs.ml" 241 7057 7084
+)
+"exprs.ml" 242 7092 7145 "exprs.ml" 242 7092 7147
+type(
+  unit
+)
+"exprs.ml" 242 7092 7097 "exprs.ml" 242 7092 7148
+type(
+  unit expr
+)
+"exprs.ml" 243 7149 7161 "exprs.ml" 243 7149 7166
+type(
+  'a binding list
+)
+ident(
+  def binds "exprs.ml" 244 7180 7185 "exprs.ml" 244 7180 7269
+)
+"exprs.ml" 243 7149 7168 "exprs.ml" 243 7149 7172
+type(
+  'a expr
+)
+ident(
+  def body "exprs.ml" 244 7180 7185 "exprs.ml" 244 7180 7269
+)
+"exprs.ml" 243 7149 7174 "exprs.ml" 243 7149 7175
+type(
+  'a
+)
+"exprs.ml" 243 7149 7153 "exprs.ml" 243 7149 7176
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 244 7180 7193 "exprs.ml" 244 7180 7201
+type(
+  ('a binding -> unit binding) -> 'a binding list -> unit binding list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 244 7180 7208 "exprs.ml" 244 7180 7209
+type(
+  'a bind
+)
+ident(
+  def b "exprs.ml" 244 7180 7220 "exprs.ml" 244 7180 7244
+)
+"exprs.ml" 244 7180 7211 "exprs.ml" 244 7180 7212
+type(
+  'a expr
+)
+ident(
+  def e "exprs.ml" 244 7180 7220 "exprs.ml" 244 7180 7244
+)
+"exprs.ml" 244 7180 7214 "exprs.ml" 244 7180 7215
+type(
+  'a
+)
+"exprs.ml" 244 7180 7207 "exprs.ml" 244 7180 7216
+type(
+  'a bind * 'a expr * 'a
+)
+"exprs.ml" 244 7180 7221 "exprs.ml" 244 7180 7227
+type(
+  'a bind -> unit bind
+)
+ident(
+  int_ref untagB "exprs.ml" 247 7354 7358 "exprs.ml" 247 7354 7364
+)
+"exprs.ml" 244 7180 7228 "exprs.ml" 244 7180 7229
+type(
+  'a bind
+)
+ident(
+  int_ref b "exprs.ml" 244 7180 7208 "exprs.ml" 244 7180 7209
+)
+"exprs.ml" 244 7180 7221 "exprs.ml" 244 7180 7229
+type(
+  unit bind
+)
+"exprs.ml" 244 7180 7231 "exprs.ml" 244 7180 7237
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 244 7180 7238 "exprs.ml" 244 7180 7239
+type(
+  'a expr
+)
+ident(
+  int_ref e "exprs.ml" 244 7180 7211 "exprs.ml" 244 7180 7212
+)
+"exprs.ml" 244 7180 7231 "exprs.ml" 244 7180 7239
+type(
+  unit expr
+)
+"exprs.ml" 244 7180 7241 "exprs.ml" 244 7180 7243
+type(
+  unit
+)
+"exprs.ml" 244 7180 7220 "exprs.ml" 244 7180 7244
+type(
+  unit binding
+)
+"exprs.ml" 244 7180 7202 "exprs.ml" 244 7180 7245
+type(
+  'a binding -> unit binding
+)
+"exprs.ml" 244 7180 7246 "exprs.ml" 244 7180 7251
+type(
+  'a binding list
+)
+ident(
+  int_ref binds "exprs.ml" 243 7149 7161 "exprs.ml" 243 7149 7166
+)
+"exprs.ml" 244 7180 7193 "exprs.ml" 244 7180 7251
+type(
+  unit binding list
+)
+"exprs.ml" 244 7180 7253 "exprs.ml" 244 7180 7259
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 244 7180 7260 "exprs.ml" 244 7180 7264
+type(
+  'a expr
+)
+ident(
+  int_ref body "exprs.ml" 243 7149 7168 "exprs.ml" 243 7149 7172
+)
+"exprs.ml" 244 7180 7253 "exprs.ml" 244 7180 7264
+type(
+  unit expr
+)
+"exprs.ml" 244 7180 7266 "exprs.ml" 244 7180 7268
+type(
+  unit
+)
+"exprs.ml" 244 7180 7185 "exprs.ml" 244 7180 7269
+type(
+  unit expr
+)
+"exprs.ml" 245 7270 7282 "exprs.ml" 245 7270 7287
+type(
+  'a bind list
+)
+ident(
+  def binds "exprs.ml" 246 7301 7306 "exprs.ml" 246 7301 7353
+)
+"exprs.ml" 245 7270 7289 "exprs.ml" 245 7270 7293
+type(
+  'a expr
+)
+ident(
+  def body "exprs.ml" 246 7301 7306 "exprs.ml" 246 7301 7353
+)
+"exprs.ml" 245 7270 7295 "exprs.ml" 245 7270 7296
+type(
+  'a
+)
+"exprs.ml" 245 7270 7274 "exprs.ml" 245 7270 7297
+type(
+  'a expr
+)
+type(
+  'a expr
+)
+"exprs.ml" 246 7301 7314 "exprs.ml" 246 7301 7322
+type(
+  ('a bind -> unit bind) -> 'a bind list -> unit bind list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 246 7301 7323 "exprs.ml" 246 7301 7329
+type(
+  'a bind -> unit bind
+)
+ident(
+  int_ref untagB "exprs.ml" 247 7354 7358 "exprs.ml" 247 7354 7364
+)
+"exprs.ml" 246 7301 7330 "exprs.ml" 246 7301 7335
+type(
+  'a bind list
+)
+ident(
+  int_ref binds "exprs.ml" 245 7270 7282 "exprs.ml" 245 7270 7287
+)
+"exprs.ml" 246 7301 7314 "exprs.ml" 246 7301 7335
+type(
+  unit bind list
+)
+"exprs.ml" 246 7301 7337 "exprs.ml" 246 7301 7343
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 246 7301 7344 "exprs.ml" 246 7301 7348
+type(
+  'a expr
+)
+ident(
+  int_ref body "exprs.ml" 245 7270 7289 "exprs.ml" 245 7270 7293
+)
+"exprs.ml" 246 7301 7337 "exprs.ml" 246 7301 7348
+type(
+  unit expr
+)
+"exprs.ml" 246 7301 7350 "exprs.ml" 246 7301 7352
+type(
+  unit
+)
+"exprs.ml" 246 7301 7306 "exprs.ml" 246 7301 7353
+type(
+  unit expr
+)
+"exprs.ml" 224 6345 6347 "exprs.ml" 246 7301 7353
+type(
+  unit expr
+)
+"exprs.ml" 247 7354 7358 "exprs.ml" 247 7354 7364
+type(
+  'a bind -> unit bind
+)
+ident(
+  def untagB "exprs.ml" 219 6152 6152 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 247 7354 7365 "exprs.ml" 247 7354 7366
+type(
+  'a bind
+)
+ident(
+  def b "exprs.ml" 248 7369 7371 "exprs.ml" 251 7470 7527
+)
+"exprs.ml" 248 7369 7377 "exprs.ml" 248 7369 7378
+type(
+  'a bind
+)
+ident(
+  int_ref b "exprs.ml" 247 7354 7365 "exprs.ml" 247 7354 7366
+)
+"exprs.ml" 249 7384 7395 "exprs.ml" 249 7384 7396
+type(
+  'a
+)
+"exprs.ml" 249 7384 7388 "exprs.ml" 249 7384 7396
+type(
+  'a bind
+)
+type(
+  'a bind
+)
+"exprs.ml" 249 7384 7407 "exprs.ml" 249 7384 7409
+type(
+  unit
+)
+"exprs.ml" 249 7384 7400 "exprs.ml" 249 7384 7409
+type(
+  unit bind
+)
+"exprs.ml" 250 7410 7420 "exprs.ml" 250 7410 7421
+type(
+  string
+)
+ident(
+  def x "exprs.ml" 250 7410 7443 "exprs.ml" 250 7410 7469
+)
+"exprs.ml" 250 7410 7423 "exprs.ml" 250 7410 7435
+type(
+  bool
+)
+ident(
+  def allow_shadow "exprs.ml" 250 7410 7443 "exprs.ml" 250 7410 7469
+)
+"exprs.ml" 250 7410 7437 "exprs.ml" 250 7410 7438
+type(
+  'a
+)
+"exprs.ml" 250 7410 7414 "exprs.ml" 250 7410 7439
+type(
+  'a bind
+)
+type(
+  'a bind
+)
+"exprs.ml" 250 7410 7449 "exprs.ml" 250 7410 7450
+type(
+  string
+)
+ident(
+  int_ref x "exprs.ml" 250 7410 7420 "exprs.ml" 250 7410 7421
+)
+"exprs.ml" 250 7410 7452 "exprs.ml" 250 7410 7464
+type(
+  bool
+)
+ident(
+  int_ref allow_shadow "exprs.ml" 250 7410 7423 "exprs.ml" 250 7410 7435
+)
+"exprs.ml" 250 7410 7466 "exprs.ml" 250 7410 7468
+type(
+  unit
+)
+"exprs.ml" 250 7410 7443 "exprs.ml" 250 7410 7469
+type(
+  unit bind
+)
+"exprs.ml" 251 7470 7481 "exprs.ml" 251 7470 7486
+type(
+  'a bind list
+)
+ident(
+  def binds "exprs.ml" 251 7470 7494 "exprs.ml" 251 7470 7527
+)
+"exprs.ml" 251 7470 7488 "exprs.ml" 251 7470 7489
+type(
+  'a
+)
+"exprs.ml" 251 7470 7474 "exprs.ml" 251 7470 7490
+type(
+  'a bind
+)
+type(
+  'a bind
+)
+"exprs.ml" 251 7470 7501 "exprs.ml" 251 7470 7509
+type(
+  ('a bind -> unit bind) -> 'a bind list -> unit bind list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 251 7470 7510 "exprs.ml" 251 7470 7516
+type(
+  'a bind -> unit bind
+)
+ident(
+  int_ref untagB "exprs.ml" 247 7354 7358 "exprs.ml" 247 7354 7364
+)
+"exprs.ml" 251 7470 7517 "exprs.ml" 251 7470 7522
+type(
+  'a bind list
+)
+ident(
+  int_ref binds "exprs.ml" 251 7470 7481 "exprs.ml" 251 7470 7486
+)
+"exprs.ml" 251 7470 7501 "exprs.ml" 251 7470 7522
+type(
+  unit bind list
+)
+"exprs.ml" 251 7470 7524 "exprs.ml" 251 7470 7526
+type(
+  unit
+)
+"exprs.ml" 251 7470 7494 "exprs.ml" 251 7470 7527
+type(
+  unit bind
+)
+"exprs.ml" 248 7369 7371 "exprs.ml" 251 7470 7527
+type(
+  unit bind
+)
+"exprs.ml" 252 7528 7532 "exprs.ml" 252 7528 7538
+type(
+  'a decl -> unit decl
+)
+ident(
+  def untagD "exprs.ml" 219 6152 6152 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 252 7528 7539 "exprs.ml" 252 7528 7540
+type(
+  'a decl
+)
+ident(
+  def d "exprs.ml" 253 7543 7545 "exprs.ml" 255 7591 7645
+)
+"exprs.ml" 253 7543 7551 "exprs.ml" 253 7543 7552
+type(
+  'a decl
+)
+ident(
+  int_ref d "exprs.ml" 252 7528 7539 "exprs.ml" 252 7528 7540
+)
+"exprs.ml" 254 7558 7567 "exprs.ml" 254 7558 7571
+type(
+  string
+)
+ident(
+  def name "exprs.ml" 255 7591 7596 "exprs.ml" 255 7591 7645
+)
+"exprs.ml" 254 7558 7573 "exprs.ml" 254 7558 7577
+type(
+  'a bind list
+)
+ident(
+  def args "exprs.ml" 255 7591 7596 "exprs.ml" 255 7591 7645
+)
+"exprs.ml" 254 7558 7579 "exprs.ml" 254 7558 7583
+type(
+  'a expr
+)
+ident(
+  def body "exprs.ml" 255 7591 7596 "exprs.ml" 255 7591 7645
+)
+"exprs.ml" 254 7558 7585 "exprs.ml" 254 7558 7586
+type(
+  'a
+)
+"exprs.ml" 254 7558 7562 "exprs.ml" 254 7558 7587
+type(
+  'a decl
+)
+type(
+  'a decl
+)
+"exprs.ml" 255 7591 7601 "exprs.ml" 255 7591 7605
+type(
+  string
+)
+ident(
+  int_ref name "exprs.ml" 254 7558 7567 "exprs.ml" 254 7558 7571
+)
+"exprs.ml" 255 7591 7607 "exprs.ml" 255 7591 7615
+type(
+  ('a bind -> unit bind) -> 'a bind list -> unit bind list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 255 7591 7616 "exprs.ml" 255 7591 7622
+type(
+  'a bind -> unit bind
+)
+ident(
+  int_ref untagB "exprs.ml" 247 7354 7358 "exprs.ml" 247 7354 7364
+)
+"exprs.ml" 255 7591 7623 "exprs.ml" 255 7591 7627
+type(
+  'a bind list
+)
+ident(
+  int_ref args "exprs.ml" 254 7558 7573 "exprs.ml" 254 7558 7577
+)
+"exprs.ml" 255 7591 7607 "exprs.ml" 255 7591 7627
+type(
+  unit bind list
+)
+"exprs.ml" 255 7591 7629 "exprs.ml" 255 7591 7635
+type(
+  'a expr -> unit expr
+)
+ident(
+  int_ref untagE "exprs.ml" 223 6330 6334 "exprs.ml" 223 6330 6340
+)
+"exprs.ml" 255 7591 7636 "exprs.ml" 255 7591 7640
+type(
+  'a expr
+)
+ident(
+  int_ref body "exprs.ml" 254 7558 7579 "exprs.ml" 254 7558 7583
+)
+"exprs.ml" 255 7591 7629 "exprs.ml" 255 7591 7640
+type(
+  unit expr
+)
+"exprs.ml" 255 7591 7642 "exprs.ml" 255 7591 7644
+type(
+  unit
+)
+"exprs.ml" 255 7591 7596 "exprs.ml" 255 7591 7645
+type(
+  unit decl
+)
+"exprs.ml" 253 7543 7545 "exprs.ml" 255 7591 7645
+type(
+  unit decl
+)
+"exprs.ml" 258 7650 7654 "exprs.ml" 258 7650 7658
+type(
+  'a aprogram -> tag aprogram
+)
+ident(
+  def atag "exprs.ml" 320 9603 9603 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 258 7650 7660 "exprs.ml" 258 7650 7661
+type(
+  'a aprogram
+)
+type(
+  'a aprogram
+)
+ident(
+  def p "exprs.ml" 259 7694 7696 "exprs.ml" 315 9586 9598
+)
+"exprs.ml" 259 7694 7700 "exprs.ml" 259 7694 7704
+type(
+  int ref
+)
+ident(
+  def next "exprs.ml" 260 7716 7718 "exprs.ml" 315 9586 9598
+)
+"exprs.ml" 259 7694 7707 "exprs.ml" 259 7694 7710
+type(
+  int -> int ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1227 46636 46636 "stdlib.mli" 1227 46636 46680
+)
+"exprs.ml" 259 7694 7711 "exprs.ml" 259 7694 7712
+type(
+  int
+)
+"exprs.ml" 259 7694 7707 "exprs.ml" 259 7694 7712
+type(
+  int ref
+)
+"exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+type(
+  unit -> int
+)
+ident(
+  def tag "exprs.ml" 263 7767 7769 "exprs.ml" 315 9586 9598
+)
+"exprs.ml" 260 7716 7726 "exprs.ml" 260 7716 7728
+type(
+  unit
+)
+"exprs.ml" 261 7731 7735 "exprs.ml" 261 7731 7739
+type(
+  int ref
+)
+ident(
+  int_ref next "exprs.ml" 259 7694 7700 "exprs.ml" 259 7694 7704
+)
+"exprs.ml" 261 7731 7740 "exprs.ml" 261 7731 7742
+type(
+  int ref -> int -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1236 46948 46948 "stdlib.mli" 1236 46948 47001
+)
+"exprs.ml" 261 7731 7743 "exprs.ml" 261 7731 7744
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"exprs.ml" 261 7731 7744 "exprs.ml" 261 7731 7748
+type(
+  int ref
+)
+ident(
+  int_ref next "exprs.ml" 259 7694 7700 "exprs.ml" 259 7694 7704
+)
+"exprs.ml" 261 7731 7743 "exprs.ml" 261 7731 7748
+type(
+  int
+)
+"exprs.ml" 261 7731 7749 "exprs.ml" 261 7731 7750
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( + ) "stdlib.mli" 347 13626 13626 "stdlib.mli" 347 13626 13672
+)
+"exprs.ml" 261 7731 7751 "exprs.ml" 261 7731 7752
+type(
+  int
+)
+"exprs.ml" 261 7731 7743 "exprs.ml" 261 7731 7752
+type(
+  int
+)
+"exprs.ml" 261 7731 7735 "exprs.ml" 261 7731 7752
+type(
+  unit
+)
+"exprs.ml" 262 7754 7758 "exprs.ml" 262 7754 7759
+type(
+  int ref -> int
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"exprs.ml" 262 7754 7759 "exprs.ml" 262 7754 7763
+type(
+  int ref
+)
+ident(
+  int_ref next "exprs.ml" 259 7694 7700 "exprs.ml" 259 7694 7704
+)
+"exprs.ml" 262 7754 7758 "exprs.ml" 262 7754 7763
+type(
+  int
+)
+"exprs.ml" 261 7731 7735 "exprs.ml" 262 7754 7763
+type(
+  int
+)
+"exprs.ml" 263 7767 7777 "exprs.ml" 263 7767 7782
+type(
+  'a aexpr -> tag aexpr
+)
+ident(
+  def helpA "exprs.ml" 263 7767 7769 "exprs.ml" 315 9586 9598
+)
+"exprs.ml" 263 7767 7784 "exprs.ml" 263 7767 7785
+type(
+  'a aexpr
+)
+type(
+  'a aexpr
+)
+ident(
+  def e "exprs.ml" 264 7812 7816 "exprs.ml" 274 8157 8191
+)
+"exprs.ml" 264 7812 7822 "exprs.ml" 264 7812 7823
+type(
+  'a aexpr
+)
+ident(
+  int_ref e "exprs.ml" 263 7767 7784 "exprs.ml" 263 7767 7785
+)
+"exprs.ml" 265 7829 7840 "exprs.ml" 265 7829 7842
+type(
+  'a cexpr
+)
+ident(
+  def e1 "exprs.ml" 266 7854 7861 "exprs.ml" 267 7884 7924
+)
+"exprs.ml" 265 7829 7844 "exprs.ml" 265 7829 7846
+type(
+  'a aexpr
+)
+ident(
+  def e2 "exprs.ml" 266 7854 7861 "exprs.ml" 267 7884 7924
+)
+"exprs.ml" 265 7829 7848 "exprs.ml" 265 7829 7849
+type(
+  'a
+)
+"exprs.ml" 265 7829 7835 "exprs.ml" 265 7829 7850
+type(
+  'a aexpr
+)
+type(
+  'a aexpr
+)
+"exprs.ml" 266 7854 7865 "exprs.ml" 266 7854 7872
+type(
+  int
+)
+ident(
+  def seq_tag "exprs.ml" 267 7884 7891 "exprs.ml" 267 7884 7924
+)
+"exprs.ml" 266 7854 7875 "exprs.ml" 266 7854 7878
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 266 7854 7878 "exprs.ml" 266 7854 7880
+type(
+  unit
+)
+"exprs.ml" 266 7854 7875 "exprs.ml" 266 7854 7880
+type(
+  int
+)
+"exprs.ml" 267 7884 7896 "exprs.ml" 267 7884 7901
+type(
+  'a cexpr -> tag cexpr
+)
+ident(
+  int_ref helpC "exprs.ml" 275 8192 8198 "exprs.ml" 275 8192 8203
+)
+"exprs.ml" 267 7884 7902 "exprs.ml" 267 7884 7904
+type(
+  'a cexpr
+)
+ident(
+  int_ref e1 "exprs.ml" 265 7829 7840 "exprs.ml" 265 7829 7842
+)
+"exprs.ml" 267 7884 7896 "exprs.ml" 267 7884 7904
+type(
+  tag cexpr
+)
+"exprs.ml" 267 7884 7906 "exprs.ml" 267 7884 7911
+type(
+  'a aexpr -> tag aexpr
+)
+ident(
+  int_ref helpA "exprs.ml" 263 7767 7777 "exprs.ml" 263 7767 7782
+)
+"exprs.ml" 267 7884 7912 "exprs.ml" 267 7884 7914
+type(
+  'a aexpr
+)
+ident(
+  int_ref e2 "exprs.ml" 265 7829 7844 "exprs.ml" 265 7829 7846
+)
+"exprs.ml" 267 7884 7906 "exprs.ml" 267 7884 7914
+type(
+  tag aexpr
+)
+"exprs.ml" 267 7884 7916 "exprs.ml" 267 7884 7923
+type(
+  tag
+)
+ident(
+  int_ref seq_tag "exprs.ml" 266 7854 7865 "exprs.ml" 266 7854 7872
+)
+"exprs.ml" 267 7884 7891 "exprs.ml" 267 7884 7924
+type(
+  tag aexpr
+)
+"exprs.ml" 266 7854 7861 "exprs.ml" 267 7884 7924
+type(
+  tag aexpr
+)
+"exprs.ml" 268 7925 7936 "exprs.ml" 268 7925 7937
+type(
+  string
+)
+ident(
+  def x "exprs.ml" 269 7951 7958 "exprs.ml" 270 7981 8022
+)
+"exprs.ml" 268 7925 7939 "exprs.ml" 268 7925 7940
+type(
+  'a cexpr
+)
+ident(
+  def c "exprs.ml" 269 7951 7958 "exprs.ml" 270 7981 8022
+)
+"exprs.ml" 268 7925 7942 "exprs.ml" 268 7925 7943
+type(
+  'a aexpr
+)
+ident(
+  def b "exprs.ml" 269 7951 7958 "exprs.ml" 270 7981 8022
+)
+"exprs.ml" 268 7925 7945 "exprs.ml" 268 7925 7946
+type(
+  'a
+)
+"exprs.ml" 268 7925 7931 "exprs.ml" 268 7925 7947
+type(
+  'a aexpr
+)
+type(
+  'a aexpr
+)
+"exprs.ml" 269 7951 7962 "exprs.ml" 269 7951 7969
+type(
+  int
+)
+ident(
+  def let_tag "exprs.ml" 270 7981 7988 "exprs.ml" 270 7981 8022
+)
+"exprs.ml" 269 7951 7972 "exprs.ml" 269 7951 7975
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 269 7951 7975 "exprs.ml" 269 7951 7977
+type(
+  unit
+)
+"exprs.ml" 269 7951 7972 "exprs.ml" 269 7951 7977
+type(
+  int
+)
+"exprs.ml" 270 7981 7993 "exprs.ml" 270 7981 7994
+type(
+  string
+)
+ident(
+  int_ref x "exprs.ml" 268 7925 7936 "exprs.ml" 268 7925 7937
+)
+"exprs.ml" 270 7981 7996 "exprs.ml" 270 7981 8001
+type(
+  'a cexpr -> tag cexpr
+)
+ident(
+  int_ref helpC "exprs.ml" 275 8192 8198 "exprs.ml" 275 8192 8203
+)
+"exprs.ml" 270 7981 8002 "exprs.ml" 270 7981 8003
+type(
+  'a cexpr
+)
+ident(
+  int_ref c "exprs.ml" 268 7925 7939 "exprs.ml" 268 7925 7940
+)
+"exprs.ml" 270 7981 7996 "exprs.ml" 270 7981 8003
+type(
+  tag cexpr
+)
+"exprs.ml" 270 7981 8005 "exprs.ml" 270 7981 8010
+type(
+  'a aexpr -> tag aexpr
+)
+ident(
+  int_ref helpA "exprs.ml" 263 7767 7777 "exprs.ml" 263 7767 7782
+)
+"exprs.ml" 270 7981 8011 "exprs.ml" 270 7981 8012
+type(
+  'a aexpr
+)
+ident(
+  int_ref b "exprs.ml" 268 7925 7942 "exprs.ml" 268 7925 7943
+)
+"exprs.ml" 270 7981 8005 "exprs.ml" 270 7981 8012
+type(
+  tag aexpr
+)
+"exprs.ml" 270 7981 8014 "exprs.ml" 270 7981 8021
+type(
+  tag
+)
+ident(
+  int_ref let_tag "exprs.ml" 269 7951 7962 "exprs.ml" 269 7951 7969
+)
+"exprs.ml" 270 7981 7988 "exprs.ml" 270 7981 8022
+type(
+  tag aexpr
+)
+"exprs.ml" 269 7951 7958 "exprs.ml" 270 7981 8022
+type(
+  tag aexpr
+)
+"exprs.ml" 271 8023 8037 "exprs.ml" 271 8023 8040
+type(
+  (string * 'a cexpr) list
+)
+ident(
+  def xcs "exprs.ml" 272 8051 8058 "exprs.ml" 273 8081 8156
+)
+"exprs.ml" 271 8023 8042 "exprs.ml" 271 8023 8043
+type(
+  'a aexpr
+)
+ident(
+  def b "exprs.ml" 272 8051 8058 "exprs.ml" 273 8081 8156
+)
+"exprs.ml" 271 8023 8045 "exprs.ml" 271 8023 8046
+type(
+  'a
+)
+"exprs.ml" 271 8023 8029 "exprs.ml" 271 8023 8047
+type(
+  'a aexpr
+)
+type(
+  'a aexpr
+)
+"exprs.ml" 272 8051 8062 "exprs.ml" 272 8051 8069
+type(
+  int
+)
+ident(
+  def let_tag "exprs.ml" 273 8081 8088 "exprs.ml" 273 8081 8156
+)
+"exprs.ml" 272 8051 8072 "exprs.ml" 272 8051 8075
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 272 8051 8075 "exprs.ml" 272 8051 8077
+type(
+  unit
+)
+"exprs.ml" 272 8051 8072 "exprs.ml" 272 8051 8077
+type(
+  int
+)
+"exprs.ml" 273 8081 8096 "exprs.ml" 273 8081 8104
+type(
+  (string * 'a cexpr -> string * tag cexpr) ->
+  (string * 'a cexpr) list -> (string * tag cexpr) list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 273 8081 8111 "exprs.ml" 273 8081 8112
+type(
+  string
+)
+ident(
+  def x "exprs.ml" 273 8081 8120 "exprs.ml" 273 8081 8132
+)
+"exprs.ml" 273 8081 8114 "exprs.ml" 273 8081 8115
+type(
+  'a cexpr
+)
+ident(
+  def c "exprs.ml" 273 8081 8120 "exprs.ml" 273 8081 8132
+)
+"exprs.ml" 273 8081 8110 "exprs.ml" 273 8081 8116
+type(
+  string * 'a cexpr
+)
+"exprs.ml" 273 8081 8121 "exprs.ml" 273 8081 8122
+type(
+  string
+)
+ident(
+  int_ref x "exprs.ml" 273 8081 8111 "exprs.ml" 273 8081 8112
+)
+"exprs.ml" 273 8081 8124 "exprs.ml" 273 8081 8129
+type(
+  'a cexpr -> tag cexpr
+)
+ident(
+  int_ref helpC "exprs.ml" 275 8192 8198 "exprs.ml" 275 8192 8203
+)
+"exprs.ml" 273 8081 8130 "exprs.ml" 273 8081 8131
+type(
+  'a cexpr
+)
+ident(
+  int_ref c "exprs.ml" 273 8081 8114 "exprs.ml" 273 8081 8115
+)
+"exprs.ml" 273 8081 8124 "exprs.ml" 273 8081 8131
+type(
+  tag cexpr
+)
+"exprs.ml" 273 8081 8120 "exprs.ml" 273 8081 8132
+type(
+  string * tag cexpr
+)
+"exprs.ml" 273 8081 8105 "exprs.ml" 273 8081 8133
+type(
+  string * 'a cexpr -> string * tag cexpr
+)
+"exprs.ml" 273 8081 8134 "exprs.ml" 273 8081 8137
+type(
+  (string * 'a cexpr) list
+)
+ident(
+  int_ref xcs "exprs.ml" 271 8023 8037 "exprs.ml" 271 8023 8040
+)
+"exprs.ml" 273 8081 8096 "exprs.ml" 273 8081 8137
+type(
+  (string * tag cexpr) list
+)
+"exprs.ml" 273 8081 8139 "exprs.ml" 273 8081 8144
+type(
+  'a aexpr -> tag aexpr
+)
+ident(
+  int_ref helpA "exprs.ml" 263 7767 7777 "exprs.ml" 263 7767 7782
+)
+"exprs.ml" 273 8081 8145 "exprs.ml" 273 8081 8146
+type(
+  'a aexpr
+)
+ident(
+  int_ref b "exprs.ml" 271 8023 8042 "exprs.ml" 271 8023 8043
+)
+"exprs.ml" 273 8081 8139 "exprs.ml" 273 8081 8146
+type(
+  tag aexpr
+)
+"exprs.ml" 273 8081 8148 "exprs.ml" 273 8081 8155
+type(
+  tag
+)
+ident(
+  int_ref let_tag "exprs.ml" 272 8051 8062 "exprs.ml" 272 8051 8069
+)
+"exprs.ml" 273 8081 8088 "exprs.ml" 273 8081 8156
+type(
+  tag aexpr
+)
+"exprs.ml" 272 8051 8058 "exprs.ml" 273 8081 8156
+type(
+  tag aexpr
+)
+"exprs.ml" 274 8157 8170 "exprs.ml" 274 8157 8171
+type(
+  'a cexpr
+)
+ident(
+  def c "exprs.ml" 274 8157 8175 "exprs.ml" 274 8157 8191
+)
+"exprs.ml" 274 8157 8163 "exprs.ml" 274 8157 8171
+type(
+  'a aexpr
+)
+type(
+  'a aexpr
+)
+"exprs.ml" 274 8157 8183 "exprs.ml" 274 8157 8188
+type(
+  'a cexpr -> tag cexpr
+)
+ident(
+  int_ref helpC "exprs.ml" 275 8192 8198 "exprs.ml" 275 8192 8203
+)
+"exprs.ml" 274 8157 8189 "exprs.ml" 274 8157 8190
+type(
+  'a cexpr
+)
+ident(
+  int_ref c "exprs.ml" 274 8157 8170 "exprs.ml" 274 8157 8171
+)
+"exprs.ml" 274 8157 8182 "exprs.ml" 274 8157 8191
+type(
+  tag cexpr
+)
+"exprs.ml" 274 8157 8175 "exprs.ml" 274 8157 8191
+type(
+  tag aexpr
+)
+"exprs.ml" 264 7812 7816 "exprs.ml" 274 8157 8191
+type(
+  tag aexpr
+)
+"exprs.ml" 275 8192 8198 "exprs.ml" 275 8192 8203
+type(
+  'a cexpr -> tag cexpr
+)
+ident(
+  def helpC "exprs.ml" 263 7767 7769 "exprs.ml" 315 9586 9598
+)
+"exprs.ml" 275 8192 8205 "exprs.ml" 275 8192 8206
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+ident(
+  def c "exprs.ml" 276 8233 8237 "exprs.ml" 304 9235 9282
+)
+"exprs.ml" 276 8233 8243 "exprs.ml" 276 8233 8244
+type(
+  'a cexpr
+)
+ident(
+  int_ref c "exprs.ml" 275 8192 8205 "exprs.ml" 275 8192 8206
+)
+"exprs.ml" 277 8250 8263 "exprs.ml" 277 8250 8265
+type(
+  prim1
+)
+ident(
+  def op "exprs.ml" 278 8276 8283 "exprs.ml" 279 8307 8343
+)
+"exprs.ml" 277 8250 8267 "exprs.ml" 277 8250 8268
+type(
+  'a immexpr
+)
+ident(
+  def e "exprs.ml" 278 8276 8283 "exprs.ml" 279 8307 8343
+)
+"exprs.ml" 277 8250 8270 "exprs.ml" 277 8250 8271
+type(
+  'a
+)
+"exprs.ml" 277 8250 8256 "exprs.ml" 277 8250 8272
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 278 8276 8287 "exprs.ml" 278 8276 8295
+type(
+  int
+)
+ident(
+  def prim_tag "exprs.ml" 279 8307 8314 "exprs.ml" 279 8307 8343
+)
+"exprs.ml" 278 8276 8298 "exprs.ml" 278 8276 8301
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 278 8276 8301 "exprs.ml" 278 8276 8303
+type(
+  unit
+)
+"exprs.ml" 278 8276 8298 "exprs.ml" 278 8276 8303
+type(
+  int
+)
+"exprs.ml" 279 8307 8321 "exprs.ml" 279 8307 8323
+type(
+  prim1
+)
+ident(
+  int_ref op "exprs.ml" 277 8250 8263 "exprs.ml" 277 8250 8265
+)
+"exprs.ml" 279 8307 8325 "exprs.ml" 279 8307 8330
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 279 8307 8331 "exprs.ml" 279 8307 8332
+type(
+  'a immexpr
+)
+ident(
+  int_ref e "exprs.ml" 277 8250 8267 "exprs.ml" 277 8250 8268
+)
+"exprs.ml" 279 8307 8325 "exprs.ml" 279 8307 8332
+type(
+  tag immexpr
+)
+"exprs.ml" 279 8307 8334 "exprs.ml" 279 8307 8342
+type(
+  tag
+)
+ident(
+  int_ref prim_tag "exprs.ml" 278 8276 8287 "exprs.ml" 278 8276 8295
+)
+"exprs.ml" 279 8307 8314 "exprs.ml" 279 8307 8343
+type(
+  tag cexpr
+)
+"exprs.ml" 278 8276 8283 "exprs.ml" 279 8307 8343
+type(
+  tag cexpr
+)
+"exprs.ml" 280 8344 8357 "exprs.ml" 280 8344 8359
+type(
+  prim2
+)
+ident(
+  def op "exprs.ml" 281 8375 8382 "exprs.ml" 282 8406 8453
+)
+"exprs.ml" 280 8344 8361 "exprs.ml" 280 8344 8363
+type(
+  'a immexpr
+)
+ident(
+  def e1 "exprs.ml" 281 8375 8382 "exprs.ml" 282 8406 8453
+)
+"exprs.ml" 280 8344 8365 "exprs.ml" 280 8344 8367
+type(
+  'a immexpr
+)
+ident(
+  def e2 "exprs.ml" 281 8375 8382 "exprs.ml" 282 8406 8453
+)
+"exprs.ml" 280 8344 8369 "exprs.ml" 280 8344 8370
+type(
+  'a
+)
+"exprs.ml" 280 8344 8350 "exprs.ml" 280 8344 8371
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 281 8375 8386 "exprs.ml" 281 8375 8394
+type(
+  int
+)
+ident(
+  def prim_tag "exprs.ml" 282 8406 8413 "exprs.ml" 282 8406 8453
+)
+"exprs.ml" 281 8375 8397 "exprs.ml" 281 8375 8400
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 281 8375 8400 "exprs.ml" 281 8375 8402
+type(
+  unit
+)
+"exprs.ml" 281 8375 8397 "exprs.ml" 281 8375 8402
+type(
+  int
+)
+"exprs.ml" 282 8406 8420 "exprs.ml" 282 8406 8422
+type(
+  prim2
+)
+ident(
+  int_ref op "exprs.ml" 280 8344 8357 "exprs.ml" 280 8344 8359
+)
+"exprs.ml" 282 8406 8424 "exprs.ml" 282 8406 8429
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 282 8406 8430 "exprs.ml" 282 8406 8432
+type(
+  'a immexpr
+)
+ident(
+  int_ref e1 "exprs.ml" 280 8344 8361 "exprs.ml" 280 8344 8363
+)
+"exprs.ml" 282 8406 8424 "exprs.ml" 282 8406 8432
+type(
+  tag immexpr
+)
+"exprs.ml" 282 8406 8434 "exprs.ml" 282 8406 8439
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 282 8406 8440 "exprs.ml" 282 8406 8442
+type(
+  'a immexpr
+)
+ident(
+  int_ref e2 "exprs.ml" 280 8344 8365 "exprs.ml" 280 8344 8367
+)
+"exprs.ml" 282 8406 8434 "exprs.ml" 282 8406 8442
+type(
+  tag immexpr
+)
+"exprs.ml" 282 8406 8444 "exprs.ml" 282 8406 8452
+type(
+  tag
+)
+ident(
+  int_ref prim_tag "exprs.ml" 281 8375 8386 "exprs.ml" 281 8375 8394
+)
+"exprs.ml" 282 8406 8413 "exprs.ml" 282 8406 8453
+type(
+  tag cexpr
+)
+"exprs.ml" 281 8375 8382 "exprs.ml" 282 8406 8453
+type(
+  tag cexpr
+)
+"exprs.ml" 283 8454 8468 "exprs.ml" 283 8454 8470
+type(
+  prim2
+)
+ident(
+  def op "exprs.ml" 284 8486 8490 "exprs.ml" 285 8514 8559
+)
+"exprs.ml" 283 8454 8472 "exprs.ml" 283 8454 8474
+type(
+  'a immexpr
+)
+ident(
+  def e1 "exprs.ml" 284 8486 8490 "exprs.ml" 285 8514 8559
+)
+"exprs.ml" 283 8454 8476 "exprs.ml" 283 8454 8478
+type(
+  'a aexpr
+)
+ident(
+  def e2 "exprs.ml" 284 8486 8490 "exprs.ml" 285 8514 8559
+)
+"exprs.ml" 283 8454 8480 "exprs.ml" 283 8454 8481
+type(
+  'a
+)
+"exprs.ml" 283 8454 8460 "exprs.ml" 283 8454 8482
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 284 8486 8494 "exprs.ml" 284 8486 8502
+type(
+  int
+)
+ident(
+  def prim_tag "exprs.ml" 285 8514 8518 "exprs.ml" 285 8514 8559
+)
+"exprs.ml" 284 8486 8505 "exprs.ml" 284 8486 8508
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 284 8486 8508 "exprs.ml" 284 8486 8510
+type(
+  unit
+)
+"exprs.ml" 284 8486 8505 "exprs.ml" 284 8486 8510
+type(
+  int
+)
+"exprs.ml" 285 8514 8526 "exprs.ml" 285 8514 8528
+type(
+  prim2
+)
+ident(
+  int_ref op "exprs.ml" 283 8454 8468 "exprs.ml" 283 8454 8470
+)
+"exprs.ml" 285 8514 8530 "exprs.ml" 285 8514 8535
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 285 8514 8536 "exprs.ml" 285 8514 8538
+type(
+  'a immexpr
+)
+ident(
+  int_ref e1 "exprs.ml" 283 8454 8472 "exprs.ml" 283 8454 8474
+)
+"exprs.ml" 285 8514 8530 "exprs.ml" 285 8514 8538
+type(
+  tag immexpr
+)
+"exprs.ml" 285 8514 8540 "exprs.ml" 285 8514 8545
+type(
+  'a aexpr -> tag aexpr
+)
+ident(
+  int_ref helpA "exprs.ml" 263 7767 7777 "exprs.ml" 263 7767 7782
+)
+"exprs.ml" 285 8514 8546 "exprs.ml" 285 8514 8548
+type(
+  'a aexpr
+)
+ident(
+  int_ref e2 "exprs.ml" 283 8454 8476 "exprs.ml" 283 8454 8478
+)
+"exprs.ml" 285 8514 8540 "exprs.ml" 285 8514 8548
+type(
+  tag aexpr
+)
+"exprs.ml" 285 8514 8550 "exprs.ml" 285 8514 8558
+type(
+  tag
+)
+ident(
+  int_ref prim_tag "exprs.ml" 284 8486 8494 "exprs.ml" 284 8486 8502
+)
+"exprs.ml" 285 8514 8518 "exprs.ml" 285 8514 8559
+type(
+  tag cexpr
+)
+"exprs.ml" 284 8486 8490 "exprs.ml" 285 8514 8559
+type(
+  tag cexpr
+)
+"exprs.ml" 286 8560 8570 "exprs.ml" 286 8560 8574
+type(
+  'a immexpr
+)
+ident(
+  def cond "exprs.ml" 287 8592 8599 "exprs.ml" 288 8621 8673
+)
+"exprs.ml" 286 8560 8576 "exprs.ml" 286 8560 8579
+type(
+  'a aexpr
+)
+ident(
+  def thn "exprs.ml" 287 8592 8599 "exprs.ml" 288 8621 8673
+)
+"exprs.ml" 286 8560 8581 "exprs.ml" 286 8560 8584
+type(
+  'a aexpr
+)
+ident(
+  def els "exprs.ml" 287 8592 8599 "exprs.ml" 288 8621 8673
+)
+"exprs.ml" 286 8560 8586 "exprs.ml" 286 8560 8587
+type(
+  'a
+)
+"exprs.ml" 286 8560 8566 "exprs.ml" 286 8560 8588
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 287 8592 8603 "exprs.ml" 287 8592 8609
+type(
+  int
+)
+ident(
+  def if_tag "exprs.ml" 288 8621 8628 "exprs.ml" 288 8621 8673
+)
+"exprs.ml" 287 8592 8612 "exprs.ml" 287 8592 8615
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 287 8592 8615 "exprs.ml" 287 8592 8617
+type(
+  unit
+)
+"exprs.ml" 287 8592 8612 "exprs.ml" 287 8592 8617
+type(
+  int
+)
+"exprs.ml" 288 8621 8632 "exprs.ml" 288 8621 8637
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 288 8621 8638 "exprs.ml" 288 8621 8642
+type(
+  'a immexpr
+)
+ident(
+  int_ref cond "exprs.ml" 286 8560 8570 "exprs.ml" 286 8560 8574
+)
+"exprs.ml" 288 8621 8632 "exprs.ml" 288 8621 8642
+type(
+  tag immexpr
+)
+"exprs.ml" 288 8621 8644 "exprs.ml" 288 8621 8649
+type(
+  'a aexpr -> tag aexpr
+)
+ident(
+  int_ref helpA "exprs.ml" 263 7767 7777 "exprs.ml" 263 7767 7782
+)
+"exprs.ml" 288 8621 8650 "exprs.ml" 288 8621 8653
+type(
+  'a aexpr
+)
+ident(
+  int_ref thn "exprs.ml" 286 8560 8576 "exprs.ml" 286 8560 8579
+)
+"exprs.ml" 288 8621 8644 "exprs.ml" 288 8621 8653
+type(
+  tag aexpr
+)
+"exprs.ml" 288 8621 8655 "exprs.ml" 288 8621 8660
+type(
+  'a aexpr -> tag aexpr
+)
+ident(
+  int_ref helpA "exprs.ml" 263 7767 7777 "exprs.ml" 263 7767 7782
+)
+"exprs.ml" 288 8621 8661 "exprs.ml" 288 8621 8664
+type(
+  'a aexpr
+)
+ident(
+  int_ref els "exprs.ml" 286 8560 8581 "exprs.ml" 286 8560 8584
+)
+"exprs.ml" 288 8621 8655 "exprs.ml" 288 8621 8664
+type(
+  tag aexpr
+)
+"exprs.ml" 288 8621 8666 "exprs.ml" 288 8621 8672
+type(
+  tag
+)
+ident(
+  int_ref if_tag "exprs.ml" 287 8592 8603 "exprs.ml" 287 8592 8609
+)
+"exprs.ml" 288 8621 8628 "exprs.ml" 288 8621 8673
+type(
+  tag cexpr
+)
+"exprs.ml" 287 8592 8599 "exprs.ml" 288 8621 8673
+type(
+  tag cexpr
+)
+"exprs.ml" 289 8674 8685 "exprs.ml" 289 8674 8689
+type(
+  'a immexpr
+)
+ident(
+  def func "exprs.ml" 290 8711 8718 "exprs.ml" 291 8741 8802
+)
+"exprs.ml" 289 8674 8691 "exprs.ml" 289 8674 8695
+type(
+  'a immexpr list
+)
+ident(
+  def args "exprs.ml" 290 8711 8718 "exprs.ml" 291 8741 8802
+)
+"exprs.ml" 289 8674 8697 "exprs.ml" 289 8674 8703
+type(
+  call_type
+)
+ident(
+  def native "exprs.ml" 290 8711 8718 "exprs.ml" 291 8741 8802
+)
+"exprs.ml" 289 8674 8705 "exprs.ml" 289 8674 8706
+type(
+  'a
+)
+"exprs.ml" 289 8674 8680 "exprs.ml" 289 8674 8707
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 290 8711 8722 "exprs.ml" 290 8711 8729
+type(
+  int
+)
+ident(
+  def app_tag "exprs.ml" 291 8741 8748 "exprs.ml" 291 8741 8802
+)
+"exprs.ml" 290 8711 8732 "exprs.ml" 290 8711 8735
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 290 8711 8735 "exprs.ml" 290 8711 8737
+type(
+  unit
+)
+"exprs.ml" 290 8711 8732 "exprs.ml" 290 8711 8737
+type(
+  int
+)
+"exprs.ml" 291 8741 8753 "exprs.ml" 291 8741 8758
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 291 8741 8759 "exprs.ml" 291 8741 8763
+type(
+  'a immexpr
+)
+ident(
+  int_ref func "exprs.ml" 289 8674 8685 "exprs.ml" 289 8674 8689
+)
+"exprs.ml" 291 8741 8753 "exprs.ml" 291 8741 8763
+type(
+  tag immexpr
+)
+"exprs.ml" 291 8741 8765 "exprs.ml" 291 8741 8773
+type(
+  ('a immexpr -> tag immexpr) -> 'a immexpr list -> tag immexpr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 291 8741 8774 "exprs.ml" 291 8741 8779
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 291 8741 8780 "exprs.ml" 291 8741 8784
+type(
+  'a immexpr list
+)
+ident(
+  int_ref args "exprs.ml" 289 8674 8691 "exprs.ml" 289 8674 8695
+)
+"exprs.ml" 291 8741 8765 "exprs.ml" 291 8741 8784
+type(
+  tag immexpr list
+)
+"exprs.ml" 291 8741 8786 "exprs.ml" 291 8741 8792
+type(
+  call_type
+)
+ident(
+  int_ref native "exprs.ml" 289 8674 8697 "exprs.ml" 289 8674 8703
+)
+"exprs.ml" 291 8741 8794 "exprs.ml" 291 8741 8801
+type(
+  tag
+)
+ident(
+  int_ref app_tag "exprs.ml" 290 8711 8722 "exprs.ml" 290 8711 8729
+)
+"exprs.ml" 291 8741 8748 "exprs.ml" 291 8741 8802
+type(
+  tag cexpr
+)
+"exprs.ml" 290 8711 8718 "exprs.ml" 291 8741 8802
+type(
+  tag cexpr
+)
+"exprs.ml" 292 8803 8818 "exprs.ml" 292 8803 8819
+type(
+  'a immexpr
+)
+ident(
+  def i "exprs.ml" 292 8803 8823 "exprs.ml" 292 8803 8841
+)
+"exprs.ml" 292 8803 8809 "exprs.ml" 292 8803 8819
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 292 8803 8833 "exprs.ml" 292 8803 8838
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 292 8803 8839 "exprs.ml" 292 8803 8840
+type(
+  'a immexpr
+)
+ident(
+  int_ref i "exprs.ml" 292 8803 8818 "exprs.ml" 292 8803 8819
+)
+"exprs.ml" 292 8803 8832 "exprs.ml" 292 8803 8841
+type(
+  tag immexpr
+)
+"exprs.ml" 292 8803 8823 "exprs.ml" 292 8803 8841
+type(
+  tag cexpr
+)
+"exprs.ml" 293 8842 8855 "exprs.ml" 293 8842 8857
+type(
+  'a immexpr list
+)
+ident(
+  def es "exprs.ml" 294 8865 8872 "exprs.ml" 295 8895 8936
+)
+"exprs.ml" 293 8842 8859 "exprs.ml" 293 8842 8860
+type(
+  'a
+)
+"exprs.ml" 293 8842 8848 "exprs.ml" 293 8842 8861
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 294 8865 8876 "exprs.ml" 294 8865 8883
+type(
+  int
+)
+ident(
+  def tup_tag "exprs.ml" 295 8895 8902 "exprs.ml" 295 8895 8936
+)
+"exprs.ml" 294 8865 8886 "exprs.ml" 294 8865 8889
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 294 8865 8889 "exprs.ml" 294 8865 8891
+type(
+  unit
+)
+"exprs.ml" 294 8865 8886 "exprs.ml" 294 8865 8891
+type(
+  int
+)
+"exprs.ml" 295 8895 8909 "exprs.ml" 295 8895 8917
+type(
+  ('a immexpr -> tag immexpr) -> 'a immexpr list -> tag immexpr list
+)
+ident(
+  int_ref Stdlib.List.map "list.mli" 172 6124 6124 "list.mli" 172 6124 6166
+)
+"exprs.ml" 295 8895 8918 "exprs.ml" 295 8895 8923
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 295 8895 8924 "exprs.ml" 295 8895 8926
+type(
+  'a immexpr list
+)
+ident(
+  int_ref es "exprs.ml" 293 8842 8855 "exprs.ml" 293 8842 8857
+)
+"exprs.ml" 295 8895 8909 "exprs.ml" 295 8895 8926
+type(
+  tag immexpr list
+)
+"exprs.ml" 295 8895 8928 "exprs.ml" 295 8895 8935
+type(
+  tag
+)
+ident(
+  int_ref tup_tag "exprs.ml" 294 8865 8876 "exprs.ml" 294 8865 8883
+)
+"exprs.ml" 295 8895 8902 "exprs.ml" 295 8895 8936
+type(
+  tag cexpr
+)
+"exprs.ml" 294 8865 8872 "exprs.ml" 295 8895 8936
+type(
+  tag cexpr
+)
+"exprs.ml" 296 8937 8952 "exprs.ml" 296 8937 8953
+type(
+  'a immexpr
+)
+ident(
+  def e "exprs.ml" 297 8966 8973 "exprs.ml" 298 8996 9040
+)
+"exprs.ml" 296 8937 8955 "exprs.ml" 296 8937 8958
+type(
+  'a immexpr
+)
+ident(
+  def idx "exprs.ml" 297 8966 8973 "exprs.ml" 298 8996 9040
+)
+"exprs.ml" 296 8937 8960 "exprs.ml" 296 8937 8961
+type(
+  'a
+)
+"exprs.ml" 296 8937 8943 "exprs.ml" 296 8937 8962
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 297 8966 8977 "exprs.ml" 297 8966 8984
+type(
+  int
+)
+ident(
+  def get_tag "exprs.ml" 298 8996 9003 "exprs.ml" 298 8996 9040
+)
+"exprs.ml" 297 8966 8987 "exprs.ml" 297 8966 8990
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 297 8966 8990 "exprs.ml" 297 8966 8992
+type(
+  unit
+)
+"exprs.ml" 297 8966 8987 "exprs.ml" 297 8966 8992
+type(
+  int
+)
+"exprs.ml" 298 8996 9012 "exprs.ml" 298 8996 9017
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 298 8996 9018 "exprs.ml" 298 8996 9019
+type(
+  'a immexpr
+)
+ident(
+  int_ref e "exprs.ml" 296 8937 8952 "exprs.ml" 296 8937 8953
+)
+"exprs.ml" 298 8996 9012 "exprs.ml" 298 8996 9019
+type(
+  tag immexpr
+)
+"exprs.ml" 298 8996 9021 "exprs.ml" 298 8996 9026
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 298 8996 9027 "exprs.ml" 298 8996 9030
+type(
+  'a immexpr
+)
+ident(
+  int_ref idx "exprs.ml" 296 8937 8955 "exprs.ml" 296 8937 8958
+)
+"exprs.ml" 298 8996 9021 "exprs.ml" 298 8996 9030
+type(
+  tag immexpr
+)
+"exprs.ml" 298 8996 9032 "exprs.ml" 298 8996 9039
+type(
+  tag
+)
+ident(
+  int_ref get_tag "exprs.ml" 297 8966 8977 "exprs.ml" 297 8966 8984
+)
+"exprs.ml" 298 8996 9003 "exprs.ml" 298 8996 9040
+type(
+  tag cexpr
+)
+"exprs.ml" 297 8966 8973 "exprs.ml" 298 8996 9040
+type(
+  tag cexpr
+)
+"exprs.ml" 299 9041 9056 "exprs.ml" 299 9041 9057
+type(
+  'a immexpr
+)
+ident(
+  def e "exprs.ml" 300 9078 9085 "exprs.ml" 301 9108 9166
+)
+"exprs.ml" 299 9041 9059 "exprs.ml" 299 9041 9062
+type(
+  'a immexpr
+)
+ident(
+  def idx "exprs.ml" 300 9078 9085 "exprs.ml" 301 9108 9166
+)
+"exprs.ml" 299 9041 9064 "exprs.ml" 299 9041 9070
+type(
+  'a immexpr
+)
+ident(
+  def newval "exprs.ml" 300 9078 9085 "exprs.ml" 301 9108 9166
+)
+"exprs.ml" 299 9041 9072 "exprs.ml" 299 9041 9073
+type(
+  'a
+)
+"exprs.ml" 299 9041 9047 "exprs.ml" 299 9041 9074
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 300 9078 9089 "exprs.ml" 300 9078 9096
+type(
+  int
+)
+ident(
+  def set_tag "exprs.ml" 301 9108 9115 "exprs.ml" 301 9108 9166
+)
+"exprs.ml" 300 9078 9099 "exprs.ml" 300 9078 9102
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 300 9078 9102 "exprs.ml" 300 9078 9104
+type(
+  unit
+)
+"exprs.ml" 300 9078 9099 "exprs.ml" 300 9078 9104
+type(
+  int
+)
+"exprs.ml" 301 9108 9124 "exprs.ml" 301 9108 9129
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 301 9108 9130 "exprs.ml" 301 9108 9131
+type(
+  'a immexpr
+)
+ident(
+  int_ref e "exprs.ml" 299 9041 9056 "exprs.ml" 299 9041 9057
+)
+"exprs.ml" 301 9108 9124 "exprs.ml" 301 9108 9131
+type(
+  tag immexpr
+)
+"exprs.ml" 301 9108 9133 "exprs.ml" 301 9108 9138
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 301 9108 9139 "exprs.ml" 301 9108 9142
+type(
+  'a immexpr
+)
+ident(
+  int_ref idx "exprs.ml" 299 9041 9059 "exprs.ml" 299 9041 9062
+)
+"exprs.ml" 301 9108 9133 "exprs.ml" 301 9108 9142
+type(
+  tag immexpr
+)
+"exprs.ml" 301 9108 9144 "exprs.ml" 301 9108 9149
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  int_ref helpI "exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+)
+"exprs.ml" 301 9108 9150 "exprs.ml" 301 9108 9156
+type(
+  'a immexpr
+)
+ident(
+  int_ref newval "exprs.ml" 299 9041 9064 "exprs.ml" 299 9041 9070
+)
+"exprs.ml" 301 9108 9144 "exprs.ml" 301 9108 9156
+type(
+  tag immexpr
+)
+"exprs.ml" 301 9108 9158 "exprs.ml" 301 9108 9165
+type(
+  tag
+)
+ident(
+  int_ref set_tag "exprs.ml" 300 9078 9089 "exprs.ml" 300 9078 9096
+)
+"exprs.ml" 301 9108 9115 "exprs.ml" 301 9108 9166
+type(
+  tag cexpr
+)
+"exprs.ml" 300 9078 9085 "exprs.ml" 301 9108 9166
+type(
+  tag cexpr
+)
+"exprs.ml" 302 9167 9181 "exprs.ml" 302 9167 9185
+type(
+  string
+)
+ident(
+  def name "exprs.ml" 303 9205 9212 "exprs.ml" 304 9235 9282
+)
+"exprs.ml" 302 9167 9187 "exprs.ml" 302 9167 9191
+type(
+  string list
+)
+ident(
+  def args "exprs.ml" 303 9205 9212 "exprs.ml" 304 9235 9282
+)
+"exprs.ml" 302 9167 9193 "exprs.ml" 302 9167 9197
+type(
+  'a aexpr
+)
+ident(
+  def body "exprs.ml" 303 9205 9212 "exprs.ml" 304 9235 9282
+)
+"exprs.ml" 302 9167 9199 "exprs.ml" 302 9167 9200
+type(
+  'a
+)
+"exprs.ml" 302 9167 9173 "exprs.ml" 302 9167 9201
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 303 9205 9216 "exprs.ml" 303 9205 9223
+type(
+  int
+)
+ident(
+  def lam_tag "exprs.ml" 304 9235 9242 "exprs.ml" 304 9235 9282
+)
+"exprs.ml" 303 9205 9226 "exprs.ml" 303 9205 9229
+type(
+  unit -> int
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 303 9205 9229 "exprs.ml" 303 9205 9231
+type(
+  unit
+)
+"exprs.ml" 303 9205 9226 "exprs.ml" 303 9205 9231
+type(
+  int
+)
+"exprs.ml" 304 9235 9250 "exprs.ml" 304 9235 9254
+type(
+  string
+)
+ident(
+  int_ref name "exprs.ml" 302 9167 9181 "exprs.ml" 302 9167 9185
+)
+"exprs.ml" 304 9235 9256 "exprs.ml" 304 9235 9260
+type(
+  string list
+)
+ident(
+  int_ref args "exprs.ml" 302 9167 9187 "exprs.ml" 302 9167 9191
+)
+"exprs.ml" 304 9235 9262 "exprs.ml" 304 9235 9267
+type(
+  'a aexpr -> tag aexpr
+)
+ident(
+  int_ref helpA "exprs.ml" 263 7767 7777 "exprs.ml" 263 7767 7782
+)
+"exprs.ml" 304 9235 9268 "exprs.ml" 304 9235 9272
+type(
+  'a aexpr
+)
+ident(
+  int_ref body "exprs.ml" 302 9167 9193 "exprs.ml" 302 9167 9197
+)
+"exprs.ml" 304 9235 9262 "exprs.ml" 304 9235 9272
+type(
+  tag aexpr
+)
+"exprs.ml" 304 9235 9274 "exprs.ml" 304 9235 9281
+type(
+  tag
+)
+ident(
+  int_ref lam_tag "exprs.ml" 303 9205 9216 "exprs.ml" 303 9205 9223
+)
+"exprs.ml" 304 9235 9242 "exprs.ml" 304 9235 9282
+type(
+  tag cexpr
+)
+"exprs.ml" 303 9205 9212 "exprs.ml" 304 9235 9282
+type(
+  tag cexpr
+)
+"exprs.ml" 276 8233 8237 "exprs.ml" 304 9235 9282
+type(
+  tag cexpr
+)
+"exprs.ml" 305 9283 9289 "exprs.ml" 305 9283 9294
+type(
+  'a immexpr -> tag immexpr
+)
+ident(
+  def helpI "exprs.ml" 263 7767 7769 "exprs.ml" 315 9586 9598
+)
+"exprs.ml" 305 9283 9296 "exprs.ml" 305 9283 9297
+type(
+  'a immexpr
+)
+type(
+  'a immexpr
+)
+ident(
+  def i "exprs.ml" 306 9328 9332 "exprs.ml" 310 9454 9494
+)
+"exprs.ml" 306 9328 9338 "exprs.ml" 306 9328 9339
+type(
+  'a immexpr
+)
+ident(
+  int_ref i "exprs.ml" 305 9283 9296 "exprs.ml" 305 9283 9297
+)
+"exprs.ml" 307 9345 9357 "exprs.ml" 307 9345 9360
+type(
+  'a
+)
+"exprs.ml" 307 9345 9351 "exprs.ml" 307 9345 9360
+type(
+  'a immexpr
+)
+type(
+  'a immexpr
+)
+"exprs.ml" 307 9345 9371 "exprs.ml" 307 9345 9374
+type(
+  unit -> tag
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 307 9345 9374 "exprs.ml" 307 9345 9376
+type(
+  unit
+)
+"exprs.ml" 307 9345 9370 "exprs.ml" 307 9345 9377
+type(
+  tag
+)
+"exprs.ml" 307 9345 9364 "exprs.ml" 307 9345 9377
+type(
+  tag immexpr
+)
+"exprs.ml" 308 9378 9390 "exprs.ml" 308 9378 9391
+type(
+  string
+)
+ident(
+  def x "exprs.ml" 308 9378 9399 "exprs.ml" 308 9378 9414
+)
+"exprs.ml" 308 9378 9393 "exprs.ml" 308 9378 9394
+type(
+  'a
+)
+"exprs.ml" 308 9378 9384 "exprs.ml" 308 9378 9395
+type(
+  'a immexpr
+)
+type(
+  'a immexpr
+)
+"exprs.ml" 308 9378 9405 "exprs.ml" 308 9378 9406
+type(
+  string
+)
+ident(
+  int_ref x "exprs.ml" 308 9378 9390 "exprs.ml" 308 9378 9391
+)
+"exprs.ml" 308 9378 9408 "exprs.ml" 308 9378 9411
+type(
+  unit -> tag
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 308 9378 9411 "exprs.ml" 308 9378 9413
+type(
+  unit
+)
+"exprs.ml" 308 9378 9408 "exprs.ml" 308 9378 9413
+type(
+  tag
+)
+"exprs.ml" 308 9378 9399 "exprs.ml" 308 9378 9414
+type(
+  tag immexpr
+)
+"exprs.ml" 309 9415 9428 "exprs.ml" 309 9415 9429
+type(
+  int64
+)
+ident(
+  def n "exprs.ml" 309 9415 9437 "exprs.ml" 309 9415 9453
+)
+"exprs.ml" 309 9415 9431 "exprs.ml" 309 9415 9432
+type(
+  'a
+)
+"exprs.ml" 309 9415 9421 "exprs.ml" 309 9415 9433
+type(
+  'a immexpr
+)
+type(
+  'a immexpr
+)
+"exprs.ml" 309 9415 9444 "exprs.ml" 309 9415 9445
+type(
+  int64
+)
+ident(
+  int_ref n "exprs.ml" 309 9415 9428 "exprs.ml" 309 9415 9429
+)
+"exprs.ml" 309 9415 9447 "exprs.ml" 309 9415 9450
+type(
+  unit -> tag
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 309 9415 9450 "exprs.ml" 309 9415 9452
+type(
+  unit
+)
+"exprs.ml" 309 9415 9447 "exprs.ml" 309 9415 9452
+type(
+  tag
+)
+"exprs.ml" 309 9415 9437 "exprs.ml" 309 9415 9453
+type(
+  tag immexpr
+)
+"exprs.ml" 310 9454 9468 "exprs.ml" 310 9454 9469
+type(
+  bool
+)
+ident(
+  def b "exprs.ml" 310 9454 9477 "exprs.ml" 310 9454 9494
+)
+"exprs.ml" 310 9454 9471 "exprs.ml" 310 9454 9472
+type(
+  'a
+)
+"exprs.ml" 310 9454 9460 "exprs.ml" 310 9454 9473
+type(
+  'a immexpr
+)
+type(
+  'a immexpr
+)
+"exprs.ml" 310 9454 9485 "exprs.ml" 310 9454 9486
+type(
+  bool
+)
+ident(
+  int_ref b "exprs.ml" 310 9454 9468 "exprs.ml" 310 9454 9469
+)
+"exprs.ml" 310 9454 9488 "exprs.ml" 310 9454 9491
+type(
+  unit -> tag
+)
+ident(
+  int_ref tag "exprs.ml" 260 7716 7722 "exprs.ml" 260 7716 7725
+)
+"exprs.ml" 310 9454 9491 "exprs.ml" 310 9454 9493
+type(
+  unit
+)
+"exprs.ml" 310 9454 9488 "exprs.ml" 310 9454 9493
+type(
+  tag
+)
+"exprs.ml" 310 9454 9477 "exprs.ml" 310 9454 9494
+type(
+  tag immexpr
+)
+"exprs.ml" 306 9328 9332 "exprs.ml" 310 9454 9494
+type(
+  tag immexpr
+)
+"exprs.ml" 311 9495 9501 "exprs.ml" 311 9495 9506
+type(
+  'a aprogram -> tag aprogram
+)
+ident(
+  def helpP "exprs.ml" 263 7767 7769 "exprs.ml" 315 9586 9598
+)
+"exprs.ml" 311 9495 9507 "exprs.ml" 311 9495 9508
+type(
+  'a aprogram
+)
+ident(
+  def p "exprs.ml" 312 9511 9515 "exprs.ml" 314 9555 9585
+)
+"exprs.ml" 312 9511 9521 "exprs.ml" 312 9511 9522
+type(
+  'a aprogram
+)
+ident(
+  int_ref p "exprs.ml" 311 9495 9507 "exprs.ml" 311 9495 9508
+)
+"exprs.ml" 313 9528 9543 "exprs.ml" 313 9528 9547
+type(
+  'a aexpr
+)
+ident(
+  def body "exprs.ml" 314 9555 9562 "exprs.ml" 314 9555 9585
+)
+"exprs.ml" 313 9528 9549 "exprs.ml" 313 9528 9550
+type(
+  'a
+)
+"exprs.ml" 313 9528 9534 "exprs.ml" 313 9528 9551
+type(
+  'a aprogram
+)
+type(
+  'a aprogram
+)
+"exprs.ml" 314 9555 9571 "exprs.ml" 314 9555 9576
+type(
+  'a aexpr -> tag aexpr
+)
+ident(
+  int_ref helpA "exprs.ml" 263 7767 7777 "exprs.ml" 263 7767 7782
+)
+"exprs.ml" 314 9555 9577 "exprs.ml" 314 9555 9581
+type(
+  'a aexpr
+)
+ident(
+  int_ref body "exprs.ml" 313 9528 9543 "exprs.ml" 313 9528 9547
+)
+"exprs.ml" 314 9555 9571 "exprs.ml" 314 9555 9581
+type(
+  tag aexpr
+)
+"exprs.ml" 314 9555 9583 "exprs.ml" 314 9555 9584
+type(
+  tag
+)
+"exprs.ml" 314 9555 9562 "exprs.ml" 314 9555 9585
+type(
+  tag aprogram
+)
+"exprs.ml" 312 9511 9515 "exprs.ml" 314 9555 9585
+type(
+  tag aprogram
+)
+"exprs.ml" 315 9586 9591 "exprs.ml" 315 9586 9596
+type(
+  'a aprogram -> tag aprogram
+)
+ident(
+  int_ref helpP "exprs.ml" 311 9495 9501 "exprs.ml" 311 9495 9506
+)
+"exprs.ml" 315 9586 9597 "exprs.ml" 315 9586 9598
+type(
+  'a aprogram
+)
+ident(
+  int_ref p "exprs.ml" 258 7650 7660 "exprs.ml" 258 7650 7661
+)
+"exprs.ml" 315 9586 9591 "exprs.ml" 315 9586 9598
+type(
+  tag aprogram
+)
+"exprs.ml" 263 7767 7769 "exprs.ml" 315 9586 9598
+type(
+  tag aprogram
+)
+"exprs.ml" 260 7716 7718 "exprs.ml" 315 9586 9598
+type(
+  tag aprogram
+)
+"exprs.ml" 259 7694 7696 "exprs.ml" 315 9586 9598
+type(
+  tag aprogram
+)
+"exprs.ml" 320 9603 9607 "exprs.ml" 320 9603 9616
+type(
+  'a immexpr -> 'a
+)
+ident(
+  def get_tag_I "exprs.ml" 326 9746 9746 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 320 9603 9617 "exprs.ml" 320 9603 9618
+type(
+  'a immexpr
+)
+ident(
+  def i "exprs.ml" 321 9622 9624 "exprs.ml" 325 9721 9745
+)
+"exprs.ml" 321 9622 9630 "exprs.ml" 321 9622 9631
+type(
+  'a immexpr
+)
+ident(
+  int_ref i "exprs.ml" 320 9603 9617 "exprs.ml" 320 9603 9618
+)
+"exprs.ml" 322 9637 9650 "exprs.ml" 322 9637 9651
+type(
+  int64
+)
+"exprs.ml" 322 9637 9653 "exprs.ml" 322 9637 9656
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 322 9637 9661 "exprs.ml" 322 9637 9664
+)
+"exprs.ml" 322 9637 9643 "exprs.ml" 322 9637 9657
+type(
+  'a immexpr
+)
+type(
+  'a immexpr
+)
+"exprs.ml" 322 9637 9661 "exprs.ml" 322 9637 9664
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 322 9637 9653 "exprs.ml" 322 9637 9656
+)
+"exprs.ml" 323 9665 9679 "exprs.ml" 323 9665 9680
+type(
+  bool
+)
+"exprs.ml" 323 9665 9682 "exprs.ml" 323 9665 9685
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 323 9665 9690 "exprs.ml" 323 9665 9693
+)
+"exprs.ml" 323 9665 9671 "exprs.ml" 323 9665 9686
+type(
+  'a immexpr
+)
+type(
+  'a immexpr
+)
+"exprs.ml" 323 9665 9690 "exprs.ml" 323 9665 9693
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 323 9665 9682 "exprs.ml" 323 9665 9685
+)
+"exprs.ml" 324 9694 9706 "exprs.ml" 324 9694 9707
+type(
+  string
+)
+"exprs.ml" 324 9694 9709 "exprs.ml" 324 9694 9712
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 324 9694 9717 "exprs.ml" 324 9694 9720
+)
+"exprs.ml" 324 9694 9700 "exprs.ml" 324 9694 9713
+type(
+  'a immexpr
+)
+type(
+  'a immexpr
+)
+"exprs.ml" 324 9694 9717 "exprs.ml" 324 9694 9720
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 324 9694 9709 "exprs.ml" 324 9694 9712
+)
+"exprs.ml" 325 9721 9733 "exprs.ml" 325 9721 9738
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 325 9721 9742 "exprs.ml" 325 9721 9745
+)
+"exprs.ml" 325 9721 9727 "exprs.ml" 325 9721 9738
+type(
+  'a immexpr
+)
+type(
+  'a immexpr
+)
+"exprs.ml" 325 9721 9742 "exprs.ml" 325 9721 9745
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 325 9721 9733 "exprs.ml" 325 9721 9738
+)
+"exprs.ml" 321 9622 9624 "exprs.ml" 325 9721 9745
+type(
+  'a
+)
+"exprs.ml" 326 9746 9750 "exprs.ml" 326 9746 9759
+type(
+  'a cexpr -> 'a
+)
+ident(
+  def get_tag_C "exprs.ml" 338 10115 10115 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 326 9746 9760 "exprs.ml" 326 9746 9761
+type(
+  'a cexpr
+)
+ident(
+  def c "exprs.ml" 327 9791 9793 "exprs.ml" 337 10082 10114
+)
+"exprs.ml" 327 9791 9799 "exprs.ml" 327 9791 9800
+type(
+  'a cexpr
+)
+ident(
+  int_ref c "exprs.ml" 326 9746 9760 "exprs.ml" 326 9746 9761
+)
+"exprs.ml" 328 9807 9815 "exprs.ml" 328 9807 9816
+type(
+  'a immexpr
+)
+"exprs.ml" 328 9807 9818 "exprs.ml" 328 9807 9819
+type(
+  'a aexpr
+)
+"exprs.ml" 328 9807 9821 "exprs.ml" 328 9807 9822
+type(
+  'a aexpr
+)
+"exprs.ml" 328 9807 9824 "exprs.ml" 328 9807 9827
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 328 9807 9832 "exprs.ml" 328 9807 9835
+)
+"exprs.ml" 328 9807 9811 "exprs.ml" 328 9807 9828
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 328 9807 9832 "exprs.ml" 328 9807 9835
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 328 9807 9824 "exprs.ml" 328 9807 9827
+)
+"exprs.ml" 329 9836 9847 "exprs.ml" 329 9836 9848
+type(
+  prim1
+)
+"exprs.ml" 329 9836 9850 "exprs.ml" 329 9836 9851
+type(
+  'a immexpr
+)
+"exprs.ml" 329 9836 9853 "exprs.ml" 329 9836 9856
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 329 9836 9861 "exprs.ml" 329 9836 9864
+)
+"exprs.ml" 329 9836 9840 "exprs.ml" 329 9836 9857
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 329 9836 9861 "exprs.ml" 329 9836 9864
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 329 9836 9853 "exprs.ml" 329 9836 9856
+)
+"exprs.ml" 330 9865 9876 "exprs.ml" 330 9865 9877
+type(
+  prim2
+)
+"exprs.ml" 330 9865 9879 "exprs.ml" 330 9865 9880
+type(
+  'a immexpr
+)
+"exprs.ml" 330 9865 9882 "exprs.ml" 330 9865 9883
+type(
+  'a immexpr
+)
+"exprs.ml" 330 9865 9885 "exprs.ml" 330 9865 9888
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 330 9865 9893 "exprs.ml" 330 9865 9896
+)
+"exprs.ml" 330 9865 9869 "exprs.ml" 330 9865 9889
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 330 9865 9893 "exprs.ml" 330 9865 9896
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 330 9865 9885 "exprs.ml" 330 9865 9888
+)
+"exprs.ml" 331 9897 9909 "exprs.ml" 331 9897 9910
+type(
+  prim2
+)
+"exprs.ml" 331 9897 9912 "exprs.ml" 331 9897 9913
+type(
+  'a immexpr
+)
+"exprs.ml" 331 9897 9915 "exprs.ml" 331 9897 9916
+type(
+  'a aexpr
+)
+"exprs.ml" 331 9897 9918 "exprs.ml" 331 9897 9921
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 331 9897 9926 "exprs.ml" 331 9897 9929
+)
+"exprs.ml" 331 9897 9901 "exprs.ml" 331 9897 9922
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 331 9897 9926 "exprs.ml" 331 9897 9929
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 331 9897 9918 "exprs.ml" 331 9897 9921
+)
+"exprs.ml" 332 9930 9939 "exprs.ml" 332 9930 9940
+type(
+  'a immexpr
+)
+"exprs.ml" 332 9930 9942 "exprs.ml" 332 9930 9943
+type(
+  'a immexpr list
+)
+"exprs.ml" 332 9930 9945 "exprs.ml" 332 9930 9946
+type(
+  call_type
+)
+"exprs.ml" 332 9930 9948 "exprs.ml" 332 9930 9951
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 332 9930 9956 "exprs.ml" 332 9930 9959
+)
+"exprs.ml" 332 9930 9934 "exprs.ml" 332 9930 9952
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 332 9930 9956 "exprs.ml" 332 9930 9959
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 332 9930 9948 "exprs.ml" 332 9930 9951
+)
+"exprs.ml" 333 9960 9972 "exprs.ml" 333 9960 9975
+type(
+  'a immexpr
+)
+ident(
+  def i "exprs.ml" 333 9960 9979 "exprs.ml" 333 9960 9990
+)
+"exprs.ml" 333 9960 9964 "exprs.ml" 333 9960 9975
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 333 9960 9979 "exprs.ml" 333 9960 9988
+type(
+  'a immexpr -> 'a
+)
+ident(
+  int_ref get_tag_I "exprs.ml" 320 9603 9607 "exprs.ml" 320 9603 9616
+)
+"exprs.ml" 333 9960 9989 "exprs.ml" 333 9960 9990
+type(
+  'a immexpr
+)
+ident(
+  int_ref i "exprs.ml" 333 9960 9972 "exprs.ml" 333 9960 9975
+)
+"exprs.ml" 333 9960 9979 "exprs.ml" 333 9960 9990
+type(
+  'a
+)
+"exprs.ml" 334 9991 10002 "exprs.ml" 334 9991 10003
+type(
+  'a immexpr list
+)
+"exprs.ml" 334 9991 10005 "exprs.ml" 334 9991 10008
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 334 9991 10013 "exprs.ml" 334 9991 10016
+)
+"exprs.ml" 334 9991 9995 "exprs.ml" 334 9991 10009
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 334 9991 10013 "exprs.ml" 334 9991 10016
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 334 9991 10005 "exprs.ml" 334 9991 10008
+)
+"exprs.ml" 335 10017 10030 "exprs.ml" 335 10017 10031
+type(
+  'a immexpr
+)
+"exprs.ml" 335 10017 10033 "exprs.ml" 335 10017 10034
+type(
+  'a immexpr
+)
+"exprs.ml" 335 10017 10036 "exprs.ml" 335 10017 10039
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 335 10017 10044 "exprs.ml" 335 10017 10047
+)
+"exprs.ml" 335 10017 10021 "exprs.ml" 335 10017 10040
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 335 10017 10044 "exprs.ml" 335 10017 10047
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 335 10017 10036 "exprs.ml" 335 10017 10039
+)
+"exprs.ml" 336 10048 10061 "exprs.ml" 336 10048 10062
+type(
+  'a immexpr
+)
+"exprs.ml" 336 10048 10064 "exprs.ml" 336 10048 10065
+type(
+  'a immexpr
+)
+"exprs.ml" 336 10048 10067 "exprs.ml" 336 10048 10068
+type(
+  'a immexpr
+)
+"exprs.ml" 336 10048 10070 "exprs.ml" 336 10048 10073
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 336 10048 10078 "exprs.ml" 336 10048 10081
+)
+"exprs.ml" 336 10048 10052 "exprs.ml" 336 10048 10074
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 336 10048 10078 "exprs.ml" 336 10048 10081
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 336 10048 10070 "exprs.ml" 336 10048 10073
+)
+"exprs.ml" 337 10082 10094 "exprs.ml" 337 10082 10095
+type(
+  string
+)
+"exprs.ml" 337 10082 10097 "exprs.ml" 337 10082 10098
+type(
+  string list
+)
+"exprs.ml" 337 10082 10100 "exprs.ml" 337 10082 10101
+type(
+  'a aexpr
+)
+"exprs.ml" 337 10082 10103 "exprs.ml" 337 10082 10106
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 337 10082 10111 "exprs.ml" 337 10082 10114
+)
+"exprs.ml" 337 10082 10086 "exprs.ml" 337 10082 10107
+type(
+  'a cexpr
+)
+type(
+  'a cexpr
+)
+"exprs.ml" 337 10082 10111 "exprs.ml" 337 10082 10114
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 337 10082 10103 "exprs.ml" 337 10082 10106
+)
+"exprs.ml" 327 9791 9793 "exprs.ml" 337 10082 10114
+type(
+  'a
+)
+"exprs.ml" 338 10115 10119 "exprs.ml" 338 10115 10128
+type(
+  'a aexpr -> 'a
+)
+ident(
+  def get_tag_A "exprs.ml" 345 10265 10265 "exprs.ml" 0 0 -1
+)
+"exprs.ml" 338 10115 10129 "exprs.ml" 338 10115 10130
+type(
+  'a aexpr
+)
+ident(
+  def a "exprs.ml" 339 10133 10135 "exprs.ml" 343 10235 10263
+)
+"exprs.ml" 339 10133 10141 "exprs.ml" 339 10133 10142
+type(
+  'a aexpr
+)
+ident(
+  int_ref a "exprs.ml" 338 10115 10129 "exprs.ml" 338 10115 10130
+)
+"exprs.ml" 340 10148 10157 "exprs.ml" 340 10148 10158
+type(
+  'a cexpr
+)
+"exprs.ml" 340 10148 10160 "exprs.ml" 340 10148 10161
+type(
+  'a aexpr
+)
+"exprs.ml" 340 10148 10163 "exprs.ml" 340 10148 10166
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 340 10148 10171 "exprs.ml" 340 10148 10174
+)
+"exprs.ml" 340 10148 10152 "exprs.ml" 340 10148 10167
+type(
+  'a aexpr
+)
+type(
+  'a aexpr
+)
+"exprs.ml" 340 10148 10171 "exprs.ml" 340 10148 10174
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 340 10148 10163 "exprs.ml" 340 10148 10166
+)
+"exprs.ml" 341 10175 10184 "exprs.ml" 341 10175 10185
+type(
+  string
+)
+"exprs.ml" 341 10175 10187 "exprs.ml" 341 10175 10188
+type(
+  'a cexpr
+)
+"exprs.ml" 341 10175 10190 "exprs.ml" 341 10175 10191
+type(
+  'a aexpr
+)
+"exprs.ml" 341 10175 10193 "exprs.ml" 341 10175 10196
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 341 10175 10201 "exprs.ml" 341 10175 10204
+)
+"exprs.ml" 341 10175 10179 "exprs.ml" 341 10175 10197
+type(
+  'a aexpr
+)
+type(
+  'a aexpr
+)
+"exprs.ml" 341 10175 10201 "exprs.ml" 341 10175 10204
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 341 10175 10193 "exprs.ml" 341 10175 10196
+)
+"exprs.ml" 342 10205 10217 "exprs.ml" 342 10205 10218
+type(
+  (string * 'a cexpr) list
+)
+"exprs.ml" 342 10205 10220 "exprs.ml" 342 10205 10221
+type(
+  'a aexpr
+)
+"exprs.ml" 342 10205 10223 "exprs.ml" 342 10205 10226
+type(
+  'a
+)
+ident(
+  def tag "exprs.ml" 342 10205 10231 "exprs.ml" 342 10205 10234
+)
+"exprs.ml" 342 10205 10209 "exprs.ml" 342 10205 10227
+type(
+  'a aexpr
+)
+type(
+  'a aexpr
+)
+"exprs.ml" 342 10205 10231 "exprs.ml" 342 10205 10234
+type(
+  'a
+)
+ident(
+  int_ref tag "exprs.ml" 342 10205 10223 "exprs.ml" 342 10205 10226
+)
+"exprs.ml" 343 10235 10245 "exprs.ml" 343 10235 10248
+type(
+  'a cexpr
+)
+ident(
+  def c "exprs.ml" 343 10235 10252 "exprs.ml" 343 10235 10263
+)
+"exprs.ml" 343 10235 10239 "exprs.ml" 343 10235 10248
+type(
+  'a aexpr
+)
+type(
+  'a aexpr
+)
+"exprs.ml" 343 10235 10252 "exprs.ml" 343 10235 10261
+type(
+  'a cexpr -> 'a
+)
+ident(
+  int_ref get_tag_C "exprs.ml" 326 9746 9750 "exprs.ml" 326 9746 9759
+)
+"exprs.ml" 343 10235 10262 "exprs.ml" 343 10235 10263
+type(
+  'a cexpr
+)
+ident(
+  int_ref c "exprs.ml" 343 10235 10245 "exprs.ml" 343 10235 10248
+)
+"exprs.ml" 343 10235 10252 "exprs.ml" 343 10235 10263
+type(
+  'a
+)
+"exprs.ml" 339 10133 10135 "exprs.ml" 343 10235 10263
+type(
+  'a
+)

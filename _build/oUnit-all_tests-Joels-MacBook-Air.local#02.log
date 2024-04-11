@@ -1,0 +1,279 @@
+2024-04-11T03:33:16+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:1:ras_tup15.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:1:ras_tup15 is successful.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:1:ras_tup15.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:3:recursive_test_1.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:3:recursive_test_1 is successful.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:3:recursive_test_1.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:5:linked_list_2.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:5:linked_list_2 is successful.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:5:linked_list_2.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:7:rtt1.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:7:rtt1 is successful.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:7:rtt1.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:8:recursive_test_1.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:8:recursive_test_1 is successful.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:8:recursive_test_1.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:9:linked_list_1.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:9:linked_list_1 is successful.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:9:linked_list_1.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:10:linked_list_2.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:10:linked_list_2 is successful.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:10:linked_list_2.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:11:linked_list_2_better.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:11:linked_list_2_better is successful.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:11:linked_list_2_better.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:12:cot1.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:12:cot1 is successful.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:12:cot1.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:14:tons_of_garbage_2.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:14:tons_of_garbage_2 is successful.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:14:tons_of_garbage_2.
+2024-04-11T03:33:17+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:16:bgcc1.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:16:bgcc1 is successful.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:16:bgcc1.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:18:stack_frame_test_1.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:18:stack_frame_test_1 is successful.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:18:stack_frame_test_1.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:20:s1.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:20:s1 is successful.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:20:s1.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:22:tde_1.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:22:tde_1 is successful.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:22:tde_1.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:24:test_is_bool1.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:24:test_is_bool1 is successful.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:24:test_is_bool1.
+2024-04-11T03:33:18+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:26:test_is_bool3.
+2024-04-11T03:33:19+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:26:test_is_bool3 is successful.
+2024-04-11T03:33:19+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:26:test_is_bool3.
+2024-04-11T03:33:19+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:28:test_is_bool5.
+2024-04-11T03:33:19+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:28:test_is_bool5 is successful.
+2024-04-11T03:33:19+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:28:test_is_bool5.
+2024-04-11T03:33:19+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:30:test_is_bool7.
+2024-04-11T03:33:19+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:30:test_is_bool7 is successful.
+2024-04-11T03:33:19+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:30:test_is_bool7.
+2024-04-11T03:33:19+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:32:test_is_tuple1.
+2024-04-11T03:33:20+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:32:test_is_tuple1 is successful.
+2024-04-11T03:33:20+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:32:test_is_tuple1.
+2024-04-11T03:33:20+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:34:test_is_tuple3.
+2024-04-11T03:33:20+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:34:test_is_tuple3 is successful.
+2024-04-11T03:33:20+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:34:test_is_tuple3.
+2024-04-11T03:33:20+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:36:test_is_tuple5.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:36:test_is_tuple5 is successful.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:36:test_is_tuple5.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:38:test_is_tuple7.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:38:test_is_tuple7 is successful.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:38:test_is_tuple7.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:40:test_is_num1.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:40:test_is_num1 is successful.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:40:test_is_num1.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:42:test_is_num3.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:42:test_is_num3 is successful.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:42:test_is_num3.
+2024-04-11T03:33:21+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:44:test_is_num5.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:44:test_is_num5 is successful.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:44:test_is_num5.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:46:test_is_num7.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:46:test_is_num7 is successful.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:46:test_is_num7.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:48:simple_test1.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:48:simple_test1 is successful.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:48:simple_test1.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:50:simple_test3.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:50:simple_test3 is successful.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:50:simple_test3.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:52:simple_test4.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:52:simple_test4 is successful.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:52:simple_test4.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:54:if2.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:54:if2 is successful.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:54:if2.
+2024-04-11T03:33:22+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:57:prim1_2.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:57:prim1_2 is successful.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:57:prim1_2.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:59:prim1_4.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:59:prim1_4 is successful.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:59:prim1_4.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:61:prim1_6.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:61:prim1_6 is successful.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:61:prim1_6.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:63:prim1_fail_2.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:63:prim1_fail_2 is successful.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:63:prim1_fail_2.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:65:prim1_fail_4.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:65:prim1_fail_4 is successful.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:65:prim1_fail_4.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:67:not_2.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:67:not_2 is successful.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:67:not_2.
+2024-04-11T03:33:23+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:69:not_fail_1.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:69:not_fail_1 is successful.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:69:not_fail_1.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:71:prim2_1.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:71:prim2_1 is successful.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:71:prim2_1.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:73:prim2_3.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:73:prim2_3 is successful.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:73:prim2_3.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:75:prim2_5.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:75:prim2_5 is successful.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:75:prim2_5.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:77:prim2cmp_1.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:77:prim2cmp_1 is successful.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:77:prim2cmp_1.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:79:prim2cmp_3.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:79:prim2cmp_3 is successful.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:79:prim2cmp_3.
+2024-04-11T03:33:24+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:81:prim2cmp_5.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:81:prim2cmp_5 is successful.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:81:prim2cmp_5.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:83:prim2cmp_fail_1.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:83:prim2cmp_fail_1 is successful.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:83:prim2cmp_fail_1.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:85:if_1.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:85:if_1 is successful.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:85:if_1.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:87:if_3.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:87:if_3 is successful.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:87:if_3.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:89:if_fail_1.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:89:if_fail_1 is successful.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:89:if_fail_1.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:91:and_1.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:91:and_1 is successful.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:91:and_1.
+2024-04-11T03:33:25+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:93:and_3.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:93:and_3 is successful.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:93:and_3.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:95:and_5.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:95:and_5 is successful.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:95:and_5.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:97:or_1.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:97:or_1 is successful.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:97:or_1.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:99:or_3.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:99:or_3 is successful.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:99:or_3.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:101:or_5.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:101:or_5 is successful.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:101:or_5.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:103:and_fail_2.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:103:and_fail_2 is successful.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:103:and_fail_2.
+2024-04-11T03:33:26+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:105:fwd_ptr_tuple_1.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:105:fwd_ptr_tuple_1 is successful.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:105:fwd_ptr_tuple_1.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:107:cfpt_1.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:107:cfpt_1 is successful.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:107:cfpt_1.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:109:s_tup2.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:109:s_tup2 is successful.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:109:s_tup2.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:111:s_tup4.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:111:s_tup4 is successful.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:111:s_tup4.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:113:s_tup6.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:113:s_tup6 is successful.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:113:s_tup6.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:115:s_tup8.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:115:s_tup8 is successful.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:115:s_tup8.
+2024-04-11T03:33:27+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:117:s_tup10.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:117:s_tup10 is successful.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:117:s_tup10.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:119:s_tup12.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:119:s_tup12 is successful.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:119:s_tup12.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:121:s_tup14.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:121:s_tup14 is successful.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:121:s_tup14.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:123:s_tup16.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:123:s_tup16 is successful.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:123:s_tup16.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:125:s_tup18.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:125:s_tup18 is successful.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:125:s_tup18.
+2024-04-11T03:33:28+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:127:s_tup20.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:127:s_tup20 is successful.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:127:s_tup20.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:129:nullary_1.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:129:nullary_1 is successful.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:129:nullary_1.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:131:size_zero_tuple.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:131:size_zero_tuple is successful.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:131:size_zero_tuple.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:133:desugaring_2.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:133:desugaring_2 is successful.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:133:desugaring_2.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:135:desugaring_4.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:135:desugaring_4 is successful.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:135:desugaring_4.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:137:desugaring_err1.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:137:desugaring_err1 is successful.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:137:desugaring_err1.
+2024-04-11T03:33:29+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:139:lib_1.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:139:lib_1 is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:139:lib_1.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:141:lib_3.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:141:lib_3 is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:141:lib_3.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:143:iwft_unbound_id.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:143:iwft_unbound_id is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:143:iwft_unbound_id.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:144:iwft_overflow.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:144:iwft_overflow is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:144:iwft_overflow.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:145:iwft_shadowing.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:145:iwft_shadowing is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:145:iwft_shadowing.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:146:iwft_func_redefined.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:146:iwft_func_redefined is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:146:iwft_func_redefined.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:147:iwft_duplicate_param.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:147:iwft_duplicate_param is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:147:iwft_duplicate_param.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:148:iwft_arity_mismatch.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:148:iwft_arity_mismatch is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:148:iwft_arity_mismatch.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:149:iwft_unbound_function.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:149:iwft_unbound_function is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:149:iwft_unbound_function.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:150:iwft_param_unbound.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:150:iwft_param_unbound is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:150:iwft_param_unbound.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:151:iwft_shadowing2.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:151:iwft_shadowing2 is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:151:iwft_shadowing2.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:152:oomgc1.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:152:oomgc1 is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:152:oomgc1.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:154:oomgc4.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:154:oomgc4 is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:154:oomgc4.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:156:gc_lam1.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:156:gc_lam1 is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:156:gc_lam1.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:158:sral2.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:158:sral2 is successful.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:158:sral2.
+2024-04-11T03:33:30+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:160:sral4.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:160:sral4 is successful.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:160:sral4.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:162:tde_1.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:162:tde_1 is successful.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:162:tde_1.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:164:let_rec_1.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:164:let_rec_1 is successful.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:164:let_rec_1.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:166:let_rec_3.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:166:let_rec_3 is successful.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:166:let_rec_3.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:168:sra2.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:168:sra2 is successful.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:168:sra2.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:170:ram2.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:170:ram2 is successful.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:170:ram2.
+2024-04-11T03:33:31+00:00 Joels-MacBook-Air.local#02 I: Start test all_tests:0:unit_tests:172:rai1.
+2024-04-11T03:33:32+00:00 Joels-MacBook-Air.local#02 I: Test all_tests:0:unit_tests:172:rai1 is successful.
+2024-04-11T03:33:32+00:00 Joels-MacBook-Air.local#02 I: End test all_tests:0:unit_tests:172:rai1.

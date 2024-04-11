@@ -1,0 +1,885 @@
+"main.ml" 9 85 89 "main.ml" 9 85 99
+type(
+  bool ref
+)
+ident(
+  def show_trace "main.ml" 10 112 112 "main.ml" 0 0 -1
+)
+"main.ml" 9 85 102 "main.ml" 9 85 105
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1227 46636 46636 "stdlib.mli" 1227 46636 46680
+)
+"main.ml" 9 85 106 "main.ml" 9 85 111
+type(
+  bool
+)
+"main.ml" 9 85 102 "main.ml" 9 85 111
+type(
+  bool ref
+)
+"main.ml" 10 112 116 "main.ml" 10 112 127
+type(
+  bool ref
+)
+ident(
+  def no_builtins "main.ml" 11 140 140 "main.ml" 0 0 -1
+)
+"main.ml" 10 112 130 "main.ml" 10 112 133
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1227 46636 46636 "stdlib.mli" 1227 46636 46680
+)
+"main.ml" 10 112 134 "main.ml" 10 112 139
+type(
+  bool
+)
+"main.ml" 10 112 130 "main.ml" 10 112 139
+type(
+  bool ref
+)
+"main.ml" 11 140 144 "main.ml" 11 140 156
+type(
+  bool ref
+)
+ident(
+  def filename_set "main.ml" 12 169 169 "main.ml" 0 0 -1
+)
+"main.ml" 11 140 159 "main.ml" 11 140 162
+type(
+  bool -> bool ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1227 46636 46636 "stdlib.mli" 1227 46636 46680
+)
+"main.ml" 11 140 163 "main.ml" 11 140 168
+type(
+  bool
+)
+"main.ml" 11 140 159 "main.ml" 11 140 168
+type(
+  bool ref
+)
+"main.ml" 12 169 173 "main.ml" 12 169 184
+type(
+  Exprs.alloc_strategy ref
+)
+ident(
+  def alloc_strat "main.ml" 13 197 197 "main.ml" 0 0 -1
+)
+"main.ml" 12 169 187 "main.ml" 12 169 190
+type(
+  Exprs.alloc_strategy -> Exprs.alloc_strategy ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1227 46636 46636 "stdlib.mli" 1227 46636 46680
+)
+"main.ml" 12 169 191 "main.ml" 12 169 196
+type(
+  Exprs.alloc_strategy
+)
+"main.ml" 12 169 187 "main.ml" 12 169 196
+type(
+  Exprs.alloc_strategy ref
+)
+"main.ml" 13 197 201 "main.ml" 13 197 209
+type(
+  string ref
+)
+ident(
+  def filename "main.ml" 15 233 233 "main.ml" 0 0 -1
+)
+"main.ml" 13 197 225 "main.ml" 13 197 228
+type(
+  string -> string ref
+)
+ident(
+  int_ref Stdlib.ref "stdlib.mli" 1227 46636 46636 "stdlib.mli" 1227 46636 46680
+)
+"main.ml" 13 197 229 "main.ml" 13 197 231
+type(
+  string
+)
+"main.ml" 13 197 225 "main.ml" 13 197 231
+type(
+  string ref
+)
+"main.ml" 15 233 237 "main.ml" 15 233 249
+type(
+  string -> unit
+)
+ident(
+  def set_strategy "main.ml" 22 462 462 "main.ml" 0 0 -1
+)
+"main.ml" 15 233 250 "main.ml" 15 233 251
+type(
+  string
+)
+ident(
+  def s "main.ml" 16 254 256 "main.ml" 19 347 450
+)
+"main.ml" 16 254 262 "main.ml" 16 254 263
+type(
+  string
+)
+ident(
+  int_ref s "main.ml" 15 233 250 "main.ml" 15 233 251
+)
+"main.ml" 17 269 273 "main.ml" 17 269 280
+type(
+  string
+)
+type(
+  string
+)
+"main.ml" 17 269 284 "main.ml" 17 269 295
+type(
+  Exprs.alloc_strategy ref
+)
+ident(
+  int_ref alloc_strat "main.ml" 12 169 173 "main.ml" 12 169 184
+)
+"main.ml" 17 269 296 "main.ml" 17 269 298
+type(
+  Exprs.alloc_strategy ref -> Exprs.alloc_strategy -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1236 46948 46948 "stdlib.mli" 1236 46948 47001
+)
+"main.ml" 17 269 299 "main.ml" 17 269 304
+type(
+  Exprs.alloc_strategy
+)
+"main.ml" 17 269 284 "main.ml" 17 269 304
+type(
+  unit
+)
+"main.ml" 18 305 309 "main.ml" 18 305 319
+type(
+  string
+)
+type(
+  string
+)
+"main.ml" 18 305 323 "main.ml" 18 305 334
+type(
+  Exprs.alloc_strategy ref
+)
+ident(
+  int_ref alloc_strat "main.ml" 12 169 173 "main.ml" 12 169 184
+)
+"main.ml" 18 305 335 "main.ml" 18 305 337
+type(
+  Exprs.alloc_strategy ref -> Exprs.alloc_strategy -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1236 46948 46948 "stdlib.mli" 1236 46948 47001
+)
+"main.ml" 18 305 338 "main.ml" 18 305 346
+type(
+  Exprs.alloc_strategy
+)
+"main.ml" 18 305 323 "main.ml" 18 305 346
+type(
+  unit
+)
+"main.ml" 19 347 351 "main.ml" 19 347 352
+type(
+  string
+)
+type(
+  string
+)
+"main.ml" 19 347 356 "main.ml" 19 347 361
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"main.ml" 19 347 372 "main.ml" 19 347 379
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"main.ml" 19 347 380 "main.ml" 19 347 446
+type(
+  (string -> string, unit, string) format
+)
+"main.ml" 19 347 447 "main.ml" 19 347 448
+type(
+  string
+)
+ident(
+  int_ref s "main.ml" 15 233 250 "main.ml" 15 233 251
+)
+"main.ml" 19 347 371 "main.ml" 19 347 449
+type(
+  string
+)
+"main.ml" 19 347 362 "main.ml" 19 347 450
+type(
+  exn
+)
+"main.ml" 19 347 356 "main.ml" 19 347 450
+type(
+  unit
+)
+"main.ml" 16 254 256 "main.ml" 19 347 450
+type(
+  unit
+)
+"main.ml" 22 462 466 "main.ml" 22 462 468
+type(
+  unit
+)
+"main.ml" 23 471 477 "main.ml" 23 471 485
+type(
+  (string * Arg.spec * string) list
+)
+ident(
+  def speclist "main.ml" 29 790 792 "main.ml" 48 1523 1551
+)
+"main.ml" 24 490 497 "main.ml" 24 490 501
+type(
+  string
+)
+"main.ml" 24 490 511 "main.ml" 24 490 521
+type(
+  bool ref
+)
+ident(
+  int_ref show_trace "main.ml" 9 85 89 "main.ml" 9 85 99
+)
+"main.ml" 24 490 503 "main.ml" 24 490 521
+type(
+  Arg.spec
+)
+"main.ml" 24 490 523 "main.ml" 24 490 557
+type(
+  string
+)
+"main.ml" 24 490 496 "main.ml" 24 490 558
+type(
+  string * Arg.spec * string
+)
+"main.ml" 25 560 567 "main.ml" 25 560 581
+type(
+  string
+)
+"main.ml" 25 560 591 "main.ml" 25 560 602
+type(
+  bool ref
+)
+ident(
+  int_ref no_builtins "main.ml" 10 112 116 "main.ml" 10 112 127
+)
+"main.ml" 25 560 583 "main.ml" 25 560 602
+type(
+  Arg.spec
+)
+"main.ml" 25 560 604 "main.ml" 25 560 638
+type(
+  string
+)
+"main.ml" 25 560 566 "main.ml" 25 560 639
+type(
+  string * Arg.spec * string
+)
+"main.ml" 26 641 648 "main.ml" 26 641 652
+type(
+  string
+)
+"main.ml" 26 641 662 "main.ml" 26 641 678
+type(
+  bool ref
+)
+ident(
+  int_ref Exprs.show_debug_print "exprs.ml" 4 14 18 "exprs.ml" 4 14 34
+)
+"main.ml" 26 641 654 "main.ml" 26 641 678
+type(
+  Arg.spec
+)
+"main.ml" 26 641 680 "main.ml" 26 641 703
+type(
+  string
+)
+"main.ml" 26 641 647 "main.ml" 26 641 704
+type(
+  string * Arg.spec * string
+)
+"main.ml" 27 706 713 "main.ml" 27 706 721
+type(
+  string
+)
+"main.ml" 27 706 734 "main.ml" 27 706 746
+type(
+  string -> unit
+)
+ident(
+  int_ref set_strategy "main.ml" 15 233 237 "main.ml" 15 233 249
+)
+"main.ml" 27 706 723 "main.ml" 27 706 746
+type(
+  Arg.spec
+)
+"main.ml" 27 706 748 "main.ml" 27 706 779
+type(
+  string
+)
+"main.ml" 27 706 712 "main.ml" 27 706 780
+type(
+  string * Arg.spec * string
+)
+"main.ml" 23 471 488 "main.ml" 28 781 786
+type(
+  (string * Arg.spec * string) list
+)
+"main.ml" 29 790 792 "main.ml" 29 790 801
+type(
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  int_ref Stdlib.Arg.parse "arg.mli" 110 5480 5480 "arg.mli" 111 5492 5550
+)
+"main.ml" 29 790 802 "main.ml" 29 790 810
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref speclist "main.ml" 23 471 477 "main.ml" 23 471 485
+)
+"main.ml" 29 790 816 "main.ml" 29 790 820
+type(
+  string
+)
+ident(
+  def name "main.ml" 30 824 830 "main.ml" 34 959 985
+)
+"main.ml" 30 824 833 "main.ml" 30 824 834
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"main.ml" 30 824 834 "main.ml" 30 824 846
+type(
+  bool ref
+)
+ident(
+  int_ref filename_set "main.ml" 11 140 144 "main.ml" 11 140 156
+)
+"main.ml" 30 824 833 "main.ml" 30 824 846
+type(
+  bool
+)
+"main.ml" 31 852 860 "main.ml" 31 852 865
+type(
+  exn -> unit
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"main.ml" 31 852 875 "main.ml" 31 852 915
+type(
+  string
+)
+"main.ml" 31 852 866 "main.ml" 31 852 916
+type(
+  exn
+)
+"main.ml" 31 852 860 "main.ml" 31 852 916
+type(
+  unit
+)
+"main.ml" 33 928 937 "main.ml" 33 928 949
+type(
+  bool ref
+)
+ident(
+  int_ref filename_set "main.ml" 11 140 144 "main.ml" 11 140 156
+)
+"main.ml" 33 928 950 "main.ml" 33 928 952
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1236 46948 46948 "stdlib.mli" 1236 46948 47001
+)
+"main.ml" 33 928 953 "main.ml" 33 928 957
+type(
+  bool
+)
+"main.ml" 33 928 937 "main.ml" 33 928 957
+type(
+  unit
+)
+"main.ml" 34 959 968 "main.ml" 34 959 976
+type(
+  string ref
+)
+ident(
+  int_ref filename "main.ml" 13 197 201 "main.ml" 13 197 209
+)
+"main.ml" 34 959 977 "main.ml" 34 959 979
+type(
+  string ref -> string -> unit
+)
+ident(
+  int_ref Stdlib.( := ) "stdlib.mli" 1236 46948 46948 "stdlib.mli" 1236 46948 47001
+)
+"main.ml" 34 959 980 "main.ml" 34 959 984
+type(
+  string
+)
+ident(
+  int_ref name "main.ml" 29 790 816 "main.ml" 29 790 820
+)
+"main.ml" 34 959 968 "main.ml" 34 959 984
+type(
+  unit
+)
+"main.ml" 33 928 936 "main.ml" 34 959 985
+type(
+  unit
+)
+"main.ml" 30 824 830 "main.ml" 34 959 985
+type(
+  unit
+)
+"main.ml" 29 790 811 "main.ml" 35 986 991
+type(
+  Arg.anon_fun
+)
+"main.ml" 35 986 992 "main.ml" 35 986 1011
+type(
+  Arg.usage_msg
+)
+"main.ml" 29 790 792 "main.ml" 35 986 1011
+type(
+  unit
+)
+"main.ml" 36 1013 1019 "main.ml" 36 1013 1022
+type(
+  string
+)
+ident(
+  def sep "main.ml" 37 1052 1054 "main.ml" 48 1523 1551
+)
+"main.ml" 36 1013 1025 "main.ml" 36 1013 1048
+type(
+  string
+)
+"main.ml" 37 1052 1060 "main.ml" 37 1052 1082
+type(
+  ?no_builtins:bool ->
+  Exprs.alloc_strategy -> string -> string -> string Phases.pipeline
+)
+ident(
+  int_ref Runner.compile_file_to_string "runner.ml" 63 1998 2002 "runner.ml" 63 1998 2024
+)
+"main.ml" 37 1052 1096 "main.ml" 37 1052 1097
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"main.ml" 37 1052 1097 "main.ml" 37 1052 1108
+type(
+  bool ref
+)
+ident(
+  int_ref no_builtins "main.ml" 10 112 116 "main.ml" 10 112 127
+)
+"main.ml" 37 1052 1096 "main.ml" 37 1052 1108
+type(
+  bool
+)
+type(
+  bool option
+)
+"main.ml" 37 1052 1110 "main.ml" 37 1052 1111
+type(
+  Exprs.alloc_strategy ref -> Exprs.alloc_strategy
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"main.ml" 37 1052 1111 "main.ml" 37 1052 1122
+type(
+  Exprs.alloc_strategy ref
+)
+ident(
+  int_ref alloc_strat "main.ml" 12 169 173 "main.ml" 12 169 184
+)
+"main.ml" 37 1052 1109 "main.ml" 37 1052 1123
+type(
+  Exprs.alloc_strategy
+)
+"main.ml" 37 1052 1125 "main.ml" 37 1052 1126
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"main.ml" 37 1052 1126 "main.ml" 37 1052 1134
+type(
+  string ref
+)
+ident(
+  int_ref filename "main.ml" 13 197 201 "main.ml" 13 197 209
+)
+"main.ml" 37 1052 1124 "main.ml" 37 1052 1135
+type(
+  string
+)
+"main.ml" 37 1052 1137 "main.ml" 37 1052 1138
+type(
+  string ref -> string
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"main.ml" 37 1052 1138 "main.ml" 37 1052 1146
+type(
+  string ref
+)
+ident(
+  int_ref filename "main.ml" 13 197 201 "main.ml" 13 197 209
+)
+"main.ml" 37 1052 1136 "main.ml" 37 1052 1147
+type(
+  string
+)
+"main.ml" 37 1052 1060 "main.ml" 37 1052 1147
+type(
+  string Phases.pipeline
+)
+"main.ml" 38 1153 1164 "main.ml" 38 1153 1168
+type(
+  exn list
+)
+ident(
+  def errs "main.ml" 39 1180 1185 "main.ml" 43 1323 1391
+)
+"main.ml" 38 1153 1170 "main.ml" 38 1153 1175
+type(
+  Phases.phase list
+)
+ident(
+  def trace "main.ml" 39 1180 1185 "main.ml" 43 1323 1391
+)
+"main.ml" 38 1153 1163 "main.ml" 38 1153 1176
+type(
+  exn list * Phases.phase list
+)
+"main.ml" 38 1153 1157 "main.ml" 38 1153 1176
+type(
+  string Phases.pipeline
+)
+type(
+  string Phases.pipeline
+)
+"main.ml" 39 1180 1189 "main.ml" 39 1180 1190
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"main.ml" 39 1180 1190 "main.ml" 39 1180 1200
+type(
+  bool ref
+)
+ident(
+  int_ref show_trace "main.ml" 9 85 89 "main.ml" 9 85 99
+)
+"main.ml" 39 1180 1189 "main.ml" 39 1180 1200
+type(
+  bool
+)
+"main.ml" 40 1206 1214 "main.ml" 40 1206 1221
+type(
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"main.ml" 40 1206 1222 "main.ml" 40 1206 1228
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"main.ml" 40 1206 1230 "main.ml" 40 1206 1251
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref ExtString.String.join "src/extString.mli" 58 2183 2185 "src/extString.mli" 58 2183 2227
+)
+"main.ml" 40 1206 1252 "main.ml" 40 1206 1255
+type(
+  string
+)
+ident(
+  int_ref sep "main.ml" 36 1013 1019 "main.ml" 36 1013 1022
+)
+"main.ml" 40 1206 1257 "main.ml" 40 1206 1268
+type(
+  Phases.phase list -> string list
+)
+ident(
+  int_ref Phases.print_trace "phases.ml" 105 3838 3842 "phases.ml" 105 3838 3853
+)
+"main.ml" 40 1206 1269 "main.ml" 40 1206 1274
+type(
+  Phases.phase list
+)
+ident(
+  int_ref trace "main.ml" 38 1153 1170 "main.ml" 38 1153 1175
+)
+"main.ml" 40 1206 1256 "main.ml" 40 1206 1275
+type(
+  string list
+)
+"main.ml" 40 1206 1229 "main.ml" 40 1206 1276
+type(
+  string
+)
+"main.ml" 40 1206 1277 "main.ml" 40 1206 1280
+type(
+  string
+)
+ident(
+  int_ref sep "main.ml" 36 1013 1019 "main.ml" 36 1013 1022
+)
+"main.ml" 40 1206 1214 "main.ml" 40 1206 1280
+type(
+  unit
+)
+"main.ml" 41 1281 1292 "main.ml" 41 1281 1294
+type(
+  unit
+)
+"main.ml" 39 1180 1185 "main.ml" 41 1281 1295
+type(
+  unit
+)
+"main.ml" 42 1297 1302 "main.ml" 42 1297 1309
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"main.ml" 42 1297 1310 "main.ml" 42 1297 1321
+type(
+  (unit, out_channel, unit) format
+)
+"main.ml" 42 1297 1302 "main.ml" 42 1297 1321
+type(
+  unit
+)
+"main.ml" 43 1323 1328 "main.ml" 43 1323 1335
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.eprintf "printf.mli" 132 6998 6998 "printf.mli" 132 6998 7048
+)
+"main.ml" 43 1323 1336 "main.ml" 43 1323 1342
+type(
+  (string -> unit, out_channel, unit) format
+)
+"main.ml" 43 1323 1344 "main.ml" 43 1323 1365
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref ExtString.String.join "src/extString.mli" 58 2183 2185 "src/extString.mli" 58 2183 2227
+)
+"main.ml" 43 1323 1366 "main.ml" 43 1323 1370
+type(
+  string
+)
+"main.ml" 43 1323 1372 "main.ml" 43 1323 1384
+type(
+  exn list -> string list
+)
+ident(
+  int_ref Errors.print_errors "errors.ml" 25 1256 1260 "errors.ml" 25 1256 1272
+)
+"main.ml" 43 1323 1385 "main.ml" 43 1323 1389
+type(
+  exn list
+)
+ident(
+  int_ref errs "main.ml" 38 1153 1164 "main.ml" 38 1153 1168
+)
+"main.ml" 43 1323 1371 "main.ml" 43 1323 1390
+type(
+  string list
+)
+"main.ml" 43 1323 1343 "main.ml" 43 1323 1391
+type(
+  string
+)
+"main.ml" 43 1323 1328 "main.ml" 43 1323 1391
+type(
+  unit
+)
+"main.ml" 42 1297 1302 "main.ml" 43 1323 1391
+type(
+  unit
+)
+"main.ml" 39 1180 1185 "main.ml" 43 1323 1391
+type(
+  unit
+)
+"main.ml" 44 1392 1400 "main.ml" 44 1392 1407
+type(
+  string
+)
+ident(
+  def program "main.ml" 45 1419 1424 "main.ml" 48 1523 1551
+)
+"main.ml" 44 1392 1409 "main.ml" 44 1392 1414
+type(
+  Phases.phase list
+)
+ident(
+  def trace "main.ml" 45 1419 1424 "main.ml" 48 1523 1551
+)
+"main.ml" 44 1392 1399 "main.ml" 44 1392 1415
+type(
+  string * Phases.phase list
+)
+"main.ml" 44 1392 1396 "main.ml" 44 1392 1415
+type(
+  string Phases.pipeline
+)
+type(
+  string Phases.pipeline
+)
+"main.ml" 45 1419 1427 "main.ml" 45 1419 1428
+type(
+  bool ref -> bool
+)
+ident(
+  int_ref Stdlib.( ! ) "stdlib.mli" 1230 46742 46742 "stdlib.mli" 1230 46742 46783
+)
+"main.ml" 45 1419 1428 "main.ml" 45 1419 1438
+type(
+  bool ref
+)
+ident(
+  int_ref show_trace "main.ml" 9 85 89 "main.ml" 9 85 99
+)
+"main.ml" 45 1419 1427 "main.ml" 45 1419 1438
+type(
+  bool
+)
+"main.ml" 46 1444 1451 "main.ml" 46 1444 1457
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"main.ml" 46 1444 1458 "main.ml" 46 1444 1464
+type(
+  (string -> unit, out_channel, unit) format
+)
+"main.ml" 46 1444 1466 "main.ml" 46 1444 1487
+type(
+  string -> string list -> string
+)
+ident(
+  int_ref ExtString.String.join "src/extString.mli" 58 2183 2185 "src/extString.mli" 58 2183 2227
+)
+"main.ml" 46 1444 1488 "main.ml" 46 1444 1491
+type(
+  string
+)
+ident(
+  int_ref sep "main.ml" 36 1013 1019 "main.ml" 36 1013 1022
+)
+"main.ml" 46 1444 1493 "main.ml" 46 1444 1504
+type(
+  Phases.phase list -> string list
+)
+ident(
+  int_ref Phases.print_trace "phases.ml" 105 3838 3842 "phases.ml" 105 3838 3853
+)
+"main.ml" 46 1444 1505 "main.ml" 46 1444 1510
+type(
+  Phases.phase list
+)
+ident(
+  int_ref trace "main.ml" 44 1392 1409 "main.ml" 44 1392 1414
+)
+"main.ml" 46 1444 1492 "main.ml" 46 1444 1511
+type(
+  string list
+)
+"main.ml" 46 1444 1465 "main.ml" 46 1444 1512
+type(
+  string
+)
+"main.ml" 46 1444 1451 "main.ml" 46 1444 1512
+type(
+  unit
+)
+"main.ml" 48 1523 1530 "main.ml" 48 1523 1536
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref Stdlib.Printf.printf "printf.mli" 129 6889 6889 "printf.mli" 129 6889 6938
+)
+"main.ml" 48 1523 1537 "main.ml" 48 1523 1543
+type(
+  (string -> unit, out_channel, unit) format
+)
+"main.ml" 48 1523 1544 "main.ml" 48 1523 1551
+type(
+  string
+)
+ident(
+  int_ref program "main.ml" 44 1392 1400 "main.ml" 44 1392 1407
+)
+"main.ml" 48 1523 1530 "main.ml" 48 1523 1551
+type(
+  unit
+)
+"main.ml" 45 1419 1424 "main.ml" 48 1523 1551
+type(
+  unit
+)
+"main.ml" 37 1052 1054 "main.ml" 48 1523 1551
+type(
+  unit
+)
+"main.ml" 36 1013 1015 "main.ml" 48 1523 1551
+type(
+  unit
+)
+"main.ml" 29 790 792 "main.ml" 48 1523 1551
+type(
+  unit
+)
+"main.ml" 23 471 473 "main.ml" 48 1523 1551
+type(
+  unit
+)

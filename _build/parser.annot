@@ -1,0 +1,6655 @@
+"parser.ml" 50 526 530 "parser.ml" 50 526 531
+type(
+  string -> unit
+)
+"parser.ml" 50 526 534 "parser.ml" 50 526 545
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Parsing.parse_error "parsing.mli" 103 4136 4136 "parsing.mli" 103 4136 4168
+)
+"parser.mly" 4 577 581 "parser.mly" 4 577 590
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  def full_span "parser.mly" 5 652 652 "parser.ml" 0 0 -1
+)
+"parser.mly" 4 577 590 "parser.mly" 4 577 592
+type(
+  unit
+)
+"parser.mly" 4 577 596 "parser.mly" 4 577 620
+type(
+  unit -> Lexing.position
+)
+ident(
+  int_ref Stdlib.Parsing.symbol_start_pos "parsing.mli" 38 1970 1970 "parsing.mli" 38 1970 2016
+)
+"parser.mly" 4 577 621 "parser.mly" 4 577 623
+type(
+  unit
+)
+"parser.mly" 4 577 596 "parser.mly" 4 577 623
+type(
+  Lexing.position
+)
+"parser.mly" 4 577 625 "parser.mly" 4 577 647
+type(
+  unit -> Lexing.position
+)
+ident(
+  int_ref Stdlib.Parsing.symbol_end_pos "parsing.mli" 41 2095 2095 "parsing.mli" 41 2095 2139
+)
+"parser.mly" 4 577 648 "parser.mly" 4 577 650
+type(
+  unit
+)
+"parser.mly" 4 577 625 "parser.mly" 4 577 650
+type(
+  Lexing.position
+)
+"parser.mly" 4 577 595 "parser.mly" 4 577 651
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 5 652 656 "parser.mly" 5 652 664
+type(
+  int * int -> Lexing.position * Lexing.position
+)
+ident(
+  def tok_span "parser.ml" 58 758 758 "parser.ml" 0 0 -1
+)
+"parser.mly" 5 652 665 "parser.mly" 5 652 670
+type(
+  int
+)
+ident(
+  def start "parser.mly" 5 652 682 "parser.mly" 5 652 739
+)
+"parser.mly" 5 652 672 "parser.mly" 5 652 678
+type(
+  int
+)
+ident(
+  def endtok "parser.mly" 5 652 682 "parser.mly" 5 652 739
+)
+"parser.mly" 5 652 664 "parser.mly" 5 652 679
+type(
+  int * int
+)
+"parser.mly" 5 652 683 "parser.mly" 5 652 704
+type(
+  int -> Lexing.position
+)
+ident(
+  int_ref Stdlib.Parsing.rhs_start_pos "parsing.mli" 44 2216 2216 "parsing.mli" 44 2216 2258
+)
+"parser.mly" 5 652 705 "parser.mly" 5 652 710
+type(
+  int
+)
+ident(
+  int_ref start "parser.mly" 5 652 665 "parser.mly" 5 652 670
+)
+"parser.mly" 5 652 683 "parser.mly" 5 652 710
+type(
+  Lexing.position
+)
+"parser.mly" 5 652 712 "parser.mly" 5 652 731
+type(
+  int -> Lexing.position
+)
+ident(
+  int_ref Stdlib.Parsing.rhs_end_pos "parsing.mli" 47 2334 2334 "parsing.mli" 47 2334 2374
+)
+"parser.mly" 5 652 732 "parser.mly" 5 652 738
+type(
+  int
+)
+ident(
+  int_ref endtok "parser.mly" 5 652 672 "parser.mly" 5 652 678
+)
+"parser.mly" 5 652 712 "parser.mly" 5 652 738
+type(
+  Lexing.position
+)
+"parser.mly" 5 652 682 "parser.mly" 5 652 739
+type(
+  Lexing.position * Lexing.position
+)
+"parser.ml" 58 758 762 "parser.ml" 58 758 776
+type(
+  int array
+)
+ident(
+  def yytransl_const "parser.ml" 105 1646 1646 "parser.ml" 0 0 -1
+)
+"parser.ml" 59 782 784 "parser.ml" 59 782 787
+type(
+  int
+)
+"parser.ml" 60 799 801 "parser.ml" 60 799 804
+type(
+  int
+)
+"parser.ml" 61 819 821 "parser.ml" 61 819 824
+type(
+  int
+)
+"parser.ml" 62 837 839 "parser.ml" 62 837 842
+type(
+  int
+)
+"parser.ml" 63 855 857 "parser.ml" 63 855 860
+type(
+  int
+)
+"parser.ml" 64 880 882 "parser.ml" 64 880 885
+type(
+  int
+)
+"parser.ml" 65 907 909 "parser.ml" 65 907 912
+type(
+  int
+)
+"parser.ml" 66 927 929 "parser.ml" 66 927 932
+type(
+  int
+)
+"parser.ml" 67 947 949 "parser.ml" 67 947 952
+type(
+  int
+)
+"parser.ml" 68 967 969 "parser.ml" 68 967 972
+type(
+  int
+)
+"parser.ml" 69 984 986 "parser.ml" 69 984 989
+type(
+  int
+)
+"parser.ml" 70 1000 1002 "parser.ml" 70 1000 1005
+type(
+  int
+)
+"parser.ml" 71 1019 1021 "parser.ml" 71 1019 1024
+type(
+  int
+)
+"parser.ml" 72 1038 1040 "parser.ml" 72 1038 1043
+type(
+  int
+)
+"parser.ml" 73 1056 1058 "parser.ml" 73 1056 1061
+type(
+  int
+)
+"parser.ml" 74 1075 1077 "parser.ml" 74 1075 1080
+type(
+  int
+)
+"parser.ml" 75 1094 1096 "parser.ml" 75 1094 1099
+type(
+  int
+)
+"parser.ml" 76 1110 1112 "parser.ml" 76 1110 1115
+type(
+  int
+)
+"parser.ml" 77 1129 1131 "parser.ml" 77 1129 1134
+type(
+  int
+)
+"parser.ml" 78 1152 1156 "parser.ml" 78 1152 1157
+type(
+  int
+)
+"parser.ml" 79 1169 1171 "parser.ml" 79 1169 1174
+type(
+  int
+)
+"parser.ml" 80 1188 1190 "parser.ml" 80 1188 1193
+type(
+  int
+)
+"parser.ml" 81 1212 1214 "parser.ml" 81 1212 1217
+type(
+  int
+)
+"parser.ml" 82 1230 1232 "parser.ml" 82 1230 1235
+type(
+  int
+)
+"parser.ml" 83 1249 1251 "parser.ml" 83 1249 1254
+type(
+  int
+)
+"parser.ml" 84 1269 1271 "parser.ml" 84 1269 1274
+type(
+  int
+)
+"parser.ml" 85 1288 1290 "parser.ml" 85 1288 1293
+type(
+  int
+)
+"parser.ml" 86 1309 1311 "parser.ml" 86 1309 1314
+type(
+  int
+)
+"parser.ml" 87 1327 1329 "parser.ml" 87 1327 1332
+type(
+  int
+)
+"parser.ml" 88 1350 1352 "parser.ml" 88 1350 1355
+type(
+  int
+)
+"parser.ml" 89 1371 1373 "parser.ml" 89 1371 1376
+type(
+  int
+)
+"parser.ml" 90 1391 1393 "parser.ml" 90 1391 1396
+type(
+  int
+)
+"parser.ml" 91 1414 1416 "parser.ml" 91 1414 1419
+type(
+  int
+)
+"parser.ml" 92 1431 1433 "parser.ml" 92 1431 1436
+type(
+  int
+)
+"parser.ml" 93 1447 1449 "parser.ml" 93 1447 1452
+type(
+  int
+)
+"parser.ml" 94 1464 1466 "parser.ml" 94 1464 1469
+type(
+  int
+)
+"parser.ml" 95 1485 1487 "parser.ml" 95 1485 1490
+type(
+  int
+)
+"parser.ml" 96 1503 1505 "parser.ml" 96 1503 1508
+type(
+  int
+)
+"parser.ml" 97 1520 1522 "parser.ml" 97 1520 1525
+type(
+  int
+)
+"parser.ml" 98 1540 1542 "parser.ml" 98 1540 1545
+type(
+  int
+)
+"parser.ml" 99 1559 1561 "parser.ml" 99 1559 1564
+type(
+  int
+)
+"parser.ml" 100 1576 1578 "parser.ml" 100 1576 1581
+type(
+  int
+)
+"parser.ml" 101 1596 1598 "parser.ml" 101 1596 1601
+type(
+  int
+)
+"parser.ml" 102 1613 1615 "parser.ml" 102 1613 1618
+type(
+  int
+)
+"parser.ml" 103 1637 1641 "parser.ml" 103 1637 1642
+type(
+  int
+)
+"parser.ml" 58 758 779 "parser.ml" 103 1637 1644
+type(
+  int array
+)
+"parser.ml" 105 1646 1650 "parser.ml" 105 1646 1664
+type(
+  int array
+)
+ident(
+  def yytransl_block "parser.ml" 110 1712 1712 "parser.ml" 0 0 -1
+)
+"parser.ml" 106 1670 1672 "parser.ml" 106 1670 1675
+type(
+  int
+)
+"parser.ml" 107 1687 1689 "parser.ml" 107 1687 1692
+type(
+  int
+)
+"parser.ml" 108 1703 1707 "parser.ml" 108 1703 1708
+type(
+  int
+)
+"parser.ml" 105 1646 1667 "parser.ml" 108 1703 1710
+type(
+  int array
+)
+"parser.ml" 110 1712 1716 "parser.ml" 110 1712 1721
+type(
+  string
+)
+ident(
+  def yylhs "parser.ml" 122 2364 2364 "parser.ml" 0 0 -1
+)
+"parser.ml" 110 1712 1724 "parser.ml" 120 2329 2362
+type(
+  string
+)
+"parser.ml" 122 2364 2368 "parser.ml" 122 2364 2373
+type(
+  string
+)
+ident(
+  def yylen "parser.ml" 134 3016 3016 "parser.ml" 0 0 -1
+)
+"parser.ml" 122 2364 2376 "parser.ml" 132 2981 3014
+type(
+  string
+)
+"parser.ml" 134 3016 3020 "parser.ml" 134 3016 3028
+type(
+  string
+)
+ident(
+  def yydefred "parser.ml" 156 4355 4355 "parser.ml" 0 0 -1
+)
+"parser.ml" 134 3016 3031 "parser.ml" 154 4296 4353
+type(
+  string
+)
+"parser.ml" 156 4355 4359 "parser.ml" 156 4355 4366
+type(
+  string
+)
+ident(
+  def yydgoto "parser.ml" 161 4539 4539 "parser.ml" 0 0 -1
+)
+"parser.ml" 156 4355 4369 "parser.ml" 159 4512 4537
+type(
+  string
+)
+"parser.ml" 161 4539 4543 "parser.ml" 161 4539 4551
+type(
+  string
+)
+ident(
+  def yysindex "parser.ml" 183 5878 5878 "parser.ml" 0 0 -1
+)
+"parser.ml" 161 4539 4554 "parser.ml" 181 5819 5876
+type(
+  string
+)
+"parser.ml" 183 5878 5882 "parser.ml" 183 5878 5890
+type(
+  string
+)
+ident(
+  def yyrindex "parser.ml" 205 7217 7217 "parser.ml" 0 0 -1
+)
+"parser.ml" 183 5878 5893 "parser.ml" 203 7158 7215
+type(
+  string
+)
+"parser.ml" 205 7217 7221 "parser.ml" 205 7217 7229
+type(
+  string
+)
+ident(
+  def yygindex "parser.ml" 210 7402 7402 "parser.ml" 0 0 -1
+)
+"parser.ml" 205 7217 7232 "parser.ml" 208 7375 7400
+type(
+  string
+)
+"parser.ml" 210 7402 7406 "parser.ml" 210 7402 7417
+type(
+  int
+)
+ident(
+  def yytablesize "parser.ml" 211 7424 7424 "parser.ml" 0 0 -1
+)
+"parser.ml" 210 7402 7420 "parser.ml" 210 7402 7423
+type(
+  int
+)
+"parser.ml" 211 7424 7428 "parser.ml" 211 7424 7435
+type(
+  string
+)
+ident(
+  def yytable "parser.ml" 297 12986 12986 "parser.ml" 0 0 -1
+)
+"parser.ml" 211 7424 7438 "parser.ml" 295 12927 12984
+type(
+  string
+)
+"parser.ml" 297 12986 12990 "parser.ml" 297 12986 12997
+type(
+  string
+)
+ident(
+  def yycheck "parser.ml" 383 18548 18548 "parser.ml" 0 0 -1
+)
+"parser.ml" 297 12986 13000 "parser.ml" 381 18489 18546
+type(
+  string
+)
+"parser.ml" 383 18548 18552 "parser.ml" 383 18548 18565
+type(
+  string
+)
+ident(
+  def yynames_const "parser.ml" 430 19167 19167 "parser.ml" 0 0 -1
+)
+"parser.ml" 383 18548 18568 "parser.ml" 428 19162 19165
+type(
+  string
+)
+"parser.ml" 430 19167 19171 "parser.ml" 430 19167 19184
+type(
+  string
+)
+ident(
+  def yynames_block "parser.ml" 435 19216 19216 "parser.ml" 0 0 -1
+)
+"parser.ml" 430 19167 19187 "parser.ml" 433 19211 19214
+type(
+  string
+)
+"parser.ml" 435 19216 19220 "parser.ml" 435 19216 19225
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+ident(
+  def yyact "parser.ml" 975 36232 36232 "parser.ml" 0 0 -1
+)
+"parser.ml" 436 19231 19238 "parser.ml" 436 19231 19239
+type(
+  Parsing.parser_env
+)
+"parser.ml" 436 19231 19243 "parser.ml" 436 19231 19251
+type(
+  string -> Obj.t
+)
+ident(
+  int_ref Stdlib.failwith "stdlib.mli" 41 1919 1919 "stdlib.mli" 41 1919 1946
+)
+"parser.ml" 436 19231 19252 "parser.ml" 436 19231 19260
+type(
+  string
+)
+"parser.ml" 436 19231 19243 "parser.ml" 436 19231 19260
+type(
+  Obj.t
+)
+"parser.ml" 436 19231 19233 "parser.ml" 436 19231 19261
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 437 19262 19269 "parser.ml" 437 19262 19286
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 438 19290 19294 "parser.ml" 443 19440 19464
+)
+"parser.ml" 438 19290 19298 "parser.ml" 438 19290 19300
+type(
+  int64
+)
+ident(
+  def _1 "parser.ml" 439 19353 19357 "parser.ml" 443 19440 19464
+)
+"parser.ml" 438 19290 19304 "parser.ml" 438 19290 19320
+type(
+  Parsing.parser_env -> int -> int64
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 438 19290 19321 "parser.ml" 438 19290 19338
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 437 19262 19269 "parser.ml" 437 19262 19286
+)
+"parser.ml" 438 19290 19339 "parser.ml" 438 19290 19340
+type(
+  int
+)
+"parser.ml" 438 19290 19304 "parser.ml" 438 19290 19340
+type(
+  int64
+)
+"parser.ml" 439 19353 19357 "parser.ml" 439 19353 19365
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 26 19385 19403 "parser.mly" 26 19385 19405
+type(
+  int64
+)
+ident(
+  int_ref _1 "parser.ml" 438 19290 19298 "parser.ml" 438 19290 19300
+)
+"parser.mly" 26 19385 19407 "parser.mly" 26 19385 19416
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 26 19385 19416 "parser.mly" 26 19385 19418
+type(
+  unit
+)
+"parser.mly" 26 19385 19407 "parser.mly" 26 19385 19418
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 26 19385 19393 "parser.mly" 26 19385 19421
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 439 19353 19357 "parser.ml" 443 19440 19464
+type(
+  Obj.t
+)
+"parser.ml" 438 19290 19294 "parser.ml" 443 19440 19464
+type(
+  Obj.t
+)
+"parser.ml" 437 19262 19264 "parser.ml" 443 19440 19465
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 444 19466 19473 "parser.ml" 444 19466 19490
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 445 19494 19498 "parser.ml" 449 19582 19606
+)
+"parser.ml" 445 19494 19498 "parser.ml" 445 19494 19506
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 27 19526 19543 "parser.mly" 27 19526 19547
+type(
+  bool
+)
+"parser.mly" 27 19526 19549 "parser.mly" 27 19526 19558
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 27 19526 19558 "parser.mly" 27 19526 19560
+type(
+  unit
+)
+"parser.mly" 27 19526 19549 "parser.mly" 27 19526 19560
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 27 19526 19535 "parser.mly" 27 19526 19563
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 445 19494 19498 "parser.ml" 449 19582 19606
+type(
+  Obj.t
+)
+"parser.ml" 444 19466 19468 "parser.ml" 449 19582 19607
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 450 19608 19615 "parser.ml" 450 19608 19632
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 451 19636 19640 "parser.ml" 455 19726 19750
+)
+"parser.ml" 451 19636 19640 "parser.ml" 451 19636 19648
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 28 19668 19686 "parser.mly" 28 19668 19691
+type(
+  bool
+)
+"parser.mly" 28 19668 19693 "parser.mly" 28 19668 19702
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 28 19668 19702 "parser.mly" 28 19668 19704
+type(
+  unit
+)
+"parser.mly" 28 19668 19693 "parser.mly" 28 19668 19704
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 28 19668 19678 "parser.mly" 28 19668 19707
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 451 19636 19640 "parser.ml" 455 19726 19750
+type(
+  Obj.t
+)
+"parser.ml" 450 19608 19610 "parser.ml" 455 19726 19751
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 456 19752 19759 "parser.ml" 456 19752 19776
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 457 19780 19784 "parser.ml" 461 19871 19895
+)
+"parser.ml" 457 19780 19784 "parser.ml" 457 19780 19792
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 29 19812 19838 "parser.mly" 29 19812 19847
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 29 19812 19847 "parser.mly" 29 19812 19849
+type(
+  unit
+)
+"parser.mly" 29 19812 19837 "parser.mly" 29 19812 19850
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 29 19812 19831 "parser.mly" 29 19812 19852
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 457 19780 19784 "parser.ml" 461 19871 19895
+type(
+  Obj.t
+)
+"parser.ml" 456 19752 19754 "parser.ml" 461 19871 19896
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 462 19897 19904 "parser.ml" 462 19897 19921
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 463 19925 19929 "parser.ml" 467 19993 20017
+)
+"parser.ml" 463 19925 19929 "parser.ml" 463 19925 19937
+type(
+  Exprs.prim1 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 32 19957 19966 "parser.mly" 32 19957 19974
+type(
+  Exprs.prim1
+)
+"parser.ml" 463 19925 19929 "parser.ml" 467 19993 20017
+type(
+  Obj.t
+)
+"parser.ml" 462 19897 19899 "parser.ml" 467 19993 20018
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 468 20019 20026 "parser.ml" 468 20019 20043
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 469 20047 20051 "parser.ml" 473 20115 20139
+)
+"parser.ml" 469 20047 20051 "parser.ml" 469 20047 20059
+type(
+  Exprs.prim1 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 33 20079 20088 "parser.mly" 33 20079 20096
+type(
+  Exprs.prim1
+)
+"parser.ml" 469 20047 20051 "parser.ml" 473 20115 20139
+type(
+  Obj.t
+)
+"parser.ml" 468 20019 20021 "parser.ml" 473 20115 20140
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 474 20141 20148 "parser.ml" 474 20141 20165
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 475 20169 20173 "parser.ml" 479 20235 20259
+)
+"parser.ml" 475 20169 20173 "parser.ml" 475 20169 20181
+type(
+  Exprs.prim1 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 34 20201 20209 "parser.mly" 34 20201 20216
+type(
+  Exprs.prim1
+)
+"parser.ml" 475 20169 20173 "parser.ml" 479 20235 20259
+type(
+  Obj.t
+)
+"parser.ml" 474 20141 20143 "parser.ml" 479 20235 20260
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 480 20261 20268 "parser.ml" 480 20261 20285
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 481 20289 20293 "parser.ml" 485 20359 20383
+)
+"parser.ml" 481 20289 20293 "parser.ml" 481 20289 20301
+type(
+  Exprs.prim1 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 35 20321 20331 "parser.mly" 35 20321 20340
+type(
+  Exprs.prim1
+)
+"parser.ml" 481 20289 20293 "parser.ml" 485 20359 20383
+type(
+  Obj.t
+)
+"parser.ml" 480 20261 20263 "parser.ml" 485 20359 20384
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 486 20385 20392 "parser.ml" 486 20385 20409
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 487 20413 20417 "parser.ml" 491 20485 20509
+)
+"parser.ml" 487 20413 20417 "parser.ml" 487 20413 20425
+type(
+  Exprs.prim1 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 36 20445 20456 "parser.mly" 36 20445 20466
+type(
+  Exprs.prim1
+)
+"parser.ml" 487 20413 20417 "parser.ml" 491 20485 20509
+type(
+  Obj.t
+)
+"parser.ml" 486 20385 20387 "parser.ml" 491 20485 20510
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 492 20511 20518 "parser.ml" 492 20511 20535
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 493 20539 20543 "parser.ml" 497 20609 20633
+)
+"parser.ml" 493 20539 20543 "parser.ml" 493 20539 20551
+type(
+  Exprs.prim1 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 37 20571 20581 "parser.mly" 37 20571 20590
+type(
+  Exprs.prim1
+)
+"parser.ml" 493 20539 20543 "parser.ml" 497 20609 20633
+type(
+  Obj.t
+)
+"parser.ml" 492 20511 20513 "parser.ml" 497 20609 20634
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 498 20635 20642 "parser.ml" 498 20635 20659
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 499 20663 20667 "parser.ml" 503 20737 20761
+)
+"parser.ml" 499 20663 20667 "parser.ml" 499 20663 20675
+type(
+  Exprs.prim1 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 38 20695 20707 "parser.mly" 38 20695 20718
+type(
+  Exprs.prim1
+)
+"parser.ml" 499 20663 20667 "parser.ml" 503 20737 20761
+type(
+  Obj.t
+)
+"parser.ml" 498 20635 20637 "parser.ml" 503 20737 20762
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 504 20763 20770 "parser.ml" 504 20763 20787
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 505 20791 20795 "parser.ml" 509 20871 20895
+)
+"parser.ml" 505 20791 20795 "parser.ml" 505 20791 20803
+type(
+  Exprs.prim1 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 39 20823 20838 "parser.mly" 39 20823 20852
+type(
+  Exprs.prim1
+)
+"parser.ml" 505 20791 20795 "parser.ml" 509 20871 20895
+type(
+  Obj.t
+)
+"parser.ml" 504 20763 20765 "parser.ml" 509 20871 20896
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 510 20897 20904 "parser.ml" 510 20897 20921
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 511 20925 20929 "parser.ml" 517 21149 21176
+)
+"parser.ml" 511 20925 20933 "parser.ml" 511 20925 20935
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  def _1 "parser.ml" 512 20988 20992 "parser.ml" 517 21149 21176
+)
+"parser.ml" 511 20925 20939 "parser.ml" 511 20925 20955
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 511 20925 20956 "parser.ml" 511 20925 20973
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 510 20897 20904 "parser.ml" 510 20897 20921
+)
+"parser.ml" 511 20925 20974 "parser.ml" 511 20925 20975
+type(
+  int
+)
+"parser.ml" 511 20925 20939 "parser.ml" 511 20925 20975
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 512 20988 20996 "parser.ml" 512 20988 20998
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _3 "parser.ml" 513 21051 21055 "parser.ml" 517 21149 21176
+)
+"parser.ml" 512 20988 21002 "parser.ml" 512 20988 21018
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 512 20988 21019 "parser.ml" 512 20988 21036
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 510 20897 20904 "parser.ml" 510 20897 20921
+)
+"parser.ml" 512 20988 21037 "parser.ml" 512 20988 21038
+type(
+  int
+)
+"parser.ml" 512 20988 21002 "parser.ml" 512 20988 21038
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 513 21051 21055 "parser.ml" 513 21051 21063
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 42 21083 21107 "parser.mly" 42 21083 21109
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref _1 "parser.ml" 511 20925 20933 "parser.ml" 511 20925 20935
+)
+"parser.mly" 42 21083 21111 "parser.mly" 42 21083 21113
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _3 "parser.ml" 512 20988 20996 "parser.ml" 512 20988 20998
+)
+"parser.mly" 42 21083 21115 "parser.mly" 42 21083 21124
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 42 21083 21124 "parser.mly" 42 21083 21126
+type(
+  unit
+)
+"parser.mly" 42 21083 21115 "parser.mly" 42 21083 21126
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 42 21083 21106 "parser.mly" 42 21083 21127
+type(
+  (Lexing.position * Lexing.position) Exprs.binding
+)
+"parser.mly" 42 21083 21103 "parser.mly" 42 21083 21130
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+"parser.ml" 513 21051 21055 "parser.ml" 517 21149 21176
+type(
+  Obj.t
+)
+"parser.ml" 512 20988 20992 "parser.ml" 517 21149 21176
+type(
+  Obj.t
+)
+"parser.ml" 511 20925 20929 "parser.ml" 517 21149 21176
+type(
+  Obj.t
+)
+"parser.ml" 510 20897 20899 "parser.ml" 517 21149 21177
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 518 21178 21185 "parser.ml" 518 21178 21202
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 519 21206 21210 "parser.ml" 526 21517 21544
+)
+"parser.ml" 519 21206 21214 "parser.ml" 519 21206 21216
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  def _1 "parser.ml" 520 21269 21273 "parser.ml" 526 21517 21544
+)
+"parser.ml" 519 21206 21220 "parser.ml" 519 21206 21236
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 519 21206 21237 "parser.ml" 519 21206 21254
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 518 21178 21185 "parser.ml" 518 21178 21202
+)
+"parser.ml" 519 21206 21255 "parser.ml" 519 21206 21256
+type(
+  int
+)
+"parser.ml" 519 21206 21220 "parser.ml" 519 21206 21256
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 520 21269 21277 "parser.ml" 520 21269 21279
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _3 "parser.ml" 521 21332 21336 "parser.ml" 526 21517 21544
+)
+"parser.ml" 520 21269 21283 "parser.ml" 520 21269 21299
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 520 21269 21300 "parser.ml" 520 21269 21317
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 518 21178 21185 "parser.ml" 518 21178 21202
+)
+"parser.ml" 520 21269 21318 "parser.ml" 520 21269 21319
+type(
+  int
+)
+"parser.ml" 520 21269 21283 "parser.ml" 520 21269 21319
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 521 21332 21340 "parser.ml" 521 21332 21342
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  def _5 "parser.ml" 522 21399 21403 "parser.ml" 526 21517 21544
+)
+"parser.ml" 521 21332 21346 "parser.ml" 521 21332 21362
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 521 21332 21363 "parser.ml" 521 21332 21380
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 518 21178 21185 "parser.ml" 518 21178 21202
+)
+"parser.ml" 521 21332 21381 "parser.ml" 521 21332 21382
+type(
+  int
+)
+"parser.ml" 521 21332 21346 "parser.ml" 521 21332 21382
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+"parser.ml" 522 21399 21403 "parser.ml" 522 21399 21411
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 43 21431 21469 "parser.mly" 43 21431 21471
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref _1 "parser.ml" 519 21206 21214 "parser.ml" 519 21206 21216
+)
+"parser.mly" 43 21431 21473 "parser.mly" 43 21431 21475
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _3 "parser.ml" 520 21269 21277 "parser.ml" 520 21269 21279
+)
+"parser.mly" 43 21431 21477 "parser.mly" 43 21431 21485
+type(
+  int * int -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref tok_span "parser.mly" 5 652 656 "parser.mly" 5 652 664
+)
+"parser.mly" 43 21431 21486 "parser.mly" 43 21431 21487
+type(
+  int
+)
+"parser.mly" 43 21431 21489 "parser.mly" 43 21431 21490
+type(
+  int
+)
+"parser.mly" 43 21431 21485 "parser.mly" 43 21431 21491
+type(
+  int * int
+)
+"parser.mly" 43 21431 21477 "parser.mly" 43 21431 21491
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 43 21431 21468 "parser.mly" 43 21431 21492
+type(
+  (Lexing.position * Lexing.position) Exprs.binding
+)
+"parser.mly" 43 21431 21494 "parser.mly" 43 21431 21496
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  int_ref _5 "parser.ml" 521 21332 21340 "parser.ml" 521 21332 21342
+)
+"parser.mly" 43 21431 21466 "parser.mly" 43 21431 21498
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+"parser.ml" 522 21399 21403 "parser.ml" 526 21517 21544
+type(
+  Obj.t
+)
+"parser.ml" 521 21332 21336 "parser.ml" 526 21517 21544
+type(
+  Obj.t
+)
+"parser.ml" 520 21269 21273 "parser.ml" 526 21517 21544
+type(
+  Obj.t
+)
+"parser.ml" 519 21206 21210 "parser.ml" 526 21517 21544
+type(
+  Obj.t
+)
+"parser.ml" 518 21178 21180 "parser.ml" 526 21517 21545
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 527 21546 21553 "parser.ml" 527 21546 21570
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 528 21574 21578 "parser.ml" 534 21806 21837
+)
+"parser.ml" 528 21574 21582 "parser.ml" 528 21574 21584
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  def _1 "parser.ml" 529 21641 21645 "parser.ml" 534 21806 21837
+)
+"parser.ml" 528 21574 21588 "parser.ml" 528 21574 21604
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 528 21574 21605 "parser.ml" 528 21574 21622
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 527 21546 21553 "parser.ml" 527 21546 21570
+)
+"parser.ml" 528 21574 21623 "parser.ml" 528 21574 21624
+type(
+  int
+)
+"parser.ml" 528 21574 21588 "parser.ml" 528 21574 21624
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 529 21641 21649 "parser.ml" 529 21641 21651
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _3 "parser.ml" 530 21704 21708 "parser.ml" 534 21806 21837
+)
+"parser.ml" 529 21641 21655 "parser.ml" 529 21641 21671
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 529 21641 21672 "parser.ml" 529 21641 21689
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 527 21546 21553 "parser.ml" 527 21546 21570
+)
+"parser.ml" 529 21641 21690 "parser.ml" 529 21641 21691
+type(
+  int
+)
+"parser.ml" 529 21641 21655 "parser.ml" 529 21641 21691
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 530 21704 21708 "parser.ml" 530 21704 21716
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 46 21736 21764 "parser.mly" 46 21736 21766
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref _1 "parser.ml" 528 21574 21582 "parser.ml" 528 21574 21584
+)
+"parser.mly" 46 21736 21768 "parser.mly" 46 21736 21770
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _3 "parser.ml" 529 21641 21649 "parser.ml" 529 21641 21651
+)
+"parser.mly" 46 21736 21772 "parser.mly" 46 21736 21781
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 46 21736 21781 "parser.mly" 46 21736 21783
+type(
+  unit
+)
+"parser.mly" 46 21736 21772 "parser.mly" 46 21736 21783
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 46 21736 21763 "parser.mly" 46 21736 21784
+type(
+  (Lexing.position * Lexing.position) Exprs.binding
+)
+"parser.mly" 46 21736 21760 "parser.mly" 46 21736 21787
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+"parser.ml" 530 21704 21708 "parser.ml" 534 21806 21837
+type(
+  Obj.t
+)
+"parser.ml" 529 21641 21645 "parser.ml" 534 21806 21837
+type(
+  Obj.t
+)
+"parser.ml" 528 21574 21578 "parser.ml" 534 21806 21837
+type(
+  Obj.t
+)
+"parser.ml" 527 21546 21548 "parser.ml" 534 21806 21838
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 535 21839 21846 "parser.ml" 535 21839 21863
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 536 21867 21871 "parser.ml" 543 22194 22225
+)
+"parser.ml" 536 21867 21875 "parser.ml" 536 21867 21877
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  def _1 "parser.ml" 537 21934 21938 "parser.ml" 543 22194 22225
+)
+"parser.ml" 536 21867 21881 "parser.ml" 536 21867 21897
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 536 21867 21898 "parser.ml" 536 21867 21915
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 535 21839 21846 "parser.ml" 535 21839 21863
+)
+"parser.ml" 536 21867 21916 "parser.ml" 536 21867 21917
+type(
+  int
+)
+"parser.ml" 536 21867 21881 "parser.ml" 536 21867 21917
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 537 21934 21942 "parser.ml" 537 21934 21944
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _3 "parser.ml" 538 21997 22001 "parser.ml" 543 22194 22225
+)
+"parser.ml" 537 21934 21948 "parser.ml" 537 21934 21964
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 537 21934 21965 "parser.ml" 537 21934 21982
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 535 21839 21846 "parser.ml" 535 21839 21863
+)
+"parser.ml" 537 21934 21983 "parser.ml" 537 21934 21984
+type(
+  int
+)
+"parser.ml" 537 21934 21948 "parser.ml" 537 21934 21984
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 538 21997 22005 "parser.ml" 538 21997 22007
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  def _5 "parser.ml" 539 22068 22072 "parser.ml" 543 22194 22225
+)
+"parser.ml" 538 21997 22011 "parser.ml" 538 21997 22027
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 538 21997 22028 "parser.ml" 538 21997 22045
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 535 21839 21846 "parser.ml" 535 21839 21863
+)
+"parser.ml" 538 21997 22046 "parser.ml" 538 21997 22047
+type(
+  int
+)
+"parser.ml" 538 21997 22011 "parser.ml" 538 21997 22047
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+"parser.ml" 539 22068 22072 "parser.ml" 539 22068 22080
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 47 22100 22146 "parser.mly" 47 22100 22148
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref _1 "parser.ml" 536 21867 21875 "parser.ml" 536 21867 21877
+)
+"parser.mly" 47 22100 22150 "parser.mly" 47 22100 22152
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _3 "parser.ml" 537 21934 21942 "parser.ml" 537 21934 21944
+)
+"parser.mly" 47 22100 22154 "parser.mly" 47 22100 22162
+type(
+  int * int -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref tok_span "parser.mly" 5 652 656 "parser.mly" 5 652 664
+)
+"parser.mly" 47 22100 22163 "parser.mly" 47 22100 22164
+type(
+  int
+)
+"parser.mly" 47 22100 22166 "parser.mly" 47 22100 22167
+type(
+  int
+)
+"parser.mly" 47 22100 22162 "parser.mly" 47 22100 22168
+type(
+  int * int
+)
+"parser.mly" 47 22100 22154 "parser.mly" 47 22100 22168
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 47 22100 22145 "parser.mly" 47 22100 22169
+type(
+  (Lexing.position * Lexing.position) Exprs.binding
+)
+"parser.mly" 47 22100 22171 "parser.mly" 47 22100 22173
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  int_ref _5 "parser.ml" 538 21997 22005 "parser.ml" 538 21997 22007
+)
+"parser.mly" 47 22100 22143 "parser.mly" 47 22100 22175
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+"parser.ml" 539 22068 22072 "parser.ml" 543 22194 22225
+type(
+  Obj.t
+)
+"parser.ml" 538 21997 22001 "parser.ml" 543 22194 22225
+type(
+  Obj.t
+)
+"parser.ml" 537 21934 21938 "parser.ml" 543 22194 22225
+type(
+  Obj.t
+)
+"parser.ml" 536 21867 21871 "parser.ml" 543 22194 22225
+type(
+  Obj.t
+)
+"parser.ml" 535 21839 21841 "parser.ml" 543 22194 22226
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 544 22227 22234 "parser.ml" 544 22227 22251
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 545 22255 22259 "parser.ml" 551 22490 22513
+)
+"parser.ml" 545 22255 22263 "parser.ml" 545 22255 22265
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  def _2 "parser.ml" 546 22322 22326 "parser.ml" 551 22490 22513
+)
+"parser.ml" 545 22255 22269 "parser.ml" 545 22255 22285
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 545 22255 22286 "parser.ml" 545 22255 22303
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 544 22227 22234 "parser.ml" 544 22227 22251
+)
+"parser.ml" 545 22255 22304 "parser.ml" 545 22255 22305
+type(
+  int
+)
+"parser.ml" 545 22255 22269 "parser.ml" 545 22255 22305
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+"parser.ml" 546 22322 22330 "parser.ml" 546 22322 22332
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _4 "parser.ml" 547 22385 22389 "parser.ml" 551 22490 22513
+)
+"parser.ml" 546 22322 22336 "parser.ml" 546 22322 22352
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 546 22322 22353 "parser.ml" 546 22322 22370
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 544 22227 22234 "parser.ml" 544 22227 22251
+)
+"parser.ml" 546 22322 22371 "parser.ml" 546 22322 22372
+type(
+  int
+)
+"parser.ml" 546 22322 22336 "parser.ml" 546 22322 22372
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 547 22385 22389 "parser.ml" 547 22385 22397
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 50 22417 22449 "parser.mly" 50 22417 22451
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  int_ref _2 "parser.ml" 545 22255 22263 "parser.ml" 545 22255 22265
+)
+"parser.mly" 50 22417 22453 "parser.mly" 50 22417 22455
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _4 "parser.ml" 546 22322 22330 "parser.ml" 546 22322 22332
+)
+"parser.mly" 50 22417 22457 "parser.mly" 50 22417 22466
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 50 22417 22466 "parser.mly" 50 22417 22468
+type(
+  unit
+)
+"parser.mly" 50 22417 22457 "parser.mly" 50 22417 22468
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 50 22417 22442 "parser.mly" 50 22417 22471
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 547 22385 22389 "parser.ml" 551 22490 22513
+type(
+  Obj.t
+)
+"parser.ml" 546 22322 22326 "parser.ml" 551 22490 22513
+type(
+  Obj.t
+)
+"parser.ml" 545 22255 22259 "parser.ml" 551 22490 22513
+type(
+  Obj.t
+)
+"parser.ml" 544 22227 22229 "parser.ml" 551 22490 22514
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 552 22515 22522 "parser.ml" 552 22515 22539
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 553 22543 22547 "parser.ml" 559 22793 22816
+)
+"parser.ml" 553 22543 22551 "parser.ml" 553 22543 22553
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  def _3 "parser.ml" 554 22614 22618 "parser.ml" 559 22793 22816
+)
+"parser.ml" 553 22543 22557 "parser.ml" 553 22543 22573
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 553 22543 22574 "parser.ml" 553 22543 22591
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 552 22515 22522 "parser.ml" 552 22515 22539
+)
+"parser.ml" 553 22543 22592 "parser.ml" 553 22543 22593
+type(
+  int
+)
+"parser.ml" 553 22543 22557 "parser.ml" 553 22543 22593
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+"parser.ml" 554 22614 22622 "parser.ml" 554 22614 22624
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _5 "parser.ml" 555 22677 22681 "parser.ml" 559 22793 22816
+)
+"parser.ml" 554 22614 22628 "parser.ml" 554 22614 22644
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 554 22614 22645 "parser.ml" 554 22614 22662
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 552 22515 22522 "parser.ml" 552 22515 22539
+)
+"parser.ml" 554 22614 22663 "parser.ml" 554 22614 22664
+type(
+  int
+)
+"parser.ml" 554 22614 22628 "parser.ml" 554 22614 22664
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 555 22677 22681 "parser.ml" 555 22677 22689
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 51 22709 22752 "parser.mly" 51 22709 22754
+type(
+  (Lexing.position * Lexing.position) Exprs.binding list
+)
+ident(
+  int_ref _3 "parser.ml" 553 22543 22551 "parser.ml" 553 22543 22553
+)
+"parser.mly" 51 22709 22756 "parser.mly" 51 22709 22758
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _5 "parser.ml" 554 22614 22622 "parser.ml" 554 22614 22624
+)
+"parser.mly" 51 22709 22760 "parser.mly" 51 22709 22769
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 51 22709 22769 "parser.mly" 51 22709 22771
+type(
+  unit
+)
+"parser.mly" 51 22709 22760 "parser.mly" 51 22709 22771
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 51 22709 22742 "parser.mly" 51 22709 22774
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 555 22677 22681 "parser.ml" 559 22793 22816
+type(
+  Obj.t
+)
+"parser.ml" 554 22614 22618 "parser.ml" 559 22793 22816
+type(
+  Obj.t
+)
+"parser.ml" 553 22543 22547 "parser.ml" 559 22793 22816
+type(
+  Obj.t
+)
+"parser.ml" 552 22515 22517 "parser.ml" 559 22793 22817
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 560 22818 22825 "parser.ml" 560 22818 22842
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 561 22846 22850 "parser.ml" 568 23156 23179
+)
+"parser.ml" 561 22846 22854 "parser.ml" 561 22846 22856
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _2 "parser.ml" 562 22909 22913 "parser.ml" 568 23156 23179
+)
+"parser.ml" 561 22846 22860 "parser.ml" 561 22846 22876
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 561 22846 22877 "parser.ml" 561 22846 22894
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 560 22818 22825 "parser.ml" 560 22818 22842
+)
+"parser.ml" 561 22846 22895 "parser.ml" 561 22846 22896
+type(
+  int
+)
+"parser.ml" 561 22846 22860 "parser.ml" 561 22846 22896
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 562 22909 22917 "parser.ml" 562 22909 22919
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _4 "parser.ml" 563 22972 22976 "parser.ml" 568 23156 23179
+)
+"parser.ml" 562 22909 22923 "parser.ml" 562 22909 22939
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 562 22909 22940 "parser.ml" 562 22909 22957
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 560 22818 22825 "parser.ml" 560 22818 22842
+)
+"parser.ml" 562 22909 22958 "parser.ml" 562 22909 22959
+type(
+  int
+)
+"parser.ml" 562 22909 22923 "parser.ml" 562 22909 22959
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 563 22972 22980 "parser.ml" 563 22972 22982
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _6 "parser.ml" 564 23035 23039 "parser.ml" 568 23156 23179
+)
+"parser.ml" 563 22972 22986 "parser.ml" 563 22972 23002
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 563 22972 23003 "parser.ml" 563 22972 23020
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 560 22818 22825 "parser.ml" 560 22818 22842
+)
+"parser.ml" 563 22972 23021 "parser.ml" 563 22972 23022
+type(
+  int
+)
+"parser.ml" 563 22972 22986 "parser.ml" 563 22972 23022
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 564 23035 23039 "parser.ml" 564 23035 23047
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 52 23067 23111 "parser.mly" 52 23067 23113
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _2 "parser.ml" 561 22846 22854 "parser.ml" 561 22846 22856
+)
+"parser.mly" 52 23067 23115 "parser.mly" 52 23067 23117
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _4 "parser.ml" 562 22909 22917 "parser.ml" 562 22909 22919
+)
+"parser.mly" 52 23067 23119 "parser.mly" 52 23067 23121
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _6 "parser.ml" 563 22972 22980 "parser.ml" 563 22972 22982
+)
+"parser.mly" 52 23067 23123 "parser.mly" 52 23067 23132
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 52 23067 23132 "parser.mly" 52 23067 23134
+type(
+  unit
+)
+"parser.mly" 52 23067 23123 "parser.mly" 52 23067 23134
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 52 23067 23105 "parser.mly" 52 23067 23137
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 564 23035 23039 "parser.ml" 568 23156 23179
+type(
+  Obj.t
+)
+"parser.ml" 563 22972 22976 "parser.ml" 568 23156 23179
+type(
+  Obj.t
+)
+"parser.ml" 562 22909 22913 "parser.ml" 568 23156 23179
+type(
+  Obj.t
+)
+"parser.ml" 561 22846 22850 "parser.ml" 568 23156 23179
+type(
+  Obj.t
+)
+"parser.ml" 560 22818 22820 "parser.ml" 568 23156 23180
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 569 23181 23188 "parser.ml" 569 23181 23205
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 570 23209 23213 "parser.ml" 575 23348 23371
+)
+"parser.ml" 570 23209 23217 "parser.ml" 570 23209 23219
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _2 "parser.ml" 571 23272 23276 "parser.ml" 575 23348 23371
+)
+"parser.ml" 570 23209 23223 "parser.ml" 570 23209 23239
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 570 23209 23240 "parser.ml" 570 23209 23257
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 569 23181 23188 "parser.ml" 569 23181 23205
+)
+"parser.ml" 570 23209 23258 "parser.ml" 570 23209 23259
+type(
+  int
+)
+"parser.ml" 570 23209 23223 "parser.ml" 570 23209 23259
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 571 23272 23276 "parser.ml" 571 23272 23284
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 53 23304 23323 "parser.mly" 53 23304 23329
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _2 "parser.ml" 570 23209 23217 "parser.ml" 570 23209 23219
+)
+"parser.ml" 571 23272 23276 "parser.ml" 575 23348 23371
+type(
+  Obj.t
+)
+"parser.ml" 570 23209 23213 "parser.ml" 575 23348 23371
+type(
+  Obj.t
+)
+"parser.ml" 569 23181 23183 "parser.ml" 575 23348 23372
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 576 23373 23380 "parser.ml" 576 23373 23397
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 577 23401 23405 "parser.ml" 583 23638 23661
+)
+"parser.ml" 577 23401 23409 "parser.ml" 577 23401 23411
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 578 23470 23474 "parser.ml" 583 23638 23661
+)
+"parser.ml" 577 23401 23415 "parser.ml" 577 23401 23431
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 577 23401 23432 "parser.ml" 577 23401 23449
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 576 23373 23380 "parser.ml" 576 23373 23397
+)
+"parser.ml" 577 23401 23450 "parser.ml" 577 23401 23451
+type(
+  int
+)
+"parser.ml" 577 23401 23415 "parser.ml" 577 23401 23451
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 578 23470 23478 "parser.ml" 578 23470 23480
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _3 "parser.ml" 579 23533 23537 "parser.ml" 583 23638 23661
+)
+"parser.ml" 578 23470 23484 "parser.ml" 578 23470 23500
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 578 23470 23501 "parser.ml" 578 23470 23518
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 576 23373 23380 "parser.ml" 576 23373 23397
+)
+"parser.ml" 578 23470 23519 "parser.ml" 578 23470 23520
+type(
+  int
+)
+"parser.ml" 578 23470 23484 "parser.ml" 578 23470 23520
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 579 23533 23537 "parser.ml" 579 23533 23545
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 54 23565 23597 "parser.mly" 54 23565 23599
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 577 23401 23409 "parser.ml" 577 23401 23411
+)
+"parser.mly" 54 23565 23601 "parser.mly" 54 23565 23603
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _3 "parser.ml" 578 23470 23478 "parser.ml" 578 23470 23480
+)
+"parser.mly" 54 23565 23605 "parser.mly" 54 23565 23614
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 54 23565 23614 "parser.mly" 54 23565 23616
+type(
+  unit
+)
+"parser.mly" 54 23565 23605 "parser.mly" 54 23565 23616
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 54 23565 23590 "parser.mly" 54 23565 23619
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 579 23533 23537 "parser.ml" 583 23638 23661
+type(
+  Obj.t
+)
+"parser.ml" 578 23470 23474 "parser.ml" 583 23638 23661
+type(
+  Obj.t
+)
+"parser.ml" 577 23401 23405 "parser.ml" 583 23638 23661
+type(
+  Obj.t
+)
+"parser.ml" 576 23373 23375 "parser.ml" 583 23638 23662
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 584 23663 23670 "parser.ml" 584 23663 23687
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 585 23691 23695 "parser.ml" 590 23832 23855
+)
+"parser.ml" 585 23691 23699 "parser.ml" 585 23691 23701
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 586 23760 23764 "parser.ml" 590 23832 23855
+)
+"parser.ml" 585 23691 23705 "parser.ml" 585 23691 23721
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 585 23691 23722 "parser.ml" 585 23691 23739
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 584 23663 23670 "parser.ml" 584 23663 23687
+)
+"parser.ml" 585 23691 23740 "parser.ml" 585 23691 23741
+type(
+  int
+)
+"parser.ml" 585 23691 23705 "parser.ml" 585 23691 23741
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 586 23760 23764 "parser.ml" 586 23760 23772
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 55 23792 23807 "parser.mly" 55 23792 23813
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 585 23691 23699 "parser.ml" 585 23691 23701
+)
+"parser.ml" 586 23760 23764 "parser.ml" 590 23832 23855
+type(
+  Obj.t
+)
+"parser.ml" 585 23691 23695 "parser.ml" 590 23832 23855
+type(
+  Obj.t
+)
+"parser.ml" 584 23663 23665 "parser.ml" 590 23832 23856
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 591 23857 23864 "parser.ml" 591 23857 23881
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 592 23885 23889 "parser.ml" 597 24016 24040
+)
+"parser.ml" 592 23885 23893 "parser.ml" 592 23885 23895
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 593 23948 23952 "parser.ml" 597 24016 24040
+)
+"parser.ml" 592 23885 23899 "parser.ml" 592 23885 23915
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 592 23885 23916 "parser.ml" 592 23885 23933
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 591 23857 23864 "parser.ml" 591 23857 23881
+)
+"parser.ml" 592 23885 23934 "parser.ml" 592 23885 23935
+type(
+  int
+)
+"parser.ml" 592 23885 23899 "parser.ml" 592 23885 23935
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 593 23948 23952 "parser.ml" 593 23948 23960
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 58 23980 23992 "parser.mly" 58 23980 23994
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 592 23885 23893 "parser.ml" 592 23885 23895
+)
+"parser.mly" 58 23980 23989 "parser.mly" 58 23980 23997
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.ml" 593 23948 23952 "parser.ml" 597 24016 24040
+type(
+  Obj.t
+)
+"parser.ml" 592 23885 23889 "parser.ml" 597 24016 24040
+type(
+  Obj.t
+)
+"parser.ml" 591 23857 23859 "parser.ml" 597 24016 24041
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 598 24042 24049 "parser.ml" 598 24042 24066
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 599 24070 24074 "parser.ml" 605 24279 24303
+)
+"parser.ml" 599 24070 24078 "parser.ml" 599 24070 24080
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 600 24133 24137 "parser.ml" 605 24279 24303
+)
+"parser.ml" 599 24070 24084 "parser.ml" 599 24070 24100
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 599 24070 24101 "parser.ml" 599 24070 24118
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 598 24042 24049 "parser.ml" 598 24042 24066
+)
+"parser.ml" 599 24070 24119 "parser.ml" 599 24070 24120
+type(
+  int
+)
+"parser.ml" 599 24070 24084 "parser.ml" 599 24070 24120
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 600 24133 24141 "parser.ml" 600 24133 24143
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  def _3 "parser.ml" 601 24197 24201 "parser.ml" 605 24279 24303
+)
+"parser.ml" 600 24133 24147 "parser.ml" 600 24133 24163
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 600 24133 24164 "parser.ml" 600 24133 24181
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 598 24042 24049 "parser.ml" 598 24042 24066
+)
+"parser.ml" 600 24133 24182 "parser.ml" 600 24133 24183
+type(
+  int
+)
+"parser.ml" 600 24133 24147 "parser.ml" 600 24133 24183
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.ml" 601 24197 24201 "parser.ml" 601 24197 24209
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 59 24229 24252 "parser.mly" 59 24229 24254
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 599 24070 24078 "parser.ml" 599 24070 24080
+)
+"parser.mly" 59 24229 24256 "parser.mly" 59 24229 24258
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  int_ref _3 "parser.ml" 600 24133 24141 "parser.ml" 600 24133 24143
+)
+"parser.mly" 59 24229 24250 "parser.mly" 59 24229 24260
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.ml" 601 24197 24201 "parser.ml" 605 24279 24303
+type(
+  Obj.t
+)
+"parser.ml" 600 24133 24137 "parser.ml" 605 24279 24303
+type(
+  Obj.t
+)
+"parser.ml" 599 24070 24074 "parser.ml" 605 24279 24303
+type(
+  Obj.t
+)
+"parser.ml" 598 24042 24044 "parser.ml" 605 24279 24304
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 606 24305 24312 "parser.ml" 606 24305 24329
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 607 24333 24337 "parser.ml" 611 24436 24465
+)
+"parser.ml" 607 24333 24337 "parser.ml" 607 24333 24345
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 62 24365 24399 "parser.mly" 62 24365 24401
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.mly" 62 24365 24403 "parser.mly" 62 24365 24412
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 62 24365 24412 "parser.mly" 62 24365 24414
+type(
+  unit
+)
+"parser.mly" 62 24365 24403 "parser.mly" 62 24365 24414
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 62 24365 24390 "parser.mly" 62 24365 24417
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 607 24333 24337 "parser.ml" 611 24436 24465
+type(
+  Obj.t
+)
+"parser.ml" 606 24305 24307 "parser.ml" 611 24436 24466
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 612 24467 24474 "parser.ml" 612 24467 24491
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 613 24495 24499 "parser.ml" 617 24596 24625
+)
+"parser.ml" 613 24495 24499 "parser.ml" 613 24495 24507
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 63 24527 24559 "parser.mly" 63 24527 24561
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.mly" 63 24527 24563 "parser.mly" 63 24527 24572
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 63 24527 24572 "parser.mly" 63 24527 24574
+type(
+  unit
+)
+"parser.mly" 63 24527 24563 "parser.mly" 63 24527 24574
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 63 24527 24550 "parser.mly" 63 24527 24577
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 613 24495 24499 "parser.ml" 617 24596 24625
+type(
+  Obj.t
+)
+"parser.ml" 612 24467 24469 "parser.ml" 617 24596 24626
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 618 24627 24634 "parser.ml" 618 24627 24651
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 619 24655 24659 "parser.ml" 624 24834 24863
+)
+"parser.ml" 619 24655 24663 "parser.ml" 619 24655 24665
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _2 "parser.ml" 620 24718 24722 "parser.ml" 624 24834 24863
+)
+"parser.ml" 619 24655 24669 "parser.ml" 619 24655 24685
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 619 24655 24686 "parser.ml" 619 24655 24703
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 618 24627 24634 "parser.ml" 618 24627 24651
+)
+"parser.ml" 619 24655 24704 "parser.ml" 619 24655 24705
+type(
+  int
+)
+"parser.ml" 619 24655 24669 "parser.ml" 619 24655 24705
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 620 24718 24722 "parser.ml" 620 24718 24730
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 64 24750 24796 "parser.mly" 64 24750 24798
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _2 "parser.ml" 619 24655 24663 "parser.ml" 619 24655 24665
+)
+"parser.mly" 64 24750 24795 "parser.mly" 64 24750 24799
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.mly" 64 24750 24801 "parser.mly" 64 24750 24810
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 64 24750 24810 "parser.mly" 64 24750 24812
+type(
+  unit
+)
+"parser.mly" 64 24750 24801 "parser.mly" 64 24750 24812
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 64 24750 24786 "parser.mly" 64 24750 24815
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 620 24718 24722 "parser.ml" 624 24834 24863
+type(
+  Obj.t
+)
+"parser.ml" 619 24655 24659 "parser.ml" 624 24834 24863
+type(
+  Obj.t
+)
+"parser.ml" 618 24627 24629 "parser.ml" 624 24834 24864
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 625 24865 24872 "parser.ml" 625 24865 24889
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 626 24893 24897 "parser.ml" 631 25070 25099
+)
+"parser.ml" 626 24893 24901 "parser.ml" 626 24893 24903
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _2 "parser.ml" 627 24956 24960 "parser.ml" 631 25070 25099
+)
+"parser.ml" 626 24893 24907 "parser.ml" 626 24893 24923
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 626 24893 24924 "parser.ml" 626 24893 24941
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 625 24865 24872 "parser.ml" 625 24865 24889
+)
+"parser.ml" 626 24893 24942 "parser.ml" 626 24893 24943
+type(
+  int
+)
+"parser.ml" 626 24893 24907 "parser.ml" 626 24893 24943
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 627 24956 24960 "parser.ml" 627 24956 24968
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 65 24988 25032 "parser.mly" 65 24988 25034
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _2 "parser.ml" 626 24893 24901 "parser.ml" 626 24893 24903
+)
+"parser.mly" 65 24988 25031 "parser.mly" 65 24988 25035
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.mly" 65 24988 25037 "parser.mly" 65 24988 25046
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 65 24988 25046 "parser.mly" 65 24988 25048
+type(
+  unit
+)
+"parser.mly" 65 24988 25037 "parser.mly" 65 24988 25048
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 65 24988 25022 "parser.mly" 65 24988 25051
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 627 24956 24960 "parser.ml" 631 25070 25099
+type(
+  Obj.t
+)
+"parser.ml" 626 24893 24897 "parser.ml" 631 25070 25099
+type(
+  Obj.t
+)
+"parser.ml" 625 24865 24867 "parser.ml" 631 25070 25100
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 632 25101 25108 "parser.ml" 632 25101 25125
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 633 25129 25133 "parser.ml" 639 25380 25409
+)
+"parser.ml" 633 25129 25137 "parser.ml" 633 25129 25139
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _2 "parser.ml" 634 25192 25196 "parser.ml" 639 25380 25409
+)
+"parser.ml" 633 25129 25143 "parser.ml" 633 25129 25159
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 633 25129 25160 "parser.ml" 633 25129 25177
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 632 25101 25108 "parser.ml" 632 25101 25125
+)
+"parser.ml" 633 25129 25178 "parser.ml" 633 25129 25179
+type(
+  int
+)
+"parser.ml" 633 25129 25143 "parser.ml" 633 25129 25179
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 634 25192 25200 "parser.ml" 634 25192 25202
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  def _4 "parser.ml" 635 25256 25260 "parser.ml" 639 25380 25409
+)
+"parser.ml" 634 25192 25206 "parser.ml" 634 25192 25222
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 634 25192 25223 "parser.ml" 634 25192 25240
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 632 25101 25108 "parser.ml" 632 25101 25125
+)
+"parser.ml" 634 25192 25241 "parser.ml" 634 25192 25242
+type(
+  int
+)
+"parser.ml" 634 25192 25206 "parser.ml" 634 25192 25242
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.ml" 635 25256 25260 "parser.ml" 635 25256 25268
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 66 25288 25339 "parser.mly" 66 25288 25341
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _2 "parser.ml" 633 25129 25137 "parser.ml" 633 25129 25139
+)
+"parser.mly" 66 25288 25343 "parser.mly" 66 25288 25345
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  int_ref _4 "parser.ml" 634 25192 25200 "parser.ml" 634 25192 25202
+)
+"parser.mly" 66 25288 25339 "parser.mly" 66 25288 25345
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.mly" 66 25288 25347 "parser.mly" 66 25288 25356
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 66 25288 25356 "parser.mly" 66 25288 25358
+type(
+  unit
+)
+"parser.mly" 66 25288 25347 "parser.mly" 66 25288 25358
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 66 25288 25330 "parser.mly" 66 25288 25361
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 635 25256 25260 "parser.ml" 639 25380 25409
+type(
+  Obj.t
+)
+"parser.ml" 634 25192 25196 "parser.ml" 639 25380 25409
+type(
+  Obj.t
+)
+"parser.ml" 633 25129 25133 "parser.ml" 639 25380 25409
+type(
+  Obj.t
+)
+"parser.ml" 632 25101 25103 "parser.ml" 639 25380 25410
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 640 25411 25418 "parser.ml" 640 25411 25435
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 641 25439 25443 "parser.ml" 647 25688 25717
+)
+"parser.ml" 641 25439 25447 "parser.ml" 641 25439 25449
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _2 "parser.ml" 642 25502 25506 "parser.ml" 647 25688 25717
+)
+"parser.ml" 641 25439 25453 "parser.ml" 641 25439 25469
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 641 25439 25470 "parser.ml" 641 25439 25487
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 640 25411 25418 "parser.ml" 640 25411 25435
+)
+"parser.ml" 641 25439 25488 "parser.ml" 641 25439 25489
+type(
+  int
+)
+"parser.ml" 641 25439 25453 "parser.ml" 641 25439 25489
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 642 25502 25510 "parser.ml" 642 25502 25512
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  def _4 "parser.ml" 643 25566 25570 "parser.ml" 647 25688 25717
+)
+"parser.ml" 642 25502 25516 "parser.ml" 642 25502 25532
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 642 25502 25533 "parser.ml" 642 25502 25550
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 640 25411 25418 "parser.ml" 640 25411 25435
+)
+"parser.ml" 642 25502 25551 "parser.ml" 642 25502 25552
+type(
+  int
+)
+"parser.ml" 642 25502 25516 "parser.ml" 642 25502 25552
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.ml" 643 25566 25570 "parser.ml" 643 25566 25578
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 67 25598 25647 "parser.mly" 67 25598 25649
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _2 "parser.ml" 641 25439 25447 "parser.ml" 641 25439 25449
+)
+"parser.mly" 67 25598 25651 "parser.mly" 67 25598 25653
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  int_ref _4 "parser.ml" 642 25502 25510 "parser.ml" 642 25502 25512
+)
+"parser.mly" 67 25598 25647 "parser.mly" 67 25598 25653
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.mly" 67 25598 25655 "parser.mly" 67 25598 25664
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 67 25598 25664 "parser.mly" 67 25598 25666
+type(
+  unit
+)
+"parser.mly" 67 25598 25655 "parser.mly" 67 25598 25666
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 67 25598 25638 "parser.mly" 67 25598 25669
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 643 25566 25570 "parser.ml" 647 25688 25717
+type(
+  Obj.t
+)
+"parser.ml" 642 25502 25506 "parser.ml" 647 25688 25717
+type(
+  Obj.t
+)
+"parser.ml" 641 25439 25443 "parser.ml" 647 25688 25717
+type(
+  Obj.t
+)
+"parser.ml" 640 25411 25413 "parser.ml" 647 25688 25718
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 648 25719 25726 "parser.ml" 648 25719 25743
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 649 25747 25751 "parser.ml" 654 25905 25926
+)
+"parser.ml" 649 25747 25755 "parser.ml" 649 25747 25757
+type(
+  string
+)
+ident(
+  def _1 "parser.ml" 650 25811 25815 "parser.ml" 654 25905 25926
+)
+"parser.ml" 649 25747 25761 "parser.ml" 649 25747 25777
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 649 25747 25778 "parser.ml" 649 25747 25795
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 648 25719 25726 "parser.ml" 648 25719 25743
+)
+"parser.ml" 649 25747 25796 "parser.ml" 649 25747 25797
+type(
+  int
+)
+"parser.ml" 649 25747 25761 "parser.ml" 649 25747 25797
+type(
+  string
+)
+"parser.ml" 650 25811 25815 "parser.ml" 650 25811 25823
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 70 25843 25868 "parser.mly" 70 25843 25870
+type(
+  string
+)
+ident(
+  int_ref _1 "parser.ml" 649 25747 25755 "parser.ml" 649 25747 25757
+)
+"parser.mly" 70 25843 25872 "parser.mly" 70 25843 25881
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 70 25843 25881 "parser.mly" 70 25843 25883
+type(
+  unit
+)
+"parser.mly" 70 25843 25872 "parser.mly" 70 25843 25883
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 70 25843 25862 "parser.mly" 70 25843 25886
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 650 25811 25815 "parser.ml" 654 25905 25926
+type(
+  Obj.t
+)
+"parser.ml" 649 25747 25751 "parser.ml" 654 25905 25926
+type(
+  Obj.t
+)
+"parser.ml" 648 25719 25721 "parser.ml" 654 25905 25927
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 655 25928 25935 "parser.ml" 655 25928 25952
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 656 25956 25960 "parser.ml" 660 26024 26048
+)
+"parser.ml" 656 25956 25960 "parser.ml" 656 25956 25968
+type(
+  Exprs.prim2 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 74 25988 25997 "parser.mly" 74 25988 26005
+type(
+  Exprs.prim2
+)
+"parser.ml" 656 25956 25960 "parser.ml" 660 26024 26048
+type(
+  Obj.t
+)
+"parser.ml" 655 25928 25930 "parser.ml" 660 26024 26049
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 661 26050 26057 "parser.ml" 661 26050 26074
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 662 26078 26082 "parser.ml" 666 26148 26172
+)
+"parser.ml" 662 26078 26082 "parser.ml" 662 26078 26090
+type(
+  Exprs.prim2 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 75 26110 26120 "parser.mly" 75 26110 26129
+type(
+  Exprs.prim2
+)
+"parser.ml" 662 26078 26082 "parser.ml" 666 26148 26172
+type(
+  Obj.t
+)
+"parser.ml" 661 26050 26052 "parser.ml" 666 26148 26173
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 667 26174 26181 "parser.ml" 667 26174 26198
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 668 26202 26206 "parser.ml" 672 26272 26296
+)
+"parser.ml" 668 26202 26206 "parser.ml" 668 26202 26214
+type(
+  Exprs.prim2 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 76 26234 26244 "parser.mly" 76 26234 26253
+type(
+  Exprs.prim2
+)
+"parser.ml" 668 26202 26206 "parser.ml" 672 26272 26296
+type(
+  Obj.t
+)
+"parser.ml" 667 26174 26176 "parser.ml" 672 26272 26297
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 673 26298 26305 "parser.ml" 673 26298 26322
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 674 26326 26330 "parser.ml" 678 26392 26416
+)
+"parser.ml" 674 26326 26330 "parser.ml" 674 26326 26338
+type(
+  Exprs.prim2 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 77 26358 26366 "parser.mly" 77 26358 26373
+type(
+  Exprs.prim2
+)
+"parser.ml" 674 26326 26330 "parser.ml" 678 26392 26416
+type(
+  Obj.t
+)
+"parser.ml" 673 26298 26300 "parser.ml" 678 26392 26417
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 679 26418 26425 "parser.ml" 679 26418 26442
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 680 26446 26450 "parser.ml" 684 26510 26534
+)
+"parser.ml" 680 26446 26450 "parser.ml" 680 26446 26458
+type(
+  Exprs.prim2 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 78 26478 26485 "parser.mly" 78 26478 26491
+type(
+  Exprs.prim2
+)
+"parser.ml" 680 26446 26450 "parser.ml" 684 26510 26534
+type(
+  Obj.t
+)
+"parser.ml" 679 26418 26420 "parser.ml" 684 26510 26535
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 685 26536 26543 "parser.ml" 685 26536 26560
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 686 26564 26568 "parser.ml" 690 26638 26662
+)
+"parser.ml" 686 26564 26568 "parser.ml" 686 26564 26576
+type(
+  Exprs.prim2 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 79 26596 26608 "parser.mly" 79 26596 26619
+type(
+  Exprs.prim2
+)
+"parser.ml" 686 26564 26568 "parser.ml" 690 26638 26662
+type(
+  Obj.t
+)
+"parser.ml" 685 26536 26538 "parser.ml" 690 26638 26663
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 691 26664 26671 "parser.ml" 691 26664 26688
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 692 26692 26696 "parser.ml" 696 26770 26794
+)
+"parser.ml" 692 26692 26696 "parser.ml" 692 26692 26704
+type(
+  Exprs.prim2 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 80 26724 26738 "parser.mly" 80 26724 26751
+type(
+  Exprs.prim2
+)
+"parser.ml" 692 26692 26696 "parser.ml" 696 26770 26794
+type(
+  Obj.t
+)
+"parser.ml" 691 26664 26666 "parser.ml" 696 26770 26795
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 697 26796 26803 "parser.ml" 697 26796 26820
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 698 26824 26828 "parser.ml" 702 26897 26921
+)
+"parser.ml" 698 26824 26828 "parser.ml" 698 26824 26836
+type(
+  Exprs.prim2 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 81 26856 26870 "parser.mly" 81 26856 26878
+type(
+  Exprs.prim2
+)
+"parser.ml" 698 26824 26828 "parser.ml" 702 26897 26921
+type(
+  Obj.t
+)
+"parser.ml" 697 26796 26798 "parser.ml" 702 26897 26922
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 703 26923 26930 "parser.ml" 703 26923 26947
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 704 26951 26955 "parser.ml" 708 27023 27047
+)
+"parser.ml" 704 26951 26955 "parser.ml" 704 26951 26963
+type(
+  Exprs.prim2 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 82 26983 26994 "parser.mly" 82 26983 27004
+type(
+  Exprs.prim2
+)
+"parser.ml" 704 26951 26955 "parser.ml" 708 27023 27047
+type(
+  Obj.t
+)
+"parser.ml" 703 26923 26925 "parser.ml" 708 27023 27048
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 709 27049 27056 "parser.ml" 709 27049 27073
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 710 27077 27081 "parser.ml" 714 27143 27167
+)
+"parser.ml" 710 27077 27081 "parser.ml" 710 27077 27089
+type(
+  Exprs.prim2 -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 83 27109 27118 "parser.mly" 83 27109 27124
+type(
+  Exprs.prim2
+)
+"parser.ml" 710 27077 27081 "parser.ml" 714 27143 27167
+type(
+  Obj.t
+)
+"parser.ml" 709 27049 27051 "parser.ml" 714 27143 27168
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 715 27169 27176 "parser.ml" 715 27169 27193
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 716 27197 27201 "parser.ml" 723 27534 27563
+)
+"parser.ml" 716 27197 27205 "parser.ml" 716 27197 27207
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 717 27266 27270 "parser.ml" 723 27534 27563
+)
+"parser.ml" 716 27197 27211 "parser.ml" 716 27197 27227
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 716 27197 27228 "parser.ml" 716 27197 27245
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 715 27169 27176 "parser.ml" 715 27169 27193
+)
+"parser.ml" 716 27197 27246 "parser.ml" 716 27197 27247
+type(
+  int
+)
+"parser.ml" 716 27197 27211 "parser.ml" 716 27197 27247
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 717 27266 27274 "parser.ml" 717 27266 27276
+type(
+  Exprs.prim2
+)
+ident(
+  def _2 "parser.ml" 718 27330 27334 "parser.ml" 723 27534 27563
+)
+"parser.ml" 717 27266 27280 "parser.ml" 717 27266 27296
+type(
+  Parsing.parser_env -> int -> Exprs.prim2
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 717 27266 27297 "parser.ml" 717 27266 27314
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 715 27169 27176 "parser.ml" 715 27169 27193
+)
+"parser.ml" 717 27266 27315 "parser.ml" 717 27266 27316
+type(
+  int
+)
+"parser.ml" 717 27266 27280 "parser.ml" 717 27266 27316
+type(
+  Exprs.prim2
+)
+"parser.ml" 718 27330 27338 "parser.ml" 718 27330 27340
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _3 "parser.ml" 719 27402 27406 "parser.ml" 723 27534 27563
+)
+"parser.ml" 718 27330 27344 "parser.ml" 718 27330 27360
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 718 27330 27361 "parser.ml" 718 27330 27378
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 715 27169 27176 "parser.ml" 715 27169 27193
+)
+"parser.ml" 718 27330 27379 "parser.ml" 718 27330 27380
+type(
+  int
+)
+"parser.ml" 718 27330 27344 "parser.ml" 718 27330 27380
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 719 27402 27406 "parser.ml" 719 27402 27414
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 86 27434 27489 "parser.mly" 86 27434 27491
+type(
+  Exprs.prim2
+)
+ident(
+  int_ref _2 "parser.ml" 717 27266 27274 "parser.ml" 717 27266 27276
+)
+"parser.mly" 86 27434 27493 "parser.mly" 86 27434 27495
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 716 27197 27205 "parser.ml" 716 27197 27207
+)
+"parser.mly" 86 27434 27497 "parser.mly" 86 27434 27499
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _3 "parser.ml" 718 27330 27338 "parser.ml" 718 27330 27340
+)
+"parser.mly" 86 27434 27501 "parser.mly" 86 27434 27510
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 86 27434 27510 "parser.mly" 86 27434 27512
+type(
+  unit
+)
+"parser.mly" 86 27434 27501 "parser.mly" 86 27434 27512
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 86 27434 27480 "parser.mly" 86 27434 27515
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 719 27402 27406 "parser.ml" 723 27534 27563
+type(
+  Obj.t
+)
+"parser.ml" 718 27330 27334 "parser.ml" 723 27534 27563
+type(
+  Obj.t
+)
+"parser.ml" 717 27266 27270 "parser.ml" 723 27534 27563
+type(
+  Obj.t
+)
+"parser.ml" 716 27197 27201 "parser.ml" 723 27534 27563
+type(
+  Obj.t
+)
+"parser.ml" 715 27169 27171 "parser.ml" 723 27534 27564
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 724 27565 27572 "parser.ml" 724 27565 27589
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 725 27593 27597 "parser.ml" 735 27971 28000
+)
+"parser.ml" 725 27593 27601 "parser.ml" 725 27593 27603
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 726 27665 27669 "parser.ml" 735 27971 28000
+)
+"parser.ml" 725 27593 27607 "parser.ml" 725 27593 27623
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 725 27593 27624 "parser.ml" 725 27593 27641
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 724 27565 27572 "parser.ml" 724 27565 27589
+)
+"parser.ml" 725 27593 27642 "parser.ml" 725 27593 27643
+type(
+  int
+)
+"parser.ml" 725 27593 27607 "parser.ml" 725 27593 27643
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 726 27665 27673 "parser.ml" 726 27665 27675
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _3 "parser.ml" 727 27734 27738 "parser.ml" 735 27971 28000
+)
+"parser.ml" 726 27665 27679 "parser.ml" 726 27665 27695
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 726 27665 27696 "parser.ml" 726 27665 27713
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 724 27565 27572 "parser.ml" 724 27565 27589
+)
+"parser.ml" 726 27665 27714 "parser.ml" 726 27665 27715
+type(
+  int
+)
+"parser.ml" 726 27665 27679 "parser.ml" 726 27665 27715
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 727 27734 27738 "parser.ml" 727 27734 27746
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 88 27819 27831 "parser.mly" 88 27819 27833
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 725 27593 27601 "parser.ml" 725 27593 27603
+)
+"parser.mly" 89 27839 27856 "parser.mly" 89 27839 27859
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def lhs "parser.mly" 89 27839 27872 "parser.mly" 89 27839 27907
+)
+"parser.mly" 89 27839 27861 "parser.mly" 89 27839 27864
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def idx "parser.mly" 89 27839 27872 "parser.mly" 89 27839 27907
+)
+"parser.mly" 89 27839 27866 "parser.mly" 89 27839 27867
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 89 27839 27847 "parser.mly" 89 27839 27868
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.mly" 89 27839 27881 "parser.mly" 89 27839 27884
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref lhs "parser.mly" 89 27839 27856 "parser.mly" 89 27839 27859
+)
+"parser.mly" 89 27839 27886 "parser.mly" 89 27839 27889
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref idx "parser.mly" 89 27839 27861 "parser.mly" 89 27839 27864
+)
+"parser.mly" 89 27839 27891 "parser.mly" 89 27839 27893
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _3 "parser.ml" 726 27665 27673 "parser.ml" 726 27665 27675
+)
+"parser.mly" 89 27839 27895 "parser.mly" 89 27839 27904
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 89 27839 27904 "parser.mly" 89 27839 27906
+type(
+  unit
+)
+"parser.mly" 89 27839 27895 "parser.mly" 89 27839 27906
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 89 27839 27872 "parser.mly" 89 27839 27907
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.mly" 90 27908 27916 "parser.mly" 90 27908 27917
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.mly" 90 27908 27921 "parser.mly" 90 27908 27926
+type(
+  exn -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"parser.mly" 90 27908 27927 "parser.mly" 90 27908 27946
+type(
+  exn
+)
+"parser.mly" 90 27908 27921 "parser.mly" 90 27908 27946
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.mly" 87 27766 27817 "parser.mly" 91 27947 27952
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 727 27734 27738 "parser.ml" 735 27971 28000
+type(
+  Obj.t
+)
+"parser.ml" 726 27665 27669 "parser.ml" 735 27971 28000
+type(
+  Obj.t
+)
+"parser.ml" 725 27593 27597 "parser.ml" 735 27971 28000
+type(
+  Obj.t
+)
+"parser.ml" 724 27565 27567 "parser.ml" 735 27971 28001
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 736 28002 28009 "parser.ml" 736 28002 28026
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 737 28030 28034 "parser.ml" 742 28188 28217
+)
+"parser.ml" 737 28030 28038 "parser.ml" 737 28030 28040
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 738 28102 28106 "parser.ml" 742 28188 28217
+)
+"parser.ml" 737 28030 28044 "parser.ml" 737 28030 28060
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 737 28030 28061 "parser.ml" 737 28030 28078
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 736 28002 28009 "parser.ml" 736 28002 28026
+)
+"parser.ml" 737 28030 28079 "parser.ml" 737 28030 28080
+type(
+  int
+)
+"parser.ml" 737 28030 28044 "parser.ml" 737 28030 28080
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 738 28102 28106 "parser.ml" 738 28102 28114
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 92 28134 28163 "parser.mly" 92 28134 28169
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 737 28030 28038 "parser.ml" 737 28030 28040
+)
+"parser.ml" 738 28102 28106 "parser.ml" 742 28188 28217
+type(
+  Obj.t
+)
+"parser.ml" 737 28030 28034 "parser.ml" 742 28188 28217
+type(
+  Obj.t
+)
+"parser.ml" 736 28002 28004 "parser.ml" 742 28188 28218
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 743 28219 28226 "parser.ml" 743 28219 28243
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 744 28247 28251 "parser.ml" 750 28492 28524
+)
+"parser.ml" 744 28247 28255 "parser.ml" 744 28247 28257
+type(
+  Exprs.prim1
+)
+ident(
+  def _1 "parser.ml" 745 28311 28315 "parser.ml" 750 28492 28524
+)
+"parser.ml" 744 28247 28261 "parser.ml" 744 28247 28277
+type(
+  Parsing.parser_env -> int -> Exprs.prim1
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 744 28247 28278 "parser.ml" 744 28247 28295
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 743 28219 28226 "parser.ml" 743 28219 28243
+)
+"parser.ml" 744 28247 28296 "parser.ml" 744 28247 28297
+type(
+  int
+)
+"parser.ml" 744 28247 28261 "parser.ml" 744 28247 28297
+type(
+  Exprs.prim1
+)
+"parser.ml" 745 28311 28319 "parser.ml" 745 28311 28321
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _3 "parser.ml" 746 28374 28378 "parser.ml" 750 28492 28524
+)
+"parser.ml" 745 28311 28325 "parser.ml" 745 28311 28341
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 745 28311 28342 "parser.ml" 745 28311 28359
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 743 28219 28226 "parser.ml" 743 28219 28243
+)
+"parser.ml" 745 28311 28360 "parser.ml" 745 28311 28361
+type(
+  int
+)
+"parser.ml" 745 28311 28325 "parser.ml" 745 28311 28361
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 746 28374 28378 "parser.ml" 746 28374 28386
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 96 28406 28451 "parser.mly" 96 28406 28453
+type(
+  Exprs.prim1
+)
+ident(
+  int_ref _1 "parser.ml" 744 28247 28255 "parser.ml" 744 28247 28257
+)
+"parser.mly" 96 28406 28455 "parser.mly" 96 28406 28457
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _3 "parser.ml" 745 28311 28319 "parser.ml" 745 28311 28321
+)
+"parser.mly" 96 28406 28459 "parser.mly" 96 28406 28468
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 96 28406 28468 "parser.mly" 96 28406 28470
+type(
+  unit
+)
+"parser.mly" 96 28406 28459 "parser.mly" 96 28406 28470
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 96 28406 28442 "parser.mly" 96 28406 28473
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 746 28374 28378 "parser.ml" 750 28492 28524
+type(
+  Obj.t
+)
+"parser.ml" 745 28311 28315 "parser.ml" 750 28492 28524
+type(
+  Obj.t
+)
+"parser.ml" 744 28247 28251 "parser.ml" 750 28492 28524
+type(
+  Obj.t
+)
+"parser.ml" 743 28219 28221 "parser.ml" 750 28492 28525
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 751 28526 28533 "parser.ml" 751 28526 28550
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 752 28554 28558 "parser.ml" 757 28695 28727
+)
+"parser.ml" 752 28554 28562 "parser.ml" 752 28554 28564
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 753 28623 28627 "parser.ml" 757 28695 28727
+)
+"parser.ml" 752 28554 28568 "parser.ml" 752 28554 28584
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 752 28554 28585 "parser.ml" 752 28554 28602
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 751 28526 28533 "parser.ml" 751 28526 28550
+)
+"parser.ml" 752 28554 28603 "parser.ml" 752 28554 28604
+type(
+  int
+)
+"parser.ml" 752 28554 28568 "parser.ml" 752 28554 28604
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 753 28623 28627 "parser.ml" 753 28623 28635
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 98 28655 28670 "parser.mly" 98 28655 28676
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 752 28554 28562 "parser.ml" 752 28554 28564
+)
+"parser.ml" 753 28623 28627 "parser.ml" 757 28695 28727
+type(
+  Obj.t
+)
+"parser.ml" 752 28554 28558 "parser.ml" 757 28695 28727
+type(
+  Obj.t
+)
+"parser.ml" 751 28526 28528 "parser.ml" 757 28695 28728
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 758 28729 28736 "parser.ml" 758 28729 28753
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 759 28757 28761 "parser.ml" 765 29013 29045
+)
+"parser.ml" 759 28757 28765 "parser.ml" 759 28757 28767
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 760 28829 28833 "parser.ml" 765 29013 29045
+)
+"parser.ml" 759 28757 28771 "parser.ml" 759 28757 28787
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 759 28757 28788 "parser.ml" 759 28757 28805
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 758 28729 28736 "parser.ml" 758 28729 28753
+)
+"parser.ml" 759 28757 28806 "parser.ml" 759 28757 28807
+type(
+  int
+)
+"parser.ml" 759 28757 28771 "parser.ml" 759 28757 28807
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 760 28829 28837 "parser.ml" 760 28829 28839
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _3 "parser.ml" 761 28892 28896 "parser.ml" 765 29013 29045
+)
+"parser.ml" 760 28829 28843 "parser.ml" 760 28829 28859
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 760 28829 28860 "parser.ml" 760 28829 28877
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 758 28729 28736 "parser.ml" 758 28729 28753
+)
+"parser.ml" 760 28829 28878 "parser.ml" 760 28829 28879
+type(
+  int
+)
+"parser.ml" 760 28829 28843 "parser.ml" 760 28829 28879
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 761 28892 28896 "parser.ml" 761 28892 28904
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 99 28924 28972 "parser.mly" 99 28924 28974
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 759 28757 28765 "parser.ml" 759 28757 28767
+)
+"parser.mly" 99 28924 28976 "parser.mly" 99 28924 28978
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _3 "parser.ml" 760 28829 28837 "parser.ml" 760 28829 28839
+)
+"parser.mly" 99 28924 28980 "parser.mly" 99 28924 28989
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 99 28924 28989 "parser.mly" 99 28924 28991
+type(
+  unit
+)
+"parser.mly" 99 28924 28980 "parser.mly" 99 28924 28991
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 99 28924 28961 "parser.mly" 99 28924 28994
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 761 28892 28896 "parser.ml" 765 29013 29045
+type(
+  Obj.t
+)
+"parser.ml" 760 28829 28833 "parser.ml" 765 29013 29045
+type(
+  Obj.t
+)
+"parser.ml" 759 28757 28761 "parser.ml" 765 29013 29045
+type(
+  Obj.t
+)
+"parser.ml" 758 28729 28731 "parser.ml" 765 29013 29046
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 766 29047 29054 "parser.ml" 766 29047 29071
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 767 29075 29079 "parser.ml" 773 29366 29398
+)
+"parser.ml" 767 29075 29083 "parser.ml" 767 29075 29085
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 768 29147 29151 "parser.ml" 773 29366 29398
+)
+"parser.ml" 767 29075 29089 "parser.ml" 767 29075 29105
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 767 29075 29106 "parser.ml" 767 29075 29123
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 766 29047 29054 "parser.ml" 766 29047 29071
+)
+"parser.ml" 767 29075 29124 "parser.ml" 767 29075 29125
+type(
+  int
+)
+"parser.ml" 767 29075 29089 "parser.ml" 767 29075 29125
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 768 29147 29155 "parser.ml" 768 29147 29157
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  def _3 "parser.ml" 769 29211 29215 "parser.ml" 773 29366 29398
+)
+"parser.ml" 768 29147 29161 "parser.ml" 768 29147 29177
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 768 29147 29178 "parser.ml" 768 29147 29195
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 766 29047 29054 "parser.ml" 766 29047 29071
+)
+"parser.ml" 768 29147 29196 "parser.ml" 768 29147 29197
+type(
+  int
+)
+"parser.ml" 768 29147 29161 "parser.ml" 768 29147 29197
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.ml" 769 29211 29215 "parser.ml" 769 29211 29223
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 101 29244 29316 "parser.mly" 101 29244 29318
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 767 29075 29083 "parser.ml" 767 29075 29085
+)
+"parser.mly" 101 29244 29320 "parser.mly" 101 29244 29322
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+ident(
+  int_ref _3 "parser.ml" 768 29147 29155 "parser.ml" 768 29147 29157
+)
+"parser.mly" 101 29244 29324 "parser.mly" 101 29244 29331
+type(
+  Exprs.call_type
+)
+"parser.mly" 101 29244 29333 "parser.mly" 101 29244 29342
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 101 29244 29342 "parser.mly" 101 29244 29344
+type(
+  unit
+)
+"parser.mly" 101 29244 29333 "parser.mly" 101 29244 29344
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 101 29244 29309 "parser.mly" 101 29244 29347
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 769 29211 29215 "parser.ml" 773 29366 29398
+type(
+  Obj.t
+)
+"parser.ml" 768 29147 29151 "parser.ml" 773 29366 29398
+type(
+  Obj.t
+)
+"parser.ml" 767 29075 29079 "parser.ml" 773 29366 29398
+type(
+  Obj.t
+)
+"parser.ml" 766 29047 29049 "parser.ml" 773 29366 29399
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 774 29400 29407 "parser.ml" 774 29400 29424
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 775 29428 29432 "parser.ml" 780 29649 29681
+)
+"parser.ml" 775 29428 29436 "parser.ml" 775 29428 29438
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 776 29500 29504 "parser.ml" 780 29649 29681
+)
+"parser.ml" 775 29428 29442 "parser.ml" 775 29428 29458
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 775 29428 29459 "parser.ml" 775 29428 29476
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 774 29400 29407 "parser.ml" 774 29400 29424
+)
+"parser.ml" 775 29428 29477 "parser.ml" 775 29428 29478
+type(
+  int
+)
+"parser.ml" 775 29428 29442 "parser.ml" 775 29428 29478
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 776 29500 29504 "parser.ml" 776 29500 29512
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 102 29533 29599 "parser.mly" 102 29533 29601
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 775 29428 29436 "parser.ml" 775 29428 29438
+)
+"parser.mly" 102 29533 29603 "parser.mly" 102 29533 29605
+type(
+  (Lexing.position * Lexing.position) Exprs.expr list
+)
+"parser.mly" 102 29533 29607 "parser.mly" 102 29533 29614
+type(
+  Exprs.call_type
+)
+"parser.mly" 102 29533 29616 "parser.mly" 102 29533 29625
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 102 29533 29625 "parser.mly" 102 29533 29627
+type(
+  unit
+)
+"parser.mly" 102 29533 29616 "parser.mly" 102 29533 29627
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 102 29533 29592 "parser.mly" 102 29533 29630
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 776 29500 29504 "parser.ml" 780 29649 29681
+type(
+  Obj.t
+)
+"parser.ml" 775 29428 29432 "parser.ml" 780 29649 29681
+type(
+  Obj.t
+)
+"parser.ml" 774 29400 29402 "parser.ml" 780 29649 29682
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 781 29683 29690 "parser.ml" 781 29683 29707
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 782 29711 29715 "parser.ml" 787 29860 29892
+)
+"parser.ml" 782 29711 29719 "parser.ml" 782 29711 29721
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _2 "parser.ml" 783 29774 29778 "parser.ml" 787 29860 29892
+)
+"parser.ml" 782 29711 29725 "parser.ml" 782 29711 29741
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 782 29711 29742 "parser.ml" 782 29711 29759
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 781 29683 29690 "parser.ml" 781 29683 29707
+)
+"parser.ml" 782 29711 29760 "parser.ml" 782 29711 29761
+type(
+  int
+)
+"parser.ml" 782 29711 29725 "parser.ml" 782 29711 29761
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 783 29774 29778 "parser.ml" 783 29774 29786
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 104 29807 29835 "parser.mly" 104 29807 29841
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _2 "parser.ml" 782 29711 29719 "parser.ml" 782 29711 29721
+)
+"parser.ml" 783 29774 29778 "parser.ml" 787 29860 29892
+type(
+  Obj.t
+)
+"parser.ml" 782 29711 29715 "parser.ml" 787 29860 29892
+type(
+  Obj.t
+)
+"parser.ml" 781 29683 29685 "parser.ml" 787 29860 29893
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 788 29894 29901 "parser.ml" 788 29894 29918
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 789 29922 29926 "parser.ml" 794 30073 30105
+)
+"parser.ml" 789 29922 29930 "parser.ml" 789 29922 29932
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _2 "parser.ml" 790 29985 29989 "parser.ml" 794 30073 30105
+)
+"parser.ml" 789 29922 29936 "parser.ml" 789 29922 29952
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 789 29922 29953 "parser.ml" 789 29922 29970
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 788 29894 29901 "parser.ml" 788 29894 29918
+)
+"parser.ml" 789 29922 29971 "parser.ml" 789 29922 29972
+type(
+  int
+)
+"parser.ml" 789 29922 29936 "parser.ml" 789 29922 29972
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 790 29985 29989 "parser.ml" 790 29985 29997
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 105 30018 30048 "parser.mly" 105 30018 30054
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _2 "parser.ml" 789 29922 29930 "parser.ml" 789 29922 29932
+)
+"parser.ml" 790 29985 29989 "parser.ml" 794 30073 30105
+type(
+  Obj.t
+)
+"parser.ml" 789 29922 29926 "parser.ml" 794 30073 30105
+type(
+  Obj.t
+)
+"parser.ml" 788 29894 29896 "parser.ml" 794 30073 30106
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 795 30107 30114 "parser.ml" 795 30107 30131
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 796 30135 30139 "parser.ml" 802 30416 30448
+)
+"parser.ml" 796 30135 30143 "parser.ml" 796 30135 30145
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  def _4 "parser.ml" 797 30199 30203 "parser.ml" 802 30416 30448
+)
+"parser.ml" 796 30135 30149 "parser.ml" 796 30135 30165
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 796 30135 30166 "parser.ml" 796 30135 30183
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 795 30107 30114 "parser.ml" 795 30107 30131
+)
+"parser.ml" 796 30135 30184 "parser.ml" 796 30135 30185
+type(
+  int
+)
+"parser.ml" 796 30135 30149 "parser.ml" 796 30135 30185
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.ml" 797 30199 30207 "parser.ml" 797 30199 30209
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _7 "parser.ml" 798 30262 30266 "parser.ml" 802 30416 30448
+)
+"parser.ml" 797 30199 30213 "parser.ml" 797 30199 30229
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 797 30199 30230 "parser.ml" 797 30199 30247
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 795 30107 30114 "parser.ml" 795 30107 30131
+)
+"parser.ml" 797 30199 30248 "parser.ml" 797 30199 30249
+type(
+  int
+)
+"parser.ml" 797 30199 30213 "parser.ml" 797 30199 30249
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 798 30262 30266 "parser.ml" 798 30262 30274
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 107 30295 30375 "parser.mly" 107 30295 30377
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref _4 "parser.ml" 796 30135 30143 "parser.ml" 796 30135 30145
+)
+"parser.mly" 107 30295 30379 "parser.mly" 107 30295 30381
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _7 "parser.ml" 797 30199 30207 "parser.ml" 797 30199 30209
+)
+"parser.mly" 107 30295 30383 "parser.mly" 107 30295 30392
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 107 30295 30392 "parser.mly" 107 30295 30394
+type(
+  unit
+)
+"parser.mly" 107 30295 30383 "parser.mly" 107 30295 30394
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 107 30295 30365 "parser.mly" 107 30295 30397
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 798 30262 30266 "parser.ml" 802 30416 30448
+type(
+  Obj.t
+)
+"parser.ml" 797 30199 30203 "parser.ml" 802 30416 30448
+type(
+  Obj.t
+)
+"parser.ml" 796 30135 30139 "parser.ml" 802 30416 30448
+type(
+  Obj.t
+)
+"parser.ml" 795 30107 30109 "parser.ml" 802 30416 30449
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 803 30450 30457 "parser.ml" 803 30450 30474
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 804 30478 30482 "parser.ml" 810 30757 30789
+)
+"parser.ml" 804 30478 30486 "parser.ml" 804 30478 30488
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  def _4 "parser.ml" 805 30542 30546 "parser.ml" 810 30757 30789
+)
+"parser.ml" 804 30478 30492 "parser.ml" 804 30478 30508
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 804 30478 30509 "parser.ml" 804 30478 30526
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 803 30450 30457 "parser.ml" 803 30450 30474
+)
+"parser.ml" 804 30478 30527 "parser.ml" 804 30478 30528
+type(
+  int
+)
+"parser.ml" 804 30478 30492 "parser.ml" 804 30478 30528
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.ml" 805 30542 30550 "parser.ml" 805 30542 30552
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _7 "parser.ml" 806 30605 30609 "parser.ml" 810 30757 30789
+)
+"parser.ml" 805 30542 30556 "parser.ml" 805 30542 30572
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 805 30542 30573 "parser.ml" 805 30542 30590
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 803 30450 30457 "parser.ml" 803 30450 30474
+)
+"parser.ml" 805 30542 30591 "parser.ml" 805 30542 30592
+type(
+  int
+)
+"parser.ml" 805 30542 30556 "parser.ml" 805 30542 30592
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 806 30605 30609 "parser.ml" 806 30605 30617
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 108 30638 30716 "parser.mly" 108 30638 30718
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref _4 "parser.ml" 804 30478 30486 "parser.ml" 804 30478 30488
+)
+"parser.mly" 108 30638 30720 "parser.mly" 108 30638 30722
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _7 "parser.ml" 805 30542 30550 "parser.ml" 805 30542 30552
+)
+"parser.mly" 108 30638 30724 "parser.mly" 108 30638 30733
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 108 30638 30733 "parser.mly" 108 30638 30735
+type(
+  unit
+)
+"parser.mly" 108 30638 30724 "parser.mly" 108 30638 30735
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 108 30638 30706 "parser.mly" 108 30638 30738
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 806 30605 30609 "parser.ml" 810 30757 30789
+type(
+  Obj.t
+)
+"parser.ml" 805 30542 30546 "parser.ml" 810 30757 30789
+type(
+  Obj.t
+)
+"parser.ml" 804 30478 30482 "parser.ml" 810 30757 30789
+type(
+  Obj.t
+)
+"parser.ml" 803 30450 30452 "parser.ml" 810 30757 30790
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 811 30791 30798 "parser.ml" 811 30791 30815
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 812 30819 30823 "parser.ml" 817 31009 31041
+)
+"parser.ml" 812 30819 30827 "parser.ml" 812 30819 30829
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _4 "parser.ml" 813 30882 30886 "parser.ml" 817 31009 31041
+)
+"parser.ml" 812 30819 30833 "parser.ml" 812 30819 30849
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 812 30819 30850 "parser.ml" 812 30819 30867
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 811 30791 30798 "parser.ml" 811 30791 30815
+)
+"parser.ml" 812 30819 30868 "parser.ml" 812 30819 30869
+type(
+  int
+)
+"parser.ml" 812 30819 30833 "parser.ml" 812 30819 30869
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 813 30882 30886 "parser.ml" 813 30882 30894
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 109 30915 30968 "parser.mly" 109 30915 30970
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.mly" 109 30915 30972 "parser.mly" 109 30915 30974
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _4 "parser.ml" 812 30819 30827 "parser.ml" 812 30819 30829
+)
+"parser.mly" 109 30915 30976 "parser.mly" 109 30915 30985
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 109 30915 30985 "parser.mly" 109 30915 30987
+type(
+  unit
+)
+"parser.mly" 109 30915 30976 "parser.mly" 109 30915 30987
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 109 30915 30958 "parser.mly" 109 30915 30990
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 813 30882 30886 "parser.ml" 817 31009 31041
+type(
+  Obj.t
+)
+"parser.ml" 812 30819 30823 "parser.ml" 817 31009 31041
+type(
+  Obj.t
+)
+"parser.ml" 811 30791 30793 "parser.ml" 817 31009 31042
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 818 31043 31050 "parser.ml" 818 31043 31067
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 819 31071 31075 "parser.ml" 825 31350 31382
+)
+"parser.ml" 819 31071 31079 "parser.ml" 819 31071 31081
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  def _4 "parser.ml" 820 31135 31139 "parser.ml" 825 31350 31382
+)
+"parser.ml" 819 31071 31085 "parser.ml" 819 31071 31101
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 819 31071 31102 "parser.ml" 819 31071 31119
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 818 31043 31050 "parser.ml" 818 31043 31067
+)
+"parser.ml" 819 31071 31120 "parser.ml" 819 31071 31121
+type(
+  int
+)
+"parser.ml" 819 31071 31085 "parser.ml" 819 31071 31121
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.ml" 820 31135 31143 "parser.ml" 820 31135 31145
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _7 "parser.ml" 821 31198 31202 "parser.ml" 825 31350 31382
+)
+"parser.ml" 820 31135 31149 "parser.ml" 820 31135 31165
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 820 31135 31166 "parser.ml" 820 31135 31183
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 818 31043 31050 "parser.ml" 818 31043 31067
+)
+"parser.ml" 820 31135 31184 "parser.ml" 820 31135 31185
+type(
+  int
+)
+"parser.ml" 820 31135 31149 "parser.ml" 820 31135 31185
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 821 31198 31202 "parser.ml" 821 31198 31210
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 110 31231 31309 "parser.mly" 110 31231 31311
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref _4 "parser.ml" 819 31071 31079 "parser.ml" 819 31071 31081
+)
+"parser.mly" 110 31231 31313 "parser.mly" 110 31231 31315
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _7 "parser.ml" 820 31135 31143 "parser.ml" 820 31135 31145
+)
+"parser.mly" 110 31231 31317 "parser.mly" 110 31231 31326
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 110 31231 31326 "parser.mly" 110 31231 31328
+type(
+  unit
+)
+"parser.mly" 110 31231 31317 "parser.mly" 110 31231 31328
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 110 31231 31299 "parser.mly" 110 31231 31331
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 821 31198 31202 "parser.ml" 825 31350 31382
+type(
+  Obj.t
+)
+"parser.ml" 820 31135 31139 "parser.ml" 825 31350 31382
+type(
+  Obj.t
+)
+"parser.ml" 819 31071 31075 "parser.ml" 825 31350 31382
+type(
+  Obj.t
+)
+"parser.ml" 818 31043 31045 "parser.ml" 825 31350 31383
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 826 31384 31391 "parser.ml" 826 31384 31408
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 827 31412 31416 "parser.ml" 833 31689 31721
+)
+"parser.ml" 827 31412 31420 "parser.ml" 827 31412 31422
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  def _4 "parser.ml" 828 31476 31480 "parser.ml" 833 31689 31721
+)
+"parser.ml" 827 31412 31426 "parser.ml" 827 31412 31442
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 827 31412 31443 "parser.ml" 827 31412 31460
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 826 31384 31391 "parser.ml" 826 31384 31408
+)
+"parser.ml" 827 31412 31461 "parser.ml" 827 31412 31462
+type(
+  int
+)
+"parser.ml" 827 31412 31426 "parser.ml" 827 31412 31462
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.ml" 828 31476 31484 "parser.ml" 828 31476 31486
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _7 "parser.ml" 829 31539 31543 "parser.ml" 833 31689 31721
+)
+"parser.ml" 828 31476 31490 "parser.ml" 828 31476 31506
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 828 31476 31507 "parser.ml" 828 31476 31524
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 826 31384 31391 "parser.ml" 826 31384 31408
+)
+"parser.ml" 828 31476 31525 "parser.ml" 828 31476 31526
+type(
+  int
+)
+"parser.ml" 828 31476 31490 "parser.ml" 828 31476 31526
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 829 31539 31543 "parser.ml" 829 31539 31551
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 111 31572 31648 "parser.mly" 111 31572 31650
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref _4 "parser.ml" 827 31412 31420 "parser.ml" 827 31412 31422
+)
+"parser.mly" 111 31572 31652 "parser.mly" 111 31572 31654
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _7 "parser.ml" 828 31476 31484 "parser.ml" 828 31476 31486
+)
+"parser.mly" 111 31572 31656 "parser.mly" 111 31572 31665
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 111 31572 31665 "parser.mly" 111 31572 31667
+type(
+  unit
+)
+"parser.mly" 111 31572 31656 "parser.mly" 111 31572 31667
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 111 31572 31638 "parser.mly" 111 31572 31670
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 829 31539 31543 "parser.ml" 833 31689 31721
+type(
+  Obj.t
+)
+"parser.ml" 828 31476 31480 "parser.ml" 833 31689 31721
+type(
+  Obj.t
+)
+"parser.ml" 827 31412 31416 "parser.ml" 833 31689 31721
+type(
+  Obj.t
+)
+"parser.ml" 826 31384 31386 "parser.ml" 833 31689 31722
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 834 31723 31730 "parser.ml" 834 31723 31747
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 835 31751 31755 "parser.ml" 840 31939 31971
+)
+"parser.ml" 835 31751 31759 "parser.ml" 835 31751 31761
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _4 "parser.ml" 836 31814 31818 "parser.ml" 840 31939 31971
+)
+"parser.ml" 835 31751 31765 "parser.ml" 835 31751 31781
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 835 31751 31782 "parser.ml" 835 31751 31799
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 834 31723 31730 "parser.ml" 834 31723 31747
+)
+"parser.ml" 835 31751 31800 "parser.ml" 835 31751 31801
+type(
+  int
+)
+"parser.ml" 835 31751 31765 "parser.ml" 835 31751 31801
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 836 31814 31818 "parser.ml" 836 31814 31826
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 112 31847 31898 "parser.mly" 112 31847 31900
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.mly" 112 31847 31902 "parser.mly" 112 31847 31904
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _4 "parser.ml" 835 31751 31759 "parser.ml" 835 31751 31761
+)
+"parser.mly" 112 31847 31906 "parser.mly" 112 31847 31915
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 112 31847 31915 "parser.mly" 112 31847 31917
+type(
+  unit
+)
+"parser.mly" 112 31847 31906 "parser.mly" 112 31847 31917
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 112 31847 31888 "parser.mly" 112 31847 31920
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 836 31814 31818 "parser.ml" 840 31939 31971
+type(
+  Obj.t
+)
+"parser.ml" 835 31751 31755 "parser.ml" 840 31939 31971
+type(
+  Obj.t
+)
+"parser.ml" 834 31723 31725 "parser.ml" 840 31939 31972
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 841 31973 31980 "parser.ml" 841 31973 31997
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 842 32001 32005 "parser.ml" 847 32133 32165
+)
+"parser.ml" 842 32001 32009 "parser.ml" 842 32001 32011
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 843 32065 32069 "parser.ml" 847 32133 32165
+)
+"parser.ml" 842 32001 32015 "parser.ml" 842 32001 32031
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 842 32001 32032 "parser.ml" 842 32001 32049
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 841 31973 31980 "parser.ml" 841 31973 31997
+)
+"parser.ml" 842 32001 32050 "parser.ml" 842 32001 32051
+type(
+  int
+)
+"parser.ml" 842 32001 32015 "parser.ml" 842 32001 32051
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 843 32065 32069 "parser.ml" 843 32065 32077
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 114 32098 32108 "parser.mly" 114 32098 32114
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 842 32001 32009 "parser.ml" 842 32001 32011
+)
+"parser.ml" 843 32065 32069 "parser.ml" 847 32133 32165
+type(
+  Obj.t
+)
+"parser.ml" 842 32001 32005 "parser.ml" 847 32133 32165
+type(
+  Obj.t
+)
+"parser.ml" 841 31973 31975 "parser.ml" 847 32133 32166
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 848 32167 32174 "parser.ml" 848 32167 32191
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 849 32195 32199 "parser.ml" 854 32321 32353
+)
+"parser.ml" 849 32195 32203 "parser.ml" 849 32195 32205
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _1 "parser.ml" 850 32256 32260 "parser.ml" 854 32321 32353
+)
+"parser.ml" 849 32195 32209 "parser.ml" 849 32195 32225
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 849 32195 32226 "parser.ml" 849 32195 32243
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 848 32167 32174 "parser.ml" 848 32167 32191
+)
+"parser.ml" 849 32195 32244 "parser.ml" 849 32195 32245
+type(
+  int
+)
+"parser.ml" 849 32195 32209 "parser.ml" 849 32195 32245
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 850 32256 32260 "parser.ml" 850 32256 32268
+type(
+  (Lexing.position * Lexing.position) Exprs.expr -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 115 32289 32296 "parser.mly" 115 32289 32302
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _1 "parser.ml" 849 32195 32203 "parser.ml" 849 32195 32205
+)
+"parser.ml" 850 32256 32260 "parser.ml" 854 32321 32353
+type(
+  Obj.t
+)
+"parser.ml" 849 32195 32199 "parser.ml" 854 32321 32353
+type(
+  Obj.t
+)
+"parser.ml" 848 32167 32169 "parser.ml" 854 32321 32354
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 855 32355 32362 "parser.ml" 855 32355 32379
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 856 32383 32387 "parser.ml" 862 32638 32661
+)
+"parser.ml" 856 32383 32391 "parser.ml" 856 32383 32393
+type(
+  string
+)
+ident(
+  def _2 "parser.ml" 857 32447 32451 "parser.ml" 862 32638 32661
+)
+"parser.ml" 856 32383 32397 "parser.ml" 856 32383 32413
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 856 32383 32414 "parser.ml" 856 32383 32431
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 855 32355 32362 "parser.ml" 855 32355 32379
+)
+"parser.ml" 856 32383 32432 "parser.ml" 856 32383 32433
+type(
+  int
+)
+"parser.ml" 856 32383 32397 "parser.ml" 856 32383 32433
+type(
+  string
+)
+"parser.ml" 857 32447 32455 "parser.ml" 857 32447 32457
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _6 "parser.ml" 858 32510 32514 "parser.ml" 862 32638 32661
+)
+"parser.ml" 857 32447 32461 "parser.ml" 857 32447 32477
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 857 32447 32478 "parser.ml" 857 32447 32495
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 855 32355 32362 "parser.ml" 855 32355 32379
+)
+"parser.ml" 857 32447 32496 "parser.ml" 857 32447 32497
+type(
+  int
+)
+"parser.ml" 857 32447 32461 "parser.ml" 857 32447 32497
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 858 32510 32514 "parser.ml" 858 32510 32522
+type(
+  (Lexing.position * Lexing.position) Exprs.decl -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 118 32543 32593 "parser.mly" 118 32543 32595
+type(
+  string
+)
+ident(
+  int_ref _2 "parser.ml" 856 32383 32391 "parser.ml" 856 32383 32393
+)
+"parser.mly" 118 32543 32597 "parser.mly" 118 32543 32599
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.mly" 118 32543 32601 "parser.mly" 118 32543 32603
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _6 "parser.ml" 857 32447 32455 "parser.ml" 857 32447 32457
+)
+"parser.mly" 118 32543 32605 "parser.mly" 118 32543 32614
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 118 32543 32614 "parser.mly" 118 32543 32616
+type(
+  unit
+)
+"parser.mly" 118 32543 32605 "parser.mly" 118 32543 32616
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 118 32543 32586 "parser.mly" 118 32543 32619
+type(
+  (Lexing.position * Lexing.position) Exprs.decl
+)
+"parser.ml" 858 32510 32514 "parser.ml" 862 32638 32661
+type(
+  Obj.t
+)
+"parser.ml" 857 32447 32451 "parser.ml" 862 32638 32661
+type(
+  Obj.t
+)
+"parser.ml" 856 32383 32387 "parser.ml" 862 32638 32661
+type(
+  Obj.t
+)
+"parser.ml" 855 32355 32357 "parser.ml" 862 32638 32662
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 863 32663 32670 "parser.ml" 863 32663 32687
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 864 32691 32695 "parser.ml" 871 33016 33039
+)
+"parser.ml" 864 32691 32699 "parser.ml" 864 32691 32701
+type(
+  string
+)
+ident(
+  def _2 "parser.ml" 865 32755 32759 "parser.ml" 871 33016 33039
+)
+"parser.ml" 864 32691 32705 "parser.ml" 864 32691 32721
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 864 32691 32722 "parser.ml" 864 32691 32739
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 863 32663 32670 "parser.ml" 863 32663 32687
+)
+"parser.ml" 864 32691 32740 "parser.ml" 864 32691 32741
+type(
+  int
+)
+"parser.ml" 864 32691 32705 "parser.ml" 864 32691 32741
+type(
+  string
+)
+"parser.ml" 865 32755 32763 "parser.ml" 865 32755 32765
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  def _4 "parser.ml" 866 32819 32823 "parser.ml" 871 33016 33039
+)
+"parser.ml" 865 32755 32769 "parser.ml" 865 32755 32785
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 865 32755 32786 "parser.ml" 865 32755 32803
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 863 32663 32670 "parser.ml" 863 32663 32687
+)
+"parser.ml" 865 32755 32804 "parser.ml" 865 32755 32805
+type(
+  int
+)
+"parser.ml" 865 32755 32769 "parser.ml" 865 32755 32805
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.ml" 866 32819 32827 "parser.ml" 866 32819 32829
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _7 "parser.ml" 867 32882 32886 "parser.ml" 871 33016 33039
+)
+"parser.ml" 866 32819 32833 "parser.ml" 866 32819 32849
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 866 32819 32850 "parser.ml" 866 32819 32867
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 863 32663 32670 "parser.ml" 863 32663 32687
+)
+"parser.ml" 866 32819 32868 "parser.ml" 866 32819 32869
+type(
+  int
+)
+"parser.ml" 866 32819 32833 "parser.ml" 866 32819 32869
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 867 32882 32886 "parser.ml" 867 32882 32894
+type(
+  (Lexing.position * Lexing.position) Exprs.decl -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 119 32915 32971 "parser.mly" 119 32915 32973
+type(
+  string
+)
+ident(
+  int_ref _2 "parser.ml" 864 32691 32699 "parser.ml" 864 32691 32701
+)
+"parser.mly" 119 32915 32975 "parser.mly" 119 32915 32977
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref _4 "parser.ml" 865 32755 32763 "parser.ml" 865 32755 32765
+)
+"parser.mly" 119 32915 32979 "parser.mly" 119 32915 32981
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _7 "parser.ml" 866 32819 32827 "parser.ml" 866 32819 32829
+)
+"parser.mly" 119 32915 32983 "parser.mly" 119 32915 32992
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 119 32915 32992 "parser.mly" 119 32915 32994
+type(
+  unit
+)
+"parser.mly" 119 32915 32983 "parser.mly" 119 32915 32994
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 119 32915 32964 "parser.mly" 119 32915 32997
+type(
+  (Lexing.position * Lexing.position) Exprs.decl
+)
+"parser.ml" 867 32882 32886 "parser.ml" 871 33016 33039
+type(
+  Obj.t
+)
+"parser.ml" 866 32819 32823 "parser.ml" 871 33016 33039
+type(
+  Obj.t
+)
+"parser.ml" 865 32755 32759 "parser.ml" 871 33016 33039
+type(
+  Obj.t
+)
+"parser.ml" 864 32691 32695 "parser.ml" 871 33016 33039
+type(
+  Obj.t
+)
+"parser.ml" 863 32663 32665 "parser.ml" 871 33016 33040
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 872 33041 33048 "parser.ml" 872 33041 33065
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 873 33069 33073 "parser.ml" 878 33201 33225
+)
+"parser.ml" 873 33069 33077 "parser.ml" 873 33069 33079
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  def _1 "parser.ml" 874 33132 33136 "parser.ml" 878 33201 33225
+)
+"parser.ml" 873 33069 33083 "parser.ml" 873 33069 33099
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 873 33069 33100 "parser.ml" 873 33069 33117
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 872 33041 33048 "parser.ml" 872 33041 33065
+)
+"parser.ml" 873 33069 33118 "parser.ml" 873 33069 33119
+type(
+  int
+)
+"parser.ml" 873 33069 33083 "parser.ml" 873 33069 33119
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 874 33132 33136 "parser.ml" 874 33132 33144
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 122 33165 33177 "parser.mly" 122 33165 33179
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref _1 "parser.ml" 873 33069 33077 "parser.ml" 873 33069 33079
+)
+"parser.mly" 122 33165 33174 "parser.mly" 122 33165 33182
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.ml" 874 33132 33136 "parser.ml" 878 33201 33225
+type(
+  Obj.t
+)
+"parser.ml" 873 33069 33073 "parser.ml" 878 33201 33225
+type(
+  Obj.t
+)
+"parser.ml" 872 33041 33043 "parser.ml" 878 33201 33226
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 879 33227 33234 "parser.ml" 879 33227 33251
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 880 33255 33259 "parser.ml" 886 33465 33489
+)
+"parser.ml" 880 33255 33263 "parser.ml" 880 33255 33265
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  def _1 "parser.ml" 881 33318 33322 "parser.ml" 886 33465 33489
+)
+"parser.ml" 880 33255 33269 "parser.ml" 880 33255 33285
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 880 33255 33286 "parser.ml" 880 33255 33303
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 879 33227 33234 "parser.ml" 879 33227 33251
+)
+"parser.ml" 880 33255 33304 "parser.ml" 880 33255 33305
+type(
+  int
+)
+"parser.ml" 880 33255 33269 "parser.ml" 880 33255 33305
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 881 33318 33326 "parser.ml" 881 33318 33328
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  def _3 "parser.ml" 882 33382 33386 "parser.ml" 886 33465 33489
+)
+"parser.ml" 881 33318 33332 "parser.ml" 881 33318 33348
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 881 33318 33349 "parser.ml" 881 33318 33366
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 879 33227 33234 "parser.ml" 879 33227 33251
+)
+"parser.ml" 881 33318 33367 "parser.ml" 881 33318 33368
+type(
+  int
+)
+"parser.ml" 881 33318 33332 "parser.ml" 881 33318 33368
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.ml" 882 33382 33386 "parser.ml" 882 33382 33394
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 123 33415 33438 "parser.mly" 123 33415 33440
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref _1 "parser.ml" 880 33255 33263 "parser.ml" 880 33255 33265
+)
+"parser.mly" 123 33415 33442 "parser.mly" 123 33415 33444
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref _3 "parser.ml" 881 33318 33326 "parser.ml" 881 33318 33328
+)
+"parser.mly" 123 33415 33436 "parser.mly" 123 33415 33446
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.ml" 882 33382 33386 "parser.ml" 886 33465 33489
+type(
+  Obj.t
+)
+"parser.ml" 881 33318 33322 "parser.ml" 886 33465 33489
+type(
+  Obj.t
+)
+"parser.ml" 880 33255 33259 "parser.ml" 886 33465 33489
+type(
+  Obj.t
+)
+"parser.ml" 879 33227 33229 "parser.ml" 886 33465 33490
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 887 33491 33498 "parser.ml" 887 33491 33515
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 888 33519 33523 "parser.ml" 893 33657 33680
+)
+"parser.ml" 888 33519 33527 "parser.ml" 888 33519 33529
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  def _1 "parser.ml" 889 33586 33590 "parser.ml" 893 33657 33680
+)
+"parser.ml" 888 33519 33533 "parser.ml" 888 33519 33549
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 888 33519 33550 "parser.ml" 888 33519 33567
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 887 33491 33498 "parser.ml" 887 33491 33515
+)
+"parser.ml" 888 33519 33568 "parser.ml" 888 33519 33569
+type(
+  int
+)
+"parser.ml" 888 33519 33533 "parser.ml" 888 33519 33569
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 889 33586 33590 "parser.ml" 889 33586 33598
+type(
+  (Lexing.position * Lexing.position) Exprs.bind -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 126 33619 33632 "parser.mly" 126 33619 33638
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref _1 "parser.ml" 888 33519 33527 "parser.ml" 888 33519 33529
+)
+"parser.ml" 889 33586 33590 "parser.ml" 893 33657 33680
+type(
+  Obj.t
+)
+"parser.ml" 888 33519 33523 "parser.ml" 893 33657 33680
+type(
+  Obj.t
+)
+"parser.ml" 887 33491 33493 "parser.ml" 893 33657 33681
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 894 33682 33689 "parser.ml" 894 33682 33706
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 895 33710 33714 "parser.ml" 900 33850 33873
+)
+"parser.ml" 895 33710 33718 "parser.ml" 895 33710 33720
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  def _1 "parser.ml" 896 33778 33782 "parser.ml" 900 33850 33873
+)
+"parser.ml" 895 33710 33724 "parser.ml" 895 33710 33740
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 895 33710 33741 "parser.ml" 895 33710 33758
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 894 33682 33689 "parser.ml" 894 33682 33706
+)
+"parser.ml" 895 33710 33759 "parser.ml" 895 33710 33760
+type(
+  int
+)
+"parser.ml" 895 33710 33724 "parser.ml" 895 33710 33760
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 896 33778 33782 "parser.ml" 896 33778 33790
+type(
+  (Lexing.position * Lexing.position) Exprs.bind -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 127 33811 33825 "parser.mly" 127 33811 33831
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+ident(
+  int_ref _1 "parser.ml" 895 33710 33718 "parser.ml" 895 33710 33720
+)
+"parser.ml" 896 33778 33782 "parser.ml" 900 33850 33873
+type(
+  Obj.t
+)
+"parser.ml" 895 33710 33714 "parser.ml" 900 33850 33873
+type(
+  Obj.t
+)
+"parser.ml" 894 33682 33684 "parser.ml" 900 33850 33874
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 901 33875 33882 "parser.ml" 901 33875 33899
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 902 33903 33907 "parser.ml" 907 34077 34100
+)
+"parser.ml" 902 33903 33911 "parser.ml" 902 33903 33913
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  def _2 "parser.ml" 903 33967 33971 "parser.ml" 907 34077 34100
+)
+"parser.ml" 902 33903 33917 "parser.ml" 902 33903 33933
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 902 33903 33934 "parser.ml" 902 33903 33951
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 901 33875 33882 "parser.ml" 901 33875 33899
+)
+"parser.ml" 902 33903 33952 "parser.ml" 902 33903 33953
+type(
+  int
+)
+"parser.ml" 902 33903 33917 "parser.ml" 902 33903 33953
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.ml" 903 33967 33971 "parser.ml" 903 33967 33979
+type(
+  (Lexing.position * Lexing.position) Exprs.bind -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 128 34000 34040 "parser.mly" 128 34000 34042
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref _2 "parser.ml" 902 33903 33911 "parser.ml" 902 33903 33913
+)
+"parser.mly" 128 34000 34044 "parser.mly" 128 34000 34053
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 128 34000 34053 "parser.mly" 128 34000 34055
+type(
+  unit
+)
+"parser.mly" 128 34000 34044 "parser.mly" 128 34000 34055
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 128 34000 34031 "parser.mly" 128 34000 34058
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 903 33967 33971 "parser.ml" 907 34077 34100
+type(
+  Obj.t
+)
+"parser.ml" 902 33903 33907 "parser.ml" 907 34077 34100
+type(
+  Obj.t
+)
+"parser.ml" 901 33875 33877 "parser.ml" 907 34077 34101
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 908 34102 34109 "parser.ml" 908 34102 34126
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 909 34130 34134 "parser.ml" 914 34302 34325
+)
+"parser.ml" 909 34130 34138 "parser.ml" 909 34130 34140
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  def _2 "parser.ml" 910 34194 34198 "parser.ml" 914 34302 34325
+)
+"parser.ml" 909 34130 34144 "parser.ml" 909 34130 34160
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 909 34130 34161 "parser.ml" 909 34130 34178
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 908 34102 34109 "parser.ml" 908 34102 34126
+)
+"parser.ml" 909 34130 34179 "parser.ml" 909 34130 34180
+type(
+  int
+)
+"parser.ml" 909 34130 34144 "parser.ml" 909 34130 34180
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+"parser.ml" 910 34194 34198 "parser.ml" 910 34194 34206
+type(
+  (Lexing.position * Lexing.position) Exprs.bind -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 129 34227 34265 "parser.mly" 129 34227 34267
+type(
+  (Lexing.position * Lexing.position) Exprs.bind list
+)
+ident(
+  int_ref _2 "parser.ml" 909 34130 34138 "parser.ml" 909 34130 34140
+)
+"parser.mly" 129 34227 34269 "parser.mly" 129 34227 34278
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 129 34227 34278 "parser.mly" 129 34227 34280
+type(
+  unit
+)
+"parser.mly" 129 34227 34269 "parser.mly" 129 34227 34280
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 129 34227 34256 "parser.mly" 129 34227 34283
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 910 34194 34198 "parser.ml" 914 34302 34325
+type(
+  Obj.t
+)
+"parser.ml" 909 34130 34134 "parser.ml" 914 34302 34325
+type(
+  Obj.t
+)
+"parser.ml" 908 34102 34104 "parser.ml" 914 34302 34326
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 915 34327 34334 "parser.ml" 915 34327 34351
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 916 34355 34359 "parser.ml" 920 34456 34484
+)
+"parser.ml" 916 34355 34359 "parser.ml" 916 34355 34367
+type(
+  (Lexing.position * Lexing.position) Exprs.bind -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 132 34388 34423 "parser.mly" 132 34388 34432
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 132 34388 34432 "parser.mly" 132 34388 34434
+type(
+  unit
+)
+"parser.mly" 132 34388 34422 "parser.mly" 132 34388 34435
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 132 34388 34414 "parser.mly" 132 34388 34437
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 916 34355 34359 "parser.ml" 920 34456 34484
+type(
+  Obj.t
+)
+"parser.ml" 915 34327 34329 "parser.ml" 920 34456 34485
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 921 34486 34493 "parser.ml" 921 34486 34510
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 922 34514 34518 "parser.ml" 927 34681 34708
+)
+"parser.ml" 922 34514 34522 "parser.ml" 922 34514 34524
+type(
+  string
+)
+ident(
+  def _1 "parser.ml" 923 34578 34582 "parser.ml" 927 34681 34708
+)
+"parser.ml" 922 34514 34528 "parser.ml" 922 34514 34544
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 922 34514 34545 "parser.ml" 922 34514 34562
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 921 34486 34493 "parser.ml" 921 34486 34510
+)
+"parser.ml" 922 34514 34563 "parser.ml" 922 34514 34564
+type(
+  int
+)
+"parser.ml" 922 34514 34528 "parser.ml" 922 34514 34564
+type(
+  string
+)
+"parser.ml" 923 34578 34582 "parser.ml" 923 34578 34590
+type(
+  (Lexing.position * Lexing.position) Exprs.bind -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 135 34611 34637 "parser.mly" 135 34611 34639
+type(
+  string
+)
+ident(
+  int_ref _1 "parser.ml" 922 34514 34522 "parser.ml" 922 34514 34524
+)
+"parser.mly" 135 34611 34641 "parser.mly" 135 34611 34646
+type(
+  bool
+)
+"parser.mly" 135 34611 34648 "parser.mly" 135 34611 34657
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 135 34611 34657 "parser.mly" 135 34611 34659
+type(
+  unit
+)
+"parser.mly" 135 34611 34648 "parser.mly" 135 34611 34659
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 135 34611 34629 "parser.mly" 135 34611 34662
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 923 34578 34582 "parser.ml" 927 34681 34708
+type(
+  Obj.t
+)
+"parser.ml" 922 34514 34518 "parser.ml" 927 34681 34708
+type(
+  Obj.t
+)
+"parser.ml" 921 34486 34488 "parser.ml" 927 34681 34709
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 928 34710 34717 "parser.ml" 928 34710 34734
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 929 34738 34742 "parser.ml" 934 34911 34938
+)
+"parser.ml" 929 34738 34746 "parser.ml" 929 34738 34748
+type(
+  string
+)
+ident(
+  def _2 "parser.ml" 930 34802 34806 "parser.ml" 934 34911 34938
+)
+"parser.ml" 929 34738 34752 "parser.ml" 929 34738 34768
+type(
+  Parsing.parser_env -> int -> string
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 929 34738 34769 "parser.ml" 929 34738 34786
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 928 34710 34717 "parser.ml" 928 34710 34734
+)
+"parser.ml" 929 34738 34787 "parser.ml" 929 34738 34788
+type(
+  int
+)
+"parser.ml" 929 34738 34752 "parser.ml" 929 34738 34788
+type(
+  string
+)
+"parser.ml" 930 34802 34806 "parser.ml" 930 34802 34814
+type(
+  (Lexing.position * Lexing.position) Exprs.bind -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 136 34835 34868 "parser.mly" 136 34835 34870
+type(
+  string
+)
+ident(
+  int_ref _2 "parser.ml" 929 34738 34746 "parser.ml" 929 34738 34748
+)
+"parser.mly" 136 34835 34872 "parser.mly" 136 34835 34876
+type(
+  bool
+)
+"parser.mly" 136 34835 34878 "parser.mly" 136 34835 34887
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 136 34835 34887 "parser.mly" 136 34835 34889
+type(
+  unit
+)
+"parser.mly" 136 34835 34878 "parser.mly" 136 34835 34889
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 136 34835 34860 "parser.mly" 136 34835 34892
+type(
+  (Lexing.position * Lexing.position) Exprs.bind
+)
+"parser.ml" 930 34802 34806 "parser.ml" 934 34911 34938
+type(
+  Obj.t
+)
+"parser.ml" 929 34738 34742 "parser.ml" 934 34911 34938
+type(
+  Obj.t
+)
+"parser.ml" 928 34710 34712 "parser.ml" 934 34911 34939
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 935 34940 34947 "parser.ml" 935 34940 34964
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 936 34968 34972 "parser.ml" 941 35100 35128
+)
+"parser.ml" 936 34968 34976 "parser.ml" 936 34968 34978
+type(
+  (Lexing.position * Lexing.position) Exprs.decl
+)
+ident(
+  def _1 "parser.ml" 937 35031 35035 "parser.ml" 941 35100 35128
+)
+"parser.ml" 936 34968 34982 "parser.ml" 936 34968 34998
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.decl
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 936 34968 34999 "parser.ml" 936 34968 35016
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 935 34940 34947 "parser.ml" 935 34940 34964
+)
+"parser.ml" 936 34968 35017 "parser.ml" 936 34968 35018
+type(
+  int
+)
+"parser.ml" 936 34968 34982 "parser.ml" 936 34968 35018
+type(
+  (Lexing.position * Lexing.position) Exprs.decl
+)
+"parser.ml" 937 35031 35035 "parser.ml" 937 35031 35043
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 139 35064 35076 "parser.mly" 139 35064 35078
+type(
+  (Lexing.position * Lexing.position) Exprs.decl
+)
+ident(
+  int_ref _1 "parser.ml" 936 34968 34976 "parser.ml" 936 34968 34978
+)
+"parser.mly" 139 35064 35073 "parser.mly" 139 35064 35081
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list
+)
+"parser.ml" 937 35031 35035 "parser.ml" 941 35100 35128
+type(
+  Obj.t
+)
+"parser.ml" 936 34968 34972 "parser.ml" 941 35100 35128
+type(
+  Obj.t
+)
+"parser.ml" 935 34940 34942 "parser.ml" 941 35100 35129
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 942 35130 35137 "parser.ml" 942 35130 35154
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 943 35158 35162 "parser.ml" 949 35377 35405
+)
+"parser.ml" 943 35158 35166 "parser.ml" 943 35158 35168
+type(
+  (Lexing.position * Lexing.position) Exprs.decl
+)
+ident(
+  def _1 "parser.ml" 944 35221 35225 "parser.ml" 949 35377 35405
+)
+"parser.ml" 943 35158 35172 "parser.ml" 943 35158 35188
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.decl
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 943 35158 35189 "parser.ml" 943 35158 35206
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 942 35130 35137 "parser.ml" 942 35130 35154
+)
+"parser.ml" 943 35158 35207 "parser.ml" 943 35158 35208
+type(
+  int
+)
+"parser.ml" 943 35158 35172 "parser.ml" 943 35158 35208
+type(
+  (Lexing.position * Lexing.position) Exprs.decl
+)
+"parser.ml" 944 35221 35229 "parser.ml" 944 35221 35231
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list
+)
+ident(
+  def _3 "parser.ml" 945 35289 35293 "parser.ml" 949 35377 35405
+)
+"parser.ml" 944 35221 35235 "parser.ml" 944 35221 35251
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.decl list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 944 35221 35252 "parser.ml" 944 35221 35269
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 942 35130 35137 "parser.ml" 942 35130 35154
+)
+"parser.ml" 944 35221 35270 "parser.ml" 944 35221 35271
+type(
+  int
+)
+"parser.ml" 944 35221 35235 "parser.ml" 944 35221 35271
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list
+)
+"parser.ml" 945 35289 35293 "parser.ml" 945 35289 35301
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 140 35322 35350 "parser.mly" 140 35322 35352
+type(
+  (Lexing.position * Lexing.position) Exprs.decl
+)
+ident(
+  int_ref _1 "parser.ml" 943 35158 35166 "parser.ml" 943 35158 35168
+)
+"parser.mly" 140 35322 35354 "parser.mly" 140 35322 35356
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list
+)
+ident(
+  int_ref _3 "parser.ml" 944 35221 35229 "parser.ml" 944 35221 35231
+)
+"parser.mly" 140 35322 35348 "parser.mly" 140 35322 35358
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list
+)
+"parser.ml" 945 35289 35293 "parser.ml" 949 35377 35405
+type(
+  Obj.t
+)
+"parser.ml" 944 35221 35225 "parser.ml" 949 35377 35405
+type(
+  Obj.t
+)
+"parser.ml" 943 35158 35162 "parser.ml" 949 35377 35405
+type(
+  Obj.t
+)
+"parser.ml" 942 35130 35132 "parser.ml" 949 35377 35406
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 950 35407 35414 "parser.ml" 950 35407 35431
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 951 35435 35439 "parser.ml" 955 35497 35521
+)
+"parser.ml" 951 35435 35439 "parser.ml" 951 35435 35447
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 143 35468 35472 "parser.mly" 143 35468 35478
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list list
+)
+"parser.ml" 951 35435 35439 "parser.ml" 955 35497 35521
+type(
+  Obj.t
+)
+"parser.ml" 950 35407 35409 "parser.ml" 955 35497 35522
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 956 35523 35530 "parser.ml" 956 35523 35547
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 957 35551 35555 "parser.ml" 963 35765 35789
+)
+"parser.ml" 957 35551 35559 "parser.ml" 957 35551 35561
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list
+)
+ident(
+  def _1 "parser.ml" 958 35619 35623 "parser.ml" 963 35765 35789
+)
+"parser.ml" 957 35551 35565 "parser.ml" 957 35551 35581
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.decl list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 957 35551 35582 "parser.ml" 957 35551 35599
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 956 35523 35530 "parser.ml" 956 35523 35547
+)
+"parser.ml" 957 35551 35600 "parser.ml" 957 35551 35601
+type(
+  int
+)
+"parser.ml" 957 35551 35565 "parser.ml" 957 35551 35601
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list
+)
+"parser.ml" 958 35619 35627 "parser.ml" 958 35619 35629
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list list
+)
+ident(
+  def _2 "parser.ml" 959 35683 35687 "parser.ml" 963 35765 35789
+)
+"parser.ml" 958 35619 35633 "parser.ml" 958 35619 35649
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.decl list list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 958 35619 35650 "parser.ml" 958 35619 35667
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 956 35523 35530 "parser.ml" 956 35523 35547
+)
+"parser.ml" 958 35619 35668 "parser.ml" 958 35619 35669
+type(
+  int
+)
+"parser.ml" 958 35619 35633 "parser.ml" 958 35619 35669
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list list
+)
+"parser.ml" 959 35683 35687 "parser.ml" 959 35683 35695
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list list -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 144 35716 35738 "parser.mly" 144 35716 35740
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list
+)
+ident(
+  int_ref _1 "parser.ml" 957 35551 35559 "parser.ml" 957 35551 35561
+)
+"parser.mly" 144 35716 35742 "parser.mly" 144 35716 35744
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list list
+)
+ident(
+  int_ref _2 "parser.ml" 958 35619 35627 "parser.ml" 958 35619 35629
+)
+"parser.mly" 144 35716 35736 "parser.mly" 144 35716 35746
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list list
+)
+"parser.ml" 959 35683 35687 "parser.ml" 963 35765 35789
+type(
+  Obj.t
+)
+"parser.ml" 958 35619 35623 "parser.ml" 963 35765 35789
+type(
+  Obj.t
+)
+"parser.ml" 957 35551 35555 "parser.ml" 963 35765 35789
+type(
+  Obj.t
+)
+"parser.ml" 956 35523 35525 "parser.ml" 963 35765 35790
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 964 35791 35798 "parser.ml" 964 35791 35815
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 965 35819 35823 "parser.ml" 971 36049 36116
+)
+"parser.ml" 965 35819 35827 "parser.ml" 965 35819 35829
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list list
+)
+ident(
+  def _1 "parser.ml" 966 35883 35887 "parser.ml" 971 36049 36116
+)
+"parser.ml" 965 35819 35833 "parser.ml" 965 35819 35849
+type(
+  Parsing.parser_env ->
+  int -> (Lexing.position * Lexing.position) Exprs.decl list list
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 965 35819 35850 "parser.ml" 965 35819 35867
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 964 35791 35798 "parser.ml" 964 35791 35815
+)
+"parser.ml" 965 35819 35868 "parser.ml" 965 35819 35869
+type(
+  int
+)
+"parser.ml" 965 35819 35833 "parser.ml" 965 35819 35869
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list list
+)
+"parser.ml" 966 35883 35891 "parser.ml" 966 35883 35893
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  def _2 "parser.ml" 967 35946 35950 "parser.ml" 971 36049 36116
+)
+"parser.ml" 966 35883 35897 "parser.ml" 966 35883 35913
+type(
+  Parsing.parser_env -> int -> (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 966 35883 35914 "parser.ml" 966 35883 35931
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 964 35791 35798 "parser.ml" 964 35791 35815
+)
+"parser.ml" 966 35883 35932 "parser.ml" 966 35883 35933
+type(
+  int
+)
+"parser.ml" 966 35883 35897 "parser.ml" 966 35883 35933
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+"parser.ml" 967 35946 35950 "parser.ml" 967 35946 35958
+type(
+  (Lexing.position * Lexing.position) Exprs.program -> Obj.t
+)
+ident(
+  int_ref Stdlib.Obj.repr "obj.mli" 25 1220 1220 "obj.mli" 25 1220 1257
+)
+"parser.mly" 148 35979 36008 "parser.mly" 148 35979 36010
+type(
+  (Lexing.position * Lexing.position) Exprs.decl list list
+)
+ident(
+  int_ref _1 "parser.ml" 965 35819 35827 "parser.ml" 965 35819 35829
+)
+"parser.mly" 148 35979 36012 "parser.mly" 148 35979 36014
+type(
+  (Lexing.position * Lexing.position) Exprs.expr
+)
+ident(
+  int_ref _2 "parser.ml" 966 35883 35891 "parser.ml" 966 35883 35893
+)
+"parser.mly" 148 35979 36016 "parser.mly" 148 35979 36025
+type(
+  unit -> Lexing.position * Lexing.position
+)
+ident(
+  int_ref full_span "parser.mly" 4 577 581 "parser.mly" 4 577 590
+)
+"parser.mly" 148 35979 36025 "parser.mly" 148 35979 36027
+type(
+  unit
+)
+"parser.mly" 148 35979 36016 "parser.mly" 148 35979 36027
+type(
+  Lexing.position * Lexing.position
+)
+"parser.mly" 148 35979 35998 "parser.mly" 148 35979 36030
+type(
+  (Lexing.position * Lexing.position) Exprs.program
+)
+"parser.ml" 967 35946 35950 "parser.ml" 971 36049 36116
+type(
+  Obj.t
+)
+"parser.ml" 966 35883 35887 "parser.ml" 971 36049 36116
+type(
+  Obj.t
+)
+"parser.ml" 965 35819 35823 "parser.ml" 971 36049 36116
+type(
+  Obj.t
+)
+"parser.ml" 964 35791 35793 "parser.ml" 971 36049 36117
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 973 36138 36145 "parser.ml" 973 36138 36162
+type(
+  Parsing.parser_env
+)
+ident(
+  def __caml_parser_env "parser.ml" 973 36138 36166 "parser.ml" 973 36138 36227
+)
+"parser.ml" 973 36138 36166 "parser.ml" 973 36138 36171
+type(
+  exn -> Obj.t
+)
+ident(
+  int_ref Stdlib.raise "stdlib.mli" 30 1602 1602 "stdlib.mli" 30 1602 1639
+)
+"parser.ml" 973 36138 36189 "parser.ml" 973 36138 36205
+type(
+  Parsing.parser_env -> int -> Obj.t
+)
+ident(
+  int_ref Stdlib.Parsing.peek_val "parsing.mli" 101 4059 4059 "parsing.mli" 101 4059 4097
+)
+"parser.ml" 973 36138 36206 "parser.ml" 973 36138 36223
+type(
+  Parsing.parser_env
+)
+ident(
+  int_ref __caml_parser_env "parser.ml" 973 36138 36145 "parser.ml" 973 36138 36162
+)
+"parser.ml" 973 36138 36224 "parser.ml" 973 36138 36225
+type(
+  int
+)
+"parser.ml" 973 36138 36188 "parser.ml" 973 36138 36226
+type(
+  Obj.t
+)
+"parser.ml" 973 36138 36172 "parser.ml" 973 36138 36227
+type(
+  exn
+)
+"parser.ml" 973 36138 36166 "parser.ml" 973 36138 36227
+type(
+  Obj.t
+)
+"parser.ml" 973 36138 36140 "parser.ml" 973 36138 36228
+type(
+  Parsing.parser_env -> Obj.t
+)
+"parser.ml" 435 19216 19228 "parser.ml" 974 36229 36231
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+"parser.ml" 975 36232 36236 "parser.ml" 975 36232 36244
+type(
+  Parsing.parse_tables
+)
+ident(
+  def yytables "parser.ml" 992 36753 36753 "parser.ml" 0 0 -1
+)
+"parser.ml" 976 36247 36267 "parser.ml" 976 36247 36272
+type(
+  (Parsing.parser_env -> Obj.t) array
+)
+ident(
+  int_ref yyact "parser.ml" 435 19216 19220 "parser.ml" 435 19216 19225
+)
+"parser.ml" 977 36274 36299 "parser.ml" 977 36274 36313
+type(
+  int array
+)
+ident(
+  int_ref yytransl_const "parser.ml" 58 758 762 "parser.ml" 58 758 776
+)
+"parser.ml" 978 36315 36340 "parser.ml" 978 36315 36354
+type(
+  int array
+)
+ident(
+  int_ref yytransl_block "parser.ml" 105 1646 1650 "parser.ml" 105 1646 1664
+)
+"parser.ml" 979 36356 36372 "parser.ml" 979 36356 36377
+type(
+  string
+)
+ident(
+  int_ref yylhs "parser.ml" 110 1712 1716 "parser.ml" 110 1712 1721
+)
+"parser.ml" 980 36379 36395 "parser.ml" 980 36379 36400
+type(
+  string
+)
+ident(
+  int_ref yylen "parser.ml" 122 2364 2368 "parser.ml" 122 2364 2373
+)
+"parser.ml" 981 36402 36421 "parser.ml" 981 36402 36429
+type(
+  string
+)
+ident(
+  int_ref yydefred "parser.ml" 134 3016 3020 "parser.ml" 134 3016 3028
+)
+"parser.ml" 982 36431 36449 "parser.ml" 982 36431 36456
+type(
+  string
+)
+ident(
+  int_ref yydgoto "parser.ml" 156 4355 4359 "parser.ml" 156 4355 4366
+)
+"parser.ml" 983 36458 36477 "parser.ml" 983 36458 36485
+type(
+  string
+)
+ident(
+  int_ref yysindex "parser.ml" 161 4539 4543 "parser.ml" 161 4539 4551
+)
+"parser.ml" 984 36487 36506 "parser.ml" 984 36487 36514
+type(
+  string
+)
+ident(
+  int_ref yyrindex "parser.ml" 183 5878 5882 "parser.ml" 183 5878 5890
+)
+"parser.ml" 985 36516 36535 "parser.ml" 985 36516 36543
+type(
+  string
+)
+ident(
+  int_ref yygindex "parser.ml" 205 7217 7221 "parser.ml" 205 7217 7229
+)
+"parser.ml" 986 36545 36567 "parser.ml" 986 36545 36578
+type(
+  int
+)
+ident(
+  int_ref yytablesize "parser.ml" 210 7402 7406 "parser.ml" 210 7402 7417
+)
+"parser.ml" 987 36580 36598 "parser.ml" 987 36580 36605
+type(
+  string
+)
+ident(
+  int_ref yytable "parser.ml" 211 7424 7428 "parser.ml" 211 7424 7435
+)
+"parser.ml" 988 36607 36625 "parser.ml" 988 36607 36632
+type(
+  string
+)
+ident(
+  int_ref yycheck "parser.ml" 297 12986 12990 "parser.ml" 297 12986 12997
+)
+"parser.ml" 989 36634 36661 "parser.ml" 989 36634 36672
+type(
+  string -> unit
+)
+ident(
+  int_ref Stdlib.Parsing.parse_error "parsing.mli" 103 4136 4136 "parsing.mli" 103 4136 4168
+)
+"parser.ml" 990 36674 36698 "parser.ml" 990 36674 36711
+type(
+  string
+)
+ident(
+  int_ref yynames_const "parser.ml" 383 18548 18552 "parser.ml" 383 18548 18565
+)
+"parser.ml" 991 36713 36737 "parser.ml" 991 36713 36750
+type(
+  string
+)
+ident(
+  int_ref yynames_block "parser.ml" 430 19167 19171 "parser.ml" 430 19167 19184
+)
+"parser.ml" 976 36247 36249 "parser.ml" 991 36713 36752
+type(
+  Parsing.parse_tables
+)
+"parser.ml" 992 36753 36757 "parser.ml" 992 36753 36764
+type(
+  (Lexing.lexbuf -> token) ->
+  Lexing.lexbuf -> (Lexing.position * Lexing.position) Exprs.program
+)
+ident(
+  def program "parser.ml" 993 36826 36923 "parser.ml" 0 0 -1
+)
+"parser.ml" 992 36753 36766 "parser.ml" 992 36753 36772
+type(
+  Lexing.lexbuf -> token
+)
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  def lexfun "parser.ml" 992 36753 36799 "parser.ml" 993 36826 36923
+)
+"parser.ml" 992 36753 36800 "parser.ml" 992 36753 36806
+type(
+  Lexing.lexbuf
+)
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "parser.ml" 993 36826 36830 "parser.ml" 993 36826 36870
+)
+"parser.ml" 993 36826 36830 "parser.ml" 993 36826 36845
+type(
+  Parsing.parse_tables ->
+  int ->
+  (Lexing.lexbuf -> token) ->
+  Lexing.lexbuf -> (Lexing.position * Lexing.position) Exprs.program
+)
+ident(
+  int_ref Stdlib.Parsing.yyparse "parsing.mli" 99 3975 3975 "parsing.mli" 100 3989 4058
+)
+"parser.ml" 993 36826 36846 "parser.ml" 993 36826 36854
+type(
+  Parsing.parse_tables
+)
+ident(
+  int_ref yytables "parser.ml" 975 36232 36236 "parser.ml" 975 36232 36244
+)
+"parser.ml" 993 36826 36855 "parser.ml" 993 36826 36856
+type(
+  int
+)
+"parser.ml" 993 36826 36857 "parser.ml" 993 36826 36863
+type(
+  Lexing.lexbuf -> token
+)
+ident(
+  int_ref lexfun "parser.ml" 992 36753 36766 "parser.ml" 992 36753 36772
+)
+"parser.ml" 993 36826 36864 "parser.ml" 993 36826 36870
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "parser.ml" 992 36753 36800 "parser.ml" 992 36753 36806
+)
+"parser.ml" 993 36826 36830 "parser.ml" 993 36826 36870
+type(
+  (Lexing.position * Lexing.position) Exprs.program
+)

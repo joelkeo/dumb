@@ -1,0 +1,2635 @@
+"assembly.ml" 4 84 88 "assembly.ml" 4 84 97
+type(
+  int
+)
+ident(
+  def word_size "assembly.ml" 7 106 106 "assembly.ml" 0 0 -1
+)
+"assembly.ml" 4 84 100 "assembly.ml" 4 84 101
+type(
+  int
+)
+"assembly.ml" 82 1194 1198 "assembly.ml" 82 1194 1206
+type(
+  reg -> string
+)
+ident(
+  def r_to_asm "assembly.ml" 102 1530 1530 "assembly.ml" 0 0 -1
+)
+"assembly.ml" 82 1194 1208 "assembly.ml" 82 1194 1209
+type(
+  reg
+)
+type(
+  reg
+)
+ident(
+  def r "assembly.ml" 83 1228 1230 "assembly.ml" 100 1512 1528
+)
+"assembly.ml" 83 1228 1236 "assembly.ml" 83 1228 1237
+type(
+  reg
+)
+ident(
+  int_ref r "assembly.ml" 82 1194 1208 "assembly.ml" 82 1194 1209
+)
+"assembly.ml" 84 1243 1247 "assembly.ml" 84 1243 1250
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 84 1243 1254 "assembly.ml" 84 1243 1259
+type(
+  string
+)
+"assembly.ml" 85 1260 1264 "assembly.ml" 85 1260 1267
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 85 1260 1271 "assembly.ml" 85 1260 1276
+type(
+  string
+)
+"assembly.ml" 86 1277 1281 "assembly.ml" 86 1277 1284
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 86 1277 1288 "assembly.ml" 86 1277 1293
+type(
+  string
+)
+"assembly.ml" 87 1294 1298 "assembly.ml" 87 1294 1301
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 87 1294 1305 "assembly.ml" 87 1294 1310
+type(
+  string
+)
+"assembly.ml" 88 1311 1315 "assembly.ml" 88 1311 1318
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 88 1311 1322 "assembly.ml" 88 1311 1327
+type(
+  string
+)
+"assembly.ml" 89 1328 1332 "assembly.ml" 89 1328 1335
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 89 1328 1339 "assembly.ml" 89 1328 1344
+type(
+  string
+)
+"assembly.ml" 90 1345 1349 "assembly.ml" 90 1345 1352
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 90 1345 1356 "assembly.ml" 90 1345 1361
+type(
+  string
+)
+"assembly.ml" 91 1362 1366 "assembly.ml" 91 1362 1368
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 91 1362 1373 "assembly.ml" 91 1362 1377
+type(
+  string
+)
+"assembly.ml" 92 1378 1382 "assembly.ml" 92 1378 1384
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 92 1378 1389 "assembly.ml" 92 1378 1393
+type(
+  string
+)
+"assembly.ml" 93 1394 1398 "assembly.ml" 93 1394 1401
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 93 1394 1405 "assembly.ml" 93 1394 1410
+type(
+  string
+)
+"assembly.ml" 94 1411 1415 "assembly.ml" 94 1411 1418
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 94 1411 1422 "assembly.ml" 94 1411 1427
+type(
+  string
+)
+"assembly.ml" 95 1428 1432 "assembly.ml" 95 1428 1435
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 95 1428 1439 "assembly.ml" 95 1428 1444
+type(
+  string
+)
+"assembly.ml" 96 1445 1449 "assembly.ml" 96 1445 1452
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 96 1445 1456 "assembly.ml" 96 1445 1461
+type(
+  string
+)
+"assembly.ml" 97 1462 1466 "assembly.ml" 97 1462 1469
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 97 1462 1473 "assembly.ml" 97 1462 1478
+type(
+  string
+)
+"assembly.ml" 98 1479 1483 "assembly.ml" 98 1479 1486
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 98 1479 1490 "assembly.ml" 98 1479 1495
+type(
+  string
+)
+"assembly.ml" 99 1496 1500 "assembly.ml" 99 1496 1502
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 99 1496 1507 "assembly.ml" 99 1496 1511
+type(
+  string
+)
+"assembly.ml" 100 1512 1516 "assembly.ml" 100 1512 1519
+type(
+  reg
+)
+type(
+  reg
+)
+"assembly.ml" 100 1512 1523 "assembly.ml" 100 1512 1528
+type(
+  string
+)
+"assembly.ml" 83 1228 1230 "assembly.ml" 100 1512 1528
+type(
+  string
+)
+"assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+type(
+  arg -> string
+)
+ident(
+  def arg_to_asm "assembly.ml" 102 1530 1530 "assembly.ml" 0 0 -1
+)
+"assembly.ml" 102 1530 1550 "assembly.ml" 102 1530 1551
+type(
+  arg
+)
+type(
+  arg
+)
+ident(
+  def a "assembly.ml" 103 1570 1572 "assembly.ml" 120 2171 2187
+)
+"assembly.ml" 103 1570 1578 "assembly.ml" 103 1570 1579
+type(
+  arg
+)
+ident(
+  int_ref a "assembly.ml" 102 1530 1550 "assembly.ml" 102 1530 1551
+)
+"assembly.ml" 104 1585 1594 "assembly.ml" 104 1585 1597
+type(
+  int64
+)
+ident(
+  def n "assembly.ml" 104 1585 1601 "assembly.ml" 104 1585 1616
+)
+"assembly.ml" 104 1585 1589 "assembly.ml" 104 1585 1597
+type(
+  arg
+)
+type(
+  arg
+)
+"assembly.ml" 104 1585 1601 "assembly.ml" 104 1585 1608
+type(
+  (int64 -> string, unit, string) format -> int64 -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 104 1585 1609 "assembly.ml" 104 1585 1614
+type(
+  (int64 -> string, unit, string) format
+)
+"assembly.ml" 104 1585 1615 "assembly.ml" 104 1585 1616
+type(
+  int64
+)
+ident(
+  int_ref n "assembly.ml" 104 1585 1594 "assembly.ml" 104 1585 1597
+)
+"assembly.ml" 104 1585 1601 "assembly.ml" 104 1585 1616
+type(
+  string
+)
+"assembly.ml" 105 1617 1629 "assembly.ml" 105 1617 1632
+type(
+  int64
+)
+ident(
+  def n "assembly.ml" 105 1617 1636 "assembly.ml" 105 1617 1653
+)
+"assembly.ml" 105 1617 1621 "assembly.ml" 105 1617 1632
+type(
+  arg
+)
+type(
+  arg
+)
+"assembly.ml" 105 1617 1636 "assembly.ml" 105 1617 1643
+type(
+  (int64 -> string, unit, string) format -> int64 -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 105 1617 1644 "assembly.ml" 105 1617 1651
+type(
+  (int64 -> string, unit, string) format
+)
+"assembly.ml" 105 1617 1652 "assembly.ml" 105 1617 1653
+type(
+  int64
+)
+ident(
+  int_ref n "assembly.ml" 105 1617 1629 "assembly.ml" 105 1617 1632
+)
+"assembly.ml" 105 1617 1636 "assembly.ml" 105 1617 1653
+type(
+  string
+)
+"assembly.ml" 106 1654 1661 "assembly.ml" 106 1654 1664
+type(
+  reg
+)
+ident(
+  def r "assembly.ml" 106 1654 1668 "assembly.ml" 106 1654 1678
+)
+"assembly.ml" 106 1654 1658 "assembly.ml" 106 1654 1664
+type(
+  arg
+)
+type(
+  arg
+)
+"assembly.ml" 106 1654 1668 "assembly.ml" 106 1654 1676
+type(
+  reg -> string
+)
+ident(
+  int_ref r_to_asm "assembly.ml" 82 1194 1198 "assembly.ml" 82 1194 1206
+)
+"assembly.ml" 106 1654 1677 "assembly.ml" 106 1654 1678
+type(
+  reg
+)
+ident(
+  int_ref r "assembly.ml" 106 1654 1661 "assembly.ml" 106 1654 1664
+)
+"assembly.ml" 106 1654 1668 "assembly.ml" 106 1654 1678
+type(
+  string
+)
+"assembly.ml" 107 1679 1693 "assembly.ml" 107 1679 1694
+type(
+  int
+)
+ident(
+  def n "assembly.ml" 108 1702 1707 "assembly.ml" 111 1772 1818
+)
+"assembly.ml" 107 1679 1696 "assembly.ml" 107 1679 1697
+type(
+  reg
+)
+ident(
+  def r "assembly.ml" 108 1702 1707 "assembly.ml" 111 1772 1818
+)
+"assembly.ml" 107 1679 1683 "assembly.ml" 107 1679 1698
+type(
+  arg
+)
+type(
+  arg
+)
+"assembly.ml" 108 1702 1710 "assembly.ml" 108 1702 1711
+type(
+  int
+)
+ident(
+  int_ref n "assembly.ml" 107 1679 1693 "assembly.ml" 107 1679 1694
+)
+"assembly.ml" 108 1702 1712 "assembly.ml" 108 1702 1714
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref Stdlib.( >= ) "stdlib.mli" 150 6190 6190 "stdlib.mli" 150 6190 6242
+)
+"assembly.ml" 108 1702 1715 "assembly.ml" 108 1702 1716
+type(
+  int
+)
+"assembly.ml" 108 1702 1710 "assembly.ml" 108 1702 1716
+type(
+  bool
+)
+"assembly.ml" 109 1722 1729 "assembly.ml" 109 1722 1736
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 109 1722 1737 "assembly.ml" 109 1722 1746
+type(
+  (string -> int -> string, unit, string) format
+)
+"assembly.ml" 109 1722 1748 "assembly.ml" 109 1722 1756
+type(
+  reg -> string
+)
+ident(
+  int_ref r_to_asm "assembly.ml" 82 1194 1198 "assembly.ml" 82 1194 1206
+)
+"assembly.ml" 109 1722 1757 "assembly.ml" 109 1722 1758
+type(
+  reg
+)
+ident(
+  int_ref r "assembly.ml" 107 1679 1696 "assembly.ml" 107 1679 1697
+)
+"assembly.ml" 109 1722 1747 "assembly.ml" 109 1722 1759
+type(
+  string
+)
+"assembly.ml" 109 1722 1760 "assembly.ml" 109 1722 1761
+type(
+  int
+)
+ident(
+  int_ref n "assembly.ml" 107 1679 1693 "assembly.ml" 107 1679 1694
+)
+"assembly.ml" 109 1722 1729 "assembly.ml" 109 1722 1761
+type(
+  string
+)
+"assembly.ml" 111 1772 1779 "assembly.ml" 111 1772 1786
+type(
+  (string -> int -> string, unit, string) format -> string -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 111 1772 1787 "assembly.ml" 111 1772 1796
+type(
+  (string -> int -> string, unit, string) format
+)
+"assembly.ml" 111 1772 1798 "assembly.ml" 111 1772 1806
+type(
+  reg -> string
+)
+ident(
+  int_ref r_to_asm "assembly.ml" 82 1194 1198 "assembly.ml" 82 1194 1206
+)
+"assembly.ml" 111 1772 1807 "assembly.ml" 111 1772 1808
+type(
+  reg
+)
+ident(
+  int_ref r "assembly.ml" 107 1679 1696 "assembly.ml" 107 1679 1697
+)
+"assembly.ml" 111 1772 1797 "assembly.ml" 111 1772 1809
+type(
+  string
+)
+"assembly.ml" 111 1772 1811 "assembly.ml" 111 1772 1813
+type(
+  int
+)
+"assembly.ml" 111 1772 1814 "assembly.ml" 111 1772 1815
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Stdlib.( * ) "stdlib.mli" 357 13929 13929 "stdlib.mli" 357 13929 13975
+)
+"assembly.ml" 111 1772 1816 "assembly.ml" 111 1772 1817
+type(
+  int
+)
+ident(
+  int_ref n "assembly.ml" 107 1679 1693 "assembly.ml" 107 1679 1694
+)
+"assembly.ml" 111 1772 1810 "assembly.ml" 111 1772 1818
+type(
+  int
+)
+"assembly.ml" 111 1772 1779 "assembly.ml" 111 1772 1818
+type(
+  string
+)
+"assembly.ml" 108 1702 1707 "assembly.ml" 111 1772 1818
+type(
+  string
+)
+"assembly.ml" 112 1819 1836 "assembly.ml" 112 1819 1838
+type(
+  reg
+)
+ident(
+  def r1 "assembly.ml" 113 1857 1862 "assembly.ml" 114 1892 1940
+)
+"assembly.ml" 112 1819 1840 "assembly.ml" 112 1819 1842
+type(
+  reg
+)
+ident(
+  def r2 "assembly.ml" 113 1857 1862 "assembly.ml" 114 1892 1940
+)
+"assembly.ml" 112 1819 1844 "assembly.ml" 112 1819 1847
+type(
+  int
+)
+ident(
+  def mul "assembly.ml" 113 1857 1862 "assembly.ml" 114 1892 1940
+)
+"assembly.ml" 112 1819 1849 "assembly.ml" 112 1819 1852
+type(
+  int
+)
+ident(
+  def off "assembly.ml" 113 1857 1862 "assembly.ml" 114 1892 1940
+)
+"assembly.ml" 112 1819 1823 "assembly.ml" 112 1819 1853
+type(
+  arg
+)
+type(
+  arg
+)
+"assembly.ml" 113 1857 1862 "assembly.ml" 113 1857 1869
+type(
+  (string -> string -> int -> int -> string, unit, string) format ->
+  string -> string -> int -> int -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 113 1857 1870 "assembly.ml" 113 1857 1891
+type(
+  (string -> string -> int -> int -> string, unit, string) format
+)
+"assembly.ml" 114 1892 1906 "assembly.ml" 114 1892 1914
+type(
+  reg -> string
+)
+ident(
+  int_ref r_to_asm "assembly.ml" 82 1194 1198 "assembly.ml" 82 1194 1206
+)
+"assembly.ml" 114 1892 1915 "assembly.ml" 114 1892 1917
+type(
+  reg
+)
+ident(
+  int_ref r1 "assembly.ml" 112 1819 1836 "assembly.ml" 112 1819 1838
+)
+"assembly.ml" 114 1892 1905 "assembly.ml" 114 1892 1918
+type(
+  string
+)
+"assembly.ml" 114 1892 1920 "assembly.ml" 114 1892 1928
+type(
+  reg -> string
+)
+ident(
+  int_ref r_to_asm "assembly.ml" 82 1194 1198 "assembly.ml" 82 1194 1206
+)
+"assembly.ml" 114 1892 1929 "assembly.ml" 114 1892 1931
+type(
+  reg
+)
+ident(
+  int_ref r2 "assembly.ml" 112 1819 1840 "assembly.ml" 112 1819 1842
+)
+"assembly.ml" 114 1892 1919 "assembly.ml" 114 1892 1932
+type(
+  string
+)
+"assembly.ml" 114 1892 1933 "assembly.ml" 114 1892 1936
+type(
+  int
+)
+ident(
+  int_ref mul "assembly.ml" 112 1819 1844 "assembly.ml" 112 1819 1847
+)
+"assembly.ml" 114 1892 1937 "assembly.ml" 114 1892 1940
+type(
+  int
+)
+ident(
+  int_ref off "assembly.ml" 112 1819 1849 "assembly.ml" 112 1819 1852
+)
+"assembly.ml" 113 1857 1862 "assembly.ml" 114 1892 1940
+type(
+  string
+)
+"assembly.ml" 115 1941 1951 "assembly.ml" 115 1941 1955
+type(
+  size
+)
+ident(
+  def size "assembly.ml" 116 1963 1968 "assembly.ml" 118 2103 2130
+)
+"assembly.ml" 115 1941 1957 "assembly.ml" 115 1941 1958
+type(
+  arg
+)
+ident(
+  def a "assembly.ml" 116 1963 1968 "assembly.ml" 118 2103 2130
+)
+"assembly.ml" 115 1941 1945 "assembly.ml" 115 1941 1959
+type(
+  arg
+)
+type(
+  arg
+)
+"assembly.ml" 116 1963 1968 "assembly.ml" 116 1963 1975
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 116 1963 1976 "assembly.ml" 116 1963 1983
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 117 1984 2004 "assembly.ml" 117 1984 2008
+type(
+  size
+)
+ident(
+  int_ref size "assembly.ml" 115 1941 1951 "assembly.ml" 115 1941 1955
+)
+"assembly.ml" 117 1984 2016 "assembly.ml" 117 1984 2025
+type(
+  size
+)
+type(
+  size
+)
+"assembly.ml" 117 1984 2029 "assembly.ml" 117 1984 2036
+type(
+  string
+)
+"assembly.ml" 117 1984 2039 "assembly.ml" 117 1984 2048
+type(
+  size
+)
+type(
+  size
+)
+"assembly.ml" 117 1984 2052 "assembly.ml" 117 1984 2059
+type(
+  string
+)
+"assembly.ml" 117 1984 2062 "assembly.ml" 117 1984 2070
+type(
+  size
+)
+type(
+  size
+)
+"assembly.ml" 117 1984 2074 "assembly.ml" 117 1984 2080
+type(
+  string
+)
+"assembly.ml" 117 1984 2083 "assembly.ml" 117 1984 2091
+type(
+  size
+)
+type(
+  size
+)
+"assembly.ml" 117 1984 2095 "assembly.ml" 117 1984 2101
+type(
+  string
+)
+"assembly.ml" 117 1984 1997 "assembly.ml" 117 1984 2102
+type(
+  string
+)
+"assembly.ml" 118 2103 2117 "assembly.ml" 118 2103 2127
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 118 2103 2128 "assembly.ml" 118 2103 2129
+type(
+  arg
+)
+ident(
+  int_ref a "assembly.ml" 115 1941 1957 "assembly.ml" 115 1941 1958
+)
+"assembly.ml" 118 2103 2116 "assembly.ml" 118 2103 2130
+type(
+  string
+)
+"assembly.ml" 116 1963 1968 "assembly.ml" 118 2103 2130
+type(
+  string
+)
+"assembly.ml" 119 2131 2149 "assembly.ml" 119 2131 2150
+type(
+  string
+)
+ident(
+  def s "assembly.ml" 119 2131 2154 "assembly.ml" 119 2131 2170
+)
+"assembly.ml" 119 2131 2135 "assembly.ml" 119 2131 2150
+type(
+  arg
+)
+type(
+  arg
+)
+"assembly.ml" 119 2131 2154 "assembly.ml" 119 2131 2161
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 119 2131 2162 "assembly.ml" 119 2131 2168
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 119 2131 2169 "assembly.ml" 119 2131 2170
+type(
+  string
+)
+ident(
+  int_ref s "assembly.ml" 119 2131 2149 "assembly.ml" 119 2131 2150
+)
+"assembly.ml" 119 2131 2154 "assembly.ml" 119 2131 2170
+type(
+  string
+)
+"assembly.ml" 120 2171 2181 "assembly.ml" 120 2171 2182
+type(
+  string
+)
+ident(
+  def s "assembly.ml" 120 2171 2186 "assembly.ml" 120 2171 2187
+)
+"assembly.ml" 120 2171 2175 "assembly.ml" 120 2171 2182
+type(
+  arg
+)
+type(
+  arg
+)
+"assembly.ml" 120 2171 2186 "assembly.ml" 120 2171 2187
+type(
+  string
+)
+ident(
+  int_ref s "assembly.ml" 120 2171 2181 "assembly.ml" 120 2171 2182
+)
+"assembly.ml" 103 1570 1572 "assembly.ml" 120 2171 2187
+type(
+  string
+)
+"assembly.ml" 123 2192 2200 "assembly.ml" 123 2192 2208
+type(
+  instruction -> string
+)
+ident(
+  def i_to_asm "assembly.ml" 123 2192 2192 "assembly.ml" 0 0 -1
+)
+"assembly.ml" 123 2192 2210 "assembly.ml" 123 2192 2211
+type(
+  instruction
+)
+type(
+  instruction
+)
+ident(
+  def i "assembly.ml" 124 2238 2240 "assembly.ml" 186 4463 4517
+)
+"assembly.ml" 124 2238 2246 "assembly.ml" 124 2238 2247
+type(
+  instruction
+)
+ident(
+  int_ref i "assembly.ml" 123 2192 2210 "assembly.ml" 123 2192 2211
+)
+"assembly.ml" 125 2253 2262 "assembly.ml" 125 2253 2266
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 126 2278 2283 "assembly.ml" 126 2278 2342
+)
+"assembly.ml" 125 2253 2268 "assembly.ml" 125 2253 2273
+type(
+  arg
+)
+ident(
+  def value "assembly.ml" 126 2278 2283 "assembly.ml" 126 2278 2342
+)
+"assembly.ml" 125 2253 2257 "assembly.ml" 125 2253 2274
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 126 2278 2283 "assembly.ml" 126 2278 2290
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 126 2278 2291 "assembly.ml" 126 2278 2305
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 126 2278 2307 "assembly.ml" 126 2278 2317
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 126 2278 2318 "assembly.ml" 126 2278 2322
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 125 2253 2262 "assembly.ml" 125 2253 2266
+)
+"assembly.ml" 126 2278 2306 "assembly.ml" 126 2278 2323
+type(
+  string
+)
+"assembly.ml" 126 2278 2325 "assembly.ml" 126 2278 2335
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 126 2278 2336 "assembly.ml" 126 2278 2341
+type(
+  arg
+)
+ident(
+  int_ref value "assembly.ml" 125 2253 2268 "assembly.ml" 125 2253 2273
+)
+"assembly.ml" 126 2278 2324 "assembly.ml" 126 2278 2342
+type(
+  string
+)
+"assembly.ml" 126 2278 2283 "assembly.ml" 126 2278 2342
+type(
+  string
+)
+"assembly.ml" 127 2343 2352 "assembly.ml" 127 2343 2356
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 128 2369 2374 "assembly.ml" 128 2369 2434
+)
+"assembly.ml" 127 2343 2358 "assembly.ml" 127 2343 2364
+type(
+  arg
+)
+ident(
+  def to_add "assembly.ml" 128 2369 2374 "assembly.ml" 128 2369 2434
+)
+"assembly.ml" 127 2343 2347 "assembly.ml" 127 2343 2365
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 128 2369 2374 "assembly.ml" 128 2369 2381
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 128 2369 2382 "assembly.ml" 128 2369 2396
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 128 2369 2398 "assembly.ml" 128 2369 2408
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 128 2369 2409 "assembly.ml" 128 2369 2413
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 127 2343 2352 "assembly.ml" 127 2343 2356
+)
+"assembly.ml" 128 2369 2397 "assembly.ml" 128 2369 2414
+type(
+  string
+)
+"assembly.ml" 128 2369 2416 "assembly.ml" 128 2369 2426
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 128 2369 2427 "assembly.ml" 128 2369 2433
+type(
+  arg
+)
+ident(
+  int_ref to_add "assembly.ml" 127 2343 2358 "assembly.ml" 127 2343 2364
+)
+"assembly.ml" 128 2369 2415 "assembly.ml" 128 2369 2434
+type(
+  string
+)
+"assembly.ml" 128 2369 2374 "assembly.ml" 128 2369 2434
+type(
+  string
+)
+"assembly.ml" 129 2435 2444 "assembly.ml" 129 2435 2448
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 130 2461 2466 "assembly.ml" 130 2461 2526
+)
+"assembly.ml" 129 2435 2450 "assembly.ml" 129 2435 2456
+type(
+  arg
+)
+ident(
+  def to_sub "assembly.ml" 130 2461 2466 "assembly.ml" 130 2461 2526
+)
+"assembly.ml" 129 2435 2439 "assembly.ml" 129 2435 2457
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 130 2461 2466 "assembly.ml" 130 2461 2473
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 130 2461 2474 "assembly.ml" 130 2461 2488
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 130 2461 2490 "assembly.ml" 130 2461 2500
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 130 2461 2501 "assembly.ml" 130 2461 2505
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 129 2435 2444 "assembly.ml" 129 2435 2448
+)
+"assembly.ml" 130 2461 2489 "assembly.ml" 130 2461 2506
+type(
+  string
+)
+"assembly.ml" 130 2461 2508 "assembly.ml" 130 2461 2518
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 130 2461 2519 "assembly.ml" 130 2461 2525
+type(
+  arg
+)
+ident(
+  int_ref to_sub "assembly.ml" 129 2435 2450 "assembly.ml" 129 2435 2456
+)
+"assembly.ml" 130 2461 2507 "assembly.ml" 130 2461 2526
+type(
+  string
+)
+"assembly.ml" 130 2461 2466 "assembly.ml" 130 2461 2526
+type(
+  string
+)
+"assembly.ml" 131 2527 2536 "assembly.ml" 131 2527 2540
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 132 2553 2558 "assembly.ml" 132 2553 2619
+)
+"assembly.ml" 131 2527 2542 "assembly.ml" 131 2527 2548
+type(
+  arg
+)
+ident(
+  def to_mul "assembly.ml" 132 2553 2558 "assembly.ml" 132 2553 2619
+)
+"assembly.ml" 131 2527 2531 "assembly.ml" 131 2527 2549
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 132 2553 2558 "assembly.ml" 132 2553 2565
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 132 2553 2566 "assembly.ml" 132 2553 2581
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 132 2553 2583 "assembly.ml" 132 2553 2593
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 132 2553 2594 "assembly.ml" 132 2553 2598
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 131 2527 2536 "assembly.ml" 131 2527 2540
+)
+"assembly.ml" 132 2553 2582 "assembly.ml" 132 2553 2599
+type(
+  string
+)
+"assembly.ml" 132 2553 2601 "assembly.ml" 132 2553 2611
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 132 2553 2612 "assembly.ml" 132 2553 2618
+type(
+  arg
+)
+ident(
+  int_ref to_mul "assembly.ml" 131 2527 2542 "assembly.ml" 131 2527 2548
+)
+"assembly.ml" 132 2553 2600 "assembly.ml" 132 2553 2619
+type(
+  string
+)
+"assembly.ml" 132 2553 2558 "assembly.ml" 132 2553 2619
+type(
+  string
+)
+"assembly.ml" 133 2620 2629 "assembly.ml" 133 2620 2633
+type(
+  arg
+)
+ident(
+  def left "assembly.ml" 134 2645 2650 "assembly.ml" 134 2645 2709
+)
+"assembly.ml" 133 2620 2635 "assembly.ml" 133 2620 2640
+type(
+  arg
+)
+ident(
+  def right "assembly.ml" 134 2645 2650 "assembly.ml" 134 2645 2709
+)
+"assembly.ml" 133 2620 2624 "assembly.ml" 133 2620 2641
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 134 2645 2650 "assembly.ml" 134 2645 2657
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 134 2645 2658 "assembly.ml" 134 2645 2672
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 134 2645 2674 "assembly.ml" 134 2645 2684
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 134 2645 2685 "assembly.ml" 134 2645 2689
+type(
+  arg
+)
+ident(
+  int_ref left "assembly.ml" 133 2620 2629 "assembly.ml" 133 2620 2633
+)
+"assembly.ml" 134 2645 2673 "assembly.ml" 134 2645 2690
+type(
+  string
+)
+"assembly.ml" 134 2645 2692 "assembly.ml" 134 2645 2702
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 134 2645 2703 "assembly.ml" 134 2645 2708
+type(
+  arg
+)
+ident(
+  int_ref right "assembly.ml" 133 2620 2635 "assembly.ml" 133 2620 2640
+)
+"assembly.ml" 134 2645 2691 "assembly.ml" 134 2645 2709
+type(
+  string
+)
+"assembly.ml" 134 2645 2650 "assembly.ml" 134 2645 2709
+type(
+  string
+)
+"assembly.ml" 135 2710 2720 "assembly.ml" 135 2710 2726
+type(
+  string
+)
+ident(
+  def name "assembly.ml" 136 2730 2735 "assembly.ml" 136 2730 2745
+)
+"assembly.ml" 135 2710 2714 "assembly.ml" 135 2710 2726
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 136 2730 2735 "assembly.ml" 136 2730 2739
+type(
+  string
+)
+ident(
+  int_ref name "assembly.ml" 135 2710 2720 "assembly.ml" 135 2710 2726
+)
+"assembly.ml" 136 2730 2740 "assembly.ml" 136 2730 2741
+type(
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.( ^ ) "stdlib.mli" 699 26389 26389 "stdlib.mli" 699 26389 26427
+)
+"assembly.ml" 136 2730 2742 "assembly.ml" 136 2730 2745
+type(
+  string
+)
+"assembly.ml" 136 2730 2735 "assembly.ml" 136 2730 2745
+type(
+  string
+)
+"assembly.ml" 137 2746 2753 "assembly.ml" 137 2746 2760
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 138 2764 2769 "assembly.ml" 138 2764 2810
+)
+"assembly.ml" 137 2746 2750 "assembly.ml" 137 2746 2760
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 138 2764 2769 "assembly.ml" 138 2764 2776
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 138 2764 2777 "assembly.ml" 138 2764 2791
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 138 2764 2793 "assembly.ml" 138 2764 2803
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 138 2764 2804 "assembly.ml" 138 2764 2809
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 137 2746 2753 "assembly.ml" 137 2746 2760
+)
+"assembly.ml" 138 2764 2792 "assembly.ml" 138 2764 2810
+type(
+  string
+)
+"assembly.ml" 138 2764 2769 "assembly.ml" 138 2764 2810
+type(
+  string
+)
+"assembly.ml" 139 2811 2819 "assembly.ml" 139 2811 2826
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 140 2830 2835 "assembly.ml" 140 2830 2877
+)
+"assembly.ml" 139 2811 2815 "assembly.ml" 139 2811 2826
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 140 2830 2835 "assembly.ml" 140 2830 2842
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 140 2830 2843 "assembly.ml" 140 2830 2858
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 140 2830 2860 "assembly.ml" 140 2830 2870
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 140 2830 2871 "assembly.ml" 140 2830 2876
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 139 2811 2819 "assembly.ml" 139 2811 2826
+)
+"assembly.ml" 140 2830 2859 "assembly.ml" 140 2830 2877
+type(
+  string
+)
+"assembly.ml" 140 2830 2835 "assembly.ml" 140 2830 2877
+type(
+  string
+)
+"assembly.ml" 141 2878 2885 "assembly.ml" 141 2878 2892
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 142 2896 2901 "assembly.ml" 142 2896 2942
+)
+"assembly.ml" 141 2878 2882 "assembly.ml" 141 2878 2892
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 142 2896 2901 "assembly.ml" 142 2896 2908
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 142 2896 2909 "assembly.ml" 142 2896 2923
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 142 2896 2925 "assembly.ml" 142 2896 2935
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 142 2896 2936 "assembly.ml" 142 2896 2941
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 141 2878 2885 "assembly.ml" 141 2878 2892
+)
+"assembly.ml" 142 2896 2924 "assembly.ml" 142 2896 2942
+type(
+  string
+)
+"assembly.ml" 142 2896 2901 "assembly.ml" 142 2896 2942
+type(
+  string
+)
+"assembly.ml" 143 2943 2951 "assembly.ml" 143 2943 2958
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 144 2962 2967 "assembly.ml" 144 2962 3009
+)
+"assembly.ml" 143 2943 2947 "assembly.ml" 143 2943 2958
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 144 2962 2967 "assembly.ml" 144 2962 2974
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 144 2962 2975 "assembly.ml" 144 2962 2990
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 144 2962 2992 "assembly.ml" 144 2962 3002
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 144 2962 3003 "assembly.ml" 144 2962 3008
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 143 2943 2951 "assembly.ml" 143 2943 2958
+)
+"assembly.ml" 144 2962 2991 "assembly.ml" 144 2962 3009
+type(
+  string
+)
+"assembly.ml" 144 2962 2967 "assembly.ml" 144 2962 3009
+type(
+  string
+)
+"assembly.ml" 145 3010 3017 "assembly.ml" 145 3010 3024
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 146 3028 3033 "assembly.ml" 146 3028 3074
+)
+"assembly.ml" 145 3010 3014 "assembly.ml" 145 3010 3024
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 146 3028 3033 "assembly.ml" 146 3028 3040
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 146 3028 3041 "assembly.ml" 146 3028 3055
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 146 3028 3057 "assembly.ml" 146 3028 3067
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 146 3028 3068 "assembly.ml" 146 3028 3073
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 145 3010 3017 "assembly.ml" 145 3010 3024
+)
+"assembly.ml" 146 3028 3056 "assembly.ml" 146 3028 3074
+type(
+  string
+)
+"assembly.ml" 146 3028 3033 "assembly.ml" 146 3028 3074
+type(
+  string
+)
+"assembly.ml" 147 3075 3083 "assembly.ml" 147 3075 3090
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 148 3094 3099 "assembly.ml" 148 3094 3141
+)
+"assembly.ml" 147 3075 3079 "assembly.ml" 147 3075 3090
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 148 3094 3099 "assembly.ml" 148 3094 3106
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 148 3094 3107 "assembly.ml" 148 3094 3122
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 148 3094 3124 "assembly.ml" 148 3094 3134
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 148 3094 3135 "assembly.ml" 148 3094 3140
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 147 3075 3083 "assembly.ml" 147 3075 3090
+)
+"assembly.ml" 148 3094 3123 "assembly.ml" 148 3094 3141
+type(
+  string
+)
+"assembly.ml" 148 3094 3099 "assembly.ml" 148 3094 3141
+type(
+  string
+)
+"assembly.ml" 149 3142 3149 "assembly.ml" 149 3142 3156
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 150 3160 3165 "assembly.ml" 150 3160 3206
+)
+"assembly.ml" 149 3142 3146 "assembly.ml" 149 3142 3156
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 150 3160 3165 "assembly.ml" 150 3160 3172
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 150 3160 3173 "assembly.ml" 150 3160 3187
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 150 3160 3189 "assembly.ml" 150 3160 3199
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 150 3160 3200 "assembly.ml" 150 3160 3205
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 149 3142 3149 "assembly.ml" 149 3142 3156
+)
+"assembly.ml" 150 3160 3188 "assembly.ml" 150 3160 3206
+type(
+  string
+)
+"assembly.ml" 150 3160 3165 "assembly.ml" 150 3160 3206
+type(
+  string
+)
+"assembly.ml" 151 3207 3215 "assembly.ml" 151 3207 3222
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 152 3226 3231 "assembly.ml" 152 3226 3273
+)
+"assembly.ml" 151 3207 3211 "assembly.ml" 151 3207 3222
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 152 3226 3231 "assembly.ml" 152 3226 3238
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 152 3226 3239 "assembly.ml" 152 3226 3254
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 152 3226 3256 "assembly.ml" 152 3226 3266
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 152 3226 3267 "assembly.ml" 152 3226 3272
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 151 3207 3215 "assembly.ml" 151 3207 3222
+)
+"assembly.ml" 152 3226 3255 "assembly.ml" 152 3226 3273
+type(
+  string
+)
+"assembly.ml" 152 3226 3231 "assembly.ml" 152 3226 3273
+type(
+  string
+)
+"assembly.ml" 153 3274 3282 "assembly.ml" 153 3274 3289
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 154 3293 3298 "assembly.ml" 154 3293 3340
+)
+"assembly.ml" 153 3274 3278 "assembly.ml" 153 3274 3289
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 154 3293 3298 "assembly.ml" 154 3293 3305
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 154 3293 3306 "assembly.ml" 154 3293 3321
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 154 3293 3323 "assembly.ml" 154 3293 3333
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 154 3293 3334 "assembly.ml" 154 3293 3339
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 153 3274 3282 "assembly.ml" 153 3274 3289
+)
+"assembly.ml" 154 3293 3322 "assembly.ml" 154 3293 3340
+type(
+  string
+)
+"assembly.ml" 154 3293 3298 "assembly.ml" 154 3293 3340
+type(
+  string
+)
+"assembly.ml" 155 3341 3348 "assembly.ml" 155 3341 3355
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 156 3359 3364 "assembly.ml" 156 3359 3405
+)
+"assembly.ml" 155 3341 3345 "assembly.ml" 155 3341 3355
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 156 3359 3364 "assembly.ml" 156 3359 3371
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 156 3359 3372 "assembly.ml" 156 3359 3386
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 156 3359 3388 "assembly.ml" 156 3359 3398
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 156 3359 3399 "assembly.ml" 156 3359 3404
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 155 3341 3348 "assembly.ml" 155 3341 3355
+)
+"assembly.ml" 156 3359 3387 "assembly.ml" 156 3359 3405
+type(
+  string
+)
+"assembly.ml" 156 3359 3364 "assembly.ml" 156 3359 3405
+type(
+  string
+)
+"assembly.ml" 157 3406 3414 "assembly.ml" 157 3406 3421
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 158 3425 3430 "assembly.ml" 158 3425 3472
+)
+"assembly.ml" 157 3406 3410 "assembly.ml" 157 3406 3421
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 158 3425 3430 "assembly.ml" 158 3425 3437
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 158 3425 3438 "assembly.ml" 158 3425 3453
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 158 3425 3455 "assembly.ml" 158 3425 3465
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 158 3425 3466 "assembly.ml" 158 3425 3471
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 157 3406 3414 "assembly.ml" 157 3406 3421
+)
+"assembly.ml" 158 3425 3454 "assembly.ml" 158 3425 3472
+type(
+  string
+)
+"assembly.ml" 158 3425 3430 "assembly.ml" 158 3425 3472
+type(
+  string
+)
+"assembly.ml" 159 3473 3482 "assembly.ml" 159 3473 3486
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 160 3498 3503 "assembly.ml" 160 3498 3562
+)
+"assembly.ml" 159 3473 3488 "assembly.ml" 159 3473 3493
+type(
+  arg
+)
+ident(
+  def value "assembly.ml" 160 3498 3503 "assembly.ml" 160 3498 3562
+)
+"assembly.ml" 159 3473 3477 "assembly.ml" 159 3473 3494
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 160 3498 3503 "assembly.ml" 160 3498 3510
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 160 3498 3511 "assembly.ml" 160 3498 3525
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 160 3498 3527 "assembly.ml" 160 3498 3537
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 160 3498 3538 "assembly.ml" 160 3498 3542
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 159 3473 3482 "assembly.ml" 159 3473 3486
+)
+"assembly.ml" 160 3498 3526 "assembly.ml" 160 3498 3543
+type(
+  string
+)
+"assembly.ml" 160 3498 3545 "assembly.ml" 160 3498 3555
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 160 3498 3556 "assembly.ml" 160 3498 3561
+type(
+  arg
+)
+ident(
+  int_ref value "assembly.ml" 159 3473 3488 "assembly.ml" 159 3473 3493
+)
+"assembly.ml" 160 3498 3544 "assembly.ml" 160 3498 3562
+type(
+  string
+)
+"assembly.ml" 160 3498 3503 "assembly.ml" 160 3498 3562
+type(
+  string
+)
+"assembly.ml" 161 3563 3571 "assembly.ml" 161 3563 3575
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 162 3587 3592 "assembly.ml" 162 3587 3650
+)
+"assembly.ml" 161 3563 3577 "assembly.ml" 161 3563 3582
+type(
+  arg
+)
+ident(
+  def value "assembly.ml" 162 3587 3592 "assembly.ml" 162 3587 3650
+)
+"assembly.ml" 161 3563 3567 "assembly.ml" 161 3563 3583
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 162 3587 3592 "assembly.ml" 162 3587 3599
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 162 3587 3600 "assembly.ml" 162 3587 3613
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 162 3587 3615 "assembly.ml" 162 3587 3625
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 162 3587 3626 "assembly.ml" 162 3587 3630
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 161 3563 3571 "assembly.ml" 161 3563 3575
+)
+"assembly.ml" 162 3587 3614 "assembly.ml" 162 3587 3631
+type(
+  string
+)
+"assembly.ml" 162 3587 3633 "assembly.ml" 162 3587 3643
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 162 3587 3644 "assembly.ml" 162 3587 3649
+type(
+  arg
+)
+ident(
+  int_ref value "assembly.ml" 161 3563 3577 "assembly.ml" 161 3563 3582
+)
+"assembly.ml" 162 3587 3632 "assembly.ml" 162 3587 3650
+type(
+  string
+)
+"assembly.ml" 162 3587 3592 "assembly.ml" 162 3587 3650
+type(
+  string
+)
+"assembly.ml" 163 3651 3660 "assembly.ml" 163 3651 3664
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 164 3676 3681 "assembly.ml" 164 3676 3740
+)
+"assembly.ml" 163 3651 3666 "assembly.ml" 163 3651 3671
+type(
+  arg
+)
+ident(
+  def value "assembly.ml" 164 3676 3681 "assembly.ml" 164 3676 3740
+)
+"assembly.ml" 163 3651 3655 "assembly.ml" 163 3651 3672
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 164 3676 3681 "assembly.ml" 164 3676 3688
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 164 3676 3689 "assembly.ml" 164 3676 3703
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 164 3676 3705 "assembly.ml" 164 3676 3715
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 164 3676 3716 "assembly.ml" 164 3676 3720
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 163 3651 3660 "assembly.ml" 163 3651 3664
+)
+"assembly.ml" 164 3676 3704 "assembly.ml" 164 3676 3721
+type(
+  string
+)
+"assembly.ml" 164 3676 3723 "assembly.ml" 164 3676 3733
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 164 3676 3734 "assembly.ml" 164 3676 3739
+type(
+  arg
+)
+ident(
+  int_ref value "assembly.ml" 163 3651 3666 "assembly.ml" 163 3651 3671
+)
+"assembly.ml" 164 3676 3722 "assembly.ml" 164 3676 3740
+type(
+  string
+)
+"assembly.ml" 164 3676 3681 "assembly.ml" 164 3676 3740
+type(
+  string
+)
+"assembly.ml" 165 3741 3750 "assembly.ml" 165 3741 3754
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 166 3766 3771 "assembly.ml" 166 3766 3830
+)
+"assembly.ml" 165 3741 3756 "assembly.ml" 165 3741 3761
+type(
+  arg
+)
+ident(
+  def value "assembly.ml" 166 3766 3771 "assembly.ml" 166 3766 3830
+)
+"assembly.ml" 165 3741 3745 "assembly.ml" 165 3741 3762
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 166 3766 3771 "assembly.ml" 166 3766 3778
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 166 3766 3779 "assembly.ml" 166 3766 3793
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 166 3766 3795 "assembly.ml" 166 3766 3805
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 166 3766 3806 "assembly.ml" 166 3766 3810
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 165 3741 3750 "assembly.ml" 165 3741 3754
+)
+"assembly.ml" 166 3766 3794 "assembly.ml" 166 3766 3811
+type(
+  string
+)
+"assembly.ml" 166 3766 3813 "assembly.ml" 166 3766 3823
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 166 3766 3824 "assembly.ml" 166 3766 3829
+type(
+  arg
+)
+ident(
+  int_ref value "assembly.ml" 165 3741 3756 "assembly.ml" 165 3741 3761
+)
+"assembly.ml" 166 3766 3812 "assembly.ml" 166 3766 3830
+type(
+  string
+)
+"assembly.ml" 166 3766 3771 "assembly.ml" 166 3766 3830
+type(
+  string
+)
+"assembly.ml" 167 3831 3840 "assembly.ml" 167 3831 3844
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 168 3856 3861 "assembly.ml" 168 3856 3920
+)
+"assembly.ml" 167 3831 3846 "assembly.ml" 167 3831 3851
+type(
+  arg
+)
+ident(
+  def value "assembly.ml" 168 3856 3861 "assembly.ml" 168 3856 3920
+)
+"assembly.ml" 167 3831 3835 "assembly.ml" 167 3831 3852
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 168 3856 3861 "assembly.ml" 168 3856 3868
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 168 3856 3869 "assembly.ml" 168 3856 3883
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 168 3856 3885 "assembly.ml" 168 3856 3895
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 168 3856 3896 "assembly.ml" 168 3856 3900
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 167 3831 3840 "assembly.ml" 167 3831 3844
+)
+"assembly.ml" 168 3856 3884 "assembly.ml" 168 3856 3901
+type(
+  string
+)
+"assembly.ml" 168 3856 3903 "assembly.ml" 168 3856 3913
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 168 3856 3914 "assembly.ml" 168 3856 3919
+type(
+  arg
+)
+ident(
+  int_ref value "assembly.ml" 167 3831 3846 "assembly.ml" 167 3831 3851
+)
+"assembly.ml" 168 3856 3902 "assembly.ml" 168 3856 3920
+type(
+  string
+)
+"assembly.ml" 168 3856 3861 "assembly.ml" 168 3856 3920
+type(
+  string
+)
+"assembly.ml" 169 3921 3930 "assembly.ml" 169 3921 3934
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 170 3946 3951 "assembly.ml" 170 3946 4010
+)
+"assembly.ml" 169 3921 3936 "assembly.ml" 169 3921 3941
+type(
+  arg
+)
+ident(
+  def value "assembly.ml" 170 3946 3951 "assembly.ml" 170 3946 4010
+)
+"assembly.ml" 169 3921 3925 "assembly.ml" 169 3921 3942
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 170 3946 3951 "assembly.ml" 170 3946 3958
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 170 3946 3959 "assembly.ml" 170 3946 3973
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 170 3946 3975 "assembly.ml" 170 3946 3985
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 170 3946 3986 "assembly.ml" 170 3946 3990
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 169 3921 3930 "assembly.ml" 169 3921 3934
+)
+"assembly.ml" 170 3946 3974 "assembly.ml" 170 3946 3991
+type(
+  string
+)
+"assembly.ml" 170 3946 3993 "assembly.ml" 170 3946 4003
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 170 3946 4004 "assembly.ml" 170 3946 4009
+type(
+  arg
+)
+ident(
+  int_ref value "assembly.ml" 169 3921 3936 "assembly.ml" 169 3921 3941
+)
+"assembly.ml" 170 3946 3992 "assembly.ml" 170 3946 4010
+type(
+  string
+)
+"assembly.ml" 170 3946 3951 "assembly.ml" 170 3946 4010
+type(
+  string
+)
+"assembly.ml" 171 4011 4020 "assembly.ml" 171 4011 4027
+type(
+  arg
+)
+ident(
+  def value "assembly.ml" 172 4031 4036 "assembly.ml" 172 4031 4074
+)
+"assembly.ml" 171 4011 4015 "assembly.ml" 171 4011 4027
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 172 4031 4036 "assembly.ml" 172 4031 4043
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 172 4031 4044 "assembly.ml" 172 4031 4055
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 172 4031 4057 "assembly.ml" 172 4031 4067
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 172 4031 4068 "assembly.ml" 172 4031 4073
+type(
+  arg
+)
+ident(
+  int_ref value "assembly.ml" 171 4011 4020 "assembly.ml" 171 4011 4027
+)
+"assembly.ml" 172 4031 4056 "assembly.ml" 172 4031 4074
+type(
+  string
+)
+"assembly.ml" 172 4031 4036 "assembly.ml" 172 4031 4074
+type(
+  string
+)
+"assembly.ml" 173 4075 4083 "assembly.ml" 173 4075 4089
+type(
+  arg
+)
+ident(
+  def dest "assembly.ml" 174 4093 4098 "assembly.ml" 174 4093 4134
+)
+"assembly.ml" 173 4075 4079 "assembly.ml" 173 4075 4089
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 174 4093 4098 "assembly.ml" 174 4093 4105
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 174 4093 4106 "assembly.ml" 174 4093 4116
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 174 4093 4118 "assembly.ml" 174 4093 4128
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 174 4093 4129 "assembly.ml" 174 4093 4133
+type(
+  arg
+)
+ident(
+  int_ref dest "assembly.ml" 173 4075 4083 "assembly.ml" 173 4075 4089
+)
+"assembly.ml" 174 4093 4117 "assembly.ml" 174 4093 4134
+type(
+  string
+)
+"assembly.ml" 174 4093 4098 "assembly.ml" 174 4093 4134
+type(
+  string
+)
+"assembly.ml" 175 4135 4144 "assembly.ml" 175 4135 4151
+type(
+  arg
+)
+ident(
+  def label "assembly.ml" 176 4155 4160 "assembly.ml" 176 4155 4198
+)
+"assembly.ml" 175 4135 4139 "assembly.ml" 175 4135 4151
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 176 4155 4160 "assembly.ml" 176 4155 4167
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 176 4155 4168 "assembly.ml" 176 4155 4179
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 176 4155 4181 "assembly.ml" 176 4155 4191
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 176 4155 4192 "assembly.ml" 176 4155 4197
+type(
+  arg
+)
+ident(
+  int_ref label "assembly.ml" 175 4135 4144 "assembly.ml" 175 4135 4151
+)
+"assembly.ml" 176 4155 4180 "assembly.ml" 176 4155 4198
+type(
+  string
+)
+"assembly.ml" 176 4155 4160 "assembly.ml" 176 4155 4198
+type(
+  string
+)
+"assembly.ml" 177 4199 4203 "assembly.ml" 177 4199 4207
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 178 4211 4216 "assembly.ml" 178 4211 4223
+type(
+  string
+)
+"assembly.ml" 179 4224 4234 "assembly.ml" 179 4224 4237
+type(
+  arg
+)
+ident(
+  def arg "assembly.ml" 180 4248 4253 "assembly.ml" 180 4248 4311
+)
+"assembly.ml" 179 4224 4239 "assembly.ml" 179 4224 4243
+type(
+  arg
+)
+ident(
+  def comp "assembly.ml" 180 4248 4253 "assembly.ml" 180 4248 4311
+)
+"assembly.ml" 179 4224 4228 "assembly.ml" 179 4224 4244
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 180 4248 4253 "assembly.ml" 180 4248 4260
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 180 4248 4261 "assembly.ml" 180 4248 4276
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 180 4248 4278 "assembly.ml" 180 4248 4288
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 180 4248 4289 "assembly.ml" 180 4248 4292
+type(
+  arg
+)
+ident(
+  int_ref arg "assembly.ml" 179 4224 4234 "assembly.ml" 179 4224 4237
+)
+"assembly.ml" 180 4248 4277 "assembly.ml" 180 4248 4293
+type(
+  string
+)
+"assembly.ml" 180 4248 4295 "assembly.ml" 180 4248 4305
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 180 4248 4306 "assembly.ml" 180 4248 4310
+type(
+  arg
+)
+ident(
+  int_ref comp "assembly.ml" 179 4224 4239 "assembly.ml" 179 4224 4243
+)
+"assembly.ml" 180 4248 4294 "assembly.ml" 180 4248 4311
+type(
+  string
+)
+"assembly.ml" 180 4248 4253 "assembly.ml" 180 4248 4311
+type(
+  string
+)
+"assembly.ml" 181 4312 4328 "assembly.ml" 181 4312 4333
+type(
+  string
+)
+ident(
+  def str "assembly.ml" 182 4337 4342 "assembly.ml" 182 4337 4363
+)
+"assembly.ml" 181 4312 4316 "assembly.ml" 181 4312 4333
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 182 4337 4342 "assembly.ml" 182 4337 4349
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 182 4337 4350 "assembly.ml" 182 4337 4359
+type(
+  (string -> string, unit, string) format
+)
+"assembly.ml" 182 4337 4360 "assembly.ml" 182 4337 4363
+type(
+  string
+)
+ident(
+  int_ref str "assembly.ml" 181 4312 4328 "assembly.ml" 181 4312 4333
+)
+"assembly.ml" 182 4337 4342 "assembly.ml" 182 4337 4363
+type(
+  string
+)
+"assembly.ml" 183 4364 4382 "assembly.ml" 183 4364 4387
+type(
+  instruction
+)
+ident(
+  def instr "assembly.ml" 184 4397 4402 "assembly.ml" 184 4397 4440
+)
+"assembly.ml" 183 4364 4389 "assembly.ml" 183 4364 4392
+type(
+  string
+)
+ident(
+  def str "assembly.ml" 184 4397 4402 "assembly.ml" 184 4397 4440
+)
+"assembly.ml" 183 4364 4368 "assembly.ml" 183 4364 4393
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 184 4397 4402 "assembly.ml" 184 4397 4409
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 184 4397 4410 "assembly.ml" 184 4397 4419
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 184 4397 4421 "assembly.ml" 184 4397 4429
+type(
+  instruction -> string
+)
+ident(
+  int_ref i_to_asm "assembly.ml" 123 2192 2200 "assembly.ml" 123 2192 2208
+)
+"assembly.ml" 184 4397 4430 "assembly.ml" 184 4397 4435
+type(
+  instruction
+)
+ident(
+  int_ref instr "assembly.ml" 183 4364 4382 "assembly.ml" 183 4364 4387
+)
+"assembly.ml" 184 4397 4420 "assembly.ml" 184 4397 4436
+type(
+  string
+)
+"assembly.ml" 184 4397 4437 "assembly.ml" 184 4397 4440
+type(
+  string
+)
+ident(
+  int_ref str "assembly.ml" 183 4364 4389 "assembly.ml" 183 4364 4392
+)
+"assembly.ml" 184 4397 4402 "assembly.ml" 184 4397 4440
+type(
+  string
+)
+"assembly.ml" 185 4441 4450 "assembly.ml" 185 4441 4453
+type(
+  arg
+)
+ident(
+  def reg "assembly.ml" 186 4463 4468 "assembly.ml" 186 4463 4517
+)
+"assembly.ml" 185 4441 4455 "assembly.ml" 185 4441 4458
+type(
+  string
+)
+ident(
+  def str "assembly.ml" 186 4463 4468 "assembly.ml" 186 4463 4517
+)
+"assembly.ml" 185 4441 4445 "assembly.ml" 185 4441 4459
+type(
+  instruction
+)
+type(
+  instruction
+)
+"assembly.ml" 186 4463 4468 "assembly.ml" 186 4463 4475
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 186 4463 4476 "assembly.ml" 186 4463 4496
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 186 4463 4498 "assembly.ml" 186 4463 4508
+type(
+  arg -> string
+)
+ident(
+  int_ref arg_to_asm "assembly.ml" 102 1530 1538 "assembly.ml" 102 1530 1548
+)
+"assembly.ml" 186 4463 4509 "assembly.ml" 186 4463 4512
+type(
+  arg
+)
+ident(
+  int_ref reg "assembly.ml" 185 4441 4450 "assembly.ml" 185 4441 4453
+)
+"assembly.ml" 186 4463 4497 "assembly.ml" 186 4463 4513
+type(
+  string
+)
+"assembly.ml" 186 4463 4514 "assembly.ml" 186 4463 4517
+type(
+  string
+)
+ident(
+  int_ref str "assembly.ml" 185 4441 4455 "assembly.ml" 185 4441 4458
+)
+"assembly.ml" 186 4463 4468 "assembly.ml" 186 4463 4517
+type(
+  string
+)
+"assembly.ml" 124 2238 2240 "assembly.ml" 186 4463 4517
+type(
+  string
+)
+"assembly.ml" 188 4519 4523 "assembly.ml" 188 4519 4529
+type(
+  instruction list -> string
+)
+ident(
+  def to_asm "assembly.ml" 189 4565 4632 "assembly.ml" 0 0 -1
+)
+"assembly.ml" 188 4519 4531 "assembly.ml" 188 4519 4533
+type(
+  instruction list
+)
+type(
+  instruction list
+)
+ident(
+  def is "assembly.ml" 189 4565 4567 "assembly.ml" 189 4565 4632
+)
+"assembly.ml" 189 4565 4567 "assembly.ml" 189 4565 4581
+type(
+  (string -> instruction -> string) -> string -> instruction list -> string
+)
+ident(
+  int_ref Stdlib.List.fold_left "list.mli" 211 7387 7387 "list.mli" 211 7387 7442
+)
+"assembly.ml" 189 4565 4587 "assembly.ml" 189 4565 4588
+type(
+  string
+)
+ident(
+  def s "assembly.ml" 189 4565 4589 "assembly.ml" 189 4565 4625
+)
+"assembly.ml" 189 4565 4589 "assembly.ml" 189 4565 4590
+type(
+  instruction
+)
+ident(
+  def i "assembly.ml" 189 4565 4594 "assembly.ml" 189 4565 4625
+)
+"assembly.ml" 189 4565 4594 "assembly.ml" 189 4565 4601
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref Stdlib.Printf.sprintf "printf.mli" 135 7108 7108 "printf.mli" 135 7108 7153
+)
+"assembly.ml" 189 4565 4602 "assembly.ml" 189 4565 4610
+type(
+  (string -> string -> string, unit, string) format
+)
+"assembly.ml" 189 4565 4611 "assembly.ml" 189 4565 4612
+type(
+  string
+)
+ident(
+  int_ref s "assembly.ml" 189 4565 4587 "assembly.ml" 189 4565 4588
+)
+"assembly.ml" 189 4565 4614 "assembly.ml" 189 4565 4622
+type(
+  instruction -> string
+)
+ident(
+  int_ref i_to_asm "assembly.ml" 123 2192 2200 "assembly.ml" 123 2192 2208
+)
+"assembly.ml" 189 4565 4623 "assembly.ml" 189 4565 4624
+type(
+  instruction
+)
+ident(
+  int_ref i "assembly.ml" 189 4565 4589 "assembly.ml" 189 4565 4590
+)
+"assembly.ml" 189 4565 4613 "assembly.ml" 189 4565 4625
+type(
+  string
+)
+"assembly.ml" 189 4565 4594 "assembly.ml" 189 4565 4625
+type(
+  string
+)
+"assembly.ml" 189 4565 4582 "assembly.ml" 189 4565 4626
+type(
+  string -> instruction -> string
+)
+"assembly.ml" 189 4565 4627 "assembly.ml" 189 4565 4629
+type(
+  string
+)
+"assembly.ml" 189 4565 4630 "assembly.ml" 189 4565 4632
+type(
+  instruction list
+)
+ident(
+  int_ref is "assembly.ml" 188 4519 4531 "assembly.ml" 188 4519 4533
+)
+"assembly.ml" 189 4565 4567 "assembly.ml" 189 4565 4632
+type(
+  string
+)
